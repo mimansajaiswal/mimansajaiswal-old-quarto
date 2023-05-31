@@ -21,7 +21,7 @@ Hi, I'm Mimansa
 </h2>
 
 ::: me
-![](images/me.png)
+![](images/me.jpg)
 :::
 
 I'm Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Systems) at the University of Michigan. I am fortunate to be working with Prof. Emily Provost as part of the CHAI group. I completed my undergrad in Computer Engineering from Institute of Engineering and Technology, Indore in 2017, and worked with Prof. G.L. Prajapati for my bachelor's thesis.

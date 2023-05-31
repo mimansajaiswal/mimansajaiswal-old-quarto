@@ -1,5 +1,5 @@
 ---
-title: Thought Stream
+title: Shorties
 listing:
   template: stream.ejs
   contents: .

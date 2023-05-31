@@ -1,0 +1,18 @@
+---
+title: Projects
+listing:
+#   template: stream.ejs
+  contents: .
+  sort: "date desc"
+  type: default
+  categories: numbered
+  fields: [categories, title, subtitle, date, description, image]
+  date-format: MM-DD-YYYY
+  sort-ui: false
+  filter-ui: false
+  feed: true
+  max-description-length: 2000
+author: ''
+comments: false
+title-block-style: none
+---

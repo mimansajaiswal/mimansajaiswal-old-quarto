@@ -1,7 +1,7 @@
 project:
   type: website
   preview:
-    port: 4200
+    port: 4202
 execute:
   freeze: true
 
@@ -22,13 +22,19 @@ website:
     collapse: true
     search: true
     left:
+      - icon: newspaper
+        href: news.qmd
+      - icon: postcard
+        href: publications.qmd
+      - icon: folder2
+        href: projects.qmd
       - icon: text-indent-left
         href: posts/index.qmd
       - icon: cursor-text
         href: stream/index.qmd
     right:
       - icon: twitter
-        text: Find me on Twitter
+        text: Twitter
         href: https://twitter.com/MimansaJ
       - icon: rss
         text: Feed
