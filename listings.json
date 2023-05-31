@@ -1,0 +1,51 @@
+[
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/projects.html",
+      "/news.html",
+      "/posts/index.html",
+      "/index.html",
+      "/stream/index.html",
+      "/posts/example_collapsible.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/publications.html",
+      "/news.html",
+      "/posts/index.html",
+      "/index.html",
+      "/stream/index.html",
+      "/posts/example_collapsible.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/publications.html",
+      "/projects.html",
+      "/posts/index.html",
+      "/index.html",
+      "/stream/index.html",
+      "/posts/example_collapsible.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/example_collapsible.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/example_collapsible.html"
+    ]
+  },
+  {
+    "listing": "/stream/index.html",
+    "items": []
+  }
+]
