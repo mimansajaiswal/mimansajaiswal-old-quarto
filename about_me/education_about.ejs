@@ -1,0 +1,19 @@
+```{=html}
+<div class="timeline-steps" data-aos="fade-up">
+
+<%/* create custom listing */%>
+<% for (const item of items) { %>
+
+    <div class="timeline-step">
+        <div class="timeline-content">
+            <div class="inner-circle"></div>
+            <p class="h6 mt-3 mb-1"><%= item['year'] %></p>
+            <p class="h6"><%= item['title'] %></p>
+            <p><%= item['degree'] %></p>
+        </div>
+    </div>
+
+<% } %>
+
+</div>
+```

@@ -1,0 +1,15 @@
+---
+title: "Education"
+listing:
+  template: education_about.ejs
+  contents: 
+    - education.yaml
+  type: default
+  categories: false
+  fields: [title, year, degree]
+  sort-ui: false
+  filter-ui: false
+author: ''
+comments: false
+title-block-style: none
+---

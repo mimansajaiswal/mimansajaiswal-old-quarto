@@ -69,9 +69,27 @@ listing:
     sort-ui: false
     filter-ui: false
     max-description-length: 2000
+  - id: education
+    template: about_me/education_about.ejs
+    contents: 
+      - about_me/education.yaml
+    sort: "date desc"
+    type: default
+    max-items: 5
+    categories: false
+    fields: [title, year]
+    date-format: MM-DD-YYYY
+    sort-ui: false
+    filter-ui: false
 comments: false
+toc: true
 ---
 <!-- ### Can also add other content here -->
+
+<div class="alert alert-primary" role="alert">
+  {{< include banner.qmd >}}
+  <!-- This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like. -->
+</div>
 
 :::{#about-section}
 
@@ -81,26 +99,21 @@ I'm Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Syst
 
 Tl;dr: I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures. Along with the research in my PhD, I have interned at Allen AI NLP, Facebook AI Research (FAIR) NLP, and, Facebook Research Conversational AI conducting research on similar lines of interest.
 
-### Research interests
+<!-- ### Research interests
 My present research interests lie in the topics that fall under the umbrella of Robust and Interpretable Human Centered Computing. I work in the area of robust and interpretable systems for social signal processing using natural language understanding and speech processing to the various problems, such as, conversation and discourse analysis, emotion modelling etc. I am primarily interested in understanding what causes the state-of-the-art machine learning models to fail [Failure Analysis of ML models] or perform differently than expected [Evaluation of ML models], how these failure points can be used by an expert [Model Testing and Debugging] and predictions be explained to a general audience [Model Explanation] , how can we train or tune these models such that do not learn about certain variables [Robust and Private ML models], and how these models can benefit from known human knowledge [Expert Informed Machine Learning or Human-in-the-Loop ML].
 
-In the past, I have also worked in Machine Learning for Health, especially, in relation to mental health. I have worked on mental health prediction using social media posts as proxy (B.E. Thesis). I have also worked on multimodal deception detection and predicting empathy in human behavior.
-
-## Education
-
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
-
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
-
-## Experience
-
-Wengo Analytics | Head Data Scientist | April 2018 - present
-
-GeoScynce | Chief Analyst | Sept 2012 - April 2018
-
+In the past, I have also worked in Machine Learning for Health, especially, in relation to mental health. I have worked on mental health prediction using social media posts as proxy (B.E. Thesis). I have also worked on multimodal deception detection and predicting empathy in human behavior. -->
 :::
+### Research interests
+{{< include about_me/research_interests.qmd >}}
+
+### Education
+:::{#education}
+:::
+
+### Experience
+
+{{< include about_me/experience.qmd >}}
 
 ### News
 :::{#rnews}

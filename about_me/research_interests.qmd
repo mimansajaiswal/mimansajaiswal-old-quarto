@@ -1,0 +1,78 @@
+```{=html}
+<div class="grid ri-grid">
+<div class="perspective">
+  <div class='resint_card-container spread'>
+    <div class='resint_card resint_card-resint_card1'>
+      <div class='resint_card__face resint_card__face--top'>
+        <span class='resint_card__value'>
+          Evaluation
+        </span>
+      </div>
+    </div>
+    <div class='resint_card resint_card-resint_card2'>
+      <div class='resint_card__face resint_card__face--top'>
+        <span class='resint_card__value'>
+          Interpretation
+        </span>
+      </div>
+    </div>
+    <div class='resint_card resint_card-resint_card3'>
+      <div class='resint_card__face resint_card__face--top'>
+        <span class='resint_card__value'>
+          Failure
+        </span>
+      </div>
+    </div>
+    <div class='resint_card resint_card-resint_card4'>
+      <div class='resint_card__face resint_card__face--top'>
+        <span class='resint_card__value'>
+          Human⇔AI
+        </span>
+      </div>
+    <div class='resint_card__face resint_card__face--top card4_category'>
+        <span class='resint_card__value'>
+          <b>METHODS</b>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="perspective">
+  <div class='resint_card-container spread'>
+    <div class='resint_card resint_card-resint_card1'>
+      <div class='resint_card__face resint_card__face--top'>
+        <span class='resint_card__value'>
+          Design
+        </span>
+      </div>
+    </div>
+    <div class='resint_card resint_card-resint_card2'>
+      <div class='resint_card__face resint_card__face--top'>
+        <span class='resint_card__value'>
+          Productivity
+        </span>
+      </div>
+    </div>
+    <div class='resint_card resint_card-resint_card3'>
+      <div class='resint_card__face resint_card__face--top'>
+        <span class='resint_card__value'>
+          Health
+        </span>
+      </div>
+    </div>
+    <div class='resint_card resint_card-resint_card4'>
+      <div class='resint_card__face resint_card__face--top'>
+        <span class='resint_card__value'>
+          Schemas
+        </span>
+      </div>
+      <div class='resint_card__face resint_card__face--top card4_category'>
+        <span class='resint_card__value'>
+          <b>AREAS</b>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+```
