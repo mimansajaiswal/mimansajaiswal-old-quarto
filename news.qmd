@@ -2,7 +2,8 @@
 title: News
 listing:
 #   template: stream.ejs
-  contents: .
+  contents:
+    -news.yml
   sort: "date desc"
   type: default
   categories: numbered

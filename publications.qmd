@@ -2,7 +2,8 @@
 title: Publications
 listing:
 #   template: stream.ejs
-  contents: .
+  contents: 
+    -publications.yml
   sort: "date desc"
   type: default
   categories: numbered

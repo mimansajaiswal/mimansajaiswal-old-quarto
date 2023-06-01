@@ -2,7 +2,8 @@
 title: Projects
 listing:
 #   template: stream.ejs
-  contents: .
+  contents: 
+    -projects.yml
   sort: "date desc"
   type: default
   categories: numbered
