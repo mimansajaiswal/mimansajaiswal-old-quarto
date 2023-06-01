@@ -18,17 +18,57 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/mimansajaiswal
 listing:
-  contents: [posts]
-  max-items: 5
-  sort: "date desc"
-  categories: false
-  fields: [date, title, description, categories]
-  feed: false
-  filter-ui: false
-  sort-ui: false
-  date-format: MM-DD-YYYY
-  exclude:
-    title: "Posts"
+  - id: rposts
+    contents: [posts]
+    max-items: 5
+    sort: "date desc"
+    categories: false
+    fields: [date, title, description, categories]
+    feed: false
+    filter-ui: false
+    sort-ui: false
+    date-format: MM-DD-YYYY
+    exclude:
+      title: "Posts"
+  - id: rprojects
+    template: single_page/singlestream.ejs
+    contents: 
+      - single_page/projects.yaml
+    sort: "date desc"
+    type: default
+    max-items: 5
+    categories: numbered
+    fields: [categories, title, subtitle, date, description, image,outputHref]
+    date-format: MM-DD-YYYY
+    sort-ui: false
+    filter-ui: false
+    max-description-length: 2000
+  - id: rnews
+    template: single_page/singlestream.ejs
+    contents: 
+      - single_page/news.yaml
+    sort: "date desc"
+    type: default
+    max-items: 5
+    categories: numbered
+    fields: [categories, title, subtitle, date, description, image,outputHref]
+    date-format: MM-DD-YYYY
+    sort-ui: false
+    filter-ui: false
+    max-description-length: 2000
+  - id: rpapers
+    template: single_page/singlestream.ejs
+    contents: 
+      - single_page/papers.yaml
+    sort: "date desc"
+    type: default
+    max-items: 5
+    categories: numbered
+    fields: [categories, title, subtitle, date, description, image,outputHref]
+    date-format: MM-DD-YYYY
+    sort-ui: false
+    filter-ui: false
+    max-description-length: 2000
 comments: false
 ---
 <!-- ### Can also add other content here -->
@@ -62,15 +102,23 @@ GeoScynce | Chief Analyst | Sept 2012 - April 2018
 
 :::
 
-### Latest News
+### News
+:::{#rnews}
+:::
 
 
-### Recent Publications
+### Papers
+:::{#rpapers}
+:::
 
 
-### Current Projects
+### Projects
+:::{#rprojects}
+:::
 
 
-### Newest Posts
+### Posts
+:::{#rposts}
+:::
 
 

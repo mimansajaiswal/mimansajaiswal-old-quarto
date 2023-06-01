@@ -1,17 +1,17 @@
 ---
-title: News
+title: "News"
 listing:
-#   template: stream.ejs
-  contents:
-    -news.yml
+  id: all-news
+  template: singlestream.ejs
+  contents: 
+    - news.yaml
   sort: "date desc"
   type: default
   categories: numbered
-  fields: [categories, title, subtitle, date, description, image]
+  fields: [categories, title, subtitle, date, description, image,outputHref]
   date-format: MM-DD-YYYY
   sort-ui: false
   filter-ui: false
-  feed: true
   max-description-length: 2000
 author: ''
 comments: false

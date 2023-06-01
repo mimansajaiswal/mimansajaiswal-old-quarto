@@ -23,11 +23,11 @@ website:
     search: true
     left:
       - icon: newspaper
-        href: news.qmd
+        href: single_page/news.qmd
       - icon: postcard
-        href: publications.qmd
+        href: single_page/papers.qmd
       - icon: folder2
-        href: projects.qmd
+        href: single_page/projects.qmd
       - icon: text-indent-left
         href: posts/index.qmd
       - icon: cursor-text
