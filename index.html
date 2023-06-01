@@ -173,6 +173,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-education .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-year',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-year","listing-degree"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-education'] = new List('listing-education', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script>
     
@@ -191,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -256,13 +284,32 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hi-im-mimansa" id="toc-hi-im-mimansa" class="nav-link active" data-scroll-target="#hi-im-mimansa">Hi, I’m Mimansa</a></li>
+  <li><a href="#research-interests" id="toc-research-interests" class="nav-link" data-scroll-target="#research-interests">Research interests</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
+  <li><a href="#news" id="toc-news" class="nav-link" data-scroll-target="#news">News</a></li>
+  <li><a href="#papers" id="toc-papers" class="nav-link" data-scroll-target="#papers">Papers</a></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
+  <li><a href="#posts" id="toc-posts" class="nav-link" data-scroll-target="#posts">Posts</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
 
 
 <!-- ### Can also add other content here -->
+<div class="alert alert-primary" role="alert">
+<p>I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design.</p>
+<p><!-- This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like. --></p>
+</div>
 <div class="quarto-about-solana column-body">
   <div class="about-entity">
     <div class="entity-contents">
@@ -301,21 +348,9 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-anchor-id="hi-im-mimansa">Hi, I’m Mimansa</h2>
 <p>I’m Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Systems) at the University of Michigan. I am fortunate to be working with Prof.&nbsp;Emily Provost as part of the CHAI group. I completed my undergrad in Computer Engineering from Institute of Engineering and Technology, Indore in 2017, and worked with Prof.&nbsp;G.L. Prajapati for my bachelor’s thesis.</p>
 <p>Tl;dr: I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures. Along with the research in my PhD, I have interned at Allen AI NLP, Facebook AI Research (FAIR) NLP, and, Facebook Research Conversational AI conducting research on similar lines of interest.</p>
-<section id="research-interests" class="level3">
-<h3 data-anchor-id="research-interests">Research interests</h3>
-<p>My present research interests lie in the topics that fall under the umbrella of Robust and Interpretable Human Centered Computing. I work in the area of robust and interpretable systems for social signal processing using natural language understanding and speech processing to the various problems, such as, conversation and discourse analysis, emotion modelling etc. I am primarily interested in understanding what causes the state-of-the-art machine learning models to fail [Failure Analysis of ML models] or perform differently than expected [Evaluation of ML models], how these failure points can be used by an expert [Model Testing and Debugging] and predictions be explained to a general audience [Model Explanation] , how can we train or tune these models such that do not learn about certain variables [Robust and Private ML models], and how these models can benefit from known human knowledge [Expert Informed Machine Learning or Human-in-the-Loop ML].</p>
-<p>In the past, I have also worked in Machine Learning for Health, especially, in relation to mental health. I have worked on mental health prediction using social media posts as proxy (B.E. Thesis). I have also worked on multimodal deception detection and predicting empathy in human behavior.</p>
-</section>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p>University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015</p>
-<p>Macalester College | St.&nbsp;Paul MA B.A in Economics | Sept 2007 - June 2011</p>
-</section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<p>Wengo Analytics | Head Data Scientist | April 2018 - present</p>
-<p>GeoScynce | Chief Analyst | Sept 2012 - April 2018</p>
+<!-- ### Research interests
+My present research interests lie in the topics that fall under the umbrella of Robust and Interpretable Human Centered Computing. I work in the area of robust and interpretable systems for social signal processing using natural language understanding and speech processing to the various problems, such as, conversation and discourse analysis, emotion modelling etc. I am primarily interested in understanding what causes the state-of-the-art machine learning models to fail [Failure Analysis of ML models] or perform differently than expected [Evaluation of ML models], how these failure points can be used by an expert [Model Testing and Debugging] and predictions be explained to a general audience [Model Explanation] , how can we train or tune these models such that do not learn about certain variables [Robust and Private ML models], and how these models can benefit from known human knowledge [Expert Informed Machine Learning or Human-in-the-Loop ML].
+In the past, I have also worked in Machine Learning for Health, especially, in relation to mental health. I have worked on mental health prediction using social media posts as proxy (B.E. Thesis). I have also worked on multimodal deception detection and predicting empathy in human behavior. -->
 </section>
 </div></div>
     </div>
@@ -324,6 +359,146 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </div>
 
+<section id="research-interests" class="level3">
+<h3 data-anchor-id="research-interests">Research interests</h3>
+<div class="grid ri-grid">
+<div class="perspective">
+  <div class="resint_card-container spread">
+    <div class="resint_card resint_card-resint_card1">
+      <div class="resint_card__face resint_card__face--top">
+        <span class="resint_card__value">
+          Evaluation
+        </span>
+      </div>
+    </div>
+    <div class="resint_card resint_card-resint_card2">
+      <div class="resint_card__face resint_card__face--top">
+        <span class="resint_card__value">
+          Interpretation
+        </span>
+      </div>
+    </div>
+    <div class="resint_card resint_card-resint_card3">
+      <div class="resint_card__face resint_card__face--top">
+        <span class="resint_card__value">
+          Failure
+        </span>
+      </div>
+    </div>
+    <div class="resint_card resint_card-resint_card4">
+      <div class="resint_card__face resint_card__face--top">
+        <span class="resint_card__value">
+          Human⇔AI
+        </span>
+      </div>
+    <div class="resint_card__face resint_card__face--top card4_category">
+        <span class="resint_card__value">
+          <b>METHODS</b>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="perspective">
+  <div class="resint_card-container spread">
+    <div class="resint_card resint_card-resint_card1">
+      <div class="resint_card__face resint_card__face--top">
+        <span class="resint_card__value">
+          Design
+        </span>
+      </div>
+    </div>
+    <div class="resint_card resint_card-resint_card2">
+      <div class="resint_card__face resint_card__face--top">
+        <span class="resint_card__value">
+          Productivity
+        </span>
+      </div>
+    </div>
+    <div class="resint_card resint_card-resint_card3">
+      <div class="resint_card__face resint_card__face--top">
+        <span class="resint_card__value">
+          Health
+        </span>
+      </div>
+    </div>
+    <div class="resint_card resint_card-resint_card4">
+      <div class="resint_card__face resint_card__face--top">
+        <span class="resint_card__value">
+          Schemas
+        </span>
+      </div>
+      <div class="resint_card__face resint_card__face--top card4_category">
+        <span class="resint_card__value">
+          <b>AREAS</b>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section id="education" class="level3">
+<h3 data-anchor-id="education">Education</h3>
+<div id="listing-education" class="quarto-listing quarto-listing-container-custom">
+<div class="timeline-steps" data-aos="fade-up">
+    <div class="timeline-step">
+        <div class="timeline-content">
+            <div class="inner-circle"></div>
+            <p class="h6 mt-3 mb-1">2017 - 2023</p>
+            <p class="h6">University of Michigan</p>
+            <p>PhD</p>
+        </div>
+    </div>
+    <div class="timeline-step">
+        <div class="timeline-content">
+            <div class="inner-circle"></div>
+            <p class="h6 mt-3 mb-1">2017 - 2019</p>
+            <p class="h6">University of Michigan</p>
+            <p>MS</p>
+        </div>
+    </div>
+    <div class="timeline-step">
+        <div class="timeline-content">
+            <div class="inner-circle"></div>
+            <p class="h6 mt-3 mb-1">2013 - 2017</p>
+            <p class="h6">IET DA Univ, India</p>
+            <p>BTech</p>
+        </div>
+    </div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="experience" class="level3">
+<h3 data-anchor-id="experience">Experience</h3>
+            <div class="exp-card">
+                <div class="exp-card-body">
+                    <div id="content">
+                        <ul class="exp-timeline">
+                            <li class="exp-event" data-date="12:30 - 1:00pm">
+                                <h6>Registration</h6>
+                                <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+                            </li>
+                            <li class="exp-event" data-date="2:30 - 4:00pm">
+                                <h6>Opening Ceremony</h6>
+                                <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta Rhymes as an opening show.</p>
+                            </li>
+                            <li class="exp-event" data-date="5:00 - 8:00pm">
+                                <h6>Main Event</h6>
+                                <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get ready!</p>
+                            </li>
+                            <li class="exp-event" data-date="8:30 - 9:30pm">
+                                <h6>Closing Ceremony</h6>
+                                <p>See how is the victor and who are the losers. The big stage is where the winners bask in their own glory.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+</section>
 <section id="news" class="level3">
 <h3 data-anchor-id="news">News</h3>
 <div id="listing-rnews" class="quarto-listing quarto-listing-container-custom">
@@ -499,7 +674,7 @@ No matching items
 <h3 data-anchor-id="posts">Posts</h3>
 <div id="listing-rposts" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685624799000" data-listing-file-modified-sort="1685624799245" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685644722000" data-listing-file-modified-sort="1685644722796" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
 <a href="./posts/example_collapsible.html">
 <h3 class="no-anchor listing-title">

@@ -14,32 +14,25 @@
     "text": "Blurbs is where I keep my random musings, quick reviews, and noteworthy quotes all in one place. It’s convenient to have a curated collection instead of them being scattered throughout my feed. It’s a fun little side space to gather everything. \n\n\n\n\n\n\n\n  \n    \n        05-07-2023\n      \n      \n      \n        Livable Stipends for PhD Students Shouldn't Be Up for Debate\n      \n      \n        A response to the controversial idea that PhD students should barely scrape by in emergencies and rely on Blue Cupboard to feed themselves.\n      \n      \n        I recently received some criticism for my comments over the past couple of days, which seemed to justify the idea that PhD students don't need livable stipends. Let me make myself perfectly clear: that's bullshit. No one should have to choose between paying bills and getting essential medical care or feeding their pets. If you're one of those people who thinks barely scraping by is okay for PhD students, we don't see eye to eye.\n        \n        \n      \n      \n      \n        Finance\n        PhD\n        Academia\n        Opinion\n        Twitter\n        \n    \n\n\n\nNo matching items\n\n Back to top"
   },
   {
+    "objectID": "banner.html",
+    "href": "banner.html",
+    "title": "Mimansa Jaiswal",
+    "section": "",
+    "text": "I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design.\n\n\n\n Back to top"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mimansa Jaiswal",
     "section": "",
-    "text": "Twitter\n  \n  \n    \n     Email\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     LinkedIn\n  \n\n      \n\n\nI’m Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Systems) at the University of Michigan. I am fortunate to be working with Prof. Emily Provost as part of the CHAI group. I completed my undergrad in Computer Engineering from Institute of Engineering and Technology, Indore in 2017, and worked with Prof. G.L. Prajapati for my bachelor’s thesis.\nTl;dr: I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures. Along with the research in my PhD, I have interned at Allen AI NLP, Facebook AI Research (FAIR) NLP, and, Facebook Research Conversational AI conducting research on similar lines of interest.\n\n\nMy present research interests lie in the topics that fall under the umbrella of Robust and Interpretable Human Centered Computing. I work in the area of robust and interpretable systems for social signal processing using natural language understanding and speech processing to the various problems, such as, conversation and discourse analysis, emotion modelling etc. I am primarily interested in understanding what causes the state-of-the-art machine learning models to fail [Failure Analysis of ML models] or perform differently than expected [Evaluation of ML models], how these failure points can be used by an expert [Model Testing and Debugging] and predictions be explained to a general audience [Model Explanation] , how can we train or tune these models such that do not learn about certain variables [Robust and Private ML models], and how these models can benefit from known human knowledge [Expert Informed Machine Learning or Human-in-the-Loop ML].\nIn the past, I have also worked in Machine Learning for Health, especially, in relation to mental health. I have worked on mental health prediction using social media posts as proxy (B.E. Thesis). I have also worked on multimodal deception detection and predicting empathy in human behavior.\n\n\n\n\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011\n\n\n\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
+    "text": "I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design."
   },
   {
     "objectID": "index.html#hi-im-mimansa",
     "href": "index.html#hi-im-mimansa",
     "title": "Mimansa Jaiswal",
-    "section": "",
-    "text": "I’m Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Systems) at the University of Michigan. I am fortunate to be working with Prof. Emily Provost as part of the CHAI group. I completed my undergrad in Computer Engineering from Institute of Engineering and Technology, Indore in 2017, and worked with Prof. G.L. Prajapati for my bachelor’s thesis.\nTl;dr: I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures. Along with the research in my PhD, I have interned at Allen AI NLP, Facebook AI Research (FAIR) NLP, and, Facebook Research Conversational AI conducting research on similar lines of interest.\n\n\nMy present research interests lie in the topics that fall under the umbrella of Robust and Interpretable Human Centered Computing. I work in the area of robust and interpretable systems for social signal processing using natural language understanding and speech processing to the various problems, such as, conversation and discourse analysis, emotion modelling etc. I am primarily interested in understanding what causes the state-of-the-art machine learning models to fail [Failure Analysis of ML models] or perform differently than expected [Evaluation of ML models], how these failure points can be used by an expert [Model Testing and Debugging] and predictions be explained to a general audience [Model Explanation] , how can we train or tune these models such that do not learn about certain variables [Robust and Private ML models], and how these models can benefit from known human knowledge [Expert Informed Machine Learning or Human-in-the-Loop ML].\nIn the past, I have also worked in Machine Learning for Health, especially, in relation to mental health. I have worked on mental health prediction using social media posts as proxy (B.E. Thesis). I have also worked on multimodal deception detection and predicting empathy in human behavior."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Mimansa Jaiswal",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Mimansa Jaiswal",
-    "section": "",
-    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
+    "section": "Hi, I’m Mimansa",
+    "text": "Hi, I’m Mimansa\nI’m Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Systems) at the University of Michigan. I am fortunate to be working with Prof. Emily Provost as part of the CHAI group. I completed my undergrad in Computer Engineering from Institute of Engineering and Technology, Indore in 2017, and worked with Prof. G.L. Prajapati for my bachelor’s thesis.\nTl;dr: I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures. Along with the research in my PhD, I have interned at Allen AI NLP, Facebook AI Research (FAIR) NLP, and, Facebook Research Conversational AI conducting research on similar lines of interest."
   },
   {
     "objectID": "posts/example_collapsible.html",
@@ -54,6 +47,27 @@
     "title": "Posts",
     "section": "",
     "text": "Collapse-social-embeds Example\n\n\n\n\n\n\n\nTry\n\n\nExample\n\n\n\n\n\n\n\n\n\n\n\n06-01-2023\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "about_me/experience.html",
+    "href": "about_me/experience.html",
+    "title": "Mimansa Jaiswal",
+    "section": "",
+    "text": "Registration\n                                Get here on time, it's first come first serve. Be late, get turned away.\n                            \n                            \n                                Opening Ceremony\n                                Get ready for an exciting event, this will kick off in amazing fashion with MOP & Busta Rhymes as an opening show.\n                            \n                            \n                                Main Event\n                                This is where it all goes down. You will compete head to head with your friends and rivals. Get ready!\n                            \n                            \n                                Closing Ceremony\n                                See how is the victor and who are the losers. The big stage is where the winners bask in their own glory.\n                            \n                        \n                    \n                \n            \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about_me/research_interests.html",
+    "href": "about_me/research_interests.html",
+    "title": "Mimansa Jaiswal",
+    "section": "",
+    "text": "Evaluation\n        \n      \n    \n    \n      \n        \n          Interpretation\n        \n      \n    \n    \n      \n        \n          Failure\n        \n      \n    \n    \n      \n        \n          Human⇔AI\n        \n      \n    \n        \n          METHODS\n        \n      \n    \n  \n\n\n  \n    \n      \n        \n          Design\n        \n      \n    \n    \n      \n        \n          Productivity\n        \n      \n    \n    \n      \n        \n          Health\n        \n      \n    \n    \n      \n        \n          Schemas\n        \n      \n      \n        \n          AREAS\n        \n      \n    \n  \n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about_me/education.html",
+    "href": "about_me/education.html",
+    "title": "Education",
+    "section": "",
+    "text": "2017 - 2023\n            University of Michigan\n            PhD\n        \n    \n    \n        \n            \n            2017 - 2019\n            University of Michigan\n            MS\n        \n    \n    \n        \n            \n            2013 - 2017\n            IET DA Univ, India\n            BTech\n        \n    \n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "single_page/news.html",
