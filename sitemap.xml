@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://mimansajaiswal.github.io/stream/phd_stipends.html</loc>
+    <lastmod>2023-06-01T13:06:56.221Z</lastmod>
+  </url>
+  <url>
     <loc>https://mimansajaiswal.github.io/stream/index.html</loc>
-    <lastmod>2023-06-01T09:42:33.956Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/publications.html</loc>
-    <lastmod>2023-06-01T09:42:34.752Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/news.html</loc>
-    <lastmod>2023-06-01T09:42:35.112Z</lastmod>
+    <lastmod>2023-06-01T13:06:57.069Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/index.html</loc>
-    <lastmod>2023-06-01T09:42:36.080Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/projects.html</loc>
-    <lastmod>2023-06-01T09:42:36.828Z</lastmod>
+    <lastmod>2023-06-01T13:06:58.201Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/posts/example_collapsible.html</loc>
-    <lastmod>2023-06-01T09:42:38.021Z</lastmod>
+    <lastmod>2023-06-01T13:06:58.829Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/posts/index.html</loc>
-    <lastmod>2023-06-01T09:42:38.825Z</lastmod>
+    <lastmod>2023-06-01T13:06:59.733Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/single_page/news.html</loc>
+    <lastmod>2023-06-01T13:07:00.121Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/single_page/projects.html</loc>
+    <lastmod>2023-06-01T13:07:00.473Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/single_page/papers.html</loc>
+    <lastmod>2023-06-01T13:07:00.845Z</lastmod>
   </url>
 </urlset>

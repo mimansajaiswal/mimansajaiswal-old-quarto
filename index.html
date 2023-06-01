@@ -64,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-rposts .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -77,7 +77,91 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-rposts'] = new List('listing-rposts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-rprojects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image','listing-outputHref',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-rprojects'] = new List('listing-rprojects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-rnews .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image','listing-outputHref',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-rnews'] = new List('listing-rnews', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-rpapers .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image','listing-outputHref',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-rpapers'] = new List('listing-rpapers', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -125,17 +209,17 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./news.html" rel="" target=""><i class="bi bi-newspaper" role="img">
+    <a class="nav-link" href="./single_page/news.html" rel="" target=""><i class="bi bi-newspaper" role="img">
 </i> 
  <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html" rel="" target=""><i class="bi bi-postcard" role="img">
+    <a class="nav-link" href="./single_page/papers.html" rel="" target=""><i class="bi bi-postcard" role="img">
 </i> 
- <span class="menu-text">Publications</span></a>
+ <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target=""><i class="bi bi-folder2" role="img">
+    <a class="nav-link" href="./single_page/projects.html" rel="" target=""><i class="bi bi-folder2" role="img">
 </i> 
  <span class="menu-text">Projects</span></a>
   </li>  
@@ -240,26 +324,182 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </div>
 
-<section id="latest-news" class="level3">
-<h3 data-anchor-id="latest-news">Latest News</h3>
+<section id="news" class="level3">
+<h3 data-anchor-id="news">News</h3>
+<div id="listing-rnews" class="quarto-listing quarto-listing-container-custom">
+
+<div class="list quarto-listing-custom">
+  <div class="quarto-post" data-index="0" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+    <div class="metadata">
+        <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
+      </div>
+      <div class="body">
+        <!-- <p class="no-anchor listing-title">
+      NWArchived Item 1</p> -->
+      <div class="listing-subtitle anchored">
+        <b>NWArchived Item 1</b>
+      </div>
+      <div class="listing-subtitle">
+      </div>
+      <div class="listing-subtitle">
+        <!-- title,date,categories,sortableValues,image -->
+        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
+      </div>
+      <!-- archived,technology -->
+      <div class="listing-categories">
+        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
+        </div>
+    </div>
+</div>
+  <div class="quarto-post" data-index="1" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+    <div class="metadata">
+        <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
+      </div>
+      <div class="body">
+        <!-- <p class="no-anchor listing-title">
+      NWArchived Item 1</p> -->
+      <div class="listing-subtitle anchored">
+        <b>NWArchived Item 1</b>
+      </div>
+      <div class="listing-subtitle">
+      </div>
+      <div class="listing-subtitle">
+        <!-- title,date,categories,sortableValues,image -->
+        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
+      </div>
+      <!-- archived,technology -->
+      <div class="listing-categories">
+        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
-<section id="recent-publications" class="level3">
-<h3 data-anchor-id="recent-publications">Recent Publications</h3>
+<section id="papers" class="level3">
+<h3 data-anchor-id="papers">Papers</h3>
+<div id="listing-rpapers" class="quarto-listing quarto-listing-container-custom">
+
+<div class="list quarto-listing-custom">
+  <div class="quarto-post" data-index="0" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+    <div class="metadata">
+        <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
+      </div>
+      <div class="body">
+        <!-- <p class="no-anchor listing-title">
+      PUBArchived Item 1</p> -->
+      <div class="listing-subtitle anchored">
+        <b>PUBArchived Item 1</b>
+      </div>
+      <div class="listing-subtitle">
+      </div>
+      <div class="listing-subtitle">
+        <!-- title,date,categories,sortableValues,image -->
+        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
+      </div>
+      <!-- archived,technology -->
+      <div class="listing-categories">
+        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
+        </div>
+    </div>
+</div>
+  <div class="quarto-post" data-index="1" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+    <div class="metadata">
+        <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
+      </div>
+      <div class="body">
+        <!-- <p class="no-anchor listing-title">
+      PUBArchived Item 1</p> -->
+      <div class="listing-subtitle anchored">
+        <b>PUBArchived Item 1</b>
+      </div>
+      <div class="listing-subtitle">
+      </div>
+      <div class="listing-subtitle">
+        <!-- title,date,categories,sortableValues,image -->
+        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
+      </div>
+      <!-- archived,technology -->
+      <div class="listing-categories">
+        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
-<section id="current-projects" class="level3">
-<h3 data-anchor-id="current-projects">Current Projects</h3>
+<section id="projects" class="level3">
+<h3 data-anchor-id="projects">Projects</h3>
+<div id="listing-rprojects" class="quarto-listing quarto-listing-container-custom">
+
+<div class="list quarto-listing-custom">
+  <div class="quarto-post" data-index="0" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+    <div class="metadata">
+        <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
+      </div>
+      <div class="body">
+        <!-- <p class="no-anchor listing-title">
+      PRArchived Item 1</p> -->
+      <div class="listing-subtitle anchored">
+        <b>PRArchived Item 1</b>
+      </div>
+      <div class="listing-subtitle">
+      </div>
+      <div class="listing-subtitle">
+        <!-- title,date,categories,sortableValues,image -->
+        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
+      </div>
+      <!-- archived,technology -->
+      <div class="listing-categories">
+        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
+        </div>
+    </div>
+</div>
+  <div class="quarto-post" data-index="1" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+    <div class="metadata">
+        <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
+      </div>
+      <div class="body">
+        <!-- <p class="no-anchor listing-title">
+      PRArchived Item 1</p> -->
+      <div class="listing-subtitle anchored">
+        <b>PRArchived Item 1</b>
+      </div>
+      <div class="listing-subtitle">
+      </div>
+      <div class="listing-subtitle">
+        <!-- title,date,categories,sortableValues,image -->
+        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
+      </div>
+      <!-- archived,technology -->
+      <div class="listing-categories">
+        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
-<section id="newest-posts" class="level3">
-<h3 data-anchor-id="newest-posts">Newest Posts</h3>
-
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<section id="posts" class="level3">
+<h3 data-anchor-id="posts">Posts</h3>
+<div id="listing-rposts" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685612537000" data-listing-file-modified-sort="1685612537187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685624799000" data-listing-file-modified-sort="1685624799245" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
 <a href="./posts/example_collapsible.html">
 <h3 class="no-anchor listing-title">
@@ -295,7 +535,14 @@ Example
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div>
+
+
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

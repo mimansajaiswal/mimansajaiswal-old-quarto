@@ -8,7 +8,7 @@
 
 <meta name="author" content="">
 
-<title>News</title>
+<title>Papers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,20 +65,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-all-papers .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image','listing-outputHref',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-title","listing-date","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-all-papers'] = new List('listing-all-papers', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -98,9 +98,9 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="alternate" type="application/rss+xml" title="Mimansa Jaiswal" href="news.xml"><meta property="og:title" content="News">
+<meta property="og:title" content="Papers">
 <meta property="og:site-name" content="Mimansa Jaiswal">
-<meta name="twitter:title" content="News">
+<meta name="twitter:title" content="Papers">
 <meta name="twitter:creator" content="@MimansaJ">
 <meta name="twitter:site" content="@MimansaJ">
 <meta name="twitter:card" content="summary">
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Mimansa Jaiswal</span>
     </a>
   </div>
@@ -124,27 +124,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./news.html" rel="" target="" aria-current="page"><i class="bi bi-newspaper" role="img">
+    <a class="nav-link" href="../single_page/news.html" rel="" target=""><i class="bi bi-newspaper" role="img">
 </i> 
  <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html" rel="" target=""><i class="bi bi-postcard" role="img">
+    <a class="nav-link active" href="../single_page/papers.html" rel="" target="" aria-current="page"><i class="bi bi-postcard" role="img">
 </i> 
- <span class="menu-text">Publications</span></a>
+ <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target=""><i class="bi bi-folder2" role="img">
+    <a class="nav-link" href="../single_page/projects.html" rel="" target=""><i class="bi bi-folder2" role="img">
 </i> 
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts/index.html" rel="" target=""><i class="bi bi-text-indent-left" role="img">
+    <a class="nav-link" href="../posts/index.html" rel="" target=""><i class="bi bi-text-indent-left" role="img">
 </i> 
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./stream/index.html" rel="" target=""><i class="bi bi-cursor-text" role="img">
+    <a class="nav-link" href="../stream/index.html" rel="" target=""><i class="bi bi-cursor-text" role="img">
 </i> 
  <span class="menu-text">Blurbs</span></a>
   </li>  
@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Twitter</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts/index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../posts/index.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text">Feed</span></a>
   </li>  
@@ -173,12 +173,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="archived">archived <span class="quarto-category-count">(2)</span></div><div class="category" data-category="technology">technology <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7">News</h1>
+<h1 class="title display-7">Papers</h1>
 <p class="author"></p>
 
 </header>
@@ -187,9 +187,55 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
+<div class="quarto-listing quarto-listing-container-custom" id="listing-all-papers">
 
+<div class="list quarto-listing-custom">
+  <div class="quarto-post" data-index="0" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+    <div class="metadata">
+        <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
+      </div>
+      <div class="body">
+        <!-- <p class="no-anchor listing-title">
+      PUBArchived Item 1</p> -->
+      <div class="listing-subtitle anchored">
+        <b>PUBArchived Item 1</b>
+      </div>
+      <div class="listing-subtitle">
+      </div>
+      <div class="listing-subtitle">
+        <!-- title,date,categories,sortableValues,image -->
+        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
+      </div>
+      <!-- archived,technology -->
+      <div class="listing-categories">
+        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
+        </div>
+    </div>
+</div>
+  <div class="quarto-post" data-index="1" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+    <div class="metadata">
+        <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
+      </div>
+      <div class="body">
+        <!-- <p class="no-anchor listing-title">
+      PUBArchived Item 1</p> -->
+      <div class="listing-subtitle anchored">
+        <b>PUBArchived Item 1</b>
+      </div>
+      <div class="listing-subtitle">
+      </div>
+      <div class="listing-subtitle">
+        <!-- title,date,categories,sortableValues,image -->
+        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
+      </div>
+      <!-- archived,technology -->
+      <div class="listing-categories">
+        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
+        </div>
+    </div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
