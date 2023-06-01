@@ -3,7 +3,7 @@ title: "Collapse-social-embeds Example"
 author: Shafayet Khan Shafee
 date: last-modified
 format: html
-categories: [Try]
+categories: [Try, Example]
 filters:
   - collapse-social-embeds
 draft: false
