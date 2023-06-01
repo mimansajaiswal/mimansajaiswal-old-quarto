@@ -1,40 +1,27 @@
 [
   {
-    "listing": "/publications.html",
-    "items": [
-      "/projects.html",
-      "/news.html",
-      "/posts/index.html",
-      "/index.html",
-      "/stream/index.html",
-      "/posts/example_collapsible.html"
-    ]
+    "listing": "/stream/index.html",
+    "items": []
   },
   {
-    "listing": "/projects.html",
+    "listing": "/publications.html",
     "items": [
-      "/publications.html",
-      "/news.html",
-      "/posts/index.html",
-      "/index.html",
       "/stream/index.html",
+      "/news.html",
+      "/index.html",
+      "/projects.html",
+      "/posts/index.html",
       "/posts/example_collapsible.html"
     ]
   },
   {
     "listing": "/news.html",
     "items": [
+      "/stream/index.html",
       "/publications.html",
+      "/index.html",
       "/projects.html",
       "/posts/index.html",
-      "/index.html",
-      "/stream/index.html",
-      "/posts/example_collapsible.html"
-    ]
-  },
-  {
-    "listing": "/posts/index.html",
-    "items": [
       "/posts/example_collapsible.html"
     ]
   },
@@ -45,7 +32,20 @@
     ]
   },
   {
-    "listing": "/stream/index.html",
-    "items": []
+    "listing": "/projects.html",
+    "items": [
+      "/stream/index.html",
+      "/publications.html",
+      "/news.html",
+      "/index.html",
+      "/posts/index.html",
+      "/posts/example_collapsible.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/example_collapsible.html"
+    ]
   }
 ]
