@@ -5,25 +5,11 @@
   },
   {
     "listing": "/publications.html",
-    "items": [
-      "/stream/index.html",
-      "/news.html",
-      "/index.html",
-      "/projects.html",
-      "/posts/index.html",
-      "/posts/example_collapsible.html"
-    ]
+    "items": []
   },
   {
     "listing": "/news.html",
-    "items": [
-      "/stream/index.html",
-      "/publications.html",
-      "/index.html",
-      "/projects.html",
-      "/posts/index.html",
-      "/posts/example_collapsible.html"
-    ]
+    "items": []
   },
   {
     "listing": "/index.html",
@@ -33,14 +19,7 @@
   },
   {
     "listing": "/projects.html",
-    "items": [
-      "/stream/index.html",
-      "/publications.html",
-      "/news.html",
-      "/index.html",
-      "/posts/index.html",
-      "/posts/example_collapsible.html"
-    ]
+    "items": []
   },
   {
     "listing": "/posts/index.html",
