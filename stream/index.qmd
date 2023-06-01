@@ -1,5 +1,5 @@
 ---
-title: Shorties
+title: Blurbs
 listing:
   template: stream.ejs
   contents: .
@@ -14,7 +14,7 @@ listing:
   max-description-length: 2000
 author: ''
 comments: false
-description: Recent Stream of Thoughts
+description: Small Short Bursts of Thoughts and Ideas
 title-block-style: none
 ---
 ```{=html}

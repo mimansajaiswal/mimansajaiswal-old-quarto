@@ -108,7 +108,7 @@ a {
   position: relative;
 }
 
-:not(.metadata):not(.card-img-top):not(.buy-coffee-btn):not(.quarto-category):not(.nav-item):not(.navbar-brand-container)> a::before {
+:not(.metadata):not(.card-img-top):not(.buy-coffee-btn):not(.quarto-category):not(.nav-item):not(.navbar-brand-container):not(.about-links)> a::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -122,7 +122,7 @@ a {
   transition: transform .3s ease-in-out;
 }
 
-:not(.metadata):not(.card-img-top):not(.buy-coffee-btn):not(.quarto-category):not(.nav-item):not(.navbar-brand-container)> a:hover::before {
+:not(.metadata):not(.card-img-top):not(.buy-coffee-btn):not(.quarto-category):not(.nav-item):not(.navbar-brand-container):not(.about-links)> a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
@@ -430,6 +430,20 @@ div.quarto-post .metadata {
   }
 }
 
+/* Don't write about link text on mobile devices */
+@media (max-width: 991.98px) {
+  .about-link-text {
+      display: none !important;
+  }
+  .about-links{
+    display: block !important;
+  }
+  .about-link{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+}
+
 /* Set 3 columns for desktop devices */
 @media (min-width: 992px) {
   .post-filter-grid {
@@ -445,7 +459,8 @@ div.quarto-post .metadata {
 }
 
 .listing-category:before,
-.quarto-category:before {
+.quarto-category:before,
+.about-link:before {
   content: '';
   background: linear-gradient(45deg, rgba(#ff0000,0.2), rgba(#ff7300,0.2), rgba(#fffb00,0.2), rgba(#48ff00,0.2), rgba(#00ffd5,0.2), rgba(#002bff,0.2), rgba(#7a00ff,0.2), rgba(#ff00c8,0.2), rgba(#ff0000,0.2));
   position: absolute;
@@ -463,17 +478,20 @@ div.quarto-post .metadata {
 }
 
 .listing-category:active:after,
-.quarto-category:active:after {
+.quarto-category:active:after
+.about-link:active:after {
   background: transparent;
 }
 
 .listing-category:hover:before,
-.quarto-category:hover:before {
+.quarto-category:hover:before,
+.about-link:hover:before {
   opacity: 1;
 }
 
 .listing-category:after,
-.quarto-category:after {
+.quarto-category:after,
+.about-link:after {
   z-index: -1;
   content: '';
   position: absolute;
@@ -499,6 +517,24 @@ div.quarto-post .metadata {
   color: $black;
   font-weight: 450;
 }
+
+.about-entity .quarto-title-block .quarto-title-meta
+{
+  display: none !important;
+}
+.anchorjs-link{
+  display: inline-block !important;
+}
+
+
+
+
+
+
+
+
+
+
 
 // Dropdowns
 
