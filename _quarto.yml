@@ -26,8 +26,8 @@ website:
         href: single_page/news.qmd
       - icon: postcard
         href: single_page/papers.qmd
-      - icon: folder2
-        href: single_page/projects.qmd
+      # - icon: folder2
+      #   href: single_page/projects.qmd
       - icon: text-indent-left
         href: posts/index.qmd
       - icon: cursor-text

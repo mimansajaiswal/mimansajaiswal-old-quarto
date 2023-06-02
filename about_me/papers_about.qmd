@@ -1,0 +1,14 @@
+```{=html}
+<div id="papers-posts-frontpage-card-container">
+   <div id="papers-posts-frontpage-card">
+      <div class="papers-posts-frontpage-front papers-posts-frontpage-face">
+         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Bouquet_EP_cover_art.jpg/220px-Bouquet_EP_cover_art.jpg"/>
+      </div>
+      <div class="papers-posts-frontpage-back papers-posts-frontpage-face">
+         <h1>Bouquet</h1>
+         <p class="papers-posts-frontpage-artist">The Chainsmokers</p>
+         <p class="papers-posts-frontpage-date">2015</p>
+      </div>
+   </div>
+</div>
+```

@@ -1,0 +1,20 @@
+```{=html}
+<div class="exp-card">
+    <div class="exp-card-body">
+        <div id="content">
+            <ul class="exp-timeline">
+
+<%/* create custom listing */%>
+<% for (const item of items) { %>
+
+    <li class="exp-event" data-date="<%= item['year'] %>">
+        <h6><%= item['position'] %>, <a href="<%= item['titlehref'] %>"><%= item['title'] %></a></h6>
+        <p>People: <%= item['people'] %></p>
+        <p><%= item['subtitle'] %></p>
+    </li>
+<% } %>
+            </ul>
+        </div>
+    </div>
+</div>
+```

@@ -1,0 +1,58 @@
+```{=html}
+<div class="papers-box">
+
+<%/* create custom listing */%>
+<% for (const item of items) { %>
+
+    <div class="timeline-step">
+        <div class="timeline-content">
+            <div class="inner-circle"></div>
+            <p class="h6 mt-3 mb-1"><%= item['year'] %></p>
+            <p class="h6"><%= item['title'] %></p>
+            <p><%= item['degree'] %></p>
+        </div>
+    </div>
+
+<% } %>
+
+</div>
+```
+
+
+  <div id="papers-card-container">
+    <div id="papers-card">
+      <div class="papers-front papers-face">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Bouquet_EP_cover_art.jpg/220px-Bouquet_EP_cover_art.jpg"/>
+      </div>
+      <div class="papers-back papers-face">
+        <h1>Bouquet</h1>
+        <p class="papers-artist">The Chainsmokers</p>
+        <p class="papers-date">2015</p>
+      </div>
+    </div>
+  </div>
+  <div id="papers-card-container">
+    <div id="papers-card2">
+      <div class="papers-front papers-face">
+        <img src="https://i.pinimg.com/originals/3f/e3/f9/3fe3f9bd5e2c4b61a8f36c8b9e3e66fa.png"/>
+      </div>
+      <div class="papers-back papers-face">
+        <h1>Roses</h1>
+        <p class="papers-artist">The Chainsmokers</p>
+        <p class="papers-date">2017</p>
+      </div>
+    </div>
+  </div>
+  <div id="papers-card-container">
+    <div id="papers-card3">
+      <div class="papers-front papers-face">
+        <img src="http://jayelaudio.com/wp-content/uploads/2015/07/11059871_980392135326510_2425127552142348735_o.jpg"/>
+      </div>
+      <div class="papers-back papers-face">
+        <h1>Waterbed</h1>
+        <p class="papers-artist">The Chainsmokers</p>
+        <p class="papers-date">2015</p>
+      </div>
+    </div>
+  </div>
+</div>

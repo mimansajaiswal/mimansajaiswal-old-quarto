@@ -2,28 +2,28 @@
 <div class="grid ri-grid">
 <div class="perspective">
   <div class='resint_card-container spread'>
-    <div class='resint_card resint_card-resint_card1'>
+    <div class='resint_card resint_card-resint_card1 resint_card-set-methods'>
       <div class='resint_card__face resint_card__face--top'>
         <span class='resint_card__value'>
-          Evaluation
+          Metrics
         </span>
       </div>
     </div>
-    <div class='resint_card resint_card-resint_card2'>
+    <div class='resint_card resint_card-resint_card2 resint_card-set-methods'>
       <div class='resint_card__face resint_card__face--top'>
         <span class='resint_card__value'>
           Interpretation
         </span>
       </div>
     </div>
-    <div class='resint_card resint_card-resint_card3'>
+    <div class='resint_card resint_card-resint_card3 resint_card-set-methods'>
       <div class='resint_card__face resint_card__face--top'>
         <span class='resint_card__value'>
           Failure
         </span>
       </div>
     </div>
-    <div class='resint_card resint_card-resint_card4'>
+    <div class='resint_card resint_card-resint_card4 resint_card-set-methods'>
       <div class='resint_card__face resint_card__face--top'>
         <span class='resint_card__value'>
           Human⇔AI
@@ -39,28 +39,28 @@
 </div>
 <div class="perspective">
   <div class='resint_card-container spread'>
-    <div class='resint_card resint_card-resint_card1'>
+    <div class='resint_card resint_card-resint_card1 resint_card-set-areas'>
       <div class='resint_card__face resint_card__face--top'>
         <span class='resint_card__value'>
           Design
         </span>
       </div>
     </div>
-    <div class='resint_card resint_card-resint_card2'>
+    <div class='resint_card resint_card-resint_card2 resint_card-set-areas'>
       <div class='resint_card__face resint_card__face--top'>
         <span class='resint_card__value'>
           Productivity
         </span>
       </div>
     </div>
-    <div class='resint_card resint_card-resint_card3'>
+    <div class='resint_card resint_card-resint_card3 resint_card-set-areas'>
       <div class='resint_card__face resint_card__face--top'>
         <span class='resint_card__value'>
           Health
         </span>
       </div>
     </div>
-    <div class='resint_card resint_card-resint_card4'>
+    <div class='resint_card resint_card-resint_card4 resint_card-set-areas'>
       <div class='resint_card__face resint_card__face--top'>
         <span class='resint_card__value'>
           Schemas

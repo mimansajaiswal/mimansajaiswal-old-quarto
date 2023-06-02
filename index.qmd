@@ -30,19 +30,6 @@ listing:
     date-format: MM-DD-YYYY
     exclude:
       title: "Posts"
-  - id: rprojects
-    template: single_page/singlestream.ejs
-    contents: 
-      - single_page/projects.yaml
-    sort: "date desc"
-    type: default
-    max-items: 5
-    categories: numbered
-    fields: [categories, title, subtitle, date, description, image,outputHref]
-    date-format: MM-DD-YYYY
-    sort-ui: false
-    filter-ui: false
-    max-description-length: 2000
   - id: rnews
     template: single_page/singlestream.ejs
     contents: 
@@ -70,7 +57,7 @@ listing:
     filter-ui: false
     max-description-length: 2000
   - id: education
-    template: about_me/education_about.ejs
+    template: about_me/education.ejs
     contents: 
       - about_me/education.yaml
     sort: "date desc"
@@ -81,12 +68,23 @@ listing:
     date-format: MM-DD-YYYY
     sort-ui: false
     filter-ui: false
+  - id: experience
+    template: about_me/experience.ejs
+    contents: 
+      - about_me/experience.yaml
+    sort: "date desc"
+    type: default
+    categories: false
+    fields: [title, year, subtitle, people, titlehref, position]
+    date-format: MM-DD-YYYY
+    sort-ui: false
+    filter-ui: false
 comments: false
 toc: true
 ---
 <!-- ### Can also add other content here -->
 
-<div class="alert alert-primary" role="alert">
+<div class="alert alert-light" role="alert">
   {{< include banner.qmd >}}
   <!-- This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like. -->
 </div>
@@ -110,10 +108,11 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 ### Education
 :::{#education}
 :::
+{{< include about_me/papers_about.qmd >}}
 
 ### Experience
-
-{{< include about_me/experience.qmd >}}
+:::{#experience}
+:::
 
 ### News
 :::{#rnews}
@@ -125,9 +124,9 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 :::
 
 
-### Projects
+<!-- ### Projects
 :::{#rprojects}
-:::
+::: -->
 
 
 ### Posts

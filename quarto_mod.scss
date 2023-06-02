@@ -28,6 +28,7 @@ $teal:    #65c4a8 !default;
 $cyan:    #aac8d2 !default;
 $blue:    #3a6187 !default;
 $lightpink: #ecc2d5 !default;
+$verylightpink: #fff5f9 !default;
 $lightpurple: #f9f6ff !default;
 
 $primary:       $purple !default;
@@ -36,8 +37,8 @@ $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$light:         $lightpurple !default;
+$dark:          $blue !default;
 
 $min-contrast-ratio:   1.28 !default;
 
@@ -58,17 +59,17 @@ $navbar-light-color: rgba($black, .7) !default;
 $navbar-light-hover-color: $black !default;
 $navbar-light-active-color: $black !default;
 
-.navbar-dark .navbar-nav .nav-link.active {
-  color: $lightpink !important;
-}
+// .navbar-dark .navbar-nav .nav-link.active {
+//   color: $lightpink !important;
+// }
 
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: $cyan !important;
-}
+// .navbar-dark .navbar-nav .nav-link:hover {
+//   color: $cyan !important;
+// }
 
 
-// $navbar-bg: $purple !default;
-$navbar-fg: $white !default;
+$navbar-bg: $white !default;
+$navbar-fg: $black !default;
 
 // .navbar{
 //   background:linear-gradient(to right, $indigo, $purple)
@@ -598,6 +599,11 @@ div.quarto-post .metadata {
 
 
 //EXPERIENCE
+
+.exp-timeline .exp-event:before{
+  font-family: monospace;
+}
+
 .exp-timeline {
   border-left: 3px solid $blue;
   border-bottom-right-radius: 4px;
@@ -703,7 +709,6 @@ div.quarto-post .metadata {
 //Research interests
 
 .resint_card {
-  background: $lightpurple;
   border-radius: 16px;
   box-shadow: 0 1px 2px 0 rgba($purple,0.4);
   position: absolute;
@@ -714,14 +719,24 @@ div.quarto-post .metadata {
   max-width: 248px;
 }
 
+.resint_card-set-methods
+{
+  background: $lightpurple;
+}
+
+.resint_card-set-areas
+{
+  background: $verylightpink;
+}
+
 .resint_card-resint_card1 {
   box-shadow:
-    0 1px 2px 0 rgba(151,150,146,0.4),
-    0 4px 12px 0 rgba(151,150,146,0.4);
-  color: #635f5c;
+    0 1px 2px 0 rgba($gray-400, 0.4),
+    0 4px 12px 0 rgba($gray-400,0.4);
+  color: $purple;
 }
 .resint_card-resint_card2 {
-  color: #a68385;
+  color: $indigo;
   .resint_card__value {
     transform: translateX(-2px);
   }
@@ -731,13 +746,13 @@ div.quarto-post .metadata {
 }
 
 .resint_card-resint_card3 {
-  color: #635f5c;
+  color: $purple;
   .resint_card__suit {
     margin-top: 0.8rem;
   }
 }
 .resint_card-resint_card4 {
-  color: #a68385;
+  color: $indigo;
   .resint_card__suit {
     margin-top: 0.7rem;
   }
@@ -752,7 +767,7 @@ div.quarto-post .metadata {
   margin-left: 70%;
   margin-top: 95%;
   transform: rotate(-90deg);
-  color: $indigo;
+  color: $coral;
 }
 
 .resint_card__value {
@@ -800,29 +815,29 @@ div.perspective {
   .resint_card-resint_card1 {
     transform: rotate(-31deg) translate3d(-50%, -10%, 0);
     box-shadow:
-      0 1px 2px 0 rgba(151,150,146,0.4),
-      0 4px 12px 0 rgba(151,150,146,0.4)
+      0 1px 2px 0 rgba($gray-400, 0.4),
+      0 4px 12px 0 rgba($gray-400, 0.4)
       ;
   }
   .resint_card-resint_card2 {
     transform: rotate(-4.5deg) translatex(-22%);
     box-shadow:
-      0 1px 2px 0 rgba(151,150,146,0.4),
-      0 2px 6px 0 rgba(151,150,146,0.4)
+      0 1px 2px 0 rgba($gray-400, 0.4),
+      0 2px 6px 0 rgba($gray-400, 0.4)
       ;
   }
   .resint_card-resint_card3 {
     transform: rotate(5.8deg) translatex(10%);
     box-shadow:
-      0 1px 2px 0 rgba(151,150,146,0.4),
-      0 2px 4px 0 rgba(151,150,146,0.4)
+      0 1px 2px 0 rgba($gray-400, 0.4),
+      0 2px 4px 0 rgba($gray-400, 0.4)
       ;
   }
   .resint_card-resint_card4 {
     transform: rotate(22.5deg) translate3d(40%, -5%, 0);
     box-shadow:
-      0 1px 2px 0 rgba(151,150,146,0.4),
-      0 2px 4px 0 rgba(151,150,146,0.4)
+      0 1px 2px 0 rgba($gray-400, 0.4),
+      0 2px 4px 0 rgba($gray-400, 0.4)
       ;
   }
 }
@@ -864,6 +879,81 @@ div.perspective {
     max-height: 250px;
     max-width: 178px;
   }
+}
+
+//PAPERS and POSTS
+.papers-posts-frontpage-box {
+  width: 800px;  
+  margin: 10% auto;
+  position: relative;
+}
+
+#papers-posts-frontpage-card-container {
+  position: relative;
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  float: left;
+  perspective: 1000px;
+}
+
+papers-img {
+  width: 200px;
+  height: 200px;
+}
+
+#papers-posts-frontpage-card, #papers-posts-frontpage-card2, #papers-posts-frontpage-card3 {
+  width: 100%;
+  height: 100%;
+  margin: 10%;
+  transform-style: preserve-3d;
+  transition: all .8s linear;
+  box-shadow: 5px 5px 15px rgba(0,0,0, .3);
+}
+
+#papers-posts-frontpage-card {
+  &:hover {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 15px rgba(0,0,0, .3);
+  }
+}
+
+#papers-posts-frontpage-card2 {
+  &:hover {
+    transform: rotateY(-180deg);
+    box-shadow: -5px 5px 15px rgba(0,0,0, .3);
+  }
+}
+
+#papers-posts-frontpage-card3 {
+  &:hover {
+    transform: rotateX(180deg);
+    box-shadow: 5px -5px 15px rgba(0,0,0, .3);
+  }
+  .papers-back {
+    transform: rotateX(-180deg);
+  }
+}
+
+.papers-posts-frontpage-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.papers-posts-frontpage-back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  opacity: .7;
+  background: $white;
+}
+
+.papers-posts-frontpage-date {
+  color: black;
 }
 
 

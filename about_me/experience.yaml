@@ -1,0 +1,41 @@
+- title: "Allen NLP, Allen Institute of Artificial Intelligence"
+  year: "Fall 2021"
+  subtitle: "Benchmarking interpretable and compositional evaluation for very large models in natural language processing"
+  people: Ana Marasović
+  titlehref: https://allennlp.org/
+  position: Research Intern
+
+- title: "NLP Team, Facebook AI Research (Meta AI)"
+  year: "Summer 2021"
+  subtitle: "Identifying, understanding, and correcting ambiguity based faliure points in Natural Language Inference (NLI)"
+  people: Adina Williams; Scott Williams, Pedro Rogieruez
+  titlehref: https://ai.facebook.com/research/NLP
+  position: Research Intern
+
+- title: "Conversation AI, Facebook (Meta) AI"
+  year: "Summer 020"
+  subtitle: "Defining interpretable and generalizable user satisfaction metric informed by human knowledge"
+  people: Ahmad Beirami, Shane Moon, Satwik Kottur, Chinnadhurai Sankar
+  titlehref: https://ai.facebook.com/research/conversational-ai/
+  position: Research Intern
+
+- title: "SENTIC Lab, Nanyang Technological University, Singapore"
+  year: "Summer 2016"
+  subtitle: "Multimodal detection of human behavior: empathy and deception"
+  people: Erik Cambria
+  titlehref: https://sentic.net/
+  position: Research Intern
+
+- title: "NLP and Sentiment Analysis (NLPSA) Lab, Academia Sinica, Taiwan"
+  year: "Winter 2016"
+  subtitle: "Human perception of conversation sentiment visualization in chat interfaces"
+  people: Lun-Wei Ku
+  titlehref: http://academiasinicanlplab.github.io/
+  position: Research Intern
+
+- title: "Indraprastha Institute of Information Technology (IIIT), Delhi"
+  year: "Summer 2015"
+  subtitle: "Finding the optimal routes under user specified user-constraints for last mile cab-pooling"
+  people: Pravesh Biyani
+  titlehref: https://iiitd.ac.in/
+  position: Research Intern
