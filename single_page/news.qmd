@@ -8,11 +8,10 @@ listing:
   sort: "date desc"
   type: default
   categories: numbered
-  fields: [categories, title, subtitle, date, description, image,outputHref]
+  fields: [title, date]
   date-format: MM-DD-YYYY
   sort-ui: false
   filter-ui: false
-  max-description-length: 2000
 author: ''
 comments: false
 title-block-style: none

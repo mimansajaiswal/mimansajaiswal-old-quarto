@@ -63,7 +63,7 @@
     <div class='resint_card resint_card-resint_card4 resint_card-set-areas'>
       <div class='resint_card__face resint_card__face--top'>
         <span class='resint_card__value'>
-          Schemas
+          Conversation
         </span>
       </div>
       <div class='resint_card__face resint_card__face--top card4_category'>

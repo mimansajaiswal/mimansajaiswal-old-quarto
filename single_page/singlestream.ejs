@@ -38,11 +38,14 @@
         <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
       </div>
       <!-- <%= item['categories'] %> -->
+
+      <% if (item.categories) {%>
       <div class="listing-categories">
         <% for (const category of item.categories) { %>
         <div class="listing-category" onclick="window.quartoListingCategory('<%=category%>'); return false;"><%= category %></div>
         <% } %>
         </div>
+        <% } %>
     </div>
     
   
