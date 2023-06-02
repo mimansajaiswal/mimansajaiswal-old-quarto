@@ -1,51 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mimansajaiswal.github.io/stream/phd_stipends.html</loc>
-    <lastmod>2023-06-01T18:48:34.782Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/stream/index.html</loc>
-    <lastmod>2023-06-01T18:48:35.450Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/banner.html</loc>
-    <lastmod>2023-06-01T18:48:36.094Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/index.html</loc>
-    <lastmod>2023-06-01T18:48:36.638Z</lastmod>
+    <loc>https://mimansajaiswal.github.io/posts/index.html</loc>
+    <lastmod>2023-06-02T19:15:51.520Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/posts/example_collapsible.html</loc>
-    <lastmod>2023-06-01T18:48:37.198Z</lastmod>
+    <lastmod>2023-06-02T19:15:52.476Z</lastmod>
   </url>
   <url>
-    <loc>https://mimansajaiswal.github.io/posts/index.html</loc>
-    <lastmod>2023-06-01T18:48:37.878Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/about_me/experience.html</loc>
-    <lastmod>2023-06-01T18:48:38.506Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/about_me/research_interests.html</loc>
-    <lastmod>2023-06-01T18:48:38.838Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/about_me/education.html</loc>
-    <lastmod>2023-06-01T18:48:39.466Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/single_page/news.html</loc>
-    <lastmod>2023-06-01T18:48:39.762Z</lastmod>
+    <loc>https://mimansajaiswal.github.io/index.html</loc>
+    <lastmod>2023-06-02T19:15:53.016Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/single_page/projects.html</loc>
-    <lastmod>2023-06-01T18:48:40.046Z</lastmod>
+    <lastmod>2023-06-02T19:15:54.700Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/single_page/news.html</loc>
+    <lastmod>2023-06-02T19:15:55.032Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/single_page/papers.html</loc>
-    <lastmod>2023-06-01T18:48:40.338Z</lastmod>
+    <lastmod>2023-06-02T19:15:55.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/about_me/research_interests.html</loc>
+    <lastmod>2023-06-02T19:15:57.084Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/about_me/papers_about.html</loc>
+    <lastmod>2023-06-02T19:15:57.388Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/banner.html</loc>
+    <lastmod>2023-06-02T19:15:57.716Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/stream/phd_stipends.html</loc>
+    <lastmod>2023-06-02T19:15:58.092Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/stream/index.html</loc>
+    <lastmod>2023-06-02T19:15:58.760Z</lastmod>
   </url>
 </urlset>

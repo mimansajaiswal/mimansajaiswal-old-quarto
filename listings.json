@@ -1,8 +1,8 @@
 [
   {
-    "listing": "/stream/index.html",
+    "listing": "/posts/index.html",
     "items": [
-      "/stream/phd_stipends.html"
+      "/posts/example_collapsible.html"
     ]
   },
   {
@@ -12,13 +12,7 @@
     ]
   },
   {
-    "listing": "/posts/index.html",
-    "items": [
-      "/posts/example_collapsible.html"
-    ]
-  },
-  {
-    "listing": "/about_me/education.html",
+    "listing": "/single_page/projects.html",
     "items": []
   },
   {
@@ -26,11 +20,13 @@
     "items": []
   },
   {
-    "listing": "/single_page/projects.html",
+    "listing": "/single_page/papers.html",
     "items": []
   },
   {
-    "listing": "/single_page/papers.html",
-    "items": []
+    "listing": "/stream/index.html",
+    "items": [
+      "/stream/phd_stipends.html"
+    ]
   }
 ]

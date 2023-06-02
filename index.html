@@ -92,34 +92,6 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-rprojects .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image','listing-outputHref',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-rprojects'] = new List('listing-rprojects', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-rnews .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -201,6 +173,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-experience .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-year','listing-subtitle','listing-people','listing-titlehref','listing-position',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-year","listing-subtitle","listing-people","listing-titlehref","listing-position"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-experience'] = new List('listing-experience', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script>
     
@@ -210,10 +210,10 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <meta property="og:title" content="Mimansa Jaiswal">
-<meta property="og:image" content="https://mimansajaiswal.github.io/images/me.jpg">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Bouquet_EP_cover_art.jpg/220px-Bouquet_EP_cover_art.jpg">
 <meta property="og:site-name" content="Mimansa Jaiswal">
 <meta name="twitter:title" content="Mimansa Jaiswal">
-<meta name="twitter:image" content="https://mimansajaiswal.github.io/images/me.jpg">
+<meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Bouquet_EP_cover_art.jpg/220px-Bouquet_EP_cover_art.jpg">
 <meta name="twitter:creator" content="@MimansaJ">
 <meta name="twitter:site" content="@MimansaJ">
 <meta name="twitter:card" content="summary_large_image">
@@ -245,11 +245,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./single_page/papers.html" rel="" target=""><i class="bi bi-postcard" role="img">
 </i> 
  <span class="menu-text">Papers</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./single_page/projects.html" rel="" target=""><i class="bi bi-folder2" role="img">
-</i> 
- <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./posts/index.html" rel="" target=""><i class="bi bi-text-indent-left" role="img">
@@ -295,7 +290,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
   <li><a href="#news" id="toc-news" class="nav-link" data-scroll-target="#news">News</a></li>
   <li><a href="#papers" id="toc-papers" class="nav-link" data-scroll-target="#papers">Papers</a></li>
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
   <li><a href="#posts" id="toc-posts" class="nav-link" data-scroll-target="#posts">Posts</a></li>
   </ul>
 </nav>
@@ -306,7 +300,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <!-- ### Can also add other content here -->
-<div class="alert alert-primary" role="alert">
+<div class="alert alert-light" role="alert">
 <p>I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design.</p>
 <p><!-- This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like. --></p>
 </div>
@@ -364,28 +358,28 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 <div class="grid ri-grid">
 <div class="perspective">
   <div class="resint_card-container spread">
-    <div class="resint_card resint_card-resint_card1">
+    <div class="resint_card resint_card-resint_card1 resint_card-set-methods">
       <div class="resint_card__face resint_card__face--top">
         <span class="resint_card__value">
-          Evaluation
+          Metrics
         </span>
       </div>
     </div>
-    <div class="resint_card resint_card-resint_card2">
+    <div class="resint_card resint_card-resint_card2 resint_card-set-methods">
       <div class="resint_card__face resint_card__face--top">
         <span class="resint_card__value">
           Interpretation
         </span>
       </div>
     </div>
-    <div class="resint_card resint_card-resint_card3">
+    <div class="resint_card resint_card-resint_card3 resint_card-set-methods">
       <div class="resint_card__face resint_card__face--top">
         <span class="resint_card__value">
           Failure
         </span>
       </div>
     </div>
-    <div class="resint_card resint_card-resint_card4">
+    <div class="resint_card resint_card-resint_card4 resint_card-set-methods">
       <div class="resint_card__face resint_card__face--top">
         <span class="resint_card__value">
           Human⇔AI
@@ -401,28 +395,28 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 </div>
 <div class="perspective">
   <div class="resint_card-container spread">
-    <div class="resint_card resint_card-resint_card1">
+    <div class="resint_card resint_card-resint_card1 resint_card-set-areas">
       <div class="resint_card__face resint_card__face--top">
         <span class="resint_card__value">
           Design
         </span>
       </div>
     </div>
-    <div class="resint_card resint_card-resint_card2">
+    <div class="resint_card resint_card-resint_card2 resint_card-set-areas">
       <div class="resint_card__face resint_card__face--top">
         <span class="resint_card__value">
           Productivity
         </span>
       </div>
     </div>
-    <div class="resint_card resint_card-resint_card3">
+    <div class="resint_card resint_card-resint_card3 resint_card-set-areas">
       <div class="resint_card__face resint_card__face--top">
         <span class="resint_card__value">
           Health
         </span>
       </div>
     </div>
-    <div class="resint_card resint_card-resint_card4">
+    <div class="resint_card resint_card-resint_card4 resint_card-set-areas">
       <div class="resint_card__face resint_card__face--top">
         <span class="resint_card__value">
           Schemas
@@ -471,33 +465,65 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 No matching items
 </div>
 </div>
+<div id="papers-posts-frontpage-card-container">
+   <div id="papers-posts-frontpage-card">
+      <div class="papers-posts-frontpage-front papers-posts-frontpage-face">
+         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Bouquet_EP_cover_art.jpg/220px-Bouquet_EP_cover_art.jpg">
+      </div>
+      <div class="papers-posts-frontpage-back papers-posts-frontpage-face">
+         <h1>Bouquet</h1>
+         <p class="papers-posts-frontpage-artist">The Chainsmokers</p>
+         <p class="papers-posts-frontpage-date">2015</p>
+      </div>
+   </div>
+</div>
 </section>
 <section id="experience" class="level3">
 <h3 data-anchor-id="experience">Experience</h3>
-            <div class="exp-card">
-                <div class="exp-card-body">
-                    <div id="content">
-                        <ul class="exp-timeline">
-                            <li class="exp-event" data-date="12:30 - 1:00pm">
-                                <h6>Registration</h6>
-                                <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
-                            </li>
-                            <li class="exp-event" data-date="2:30 - 4:00pm">
-                                <h6>Opening Ceremony</h6>
-                                <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta Rhymes as an opening show.</p>
-                            </li>
-                            <li class="exp-event" data-date="5:00 - 8:00pm">
-                                <h6>Main Event</h6>
-                                <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get ready!</p>
-                            </li>
-                            <li class="exp-event" data-date="8:30 - 9:30pm">
-                                <h6>Closing Ceremony</h6>
-                                <p>See how is the victor and who are the losers. The big stage is where the winners bask in their own glory.</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+<div id="listing-experience" class="quarto-listing quarto-listing-container-custom">
+
+<div class="exp-card">
+    <div class="exp-card-body">
+        <div id="content">
+            <ul class="exp-timeline">
+    <li class="exp-event" data-date="Fall 2021">
+        <h6>Research Intern, <a href="https://allennlp.org/">Allen NLP, Allen Institute of Artificial Intelligence</a></h6>
+        <p>People: Ana Marasović</p>
+        <p>Benchmarking interpretable and compositional evaluation for very large models in natural language processing</p>
+    </li>
+    <li class="exp-event" data-date="Summer 2021">
+        <h6>Research Intern, <a href="https://ai.facebook.com/research/NLP">NLP Team, Facebook AI Research (Meta AI)</a></h6>
+        <p>People: Adina Williams; Scott Williams, Pedro Rogieruez</p>
+        <p>Identifying, understanding, and correcting ambiguity based faliure points in Natural Language Inference (NLI)</p>
+    </li>
+    <li class="exp-event" data-date="Summer 020">
+        <h6>Research Intern, <a href="https://ai.facebook.com/research/conversational-ai/">Conversation AI, Facebook (Meta) AI</a></h6>
+        <p>People: Ahmad Beirami, Shane Moon, Satwik Kottur, Chinnadhurai Sankar</p>
+        <p>Defining interpretable and generalizable user satisfaction metric informed by human knowledge</p>
+    </li>
+    <li class="exp-event" data-date="Summer 2016">
+        <h6>Research Intern, <a href="https://sentic.net/">SENTIC Lab, Nanyang Technological University, Singapore</a></h6>
+        <p>People: Erik Cambria</p>
+        <p>Multimodal detection of human behavior: empathy and deception</p>
+    </li>
+    <li class="exp-event" data-date="Winter 2016">
+        <h6>Research Intern, <a href="http://academiasinicanlplab.github.io/">NLP and Sentiment Analysis (NLPSA) Lab, Academia Sinica, Taiwan</a></h6>
+        <p>People: Lun-Wei Ku</p>
+        <p>Human perception of conversation sentiment visualization in chat interfaces</p>
+    </li>
+    <li class="exp-event" data-date="Summer 2015">
+        <h6>Research Intern, <a href="https://iiitd.ac.in/">Indraprastha Institute of Information Technology (IIIT), Delhi</a></h6>
+        <p>People: Pravesh Biyani</p>
+        <p>Finding the optimal routes under user specified user-constraints for last mile cab-pooling</p>
+    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
 <section id="news" class="level3">
 <h3 data-anchor-id="news">News</h3>
@@ -612,69 +638,15 @@ No matching items
 No matching items
 </div>
 </div>
-</section>
-<section id="projects" class="level3">
-<h3 data-anchor-id="projects">Projects</h3>
-<div id="listing-rprojects" class="quarto-listing quarto-listing-container-custom">
-
-<div class="list quarto-listing-custom">
-  <div class="quarto-post" data-index="0" data-categories="archived,technology" data-listing-date-sort="1577836800000">
-    <div class="metadata">
-        <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
-      </div>
-      <div class="body">
-        <!-- <p class="no-anchor listing-title">
-      PRArchived Item 1</p> -->
-      <div class="listing-subtitle anchored">
-        <b>PRArchived Item 1</b>
-      </div>
-      <div class="listing-subtitle">
-      </div>
-      <div class="listing-subtitle">
-        <!-- title,date,categories,sortableValues,image -->
-        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
-      </div>
-      <!-- archived,technology -->
-      <div class="listing-categories">
-        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
-        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
-        </div>
-    </div>
-</div>
-  <div class="quarto-post" data-index="1" data-categories="archived,technology" data-listing-date-sort="1577836800000">
-    <div class="metadata">
-        <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
-      </div>
-      <div class="body">
-        <!-- <p class="no-anchor listing-title">
-      PRArchived Item 1</p> -->
-      <div class="listing-subtitle anchored">
-        <b>PRArchived Item 1</b>
-      </div>
-      <div class="listing-subtitle">
-      </div>
-      <div class="listing-subtitle">
-        <!-- title,date,categories,sortableValues,image -->
-        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
-      </div>
-      <!-- archived,technology -->
-      <div class="listing-categories">
-        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
-        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
-        </div>
-    </div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<!-- ### Projects
+:::{#rprojects}
+::: -->
 </section>
 <section id="posts" class="level3">
 <h3 data-anchor-id="posts">Posts</h3>
 <div id="listing-rposts" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685645302000" data-listing-file-modified-sort="1685645302122" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685733338000" data-listing-file-modified-sort="1685733338612" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
 <a href="./posts/example_collapsible.html">
 <h3 class="no-anchor listing-title">
@@ -701,7 +673,7 @@ Example
 <div class="metadata">
 <a href="./posts/example_collapsible.html">
 <div class="listing-date">
-06-01-2023
+06-02-2023
 </div>
 </a>
 </div>
