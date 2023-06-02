@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image','listing-outputHref',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-categories"],
+      searchColumns: ["listing-title","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -168,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="archived">archived <span class="quarto-category-count">(2)</span></div><div class="category" data-category="technology">technology <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -185,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-listing quarto-listing-container-custom" id="listing-all-news">
 
 <div class="list quarto-listing-custom">
-  <div class="quarto-post" data-index="0" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+  <div class="quarto-post" data-index="0" data-listing-date-sort="1577836800000">
     <div class="metadata">
         <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
       </div>
@@ -198,17 +198,13 @@ ul.task-list li input[type="checkbox"] {
       <div class="listing-subtitle">
       </div>
       <div class="listing-subtitle">
-        <!-- title,date,categories,sortableValues,image -->
+        <!-- title,date,sortableValues,image -->
         <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
       </div>
-      <!-- archived,technology -->
-      <div class="listing-categories">
-        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
-        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
-        </div>
+      <!--  -->
     </div>
 </div>
-  <div class="quarto-post" data-index="1" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+  <div class="quarto-post" data-index="1" data-listing-date-sort="1577836800000">
     <div class="metadata">
         <div class="listing-date" style="margin-top: 5px;">01-01-2020</div>
       </div>
@@ -221,14 +217,10 @@ ul.task-list li input[type="checkbox"] {
       <div class="listing-subtitle">
       </div>
       <div class="listing-subtitle">
-        <!-- title,date,categories,sortableValues,image -->
+        <!-- title,date,sortableValues,image -->
         <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
       </div>
-      <!-- archived,technology -->
-      <div class="listing-categories">
-        <div class="listing-category" onclick="window.quartoListingCategory('archived'); return false;">archived</div>
-        <div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">technology</div>
-        </div>
+      <!--  -->
     </div>
 </div>
 </div>
