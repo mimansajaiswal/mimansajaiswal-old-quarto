@@ -6,7 +6,7 @@
 <%/* create custom listing */%>
 <% for (const item of items) { %>
     <div class="edu-list-item">
-        <dt><%=item['title']%></dt>
+        <dt><a href="<%=item['href']%>"><%=item['title']%></a></dt>
         <dd><%=item['year']%></dd>
         <br>
       </div>
