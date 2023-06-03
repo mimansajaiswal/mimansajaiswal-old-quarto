@@ -19,12 +19,12 @@ about:
       href: https://www.linkedin.com/in/mimansajaiswal
 listing:
   - id: rposts
-    template: single_page/posts_papers.ejs
+    template: single_page/posts.ejs
     contents: [posts]
     max-items: 5
     sort: "date desc"
     categories: false
-    fields: [date, title, description, categories, image, threeword, outputHref, ispost, tweetthread, relatedpost, relatedpaper, news, demo, demo, repo]
+    fields: [date, title, description, categories, image, threeword, outputHref, tweetthread, relatedpost, relatedpaper, publicity, demo, repo]
     feed: false
     filter-ui: false
     sort-ui: false

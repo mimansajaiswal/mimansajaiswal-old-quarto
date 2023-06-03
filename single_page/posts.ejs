@@ -6,7 +6,7 @@
 
         <%/* create custom listing */%>
 <% for (const item of items) { %>
-  <div class="quarto-post detail-list-img-post" <%= metadataAttrs(item) %>>
+  <div class="quarto-post detail-list-img-post" onclick="window.location.href='<%= item["outputHref"] %>'" <%= metadataAttrs(item) %> >
       <li class="detail-list-img-entity detail-list-img-date" data-content-date="<%= item['date'] %>">
         <div class="detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
         <div class="detail-list-img-description">
@@ -19,12 +19,10 @@
                   <% } %>
                   </div>
                   <% } %>
-                  <% if (item.read){%><a href="<%= item['read'] %>">Read</a> <%}%>
-                  <% if (item.ispost){%><a href="<%= item['outputHref'] %>">Read</a> <%}%>
                   <% if (item.tweethread){%><a href="<%= item['tweetthread'] %>">Twitter Thread</a> <%}%>
                   <% if (item.relatedpost){%><a href="<%= item['relatedpost'] %>">Post</a> <%}%>
                   <% if (item.relatedpaper){%><a href="<%= item['relatedpaper'] %>">Paper</a> <%}%>
-                  <% if (item.press){%><a href="<%= item['news'] %>">Publicity</a> <%}%>
+                  <% if (item.press){%><a href="<%= item['publicity'] %>">Publicity</a> <%}%>
                   <% if (item.demo){%><a href="<%= item['demo'] %>">Demo</a> <%}%>
                   <% if (item.repo){%><a href="<%= item['repo'] %>">Repo</a> <%}%>
                 </p>
