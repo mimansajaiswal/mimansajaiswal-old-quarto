@@ -74,13 +74,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="?meta:title">
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Bouquet_EP_cover_art.jpg/220px-Bouquet_EP_cover_art.jpg">
 <meta property="og:site-name" content="Mimansa Jaiswal">
 <meta name="twitter:title" content="?meta:title">
-<meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Bouquet_EP_cover_art.jpg/220px-Bouquet_EP_cover_art.jpg">
 <meta name="twitter:creator" content="@MimansaJ">
 <meta name="twitter:site" content="@MimansaJ">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -149,18 +147,179 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div id="papers-posts-frontpage-card-container">
-   <div id="papers-posts-frontpage-card">
-      <div class="papers-posts-frontpage-front papers-posts-frontpage-face">
-         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Bouquet_EP_cover_art.jpg/220px-Bouquet_EP_cover_art.jpg">
+<div class="grid all-papers-container">
+    <div class="papers-card-container"> 
+      <div class="papers-card"><a href="hottub">
+          <div class="papers-card--display"><i class="material-icons">hot_tub</i>
+            <h5 class="anchored">Hot Tub Time Machine</h5>
+          </div>
+          <div class="papers-card--hover">
+            <h5 class="anchored">Hot Tub Time Machine</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.</p>
+            <p class="link">Click to see project</p>
+          </div></a>
+        <div class="papers-card--border"></div>
       </div>
-      <div class="papers-posts-frontpage-back papers-posts-frontpage-face">
-         <h1>Bouquet</h1>
-         <p class="papers-posts-frontpage-artist">The Chainsmokers</p>
-         <p class="papers-posts-frontpage-date">2015</p>
+    </div>
+    <div class="papers-card-container"> 
+      <div class="papers-card"><a href="worldweb">
+          <div class="papers-card--display"><i class="material-icons">public</i>
+            <h2 class="anchored">World Wide Web</h2>
+          </div>
+          <div class="papers-card--hover">
+            <h2 class="anchored">World Wide Web</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.</p>
+            <p class="papers-link">Click to see project</p>
+          </div></a>
+        <div class="papers-card--border"></div>
       </div>
-   </div>
-</div>
+    </div>
+    <div class="papers-card-container"> 
+      <div class="papers-card"><a href="trainthings">
+          <div class="papers-card--display"><i class="material-icons">train</i>
+            <h2 class="anchored">Why I Hate Trains</h2>
+          </div>
+          <div class="papers-card--hover">
+            <h2 class="anchored">Why I Hate Trains</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.</p>
+            <p class="papers-link">Click to see project</p>
+          </div></a>
+        <div class="papers-card--border"></div>
+      </div>
+    </div>
+    <div class="papers-card-container"> 
+      <div class="papers-card papers-card--dark"><a href="androidupdate">
+          <div class="papers-card--display"><i class="material-icons">android</i>
+            <h2 class="anchored">Another Android Update</h2>
+          </div>
+          <div class="papers-card--hover">
+            <h2 class="anchored">Another Android Update</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.</p>
+            <p class="papers-link">Click to see project</p>
+          </div></a>
+        <div class="papers-card--border"></div>
+      </div>
+    </div>
+    <div class="papers-card-container"> 
+      <div class="papers-card papers-card--dark"><a href="phonesoff">
+          <div class="papers-card--display"><i class="material-icons">ring_volume</i>
+            <h2 class="anchored">Why Phones Are So Loud</h2>
+          </div>
+          <div class="papers-card--hover">
+            <h2 class="anchored">Why Phones Are So Loud</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.</p>
+            <p class="papers-link">Click to see project</p>
+          </div></a>
+        <div class="papers-card--border"></div>
+      </div>
+    </div>
+    </div>
+<!-- //PAPERS
+@media (max-width: 400px) {
+  .all-papers-container {
+    --bs-columns: 1;
+  }
+}
+
+@media (max-width: 992px) {
+  .all-papers-container {
+    --bs-columns: 2;
+  }
+}
+
+.all-papers-container {
+    padding: 30px;
+  --bs-columns: 3;
+    * {
+        box-sizing: border-box;
+    }
+}
+
+.papers-card-container {
+    margin: 30px;
+    
+    .papers-card {
+        position: relative;
+        
+        a {
+            padding: 30px;
+            height: 300px;
+            border: 2px solid black;
+            background: white;
+            text-decoration: none;
+            color: black;
+            display: block;
+            transition: 0.25s ease;
+            
+            &:hover {
+                transform: translate(-30px, -30px);
+                border-color: $pink;
+                
+                .papers-card--display {
+                    display: none;
+                }
+                
+                .papers-card--hover {
+                    display: block;
+                }
+            }
+            
+            .papers-card--display {
+                i {
+                    font-size: 60px;
+                    margin-top: 200px;
+                }
+                
+                h5 {
+                    margin: 20px 0 0;
+                }
+            }
+            
+            .papers-card--hover {
+                display: none;
+                
+                h5 {
+                    margin: 20px 0;
+                }
+                
+                p {
+                    font-weight: normal;
+                    line-height: 1.5;
+                    
+                    &.link {
+                        margin: 20px 0 0;
+                        font-weight: bold;
+                        color: $pink;
+                    }
+                }
+            }
+        }
+        
+        .papers-card--border {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            border: 2px dashed black;
+            z-index: -1;
+        }
+        
+        &.papers-card--dark {
+            a {
+                color: white;
+                background-color: black;
+                border-color: black;
+                
+                .papers-card--hover {
+                    .link {
+                        color: $verylightpurple;
+                    }
+                }
+            }
+        }
+    }
+} -->
 
 
 
