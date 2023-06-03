@@ -1,16 +1,16 @@
 ```{=html}
 <div class="list quarto-listing-custom">
 
-    <div class="detail-list-img-content">
-        <ul class="detail-list-img">
+    <div class="posts-detail-list-img-content">
+        <ul class="posts-detail-list-img">
 
         <%/* create custom listing */%>
 <% for (const item of items) { %>
-  <div class="quarto-post detail-list-img-post" onclick="window.location.href='<%= item["outputHref"] %>'" <%= metadataAttrs(item) %> >
-      <li class="detail-list-img-entity detail-list-img-date" data-content-date="<%= item['date'] %>">
-        <div class="detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
-        <div class="detail-list-img-description">
-            <h5 class="detail-list-img-title"><%= item['threeword'] %></h5>
+  <div class="quarto-post posts-detail-list-img-post" onclick="window.location.href='<%= item["outputHref"] %>'" <%= metadataAttrs(item) %> >
+      <li class="posts-detail-list-img-entity posts-detail-list-img-date" data-content-date="<%= item['date'] %>">
+        <div class="posts-detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
+        <div class="posts-detail-list-img-description">
+            <h5 class="posts-detail-list-img-title"><%= item['threeword'] %></h5>
             <h6><%= item['title'] %></h6>
             <p><%= item['description'] %><% if (item.categories) {%>
                 <div class="listing-categories">

@@ -44,7 +44,7 @@ listing:
     sort-ui: false
     filter-ui: false
   - id: rpapers
-    template: single_page/singlestream.ejs
+    template: single_page/papers.ejs
     contents: 
       - single_page/papers.yaml
     sort: "date desc"
@@ -120,7 +120,6 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 ### Papers
 :::{#rpapers}
 :::
-
 
 <!-- ### Projects
 :::{#rprojects}

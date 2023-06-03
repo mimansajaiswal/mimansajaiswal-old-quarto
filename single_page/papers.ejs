@@ -1,0 +1,19 @@
+```{=html}
+<div class="list grid quarto-listing-custom">
+    <%/* create custom listing */%>
+    <% for (const item of items) { %>
+        <div class="papers-frontpage-card-container quarto-post g-col-12 g-col-sm-12 g-col-md-6" <%= metadataAttrs(item) %> >
+            <div class="papers-frontpage-card">
+               <div class="papers-frontpage-front papers-frontpage-face">
+                  <h5><%= item['title'] %></h5>
+               </div>
+               <div class="papers-frontpage-back papers-frontpage-face">
+                  <h5>Bouquet</h5>
+                  <p class="papers-frontpage-artist">The Chainsmokers</p>
+                  <p class="papers-frontpage-date">2015</p>
+               </div>
+            </div>
+         </div>
+    <% } %>
+</div>
+```

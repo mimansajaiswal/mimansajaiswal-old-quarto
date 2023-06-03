@@ -1,6 +1,9 @@
 - title: "PUBArchived Item 1"
   date: 2020-01-01
   categories: [archived, technology]
-- title: "PUBArchived Item 1"
+- title: "PUBArchived Item 2"
+  date: 2020-01-01
+  categories: [archived, technology]
+- title: "PUBArchived Item 3"
   date: 2020-01-01
   categories: [archived, technology]

@@ -1,0 +1,175 @@
+```{=html}
+<div class="grid all-papers-container">
+    <div class="papers-card-container"> 
+      <div class="papers-card"><a href="hottub">
+          <div class="papers-card--display"><i class="material-icons">hot_tub</i>
+            <h5>Hot Tub Time Machine</h5>
+          </div>
+          <div class="papers-card--hover">
+            <h5>Hot Tub Time Machine</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.</p>
+            <p class="link">Click to see project</p>
+          </div></a>
+        <div class="papers-card--border"></div>
+      </div>
+    </div>
+    <div class="papers-card-container"> 
+      <div class="papers-card"><a href="worldweb">
+          <div class="papers-card--display"><i class="material-icons">public</i>
+            <h2>World Wide Web</h2>
+          </div>
+          <div class="papers-card--hover">
+            <h2>World Wide Web</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.</p>
+            <p class="papers-link">Click to see project</p>
+          </div></a>
+        <div class="papers-card--border"></div>
+      </div>
+    </div>
+    <div class="papers-card-container"> 
+      <div class="papers-card"><a href="trainthings">
+          <div class="papers-card--display"><i class="material-icons">train</i>
+            <h2>Why I Hate Trains</h2>
+          </div>
+          <div class="papers-card--hover">
+            <h2>Why I Hate Trains</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.</p>
+            <p class="papers-link">Click to see project</p>
+          </div></a>
+        <div class="papers-card--border"></div>
+      </div>
+    </div>
+    <div class="papers-card-container"> 
+      <div class="papers-card papers-card--dark"><a href="androidupdate">
+          <div class="papers-card--display"><i class="material-icons">android</i>
+            <h2>Another Android Update</h2>
+          </div>
+          <div class="papers-card--hover">
+            <h2>Another Android Update</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.</p>
+            <p class="papers-link">Click to see project</p>
+          </div></a>
+        <div class="papers-card--border"></div>
+      </div>
+    </div>
+    <div class="papers-card-container"> 
+      <div class="papers-card papers-card--dark"><a href="phonesoff">
+          <div class="papers-card--display"><i class="material-icons">ring_volume</i>
+            <h2>Why Phones Are So Loud</h2>
+          </div>
+          <div class="papers-card--hover">
+            <h2>Why Phones Are So Loud</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.</p>
+            <p class="papers-link">Click to see project</p>
+          </div></a>
+        <div class="papers-card--border"></div>
+      </div>
+    </div>
+    </div>
+```
+<!-- //PAPERS
+@media (max-width: 400px) {
+  .all-papers-container {
+    --bs-columns: 1;
+  }
+}
+
+@media (max-width: 992px) {
+  .all-papers-container {
+    --bs-columns: 2;
+  }
+}
+
+.all-papers-container {
+	padding: 30px;
+  --bs-columns: 3;
+	* {
+		box-sizing: border-box;
+	}
+}
+
+.papers-card-container {
+	margin: 30px;
+	
+	.papers-card {
+		position: relative;
+		
+		a {
+			padding: 30px;
+			height: 300px;
+			border: 2px solid black;
+			background: white;
+			text-decoration: none;
+			color: black;
+			display: block;
+			transition: 0.25s ease;
+			
+			&:hover {
+				transform: translate(-30px, -30px);
+				border-color: $pink;
+				
+				.papers-card--display {
+					display: none;
+				}
+				
+				.papers-card--hover {
+					display: block;
+				}
+			}
+			
+			.papers-card--display {
+				i {
+					font-size: 60px;
+					margin-top: 200px;
+				}
+				
+				h5 {
+					margin: 20px 0 0;
+				}
+			}
+			
+			.papers-card--hover {
+				display: none;
+				
+				h5 {
+					margin: 20px 0;
+				}
+				
+				p {
+					font-weight: normal;
+					line-height: 1.5;
+					
+					&.link {
+						margin: 20px 0 0;
+						font-weight: bold;
+						color: $pink;
+					}
+				}
+			}
+		}
+		
+		.papers-card--border {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			border: 2px dashed black;
+			z-index: -1;
+		}
+		
+		&.papers-card--dark {
+			a {
+				color: white;
+				background-color: black;
+				border-color: black;
+				
+				.papers-card--hover {
+					.link {
+						color: $verylightpurple;
+					}
+				}
+			}
+		}
+	}
+} -->
