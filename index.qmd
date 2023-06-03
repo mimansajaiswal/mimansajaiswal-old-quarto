@@ -31,18 +31,17 @@ listing:
     exclude:
       title: "Posts"
   - id: rnews
-    template: single_page/singlestream.ejs
+    template: about_me/news_about.ejs
     contents: 
       - single_page/news.yaml
     sort: "date desc"
     type: default
     max-items: 5
-    categories: numbered
-    fields: [categories, title, subtitle, date, description, image,outputHref]
+    categories: false
+    fields: [title, date, display-date]
     date-format: MM-DD-YYYY
     sort-ui: false
     filter-ui: false
-    max-description-length: 2000
   - id: rpapers
     template: single_page/singlestream.ejs
     contents: 
@@ -72,7 +71,6 @@ listing:
     template: about_me/experience.ejs
     contents: 
       - about_me/experience.yaml
-    sort: "date desc"
     type: default
     categories: false
     fields: [title, year, subtitle, people, titlehref, position]
@@ -114,7 +112,7 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 :::{#experience}
 :::
 
-### News
+### Updates
 :::{#rnews}
 :::
 

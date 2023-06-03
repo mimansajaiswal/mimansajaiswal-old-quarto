@@ -958,6 +958,42 @@ papers-img {
 
 
 
+//NEWS
+
+/* list styles */
+
+.news-ol {
+  list-style: none;
+}
+
+.news-li {
+  position: relative;
+}
+
+.news-p {
+  padding-left: 100px;
+}
+
+.news-span {
+  position: absolute;
+  font-weight:600;
+  color: rgba($blue, .7);
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .news-span {
+    position: relative;
+  }
+  .news-p {
+    padding-left: 0px;
+  }
+}
+
+
+
+
+
 
 
 
