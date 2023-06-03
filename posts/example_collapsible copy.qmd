@@ -9,7 +9,6 @@ filters:
 draft: false
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
 threeword: collpased exmps
-press: www.google.com
 ---
 
 ### Github Gist

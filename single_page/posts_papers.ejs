@@ -1,0 +1,41 @@
+```{=html}
+<div class="list quarto-listing-custom">
+
+    <div class="detail-list-img-content">
+        <ul class="detail-list-img">
+
+        <%/* create custom listing */%>
+<% for (const item of items) { %>
+  <div class="quarto-post detail-list-img-post" <%= metadataAttrs(item) %>>
+      <li class="detail-list-img-entity detail-list-img-date" data-content-date="<%= item['date'] %>">
+        <div class="detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
+        <div class="detail-list-img-description">
+            <h5 class="detail-list-img-title"><%= item['threeword'] %></h5>
+            <h6><%= item['title'] %></h6>
+            <p><%= item['description'] %><% if (item.categories) {%>
+                <div class="listing-categories">
+                  <% for (const category of item.categories) { %>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/<%=category%>'); return false;"><%= category %></div>
+                  <% } %>
+                  </div>
+                  <% } %>
+                  <% if (item.read){%><a href="<%= item['read'] %>">Read</a> <%}%>
+                  <% if (item.ispost){%><a href="<%= item['outputHref'] %>">Read</a> <%}%>
+                  <% if (item.tweethread){%><a href="<%= item['tweetthread'] %>">Twitter Thread</a> <%}%>
+                  <% if (item.relatedpost){%><a href="<%= item['relatedpost'] %>">Post</a> <%}%>
+                  <% if (item.relatedpaper){%><a href="<%= item['relatedpaper'] %>">Paper</a> <%}%>
+                  <% if (item.press){%><a href="<%= item['news'] %>">Publicity</a> <%}%>
+                  <% if (item.demo){%><a href="<%= item['demo'] %>">Demo</a> <%}%>
+                  <% if (item.repo){%><a href="<%= item['repo'] %>">Repo</a> <%}%>
+                </p>
+        </div>
+    </li>
+
+</div>
+
+<% } %>
+
+	</ul>
+</div>
+</div>
+```

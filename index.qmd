@@ -19,21 +19,22 @@ about:
       href: https://www.linkedin.com/in/mimansajaiswal
 listing:
   - id: rposts
+    template: single_page/posts_papers.ejs
     contents: [posts]
     max-items: 5
     sort: "date desc"
     categories: false
-    fields: [date, title, description, categories]
+    fields: [date, title, description, categories, image, threeword, outputHref, ispost, tweetthread, relatedpost, relatedpaper, news, demo, demo, repo]
     feed: false
     filter-ui: false
     sort-ui: false
     date-format: MM-DD-YYYY
     exclude:
       title: "Posts"
-  - id: rnews
-    template: about_me/news_about.ejs
+  - id: rupdates
+    template: about_me/updates_about.ejs
     contents: 
-      - single_page/news.yaml
+      - single_page/updates.yaml
     sort: "date desc"
     type: default
     max-items: 5
@@ -106,14 +107,13 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 ### Education
 :::{#education}
 :::
-{{< include about_me/papers_about.qmd >}}
 
 ### Experience
 :::{#experience}
 :::
 
 ### Updates
-:::{#rnews}
+:::{#rupdates}
 :::
 
 

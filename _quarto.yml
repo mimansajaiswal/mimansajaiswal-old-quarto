@@ -23,7 +23,7 @@ website:
     search: true
     left:
       - icon: newspaper
-        href: single_page/news.qmd
+        href: single_page/updates.qmd
       - icon: postcard
         href: single_page/papers.qmd
       # - icon: folder2
@@ -53,7 +53,7 @@ format:
       title-block-banner: false
       author: Mimansa Jaiswal
       title-block-categories: true
-      toc-depth: 5
+      toc-depth: 7
 
 comments:
   giscus: 
