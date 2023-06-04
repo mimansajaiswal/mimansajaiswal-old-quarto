@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Shafayet Khan Shafee">
-<meta name="dcterms.date" content="2023-06-04">
-<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore">
+<meta name="author" content="Mimansa Jaiswal">
 
-<title>Collapse-social-embeds Example</title>
+<title>?meta:title</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -42,7 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/collapse-social-embeds-1.0.0/collapse.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,11 +73,9 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<meta property="og:title" content="Collapse-social-embeds Example">
-<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore">
+<meta property="og:title" content="?meta:title">
 <meta property="og:site-name" content="Mimansa Jaiswal">
-<meta name="twitter:title" content="Collapse-social-embeds Example">
-<meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore">
+<meta name="twitter:title" content="?meta:title">
 <meta name="twitter:creator" content="@MimansaJ">
 <meta name="twitter:site" content="@MimansaJ">
 <meta name="twitter:card" content="summary">
@@ -150,172 +145,132 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Collapse-social-embeds Example</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Try</div>
-    <div class="quarto-category">Example</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
-  </div>
-</div>
 
 
-<div class="quarto-title-meta">
+<br>
+<div class="list grid quarto-listing-custom">
+    &lt;%/* create custom listing */%&gt;
+    &lt;% for (const item of items) { %&gt;
+        <div class="papers-card-container quarto-post g-col-12 g-col-sm-12 g-col-md-6" data-content-date=" <%= item['date'] %>" <%="metadataAttrs(item)" %=""> &gt;
+            <div class="papers-card">
+               <div class="papers-front papers-face">
+                  &lt;%= item['title'] %&gt;
+                  &lt;% if (item.categories) {%&gt;
+                     <div class="listing-categories">
+                       &lt;% for (const category of item.categories) { %&gt;
+                       <div class="listing-category">&lt;%= category %&gt;</div>
+                       &lt;% } %&gt;
+                       </div>
+                       &lt;% } %&gt;
+                  &lt;%= item['authors'] %&gt;
+               </div>
+               <div class="papers-back papers-face">
+                  <b>&lt;%= item['title'] %&gt;</b>
+                  &lt;% if (item.categories) {%&gt;
+                     <div class="listing-categories">
+                       &lt;% for (const category of item.categories) { %&gt;
+                       <div class="listing-category" onclick="window.quartoListingCategory('/papers/<%=category%>'); return false;">&lt;%= category %&gt;</div>
+                       &lt;% } %&gt;
+                       </div>
+                       &lt;% } %&gt;
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Shafayet Khan Shafee </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 4, 2023</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
+                       <p class="papers-back-description">&lt;%= item['description'] %&gt;</p>
+                       <div class="papers-back-links">
+                       &lt;% if (item.href){%&gt;<a href="<%= item['href'] %>">PDF</a> &lt;%}%&gt;
+                       &lt;% if (item.tweethread){%&gt;<a href="<%= item['tweetthread'] %>">Twitter Thread</a> &lt;%}%&gt;
+                       &lt;% if (item.relatedpost){%&gt;<a href="<%= item['relatedpost'] %>">Post</a> &lt;%}%&gt;
+                       &lt;% if (item.relatedpaper){%&gt;<a href="<%= item['relatedpaper'] %>">Paper</a> &lt;%}%&gt;
+                       &lt;% if (item.press){%&gt;<a href="<%= item['publicity'] %>">Publicity</a> &lt;%}%&gt;
+                       &lt;% if (item.demo){%&gt;<a href="<%= item['demo'] %>">Demo</a> &lt;%}%&gt;
+                       &lt;% if (item.repo){%&gt;<a href="<%= item['repo'] %>">Repo</a> &lt;%}%&gt;
+                     </div>
+               </div>
+            </div>
+         </div>
+    &lt;% } %&gt;
+</div>
+<!-- .papers-card-container {
+  position: relative;
+  height: 200px;
+  z-index: 1;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem !important;
+  border-bottom: 0em !important;
+}
+.papers-card-container:after {
+  content: attr(data-content-date);
+  font-family: monospace;
+    font-size: 0.75em;
+    position: absolute;
+    top: -1.5em;
+    background: $lightpink;
+    right: 4em;
+    transform: rotate(3deg);
+    padding: 0.35em 0.75em 0.5em;
+    border-radius: 0.25em;
+    color: $purple;
+    font-weight: bold;
+}
+.papers-card-container:before {
+  content: attr(data-content-publisher);
+  font-family: monospace;
+    font-size: 0.75em;
+    position: absolute;
+    top: -1.5em;
+    background: $verylightpurple;
+    left: 4em;
+    transform: rotate(-3deg);
+    padding: 0.35em 0.75em 0.5em;
+    border-radius: 0.25em;
+    color: $purple;
+}
+.papers-card{
+  transform-style: preserve-3d;
+  transition: all .8s linear;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 0 rgba($pink, .3);
+}
 
-</header>
+.papers-card {
+  &:hover {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 15px rgba($indigo, .3);
+  }
+}
 
-<section id="github-gist" class="level3">
-<h3 class="anchored" data-anchor-id="github-gist">Github Gist</h3>
-<div class="gist">
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<script src="https://gist.github.com/tarleb/852f6ae98764bea56aeeac979f3c17be.js"></script>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="loom" class="level3">
-<h3 class="anchored" data-anchor-id="loom">Loom</h3>
-<div class="loom">
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/8619b03224f74282b6d56cbedbcd3fc6" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="mastodon" class="level3">
-<h3 class="anchored" data-anchor-id="mastodon">Mastodon</h3>
-<div class="mstd">
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"> <iframe src="https://fosstodon.org/@pandoc/109712438144865859/embed" class="mastodon-embed" style="max-width: 100%; border: 0;" width="100%" height="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.social/embed.js" async="async"></script></div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="tweets" class="level3">
-<h3 class="anchored" data-anchor-id="tweets">Tweets</h3>
-<div class="tweet">
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div id="tweet-88788"></div><script>tweet={"url":"https:\/\/twitter.com\/pandoc_tips\/status\/1576105972103516160","author_name":"\uD83D\uDC18 @pandoc@fosstodon.org","author_url":"https:\/\/twitter.com\/pandoc_tips","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ECurrent and aspiring authors of Lua filters might benefit from the resources published by \u003Ca href=\"https:\/\/twitter.com\/quarto_pub?ref_src=twsrc%5Etfw\"\u003E@quarto_pub\u003C\/a\u003E, including many links to tutorials and a VS Code extension that supports type checking.\u003Ca href=\"https:\/\/t.co\/WeWzE8V5P2\"\u003Ehttps:\/\/t.co\/WeWzE8V5P2\u003C\/a\u003E\u003C\/p\u003E&mdash; \uD83D\uDC18 @pandoc@fosstodon.org (@pandoc_tips) \u003Ca href=\"https:\/\/twitter.com\/pandoc_tips\/status\/1576105972103516160?ref_src=twsrc%5Etfw\"\u003EOctober 1, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-88788").innerHTML = tweet["html"];</script>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="vimeo" class="level3">
-<h3 class="anchored" data-anchor-id="vimeo">Vimeo</h3>
-<div class="vimeo">
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"> <iframe src="https://player.vimeo.com/video/783455878" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> </div> 
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="youtube" class="level3">
-<h3 class="anchored" data-anchor-id="youtube">Youtube</h3>
-<div class="youtube">
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/mrvhk2XUfWo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</div>
-</div>
-</div>
-</div>
+.papers-face {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.papers-back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+}
+
+div.papers-back-links > a {
+  font-size: small;
+    display: inline-block !important;
+    margin: 0.5em 0 0 0 !important;
+    background: $pink !important;
+    color: $white !important;
+    padding: 0.1em 0.5em 0.35em !important;
+    border-radius: 0.5em !important;
+    text-decoration: none !important;
+    transition: $trans !important;
+}
+.papers-back-description{
+  font-size: small;
+}
+.papers-back-links{
+  text-align: left;
+} -->
 
 
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
