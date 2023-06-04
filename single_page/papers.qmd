@@ -8,7 +8,7 @@ listing:
   sort: "date desc"
   type: default
   categories: numbered
-  fields: [categories, title, subtitle, date, description, image,outputHref]
+  fields: [categories, title, subtitle, date, description, image,outputHref, display-date, authors]
   date-format: MM-DD-YYYY
   sort-ui: false
   filter-ui: false

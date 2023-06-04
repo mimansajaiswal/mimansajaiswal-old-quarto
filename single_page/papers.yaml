@@ -6,6 +6,7 @@
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim. 
   authors: Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
   publisher: arxiv
+  display-date: Jan 2020
 - title: "PUBArchived Item 2"
   date: 2020-01-01
   categories: [archived, technology]
@@ -14,6 +15,7 @@
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim. 
   authors: Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
   publisher: arxiv
+  display-date: May 2020
 - title: "PUBArchived Item 3"
   date: 2020-01-01
   categories: [archived, technology]
@@ -22,3 +24,4 @@
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim. 
   authors: Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
   publisher: arxiv
+  display-date: Jun 2020

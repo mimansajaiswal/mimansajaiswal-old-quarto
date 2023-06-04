@@ -1,35 +1,61 @@
 ```{=html}
 <br>
-<div class="list grid quarto-listing-custom">
-   <%/* create custom listing */%>
-   <% for (const item of items) { %>
-   <div class="papers-card quarto-post g-col-12 g-col-sm-6 g-col-md-4" <%= metadataAttrs(item) %> >
-      <div class="papers-main-metadata-date"><%= item['date'] %></div>
-      <div class="papers-main-metadata-publisher"><%= item['publisher'] %></div>
-      <div class="papers-main-content">
-         <%= item['title'] %>
-         <% if (item.categories) {%>
-            <div class="listing-categories">
-               <% for (const category of item.categories) { %>
-               <div class="listing-category" onclick="window.quartoListingCategory('/papers/<%=category%>'); return false;"><%= category %></div>
-               <% } %>
+<div class="list quarto-listing-custom">
+   <% /* create custom listing */%>
+      <% for (const item of items) { %>
+         <div class="papers-card quarto-post" <%=metadataAttrs(item) %> >
+            <div class="papers-main-metadata-display-date">
+               <%= item['display-date'] %>
             </div>
-         <% } %>
-         <%= item['authors'] %>
-         <div class="papers-hover_content">
-            <p class="papers-back-description"><%= item['description'] %></p>
-            <div class="papers-back-links">
-               <% if (item.href){%><a href="<%= item['href'] %>" >PDF</a> <%}%>
-               <% if (item.tweethread){%><a href="<%= item['tweetthread'] %>">Twitter Thread</a> <%}%>
-               <% if (item.relatedpost){%><a href="<%= item['relatedpost'] %>">Post</a> <%}%>
-               <% if (item.relatedpaper){%><a href="<%= item['relatedpaper'] %>">Paper</a> <%}%>
-               <% if (item.press){%><a href="<%= item['publicity'] %>">Publicity</a> <%}%>
-               <% if (item.demo){%><a href="<%= item['demo'] %>">Demo</a> <%}%>
-               <% if (item.repo){%><a href="<%= item['repo'] %>">Repo</a> <%}%>
+            <div class="papers-main-metadata-publisher">
+               <%= item['publisher'] %>
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  <%= item['title'] %>
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     <%= item['publisher'] %>,
+                        <%= item['display-date'] %>
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  <%= item['authors'] %>
+               </p>
+               <% if (item.categories) {%>
+                  <div class="listing-categories">
+                     <% for (const category of item.categories) { %>
+                        <div class="listing-category"
+                           onclick="window.quartoListingCategory('/papers/<%=category%>'); return false;">
+                           <%= category %>
+                        </div>
+                        <% } %>
+                  </div>
+                  <% } %>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           <%= item['description'] %>
+                        </p>
+                        <div class="papers-back-links">
+                           <% if (item.href){%><a href="<%= item['href'] %>">PDF</a>
+                              <%}%>
+                                 <% if (item.tweethread){%><a href="<%= item['tweetthread'] %>">Twitter Thread</a>
+                                    <%}%>
+                                       <% if (item.relatedpost){%><a href="<%= item['relatedpost'] %>">Post</a>
+                                          <%}%>
+                                             <% if (item.relatedpaper){%><a href="<%= item['relatedpaper'] %>">Paper</a>
+                                                <%}%>
+                                                   <% if (item.press){%><a href="<%= item['publicity'] %>">Publicity</a>
+                                                      <%}%>
+                                                         <% if (item.demo){%><a href="<%= item['demo'] %>">Demo</a>
+                                                            <%}%>
+                                                               <% if (item.repo){%><a
+                                                                     href="<%= item['repo'] %>">Repo</a>
+                                                                  <%}%>
+                        </div>
+                     </div>
             </div>
          </div>
-      </div>
-   </div>
-   <% } %>
+         <% } %>
 </div>
 ```
