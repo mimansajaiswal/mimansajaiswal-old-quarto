@@ -2,7 +2,7 @@
 title: "Mimansa Jaiswal"
 about:
   id: about-section
-  template: solana
+  template: about_me/about_mod.ejs.html
   image: images/me.jpg
   links:
     - icon: twitter

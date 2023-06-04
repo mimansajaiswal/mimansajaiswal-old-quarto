@@ -2,7 +2,6 @@
 title: "Papers"
 listing:
   id: all-papers
-  template: singlestream.ejs
   contents: 
     - papers.yaml
   sort: "date desc"

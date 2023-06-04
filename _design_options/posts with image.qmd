@@ -1,0 +1,224 @@
+```{=html}
+<div class="list quarto-listing-custom">
+
+    <div class="posts-detail-list-img-content">
+        <ul class="posts-detail-list-img">
+
+        <%/* create custom listing */%>
+<% for (const item of items) { %>
+  <div class="quarto-post posts-detail-list-img-post" onclick="window.location.href='<%= item["outputHref"] %>'" <%= metadataAttrs(item) %> >
+      <li class="posts-detail-list-img-entity posts-detail-list-img-date" data-content-date="<%= item['date'] %>">
+        <div class="posts-detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
+        <div class="posts-detail-list-img-description">
+            <h5 class="posts-detail-list-img-title"><%= item['threeword'] %></h5>
+            <h6><%= item['title'] %></h6>
+            <p><%= item['description'] %><% if (item.categories) {%>
+                <div class="listing-categories">
+                  <% for (const category of item.categories) { %>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/<%=category%>'); return false;"><%= category %></div>
+                  <% } %>
+                  </div>
+                  <% } %>
+                  <% if (item.tweethread){%><a href="<%= item['tweetthread'] %>">Twitter Thread</a> <%}%>
+                  <% if (item.relatedpost){%><a href="<%= item['relatedpost'] %>">Post</a> <%}%>
+                  <% if (item.relatedpaper){%><a href="<%= item['relatedpaper'] %>">Paper</a> <%}%>
+                  <% if (item.press){%><a href="<%= item['publicity'] %>">Publicity</a> <%}%>
+                  <% if (item.demo){%><a href="<%= item['demo'] %>">Demo</a> <%}%>
+                  <% if (item.repo){%><a href="<%= item['repo'] %>">Repo</a> <%}%>
+                </p>
+        </div>
+    </li>
+
+</div>
+
+<% } %>
+
+	</ul>
+</div>
+</div>
+```
+
+//POSTS
+$deg: -86deg;
+$trans: all 0.4s ease 0s;
+
+.posts-detail-list-img {
+  padding: 0em;
+  margin: 0;
+}
+
+.posts-detail-list-img .quarto-post {
+  margin: 0em;
+  cursor: pointer;
+}
+
+.posts-detail-list-img-entity {
+  margin: 1.5em 0 0.5em;
+  padding: 0.73em;
+  box-shadow: 5px 5px 1px $verylightpink;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  transform: scale(0.85);
+  transition: $trans;
+}
+
+.posts-detail-list-img-post:nth-of-type(even) .posts-detail-list-img-entity {
+  text-align: right;
+  box-shadow: -5px 5px 1px $verylightpink;
+}
+
+.posts-detail-list-img-post:nth-of-type(even)>li>div.posts-detail-list-img-description>.listing-categories {
+  justify-content: right;
+}
+
+.posts-detail-list-img-post:nth-of-type(even) .posts-detail-list-img-entity:hover {
+  text-align: right;
+  box-shadow: -5px 5px 1px $lightpink;
+}
+
+.posts-detail-list-img-thumb {
+  width: 13vmin;
+  height: 13vmin;
+  float: left;
+  margin-right: 1.25em;
+  background: linear-gradient($deg,
+      $lightpurple 0 70%,
+      $lightpink 0% 100%);
+  transform: rotate(-4deg);
+  transition: $trans;
+  border-radius: 0.25em;
+  overflow: hidden;
+  margin-left: -3em;
+  padding: 0.5em;
+}
+
+.posts-detail-list-img-post:nth-of-type(even) .posts-detail-list-img-entity .posts-detail-list-img-thumb {
+  --deg: 86deg;
+  float: right;
+  margin-left: 2em;
+  margin-right: -3em;
+  transform: rotate(4deg);
+}
+
+.posts-detail-list-img-thumb img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.25em;
+  filter: grayscale(1);
+  background: $purple;
+}
+
+.posts-detail-list-img-entity:hover {
+  transform: scale(0.9);
+  transition: $trans;
+  box-shadow: 5px 5px 2px $lightpink;
+}
+
+.posts-detail-list-img-entity:hover .posts-detail-list-img-thumb,
+.posts-detail-list-img-post:nth-of-type(even):hover .posts-detail-list-img-entity .posts-detail-list-img-thumb {
+  padding: 0.1em;
+  transition: $trans;
+  transform: rotate(-1deg);
+  --deg: -89deg;
+}
+
+.posts-detail-list-img-entity:hover .posts-detail-list-img-thumb img {
+  filter: none;
+  transition: $trans;
+}
+
+.posts-detail-list-img-description p {
+  padding: 0 2em;
+  margin-bottom: 1em;
+}
+
+.posts-detail-list-img-title {
+  background: $purple;
+  display: inline;
+  transform: rotate(-2deg);
+  position: absolute;
+  margin: 10px;
+  margin-top: -2.25em;
+  left: 9vmin;
+  padding: 0.25em 0.5em;
+  color: $verylightpink;
+  border-radius: 0.25em;
+  font-size: 1.35em;
+  transform-origin: left bottom;
+}
+
+.posts-detail-list-img-post:nth-of-type(even) .posts-detail-list-img-entity h5 {
+  left: inherit;
+  right: 9vmin;
+  transform: rotate(2deg);
+  transform-origin: right bottom;
+}
+
+.posts-detail-list-img-entity:hover h5,
+.posts-detail-list-img-post:nth-of-type(even) .posts-detail-list-img-entity:hover h5 {
+  transition: $trans;
+  transform: rotate(0deg);
+  background: rgba($pink, 0.7)
+}
+
+.posts-detail-list-img-date:after {
+  content: attr(data-content-date);
+  font-family: monospace;
+  font-size: 0.75em;
+  position: absolute;
+  top: -1.5em;
+  background: $lightpink;
+  right: 4em;
+  transform: rotate(3deg);
+  padding: 0.35em 0.75em 0.5em;
+  border-radius: 0.25em;
+  color: $purple;
+  font-weight: bold;
+}
+
+.posts-detail-list-img-post:nth-of-type(even) .posts-detail-list-img-date:after {
+  right: inherit;
+  left: 4em;
+  transform: rotate(-3deg);
+}
+
+.posts-detail-list-img-description a {
+  font-size: small;
+  display: inline-block !important;
+  margin: 0.5em 0 0 0 !important;
+  background: $indigo !important;
+  color: $white !important;
+  padding: 0.1em 0.5em 0.35em !important;
+  border-radius: 0.5em !important;
+  text-decoration: none !important;
+  transition: $trans !important;
+}
+
+.posts-detail-list-img-description a img {
+  float: left;
+  width: 22px;
+  filter: invert(1);
+  border-radius: 0.15em;
+  padding: 2px;
+  background: #fff;
+  margin-right: 2px;
+}
+
+.posts-detail-list-img .quarto-post {
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .posts-detail-list-img-date:after {
+    right: 0.2em;
+  }
+
+  .posts-detail-list-img-post:nth-of-type(even) .posts-detail-list-img-date:after {
+    left: 0.2em;
+  }
+
+  .posts-detail-list-img .quarto-post {
+    padding-bottom: 0em;
+  }
+}

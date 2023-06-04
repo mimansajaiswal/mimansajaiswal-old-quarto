@@ -2,7 +2,6 @@
 title: "News"
 listing:
   id: all-news
-  template: singlestream.ejs
   contents: 
     - news.yaml
   sort: "date desc"
