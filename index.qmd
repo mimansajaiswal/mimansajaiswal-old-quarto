@@ -121,10 +121,6 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 :::{#rpapers}
 :::
 
-<!-- ### Projects
-:::{#rprojects}
-::: -->
-
 
 ### Posts
 :::{#rposts}

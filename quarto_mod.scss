@@ -820,7 +820,7 @@ div.perspective {
       ;
   }
   .resint_card-resint_card2 {
-    transform: rotate(-4.5deg) translatex(-22%);
+    transform: rotate(-15deg) translatex(-22%);
     box-shadow:
       0 1px 2px 0 rgba($gray-400, 0.4),
       0 2px 6px 0 rgba($gray-400, 0.4)
@@ -1104,17 +1104,42 @@ $trans: all 0.4s ease 0s;
 
 //PAPERS
 
-.papers-frontpage-card-container {
+.papers-card-container {
   position: relative;
   height: 200px;
   z-index: 1;
   border-radius: 0.25rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem !important;
   border-bottom: 0em !important;
 }
-
-
-.papers-frontpage-card{
+.papers-card-container:after {
+  content: attr(data-content-date);
+  font-family: monospace;
+	font-size: 0.75em;
+	position: absolute;
+	top: -1.5em;
+	background: $lightpink;
+	right: 4em;
+	transform: rotate(3deg);
+	padding: 0.35em 0.75em 0.5em;
+	border-radius: 0.25em;
+	color: $purple;
+	font-weight: bold;
+}
+.papers-card-container:before {
+  content: attr(data-content-publisher);
+  font-family: monospace;
+	font-size: 0.75em;
+	position: absolute;
+	top: -1.5em;
+	background: $verylightpurple;
+	left: 4em;
+	transform: rotate(-3deg);
+	padding: 0.35em 0.75em 0.5em;
+	border-radius: 0.25em;
+	color: $purple;
+}
+.papers-card{
   transform-style: preserve-3d;
   transition: all .8s linear;
   height: 100%;
@@ -1125,25 +1150,39 @@ $trans: all 0.4s ease 0s;
   box-shadow: 1px 1px 0 rgba($pink, .3);
 }
 
-.papers-frontpage-card {
+.papers-card {
   &:hover {
     transform: rotateY(180deg);
     box-shadow: -5px 5px 15px rgba($indigo, .3);
   }
 }
 
-.papers-frontpage-face {
+.papers-face {
   position: absolute;
-  width: 100%;
-  height: 100%;
   backface-visibility: hidden;
 }
-.papers-frontpage-back {
+.papers-back {
   display: block;
   transform: rotateY(180deg);
   box-sizing: border-box;
-  padding: 10px;
-  text-align: center;
+}
+
+div.papers-back-links > a {
+  font-size: small;
+	display: inline-block !important;
+	margin: 0.5em 0 0 0 !important;
+	background: $pink !important;
+	color: $white !important;
+	padding: 0.1em 0.5em 0.35em !important;
+	border-radius: 0.5em !important;
+	text-decoration: none !important;
+	transition: $trans !important;
+}
+.papers-back-description{
+  font-size: small;
+}
+.papers-back-links{
+  text-align: left;
 }
 
 
