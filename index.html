@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image','listing-outputHref',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-categories","listing-href","listing-twitterthread","listing-description","listing-authors","listing-publisher"],
+      searchColumns: ["listing-title","listing-date","listing-categories","listing-href","listing-twitterthread","listing-description","listing-authors","listing-publisher","listing-display-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -529,61 +529,118 @@ No matching items
 <h3 data-anchor-id="papers">Papers</h3>
 <div id="listing-rpapers" class="quarto-listing quarto-listing-container-custom">
 <br>
-<div class="list grid quarto-listing-custom">
-   <div class="papers-card quarto-post g-col-12 g-col-sm-6 g-col-md-4" data-index="0" data-categories="archived,technology" data-listing-date-sort="1577836800000">
-      <div class="papers-main-metadata-date">01-01-2020</div>
-      <div class="papers-main-metadata-publisher">arxiv</div>
-      <div class="papers-main-content">
-         PUBArchived Item 1
-            <div class="listing-categories">
-               <div class="listing-category" onclick="window.quartoListingCategory('/papers/archived'); return false;">archived</div>
-               <div class="listing-category" onclick="window.quartoListingCategory('/papers/technology'); return false;">technology</div>
+<div class="list quarto-listing-custom">
+         <div class="papers-card quarto-post" data-index="0" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+            <div class="papers-main-metadata-display-date">
+               Jan 2020
             </div>
-         Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
-         <div class="papers-hover_content">
-            <p class="papers-back-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim.</p>
-            <div class="papers-back-links">
-               <a href="www.google.com">PDF</a> 
+            <div class="papers-main-metadata-publisher">
+               arxiv
             </div>
-         </div>
-      </div>
-   </div>
-   <div class="papers-card quarto-post g-col-12 g-col-sm-6 g-col-md-4" data-index="1" data-categories="archived,technology" data-listing-date-sort="1577836800000">
-      <div class="papers-main-metadata-date">01-01-2020</div>
-      <div class="papers-main-metadata-publisher">arxiv</div>
-      <div class="papers-main-content">
-         PUBArchived Item 2
-            <div class="listing-categories">
-               <div class="listing-category" onclick="window.quartoListingCategory('/papers/archived'); return false;">archived</div>
-               <div class="listing-category" onclick="window.quartoListingCategory('/papers/technology'); return false;">technology</div>
-            </div>
-         Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
-         <div class="papers-hover_content">
-            <p class="papers-back-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim.</p>
-            <div class="papers-back-links">
-               <a href="www.google.com">PDF</a> 
-            </div>
-         </div>
-      </div>
-   </div>
-   <div class="papers-card quarto-post g-col-12 g-col-sm-6 g-col-md-4" data-index="2" data-categories="archived,technology" data-listing-date-sort="1577836800000">
-      <div class="papers-main-metadata-date">01-01-2020</div>
-      <div class="papers-main-metadata-publisher">arxiv</div>
-      <div class="papers-main-content">
-         PUBArchived Item 3
-            <div class="listing-categories">
-               <div class="listing-category" onclick="window.quartoListingCategory('/papers/archived'); return false;">archived</div>
-               <div class="listing-category" onclick="window.quartoListingCategory('/papers/technology'); return false;">technology</div>
-            </div>
-         Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
-         <div class="papers-hover_content">
-            <p class="papers-back-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim.</p>
-            <div class="papers-back-links">
-               <a href="www.google.com">PDF</a> 
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  PUBArchived Item 1
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     arxiv,
+                        Jan 2020
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/archived'); return false;">
+                           archived
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/technology'); return false;">
+                           technology
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim.
+                        </p>
+                        <div class="papers-back-links">
+                           <a href="www.google.com">PDF</a>
+                        </div>
+                     </div>
             </div>
          </div>
-      </div>
-   </div>
+         <div class="papers-card quarto-post" data-index="1" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+            <div class="papers-main-metadata-display-date">
+               May 2020
+            </div>
+            <div class="papers-main-metadata-publisher">
+               arxiv
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  PUBArchived Item 2
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     arxiv,
+                        May 2020
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/archived'); return false;">
+                           archived
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/technology'); return false;">
+                           technology
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim.
+                        </p>
+                        <div class="papers-back-links">
+                           <a href="www.google.com">PDF</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="2" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+            <div class="papers-main-metadata-display-date">
+               Jun 2020
+            </div>
+            <div class="papers-main-metadata-publisher">
+               arxiv
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  PUBArchived Item 3
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     arxiv,
+                        Jun 2020
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/archived'); return false;">
+                           archived
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/technology'); return false;">
+                           technology
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim.
+                        </p>
+                        <div class="papers-back-links">
+                           <a href="www.google.com">PDF</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -596,7 +653,7 @@ No matching items
 <div class="list quarto-listing-custom">
     <div class="posts-detail-list-img-content">
         <ul class="posts-detail-list-img">
-  <div class="quarto-post posts-detail-list-img-post" onclick="window.location.href='posts/example_collapsible copy.html'" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685873050000" data-listing-file-modified-sort="1685873050317" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post posts-detail-list-img-post" onclick="window.location.href='posts/example_collapsible copy.html'" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685909664000" data-listing-file-modified-sort="1685909664577" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
       <li class="posts-detail-list-img-entity posts-detail-list-img-date" data-content-date="06-04-2023">
         <div class="posts-detail-list-img-thumb"><img src=""></div>
         <div class="posts-detail-list-img-description">
@@ -611,7 +668,7 @@ No matching items
         </div>
     </li>
 </div>
-  <div class="quarto-post posts-detail-list-img-post" onclick="window.location.href='posts/example_collapsible.html'" data-index="1" data-categories="Try,Example" data-listing-date-sort="1685873050000" data-listing-file-modified-sort="1685873050317" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post posts-detail-list-img-post" onclick="window.location.href='posts/example_collapsible.html'" data-index="1" data-categories="Try,Example" data-listing-date-sort="1685909664000" data-listing-file-modified-sort="1685909664577" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
       <li class="posts-detail-list-img-entity posts-detail-list-img-date" data-content-date="06-04-2023">
         <div class="posts-detail-list-img-thumb"><img src=""></div>
         <div class="posts-detail-list-img-description">
