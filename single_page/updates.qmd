@@ -1,9 +1,10 @@
 ---
-title: "News"
+title: "Updates"
 listing:
-  id: all-news
+  template: updates.ejs
+  id: all-updates
   contents: 
-    - news.yaml
+    - updates.yaml
   sort: "date desc"
   type: default
   categories: numbered

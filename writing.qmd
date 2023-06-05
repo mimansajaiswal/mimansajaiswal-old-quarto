@@ -15,7 +15,7 @@ listing:
     exclude:
       title: "Notes"
   - id: rupdates
-    template: about_me/updates_about.ejs
+    template: single_page/updates.ejs
     contents: 
       - single_page/updates.yaml
     sort: "date desc"

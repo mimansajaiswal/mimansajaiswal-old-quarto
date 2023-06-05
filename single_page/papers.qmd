@@ -2,6 +2,7 @@
 title: "Papers"
 listing:
   id: all-papers
+  template: papers.ejs
   contents: 
     - papers.yaml
   sort: "date desc"
