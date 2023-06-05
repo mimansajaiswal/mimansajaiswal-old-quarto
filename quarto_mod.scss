@@ -1156,7 +1156,7 @@ $trans: all 0.4s ease 0s;
 .notes-detail-list-img-date:after {
   content: attr(data-content-date);
   font-family: monospace;
-  font-size: small;
+  font-size: smaller;
   position: absolute;
   top: -1.5em;
   background: $lightpink;
