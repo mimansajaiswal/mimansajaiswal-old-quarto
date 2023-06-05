@@ -1,6 +1,6 @@
 ---
-title: "Collapse-social-embeds Example"
-date: last-modified
+title: "CAPSTONE: Capability Assessment Protocol for Systematic Testing Of Natural language models Expertise"
+date: 2023-03-01
 format: html
 categories: [Text, Evaluation, Metric Design, Schema, Interpretation, Data Annotation, Foundation Models]
 filters:
