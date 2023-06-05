@@ -1,6 +1,8 @@
 <div class="small-profile-card" small-profile-data-state="#small-profile-about">
   <div class="small-profile-card-header">
-    <div class="small-profile-card-cover" style="background-image: url('https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80')"></div>
+    <div class="small-profile-card-cover"
+      style="background-image: url('https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80')">
+    </div>
     <img class="small-profile-card-avatar" src="../images/me.jpg" alt="small-profile-avatar" />
     <p class="small-profile-card-fullname">Mimansa Jaiswal</p>
     <p class="small-profile-card-jobtitle">NLP Researcher (Eval & XAI)</em></p>
@@ -10,25 +12,47 @@
       <div class="small-profile-card-content">
         <div class="small-profile-card-subtitle">ABOUT</div>
         <p class="small-profile-card-desc">
-          Hi, I'm Mimansa, a final year PhD candidate in Computer Science at the University of Michigan. My research focuses on <b><em>developing cost-effective data collection, manipulation and evaluation methods that are interpretable and human aligned.</em></b><br>I've also interned at Allen AI NLP, Facebook AI Research (FAIR) NLP, and Facebook Research Conversational AI, where I conducted research on similar topics.
+          Hi, I'm Mimansa, a final year PhD candidate in Computer Science at the University of Michigan. My research
+          focuses on <b><em>developing cost-effective data collection, manipulation and evaluation methods that are
+              interpretable and human aligned.</em></b><br>I've also interned at Allen AI NLP, Facebook AI Research
+          (FAIR) NLP, and Facebook Research Conversational AI, where I conducted research on similar topics.
         </p>
       </div>
     </div>
     <div class="small-profile-card-section" id="small-profile-research">
       <div class="small-profile-card-content">
-        <div class="small-profile-card-subtitle">RESEARCH</div>
         <div class="small-profile-card-research-wrapper">
-          <div class="small-profile-card-subtitle">RECENT PUBLICATIONS</div>
+          <div class="small-profile-card-subtitle">REPRESENTATIVE PUBLICATIONS</div>
           <div class="small-profile-card-research">
-
+            Human-Centered Metrics for Generalizable Debiased Emotion Models<a
+              href="https://arxiv.org/pdf/1903.11672.pdf">arXiv URL</a>
           </div>
           <div class="small-profile-card-research">
-
+            Impact of Utterance Ordering On Crowdsourced Emotion Annotations.<a
+              href="https://arxiv.org/pdf/2104.08792.pdf">ICASSP '19</a>
           </div>
           <div class="small-profile-card-research">
-
+            Noise Based Augmentation of Emotion Datasets: What's & When's ideal?<a
+              href="https://arxiv.org/pdf/2104.08806.pdf">ACL[W] '20</a>
           </div>
+          <br>
           <div class="small-profile-card-subtitle">RECENT NOTES</div>
+          <div class="small-profile-card-research">
+            Checklisting for Controlled Evaluation of Model Explanations<a
+            href="notes/controlled_evaluation_of_explanations.qmd">Link</a>
+          </div>
+          <div class="small-profile-card-research">
+            CAPSTONE: Capability Assessment Protocol Design for Foundation Models<a
+href="notes/capstone.qmd">Link</a>
+          </div>
+          <div class="small-profile-card-research">
+            Interface Design for Text Explanation Annotations<a
+            href="notes/explanation_annotation_interfaces.qmd">Link</a>
+          </div>
+          <div class="small-profile-card-research">
+            Evaluating Theory of Mind Concepts in Foundation Models<a
+            href="notes/tom_evaluation_in_foundation_models.qmd">Link</a>
+          </div>
         </div>
       </div>
     </div>
@@ -72,29 +96,29 @@
 </div>
 <script>
 
-let buttons = document.querySelectorAll(".small-profile-card-buttons button");
-let sections = document.querySelectorAll(".small-profile-card-section");
-let card = document.querySelector(".small-profile-card");
+  let buttons = document.querySelectorAll(".small-profile-card-buttons button");
+  let sections = document.querySelectorAll(".small-profile-card-section");
+  let card = document.querySelector(".small-profile-card");
 
-console.log(buttons, sections, card);
+  console.log(buttons, sections, card);
 
-const handleButtonClick = (e) => {
-  console.log(e.target);
-  let targetSection = e.target.getAttribute("small-profile-data-section");
-  let section = document.querySelector(targetSection);
-  targetSection !== "#small-profile-about"
-    ? card.classList.add("small-profile-is-active")
-    : card.classList.remove("small-profile-is-active");
-  card.setAttribute("small-profile-data-state", targetSection);
-  sections.forEach((s) => s.classList.remove("small-profile-is-active"));
-  buttons.forEach((b) => b.classList.remove("small-profile-is-active"));
-  e.target.classList.add("small-profile-is-active");
-  section.classList.add("small-profile-is-active");
-};
+  const handleButtonClick = (e) => {
+    console.log(e.target);
+    let targetSection = e.target.getAttribute("small-profile-data-section");
+    let section = document.querySelector(targetSection);
+    targetSection !== "#small-profile-about"
+      ? card.classList.add("small-profile-is-active")
+      : card.classList.remove("small-profile-is-active");
+    card.setAttribute("small-profile-data-state", targetSection);
+    sections.forEach((s) => s.classList.remove("small-profile-is-active"));
+    buttons.forEach((b) => b.classList.remove("small-profile-is-active"));
+    e.target.classList.add("small-profile-is-active");
+    section.classList.add("small-profile-is-active");
+  };
 
-buttons.forEach((btn) => {
-  btn.addEventListener("click", handleButtonClick);
-});
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", handleButtonClick);
+  });
 
 
 </script>

@@ -1625,13 +1625,13 @@ div.papers-back-links>a {
 .small-profile-card-research {
   display: flex;
   align-items: center;
-  font-size: medium;
+  font-size: smaller;
   color: $gray-700;
-  line-height: 1.6;
-  cursor: pointer;
+  line-height: 1.2;
+  text-align: left;
 
   &+& {
-    margin-top: 16px;
+    margin-top: 6px;
   }
 
 }
