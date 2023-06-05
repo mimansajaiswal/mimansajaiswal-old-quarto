@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image','listing-outputHref','listing-display-date','listing-authors',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-categories","listing-href","listing-description","listing-authors","listing-publisher","listing-display-date","listing-talk"],
+      searchColumns: ["listing-title","listing-date","listing-categories","listing-href","listing-description","listing-authors","listing-publisher","listing-display-date","listing-talk","listing-demo","listing-repo","listing-relatednote"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -170,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Confounding Factors">Confounding Factors <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Data Augmentation">Data Augmentation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Collection">Data Collection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Debiasing">Debiasing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Emotion Recognition">Emotion Recognition <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Empirical Analysis">Empirical Analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Evaluation">Evaluation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Generalization">Generalization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Interpretability">Interpretability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Metric Design">Metric Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Model Training">Model Training <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Speech and Audio">Speech and Audio <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Text">Text <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="Confounding Factors">Confounding Factors <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Crowdsourcing">Crowdsourcing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Annotation">Data Annotation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Data Augmentation">Data Augmentation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Collection">Data Collection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Debiasing">Debiasing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Design">Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Dialogue">Dialogue <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Emotion Recognition">Emotion Recognition <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Empirical Analysis">Empirical Analysis <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Evaluation">Evaluation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Foundation Models">Foundation Models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Generalization">Generalization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Interpretation">Interpretation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Mental Health">Mental Health <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Metric Design">Metric Design <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Model Training">Model Training <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Multimodal">Multimodal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Schema">Schema <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Speech and Audio">Speech and Audio <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Text">Text <span class="quarto-category-count">(10)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -203,7 +203,146 @@ for (let i = 0; i < counts.length; i++) {
 <div class="quarto-listing quarto-listing-container-custom" id="listing-all-papers">
 <br>
 <div class="list quarto-listing-custom">
-         <div class="papers-card quarto-post" data-index="0" data-categories="Debiasing,Emotion Recognition,Text,Model Training,Empirical Analysis,Generalization,Evaluation,Metric Design,Interpretability" data-listing-date-sort="1664582400000">
+         <div class="papers-card quarto-post" data-index="0" data-categories="Emotion Recognition,Mental Health,Text,Speech and Audio,Metric Design" data-listing-date-sort="1693526400000">
+            <div class="papers-main-metadata-display-date">
+               Sep 2023
+            </div>
+            <div class="papers-main-metadata-publisher">
+               Interspeech
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  Capturing Mismatch between Textual and Acoustic Emotion Expressions for Mood Identification in Bipolar Disorder
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     Interspeech,
+                        Sep 2023
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Minxue Niu, Amrit Romana, Mimansa Jaiswal, Melvin McInnis, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Mental Health'); return false;">
+                           Mental Health
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
+                           Speech and Audio
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Metric Design'); return false;">
+                           Metric Design
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Emotion is expressed through language, vocal and facial expressions. Lack of emotional alignment between modalities is a symptom of mental disorders. We propose to quantify the mismatch between emotion expressed through language and acoustics, which we refer to as Emotional Mismatch (EMM). EMM patterns differ between symptomatic and euthymic moods. EMM statistics serve as an effective feature for mood recognition, reducing annotation cost while preserving mood identification.
+                        </p>
+                        <div class="papers-back-links">
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="1" data-categories="Text,Data Annotation,Design" data-listing-date-sort="1677628800000">
+            <div class="papers-main-metadata-display-date">
+               Mar 2023
+            </div>
+            <div class="papers-main-metadata-publisher">
+               Submission
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  Designing Interfaces for Delivering and Obtaining Generation Explanation Annotations
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     Submission,
+                        Mar 2023
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Mimansa Jaiswal, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Annotation'); return false;">
+                           Data Annotation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Design'); return false;">
+                           Design
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Designing a user interface where human annotators can provide explanations for text data. This can help improve the transparency and interpretability of machine learning models, as well as improve their performance.
+                        </p>
+                        <div class="papers-back-links">
+                                       <a href="../notes/explanation_annotation_interfaces.html">Note</a>
+                                                         <a href="https://human-in-loop-explanation-annotation.vercel.app/">Demo</a>
+                                                               <a href="https://github.com/mimansajaiswal/hil-text-annotation">Repo</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="2" data-categories="Text,Evaluation,Metric Design,Schema,Interpretation,Data Annotation,Foundation Models" data-listing-date-sort="1677628800000">
+            <div class="papers-main-metadata-display-date">
+               Mar 2023
+            </div>
+            <div class="papers-main-metadata-publisher">
+               Submission
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  CAPSTONE: Capability Assessment Protocol for Systematic Testing Of Natural language models Expertise
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     Submission,
+                        Mar 2023
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Mimansa Jaiswal, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Evaluation'); return false;">
+                           Evaluation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Metric Design'); return false;">
+                           Metric Design
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Schema'); return false;">
+                           Schema
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Interpretation'); return false;">
+                           Interpretation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Annotation'); return false;">
+                           Data Annotation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Foundation Models'); return false;">
+                           Foundation Models
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Prompt-based language models introduce uncertainty to classification and require users to try multiple prompts with varying temperatures to find the best fit. However, this approach lacks the ability to capture implicit differences in prompts and provide adequate vocabulary. To address this, a text annotation framework is proposed to provide a structured approach to prompt definition and annotation. Better validation structures and structured prompts are necessary for using prompt-based systems at scale for labeling or retrieval.
+                        </p>
+                        <div class="papers-back-links">
+                                       <a href="../notes/capstone.html">Note</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="3" data-categories="Debiasing,Emotion Recognition,Text,Model Training,Empirical Analysis,Generalization,Evaluation,Metric Design,Interpretation" data-listing-date-sort="1664582400000">
             <div class="papers-main-metadata-display-date">
                Nov 2022
             </div>
@@ -247,8 +386,8 @@ for (let i = 0; i < counts.length; i++) {
                         <div class="listing-category" onclick="window.quartoListingCategory('/papers/Metric Design'); return false;">
                            Metric Design
                         </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Interpretability'); return false;">
-                           Interpretability
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Interpretation'); return false;">
+                           Interpretation
                         </div>
                   </div>
                      <div class="papers-hover_content">
@@ -261,7 +400,101 @@ for (let i = 0; i < counts.length; i++) {
                      </div>
             </div>
          </div>
-         <div class="papers-card quarto-post" data-index="1" data-categories="Data Augmentation,Emotion Recognition,Speech and Audio,Empirical Analysis" data-listing-date-sort="1593561600000">
+         <div class="papers-card quarto-post" data-index="4" data-categories="Emotion Recognition,Text,Speech and Audio,Model Training,Interpretation" data-listing-date-sort="1661990400000">
+            <div class="papers-main-metadata-display-date">
+               Sep 2022
+            </div>
+            <div class="papers-main-metadata-publisher">
+               Interspeech
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  Mind the gap: On the value of silence representations to lexical-based speech emotion recognition
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     Interspeech,
+                        Sep 2022
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Matthew Perez, Mimansa Jaiswal, Minxue Niu, Cristina Gorrostieta, Matthew Roddy, Kye Taylor, Reza Lotfian, John Kane, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
+                           Speech and Audio
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Model Training'); return false;">
+                           Model Training
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Interpretation'); return false;">
+                           Interpretation
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Silence is crucial in speech perception, conveying emphasis and emotion. However, little research has been done on the effect of silence on linguistics and emotion recognition. We present a novel framework that fuses linguistic and silence representations for emotion recognition in naturalistic speech. Two methods to represent silence are investigated, with results showing improved performance. Modeling silence as a token in a transformer language model significantly improves performance on the MSP-Podcast dataset. Analyses show that silence emphasizes the attention of its surrounding words.
+                        </p>
+                        <div class="papers-back-links">
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="5" data-categories="Text,Evaluation,Metric Design,Schema,Interpretation,Data Annotation" data-listing-date-sort="1646092800000">
+            <div class="papers-main-metadata-display-date">
+               Mar 2022
+            </div>
+            <div class="papers-main-metadata-publisher">
+               Submission
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  Controlled Evaluation of Explanations: What Might Have Influenced Your Model Explanation Efficacy Evaluation?
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     Submission,
+                        Mar 2022
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Mimansa Jaiswal, Minxue Niu, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Evaluation'); return false;">
+                           Evaluation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Metric Design'); return false;">
+                           Metric Design
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Schema'); return false;">
+                           Schema
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Interpretation'); return false;">
+                           Interpretation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Annotation'); return false;">
+                           Data Annotation
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Factors affecting explanation efficacy include the algorithm used and the end user. NLP papers focus on algorithms for generating explanations, but overlook other factors. This paper examines how saliency-based explanation methods for machine learning models change with controlled variables. We aim to provide a standardized list of variables to evaluate these explanations and show how SoTA algorithms can have different rankings when controlling for evaluation criteria.
+                        </p>
+                        <div class="papers-back-links">
+                                       <a href="../notes/controlled_evaluation_of_explanations.html">Note</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="6" data-categories="Data Augmentation,Emotion Recognition,Speech and Audio,Empirical Analysis" data-listing-date-sort="1593561600000">
             <div class="papers-main-metadata-display-date">
                2020
             </div>
@@ -305,7 +538,7 @@ for (let i = 0; i < counts.length; i++) {
                      </div>
             </div>
          </div>
-         <div class="papers-card quarto-post" data-index="2" data-categories="Data Collection,Confounding Factors,Emotion Recognition,Speech and Audio" data-listing-date-sort="1588291200000">
+         <div class="papers-card quarto-post" data-index="7" data-categories="Data Collection,Confounding Factors,Emotion Recognition,Speech and Audio" data-listing-date-sort="1588291200000">
             <div class="papers-main-metadata-display-date">
                May 2020
             </div>
@@ -348,7 +581,7 @@ for (let i = 0; i < counts.length; i++) {
                      </div>
             </div>
          </div>
-         <div class="papers-card quarto-post" data-index="3" data-categories="Confounding Factors,Emotion Recognition,Speech and Audio,Text,Model Training" data-listing-date-sort="1580515200000">
+         <div class="papers-card quarto-post" data-index="8" data-categories="Confounding Factors,Emotion Recognition,Speech and Audio,Text,Model Training" data-listing-date-sort="1580515200000">
             <div class="papers-main-metadata-display-date">
                Feb 2020
             </div>
@@ -390,6 +623,233 @@ for (let i = 0; i < counts.length; i++) {
                         </p>
                         <div class="papers-back-links">
                            <a href="https://arxiv.org/pdf/1910.13212.pdf">PDF</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="9" data-categories="Emotion Recognition,Text,Model Training,Speech and Audio,Empirical Analysis,Mental Health,Dialogue" data-listing-date-sort="1567296000000">
+            <div class="papers-main-metadata-display-date">
+               Sep 2019
+            </div>
+            <div class="papers-main-metadata-publisher">
+               Interspeech
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  Identifying Mood Episodes Using Dialogue Features from Clinical Interviews
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     Interspeech,
+                        Sep 2019
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Zakaria Aldeneh, Mimansa Jaiswal, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Model Training'); return false;">
+                           Model Training
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
+                           Speech and Audio
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Empirical Analysis'); return false;">
+                           Empirical Analysis
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Mental Health'); return false;">
+                           Mental Health
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Dialogue'); return false;">
+                           Dialogue
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Mental health professionals assess symptom severity through semi-structured clinical interviews. During these interviews, they observe their patients’ spoken behaviors, including both what the patients say and how they say it. In this work, we move beyond acoustic and lexical information, investigating how higher-level interactive patterns also change during mood episodes.
+                        </p>
+                        <div class="papers-back-links">
+                           <a href="https://arxiv.org/pdf/1910.05115.pdf">PDF</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="10" data-categories="Emotion Recognition,Data Annotation,Empirical Analysis,Crowdsourcing" data-listing-date-sort="1556668800000">
+            <div class="papers-main-metadata-display-date">
+               May 2019
+            </div>
+            <div class="papers-main-metadata-publisher">
+               ICASSP
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  MuSE-ing on the Impact of Utterance Ordering on Crowdsourced Emotion Annotations
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     ICASSP,
+                        May 2019
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Mimansa Jaiswal, Zakaria Aldeneh, Cristian-Paul Bara, Yuanhang Luo, Mihai Burzo, Rada Mihalcea, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Annotation'); return false;">
+                           Data Annotation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Empirical Analysis'); return false;">
+                           Empirical Analysis
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Crowdsourcing'); return false;">
+                           Crowdsourcing
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Emotion expression and perception are inherently subjective. There is generally not a single annotation that can be unambiguously declared “correct.” As a result, annotations are colored by the manner in which they were collected, i.e., with or without context.
+                        </p>
+                        <div class="papers-back-links">
+                           <a href="https://arxiv.org/pdf/1903.11672.pdf">PDF</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="11" data-categories="Emotion Recognition,Model Training,Speech and Audio,Empirical Analysis,Mental Health" data-listing-date-sort="1535760000000">
+            <div class="papers-main-metadata-display-date">
+               Sep 2018
+            </div>
+            <div class="papers-main-metadata-publisher">
+               Interspeech
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  The PRIORI Emotion Dataset: Linking Mood to Emotion Detected In-the-Wild
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     Interspeech,
+                        Sep 2018
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Soheil Khorram, Mimansa Jaiswal, John Gideon, Melvin McInnis, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Model Training'); return false;">
+                           Model Training
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
+                           Speech and Audio
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Empirical Analysis'); return false;">
+                           Empirical Analysis
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Mental Health'); return false;">
+                           Mental Health
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           This paper presents critical steps in developing this pipeline, including (a) a new in the wild emotion dataset, the PRIORI Emotion Dataset, (b) activation/valence emotion recognition baselines, and, (c) establish emotion as a meta-feature for mood state monitoring.
+                        </p>
+                        <div class="papers-back-links">
+                           <a href="https://arxiv.org/pdf/1806.10658.pdf">PDF</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="12" data-categories="Emotion Recognition,Mental Health,Text" data-listing-date-sort="1512086400000">
+            <div class="papers-main-metadata-display-date">
+               Dec 2017
+            </div>
+            <div class="papers-main-metadata-publisher">
+               FLAIRS
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  'Hang in there': Lexical and Visual Analysis to Identify Posts Warranting Empathetic Responses
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     FLAIRS,
+                        Dec 2017
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Mimansa Jaiswal, Sairam Tabibu, Erik Cambria
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Mental Health'); return false;">
+                           Mental Health
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Saying "You deserved it!" to "I failed the test" is not a good idea. In this paper, we propose a method supported by hand-crafted features to judge if the discourse or statement requires an empathetic response.
+                        </p>
+                        <div class="papers-back-links">
+                           <a href="https://arxiv.org/pdf/1903.05210.pdf">PDF</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="13" data-categories="Emotion Recognition,Mental Health,Multimodal,Text,Speech and Audio" data-listing-date-sort="1467331200000">
+            <div class="papers-main-metadata-display-date">
+               Jul 2017
+            </div>
+            <div class="papers-main-metadata-publisher">
+               ICDM-W
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  'The Truth and Nothing But The Truth': Multimodal Analysis for Deception Detection
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     ICDM-W,
+                        Jul 2017
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Mimansa Jaiswal, Sairam Tabibu, Rajiv Bajpai
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Mental Health'); return false;">
+                           Mental Health
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Multimodal'); return false;">
+                           Multimodal
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
+                           Speech and Audio
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           We propose a data-driven method (SVMs) for automatic deception detection in real-life trial data using visual (OpenFace) and verbal cues (Bag of Words).
+                        </p>
+                        <div class="papers-back-links">
+                           <a href="https://arxiv.org/pdf/1903.04484.pdf">PDF</a>
                         </div>
                      </div>
             </div>

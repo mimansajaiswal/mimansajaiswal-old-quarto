@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-image','listing-threeword','listing-outputHref','listing-tweetthread','listing-relatednote','listing-relatedpaper','listing-publicity','listing-demo','listing-repo',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-comments","listing-language","listing-title","listing-date","listing-categories","listing-filters","listing-draft","listing-description","listing-threeword","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-comments","listing-language","listing-title","listing-date","listing-categories","listing-filters","listing-draft","listing-description","listing-threeword","listing-reference-location","listing-citation-location","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image','listing-outputHref',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-categories","listing-href","listing-description","listing-authors","listing-publisher","listing-display-date","listing-talk"],
+      searchColumns: ["listing-title","listing-date","listing-categories","listing-href","listing-description","listing-authors","listing-publisher","listing-display-date","listing-talk","listing-demo","listing-repo","listing-relatednote"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -654,7 +654,146 @@ No matching items
 <div id="listing-rpapers" class="quarto-listing quarto-listing-container-custom">
 <br>
 <div class="list quarto-listing-custom">
-         <div class="papers-card quarto-post" data-index="0" data-categories="Debiasing,Emotion Recognition,Text,Model Training,Empirical Analysis,Generalization,Evaluation,Metric Design,Interpretability" data-listing-date-sort="1664582400000">
+         <div class="papers-card quarto-post" data-index="0" data-categories="Emotion Recognition,Mental Health,Text,Speech and Audio,Metric Design" data-listing-date-sort="1693526400000">
+            <div class="papers-main-metadata-display-date">
+               Sep 2023
+            </div>
+            <div class="papers-main-metadata-publisher">
+               Interspeech
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  Capturing Mismatch between Textual and Acoustic Emotion Expressions for Mood Identification in Bipolar Disorder
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     Interspeech,
+                        Sep 2023
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Minxue Niu, Amrit Romana, Mimansa Jaiswal, Melvin McInnis, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Mental Health'); return false;">
+                           Mental Health
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
+                           Speech and Audio
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Metric Design'); return false;">
+                           Metric Design
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Emotion is expressed through language, vocal and facial expressions. Lack of emotional alignment between modalities is a symptom of mental disorders. We propose to quantify the mismatch between emotion expressed through language and acoustics, which we refer to as Emotional Mismatch (EMM). EMM patterns differ between symptomatic and euthymic moods. EMM statistics serve as an effective feature for mood recognition, reducing annotation cost while preserving mood identification.
+                        </p>
+                        <div class="papers-back-links">
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="1" data-categories="Text,Data Annotation,Design" data-listing-date-sort="1677628800000">
+            <div class="papers-main-metadata-display-date">
+               Mar 2023
+            </div>
+            <div class="papers-main-metadata-publisher">
+               Submission
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  Designing Interfaces for Delivering and Obtaining Generation Explanation Annotations
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     Submission,
+                        Mar 2023
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Mimansa Jaiswal, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Annotation'); return false;">
+                           Data Annotation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Design'); return false;">
+                           Design
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Designing a user interface where human annotators can provide explanations for text data. This can help improve the transparency and interpretability of machine learning models, as well as improve their performance.
+                        </p>
+                        <div class="papers-back-links">
+                                       <a href="../notes/explanation_annotation_interfaces.qmd">Note</a>
+                                                         <a href="https://human-in-loop-explanation-annotation.vercel.app/">Demo</a>
+                                                               <a href="https://github.com/mimansajaiswal/hil-text-annotation">Repo</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="2" data-categories="Text,Evaluation,Metric Design,Schema,Interpretation,Data Annotation,Foundation Models" data-listing-date-sort="1677628800000">
+            <div class="papers-main-metadata-display-date">
+               Mar 2023
+            </div>
+            <div class="papers-main-metadata-publisher">
+               Submission
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  CAPSTONE: Capability Assessment Protocol for Systematic Testing Of Natural language models Expertise
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     Submission,
+                        Mar 2023
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Mimansa Jaiswal, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Evaluation'); return false;">
+                           Evaluation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Metric Design'); return false;">
+                           Metric Design
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Schema'); return false;">
+                           Schema
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Interpretation'); return false;">
+                           Interpretation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Annotation'); return false;">
+                           Data Annotation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Foundation Models'); return false;">
+                           Foundation Models
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Prompt-based language models introduce uncertainty to classification and require users to try multiple prompts with varying temperatures to find the best fit. However, this approach lacks the ability to capture implicit differences in prompts and provide adequate vocabulary. To address this, a text annotation framework is proposed to provide a structured approach to prompt definition and annotation. Better validation structures and structured prompts are necessary for using prompt-based systems at scale for labeling or retrieval.
+                        </p>
+                        <div class="papers-back-links">
+                                       <a href="../notes/capstone.qmd">Note</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="3" data-categories="Debiasing,Emotion Recognition,Text,Model Training,Empirical Analysis,Generalization,Evaluation,Metric Design,Interpretation" data-listing-date-sort="1664582400000">
             <div class="papers-main-metadata-display-date">
                Nov 2022
             </div>
@@ -698,8 +837,8 @@ No matching items
                         <div class="listing-category" onclick="window.quartoListingCategory('/papers/Metric Design'); return false;">
                            Metric Design
                         </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Interpretability'); return false;">
-                           Interpretability
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Interpretation'); return false;">
+                           Interpretation
                         </div>
                   </div>
                      <div class="papers-hover_content">
@@ -712,135 +851,47 @@ No matching items
                      </div>
             </div>
          </div>
-         <div class="papers-card quarto-post" data-index="1" data-categories="Data Augmentation,Emotion Recognition,Speech and Audio,Empirical Analysis" data-listing-date-sort="1593561600000">
+         <div class="papers-card quarto-post" data-index="4" data-categories="Emotion Recognition,Text,Speech and Audio,Model Training,Interpretation" data-listing-date-sort="1661990400000">
             <div class="papers-main-metadata-display-date">
-               2020
+               Sep 2022
             </div>
             <div class="papers-main-metadata-publisher">
-               ACL-SRW
+               Interspeech
             </div>
             <div class="papers-main-content">
                <p class="papers-main-title">
-                  Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend?
+                  Mind the gap: On the value of silence representations to lexical-based speech emotion recognition
                </p>
                <p class="papers-main-display-date-publisher-in-text"><em>In
-                     ACL-SRW,
-                        2020
+                     Interspeech,
+                        Sep 2022
                   </em>
                </p>
                <p class="papers-main-authors">
-                  Mimansa Jaiswal, Emily Mower Provost
+                  Matthew Perez, Mimansa Jaiswal, Minxue Niu, Cristina Gorrostieta, Matthew Roddy, Kye Taylor, Reza Lotfian, John Kane, Emily Mower Provost
                </p>
                   <div class="listing-categories">
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Augmentation'); return false;">
-                           Data Augmentation
-                        </div>
                         <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
                            Emotion Recognition
-                        </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
-                           Speech and Audio
-                        </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Empirical Analysis'); return false;">
-                           Empirical Analysis
-                        </div>
-                  </div>
-                     <div class="papers-hover_content">
-                        <p class="papers-back-description">
-                           Multiple noise-based data augmentation approaches have been proposed to counteract this challenge in other speech domains. But, unlike speech recognition and speaker verification, the underlying label of emotion data may change given the addition of noise. In this work, we propose a set of recommendations for noise-based augmentation of emotion datasets based on human and machine performance evaluation of generated realistic noisy samples using multiple categories of environmental and synthetic noise.
-                        </p>
-                        <div class="papers-back-links">
-                           <a href="https://arxiv.org/abs/2104.08806">PDF</a>
-                              <a href="https://slideslive.com/38928670/noisebased-augmentation-techniques-for-emotion-datasets-what-do-we-recommend">Talk</a>
-                        </div>
-                     </div>
-            </div>
-         </div>
-         <div class="papers-card quarto-post" data-index="2" data-categories="Data Collection,Confounding Factors,Emotion Recognition,Speech and Audio" data-listing-date-sort="1588291200000">
-            <div class="papers-main-metadata-display-date">
-               May 2020
-            </div>
-            <div class="papers-main-metadata-publisher">
-               LREC
-            </div>
-            <div class="papers-main-content">
-               <p class="papers-main-title">
-                  MuSE: Multimodal Stressed Emotion Dataset
-               </p>
-               <p class="papers-main-display-date-publisher-in-text"><em>In
-                     LREC,
-                        May 2020
-                  </em>
-               </p>
-               <p class="papers-main-authors">
-                  Mimansa Jaiswal, Cristian-Paul Bara, Yuanhang Luo, Rada Mihalcea, Mihai Burzo, Emily Mower Provost
-               </p>
-                  <div class="listing-categories">
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Collection'); return false;">
-                           Data Collection
-                        </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Confounding Factors'); return false;">
-                           Confounding Factors
-                        </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
-                           Emotion Recognition
-                        </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
-                           Speech and Audio
-                        </div>
-                  </div>
-                     <div class="papers-hover_content">
-                        <p class="papers-back-description">
-                           This paper presents a dataset, Multimodal Stressed Emotion (MuSE), to study the multimodal interplay between the presence of stress and expressions of affect. We describe the data collection protocol, the possible areas of use, and the annotations for the emotional content of the recordings.
-                        </p>
-                        <div class="papers-back-links">
-                           <a href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.187.pdf">PDF</a>
-                        </div>
-                     </div>
-            </div>
-         </div>
-         <div class="papers-card quarto-post" data-index="3" data-categories="Confounding Factors,Emotion Recognition,Speech and Audio,Text,Model Training" data-listing-date-sort="1580515200000">
-            <div class="papers-main-metadata-display-date">
-               Feb 2020
-            </div>
-            <div class="papers-main-metadata-publisher">
-               AAAI and NeuRIPS-W
-            </div>
-            <div class="papers-main-content">
-               <p class="papers-main-title">
-                  Privacy Enhanced Multimodal Neural Representations for Emotion Recognition
-               </p>
-               <p class="papers-main-display-date-publisher-in-text"><em>In
-                     AAAI and NeuRIPS-W,
-                        Feb 2020
-                  </em>
-               </p>
-               <p class="papers-main-authors">
-                  Mimansa Jaiswal, Emily Mower Provost
-               </p>
-                  <div class="listing-categories">
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Confounding Factors'); return false;">
-                           Confounding Factors
-                        </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
-                           Emotion Recognition
-                        </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
-                           Speech and Audio
                         </div>
                         <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
                            Text
                         </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
+                           Speech and Audio
+                        </div>
                         <div class="listing-category" onclick="window.quartoListingCategory('/papers/Model Training'); return false;">
                            Model Training
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Interpretation'); return false;">
+                           Interpretation
                         </div>
                   </div>
                      <div class="papers-hover_content">
                         <p class="papers-back-description">
-                           This paper presents a dataset, Multimodal Stressed Emotion (MuSE), to study the multimodal interplay between the presence of stress and expressions of affect. We describe the data collection protocol, the possible areas of use, and the annotations for the emotional content of the recordings.
+                           Silence is crucial in speech perception, conveying emphasis and emotion. However, little research has been done on the effect of silence on linguistics and emotion recognition. We present a novel framework that fuses linguistic and silence representations for emotion recognition in naturalistic speech. Two methods to represent silence are investigated, with results showing improved performance. Modeling silence as a token in a transformer language model significantly improves performance on the MSP-Podcast dataset. Analyses show that silence emphasizes the attention of its surrounding words.
                         </p>
                         <div class="papers-back-links">
-                           <a href="https://arxiv.org/pdf/1910.13212.pdf">PDF</a>
                         </div>
                      </div>
             </div>
@@ -857,11 +908,11 @@ No matching items
 <div class="list quarto-listing-custom">
     <div class="notes-detail-list-img-content">
         <ul class="notes-detail-list-img">
-  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/gender_biases_in_llms.html'" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685962423000" data-listing-file-modified-sort="1685962423481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/gender_biases_in_llms.html'" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685968407000" data-listing-file-modified-sort="1685968407926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
         <div class="notes-detail-list-img-thumb"><img src=""></div>
         <div class="notes-detail-list-img-description">
-            <h5 class="notes-detail-list-img-title">LLMs' Gender Biases</h5>
+            <h5 class="notes-detail-list-img-title">Foundation Models' Gender Biases</h5>
             <h6>Collapse-social-embeds Example</h6>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
                 </p><div class="listing-categories">
@@ -872,37 +923,42 @@ No matching items
         </div>
     </li>
 </div>
-  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/controlled_evaluation_of_explanations.html'" data-index="1" data-categories="Try,Example" data-listing-date-sort="1685962423000" data-listing-file-modified-sort="1685962423481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/controlled_evaluation_of_explanations.html'" data-index="1" data-categories="Text,Evaluation,Metric Design,Schema,Interpretation,Data Annotation" data-listing-date-sort="1685968407000" data-listing-file-modified-sort="1685968407926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
         <div class="notes-detail-list-img-thumb"><img src=""></div>
         <div class="notes-detail-list-img-description">
-            <h5 class="notes-detail-list-img-title">Explanation Eval Standards</h5>
+            <h5 class="notes-detail-list-img-title">Standardized Explanation Evaluation</h5>
             <h6>Collapse-social-embeds Example</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
+            <p>End users affect explanation efficacy. NLP papers overlook other factors. This paper examines how saliency-based explanations' utiltiy change with controlled variables. We aim to provide a standardized list of variables to evaluate and show how SoTA algorithms rank differently when controlling for evaluation criteria.
                 </p><div class="listing-categories">
-                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Try'); return false;">Try</div>
-                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Example'); return false;">Example</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">Text</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Evaluation'); return false;">Evaluation</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Metric Design'); return false;">Metric Design</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Schema'); return false;">Schema</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Interpretation'); return false;">Interpretation</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Annotation'); return false;">Data Annotation</div>
                   </div>
                 <p></p>
         </div>
     </li>
 </div>
-  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/explanation_annotation_interfaces.html'" data-index="2" data-categories="Try,Example" data-listing-date-sort="1685962423000" data-listing-file-modified-sort="1685962423481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/explanation_annotation_interfaces.html'" data-index="2" data-categories="Text,Data Annotation,Design" data-listing-date-sort="1685968407000" data-listing-file-modified-sort="1685968407926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
         <div class="notes-detail-list-img-thumb"><img src=""></div>
         <div class="notes-detail-list-img-description">
-            <h5 class="notes-detail-list-img-title">Text Annotation Interface</h5>
+            <h5 class="notes-detail-list-img-title">Text Annotation Interface Design</h5>
             <h6>Collapse-social-embeds Example</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
+            <p>Designing a user interface where human annotators can provide explanations for text data. This can help improve the transparency and interpretability of machine learning models, as well as improve their performance.
                 </p><div class="listing-categories">
-                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Try'); return false;">Try</div>
-                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Example'); return false;">Example</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">Text</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Annotation'); return false;">Data Annotation</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Design'); return false;">Design</div>
                   </div>
                 <p></p>
         </div>
     </li>
 </div>
-  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/tom_evaluation_in_foundation_models.html'" data-index="3" data-categories="Try,Example" data-listing-date-sort="1685962423000" data-listing-file-modified-sort="1685962423481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/tom_evaluation_in_foundation_models.html'" data-index="3" data-categories="Try,Example" data-listing-date-sort="1685968407000" data-listing-file-modified-sort="1685968407926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
         <div class="notes-detail-list-img-thumb"><img src=""></div>
         <div class="notes-detail-list-img-description">
@@ -917,16 +973,21 @@ No matching items
         </div>
     </li>
 </div>
-  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/capstone.html'" data-index="4" data-categories="Try,Example" data-listing-date-sort="1685962423000" data-listing-file-modified-sort="1685962423481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/capstone.html'" data-index="4" data-categories="Text,Evaluation,Metric Design,Schema,Interpretation,Data Annotation,Foundation Models" data-listing-date-sort="1685968407000" data-listing-file-modified-sort="1685968407926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
         <div class="notes-detail-list-img-thumb"><img src=""></div>
         <div class="notes-detail-list-img-description">
-            <h5 class="notes-detail-list-img-title">LLM Benchmark Schema</h5>
+            <h5 class="notes-detail-list-img-title"></h5>
             <h6>Collapse-social-embeds Example</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
+            <p>Prompt-based language models have limitations in classification and often require users to test multiple prompts with varying temperatures to identify the best fit. A text annotation framework addresses this by introducing explicit prompt definition and validation, and can improve performance in labeling or retrieval tasks at scale.
                 </p><div class="listing-categories">
-                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Try'); return false;">Try</div>
-                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Example'); return false;">Example</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">Text</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Evaluation'); return false;">Evaluation</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Metric Design'); return false;">Metric Design</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Schema'); return false;">Schema</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Interpretation'); return false;">Interpretation</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Annotation'); return false;">Data Annotation</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Foundation Models'); return false;">Foundation Models</div>
                   </div>
                 <p></p>
         </div>
