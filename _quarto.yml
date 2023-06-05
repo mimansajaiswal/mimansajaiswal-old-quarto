@@ -26,7 +26,7 @@ website:
     left:
       - icon: newspaper
         href: single_page/updates.qmd
-      - icon: notecard
+      - icon: pen-fill
         href: single_page/papers.qmd
       # - icon: folder2
       #   href: single_page/projects.qmd
@@ -45,6 +45,7 @@ website:
 format:
   html:
     # theme: sketchy
+    smooth-scroll: true
     theme: quarto_mod.scss
     highlight-style: quarto_mod.theme
     include-in-header: [analytics-head.html]

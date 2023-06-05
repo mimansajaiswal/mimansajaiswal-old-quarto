@@ -39,6 +39,8 @@
                         <div class="papers-back-links">
                            <% if (item.href){%><a href="<%= item['href'] %>">PDF</a>
                               <%}%>
+                              <% if (item.talk){%><a href="<%= item['talk'] %>">Talk</a>
+                              <%}%>
                                  <% if (item.tweethread){%><a href="<%= item['tweetthread'] %>">Twitter Thread</a>
                                     <%}%>
                                        <% if (item.relatednote){%><a href="<%= item['relatednote'] %>">note</a>

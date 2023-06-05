@@ -1,27 +1,33 @@
-- title: "PUBArchived Item 1"
-  date: 2020-01-01
-  categories: [archived, technology]
-  href: www.google.com
-  twitterthread: twitter.com/whatyado
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim. 
-  authors: Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
-  publisher: arxiv
-  display-date: Jan 2020
-- title: "PUBArchived Item 2"
-  date: 2020-01-01
-  categories: [archived, technology]
-  href: www.google.com
-  twitterthread: twitter.com/whatyado
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim. 
-  authors: Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
-  publisher: arxiv
+- title: "Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend?"
+  date: 2020-07-01
+  categories: [Data Augmentation, Emotion Recognition, Speech and Audio, Empirical Analysis]
+  href: https://arxiv.org/abs/2104.08806
+  description: Multiple noise-based data augmentation approaches have been proposed to counteract this challenge in other speech domains. But, unlike speech recognition and speaker verification, the underlying label of emotion data may change given the addition of noise. In this work, we propose a set of recommendations for noise-based augmentation of emotion datasets based on human and machine performance evaluation of generated realistic noisy samples using multiple categories of environmental and synthetic noise.
+  authors: Mimansa Jaiswal, Emily Mower Provost
+  publisher: ACL-SRW
+  display-date: 2020
+  talk: https://slideslive.com/38928670/noisebased-augmentation-techniques-for-emotion-datasets-what-do-we-recommend
+- title: "MuSE: Multimodal Stressed Emotion Dataset"
+  date: 2020-05-01
+  categories: [Data Collection, Confounding Factors, Emotion Recognition, Speech and Audio]
+  href: http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.187.pdf
+  description: This paper presents a dataset, Multimodal Stressed Emotion (MuSE), to study the multimodal interplay between the presence of stress and expressions of affect. We describe the data collection protocol, the possible areas of use, and the annotations for the emotional content of the recordings. 
+  authors: Mimansa Jaiswal, Cristian-Paul Bara, Yuanhang Luo, Rada Mihalcea, Mihai Burzo, Emily Mower Provost
+  publisher: LREC
   display-date: May 2020
-- title: "PUBArchived Item 3"
-  date: 2020-01-01
-  categories: [archived, technology]
-  href: www.google.com
-  twitterthread: twitter.com/whatyado
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim. 
-  authors: Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
-  publisher: arxiv
-  display-date: Jun 2020
+- title: "Privacy Enhanced Multimodal Neural Representations for Emotion Recognition"
+  date: 2020-02-01
+  categories: [Confounding Factors, Emotion Recognition, Speech and Audio, Text, Model Training, ]
+  href: https://arxiv.org/pdf/1910.13212.pdf
+  description: This paper presents a dataset, Multimodal Stressed Emotion (MuSE), to study the multimodal interplay between the presence of stress and expressions of affect. We describe the data collection protocol, the possible areas of use, and the annotations for the emotional content of the recordings.
+  authors: Mimansa Jaiswal, Emily Mower Provost
+  publisher: AAAI, NeuRIPS-W
+  display-date: Feb 2020
+- title: "Human-centered metric design to promote generalizable and debiased emotion recognition"
+  date: 2022-10-01
+  categories: [Debiasing, Emotion Recognition, Text, Model Training, Empirical Analysis, Generalization, Evaluation, Metric Design]
+  href: https://arxiv.org/abs/2104.08792
+  description: Metrics for emotion recognition can be challenging due to their dependence on subjective human perception. This paper proposes a template formulation that derives human-centered, automatic, optimizable evaluation metrics for emotion recognition models. The template uses model explanations and sociolinguistic wordlists and can be applied to a sample or whole dataset. The proposed metrics include generalizability and debiasing improvement, and are tested on three models, datasets and sensitive variables. The metrics correlate with the models' performance and biased representations, and can be used to train models with increased generalizability, decreased bias, or both. The template is the first to provide quantifiable metrics for training and evaluating generalizability and bias in emotion recognition models.
+  authors: Mimansa Jaiswal, Emily Mower Provost
+  publisher: arXiv
+  display-date: Nov 2022
