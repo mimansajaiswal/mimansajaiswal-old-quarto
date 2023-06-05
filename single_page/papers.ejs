@@ -37,23 +37,23 @@
                            <%= item['description'] %>
                         </p>
                         <div class="papers-back-links">
-                           <% if (item.href){%><a href="<%= item['href'] %>">PDF</a>
+                           <% if (item.exthref){%><a href="<%= item['exthref'] %>">PDF</a>
                               <%}%>
-                              <% if (item.talk){%><a href="<%= item['talk'] %>">Talk</a>
+                           <% if (item.talk){%><a href="<%= item['talk'] %>">Talk</a>
+                           <%}%>
+                           <% if (item.tweethread){%><a href="<%= item['tweetthread'] %>">Twitter Thread</a>
                               <%}%>
-                                 <% if (item.tweethread){%><a href="<%= item['tweetthread'] %>">Twitter Thread</a>
-                                    <%}%>
-                                       <% if (item.relatednote){%><a href="<%= item['relatednote'] %>">Note</a>
-                                          <%}%>
-                                             <% if (item.relatedpaper){%><a href="<%= item['relatedpaper'] %>">Paper</a>
-                                                <%}%>
-                                                   <% if (item.press){%><a href="<%= item['publicity'] %>">Publicity</a>
-                                                      <%}%>
-                                                         <% if (item.demo){%><a href="<%= item['demo'] %>">Demo</a>
-                                                            <%}%>
-                                                               <% if (item.repo){%><a
-                                                                     href="<%= item['repo'] %>">Repo</a>
-                                                                  <%}%>
+                           <% if (item.relatednote){%><a href="<%= item['relatednote'] %>">Note</a>
+                              <%}%>
+                           <% if (item.relatedpaper){%><a href="<%= item['relatedpaper'] %>">Paper</a>
+                              <%}%>
+                           <% if (item.press){%><a href="<%= item['publicity'] %>">Publicity</a>
+                              <%}%>
+                           <% if (item.demo){%><a href="<%= item['demo'] %>">Demo</a>
+                              <%}%>
+                           <% if (item.repo){%><a
+                                 href="<%= item['repo'] %>">Repo</a>
+                              <%}%>
                         </div>
                      </div>
             </div>

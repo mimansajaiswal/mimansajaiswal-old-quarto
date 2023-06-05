@@ -1,7 +1,7 @@
 - title: "Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend?"
   date: 2020-07-01
   categories: [Data Augmentation, Emotion Recognition, Speech and Audio, Empirical Analysis]
-  href: https://arxiv.org/abs/2104.08806
+  exthref: https://arxiv.org/abs/2104.08806
   description: Multiple noise-based data augmentation approaches have been proposed to counteract this challenge in other speech domains. But, unlike speech recognition and speaker verification, the underlying label of emotion data may change given the addition of noise. In this work, we propose a set of recommendations for noise-based augmentation of emotion datasets based on human and machine performance evaluation of generated realistic noisy samples using multiple categories of environmental and synthetic noise.
   authors: Mimansa Jaiswal, Emily Mower Provost
   publisher: ACL-SRW
@@ -11,7 +11,7 @@
 - title: "MuSE: Multimodal Stressed Emotion Dataset"
   date: 2020-05-01
   categories: [Data Collection, Confounding Factors, Emotion Recognition, Speech and Audio]
-  href: http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.187.pdf
+  exthref: http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.187.pdf
   description: This paper presents a dataset, Multimodal Stressed Emotion (MuSE), to study the multimodal interplay between the presence of stress and expressions of affect. We describe the data collection protocol, the possible areas of use, and the annotations for the emotional content of the recordings. 
   authors: Mimansa Jaiswal, Cristian-Paul Bara, Yuanhang Luo, Rada Mihalcea, Mihai Burzo, Emily Mower Provost
   publisher: LREC
@@ -20,7 +20,7 @@
 - title: "Privacy Enhanced Multimodal Neural Representations for Emotion Recognition"
   date: 2020-02-01
   categories: [Confounding Factors, Emotion Recognition, Speech and Audio, Text, Model Training, ]
-  href: https://arxiv.org/pdf/1910.13212.pdf
+  exthref: https://arxiv.org/pdf/1910.13212.pdf
   description: This paper presents a dataset, Multimodal Stressed Emotion (MuSE), to study the multimodal interplay between the presence of stress and expressions of affect. We describe the data collection protocol, the possible areas of use, and the annotations for the emotional content of the recordings.
   authors: Mimansa Jaiswal, Emily Mower Provost
   publisher: AAAI and NeuRIPS-W
@@ -29,7 +29,7 @@
 - title: "Human-Centered Metric Design to Promote Generalizable and Debiased Emotion Recognition"
   date: 2022-10-01
   categories: [Debiasing, Emotion Recognition, Text, Model Training, Empirical Analysis, Generalization, Evaluation, Metric Design, Interpretation]
-  href: https://arxiv.org/abs/2104.08792
+  exthref: https://arxiv.org/abs/2104.08792
   description: Metrics for emotion recognition can be challenging due to their dependence on subjective human perception. This paper proposes a template formulation that derives human-centered, automatic, optimizable evaluation metrics for emotion recognition models. The template uses model explanations and sociolinguistic wordlists and can be applied to a sample or whole dataset. The proposed metrics include generalizability and debiasing improvement, and are tested on three models, datasets and sensitive variables. The metrics correlate with the models' performance and biased representations, and can be used to train models with increased generalizability, decreased bias, or both. The template is the first to provide quantifiable metrics for training and evaluating generalizability and bias in emotion recognition models.
   authors: Mimansa Jaiswal, Emily Mower Provost
   publisher: arXiv
@@ -38,7 +38,7 @@
 - title: "Identifying Mood Episodes Using Dialogue Features from Clinical Interviews"
   date: 2019-09-01
   categories: [Emotion Recognition, Text, Model Training, Speech and Audio, Empirical Analysis, Mental Health, Dialogue]
-  href: https://arxiv.org/pdf/1910.05115.pdf
+  exthref: https://arxiv.org/pdf/1910.05115.pdf
   description: Mental health professionals assess symptom severity through semi-structured clinical interviews. During these interviews, they observe their patients’ spoken behaviors, including both what the patients say and how they say it. In this work, we move beyond acoustic and lexical information, investigating how higher-level interactive patterns also change during mood episodes.
   authors: Zakaria Aldeneh, Mimansa Jaiswal, Emily Mower Provost
   publisher: Interspeech
@@ -47,7 +47,7 @@
 - title: "MuSE-ing on the Impact of Utterance Ordering on Crowdsourced Emotion Annotations"
   date: 2019-05-01
   categories: [Emotion Recognition, Data Annotation, Empirical Analysis, Crowdsourcing]
-  href: https://arxiv.org/pdf/1903.11672.pdf
+  exthref: https://arxiv.org/pdf/1903.11672.pdf
   description: Emotion expression and perception are inherently subjective. There is generally not a single annotation that can be unambiguously declared “correct.” As a result, annotations are colored by the manner in which they were collected, i.e., with or without context.
   authors: Mimansa Jaiswal, Zakaria Aldeneh, Cristian-Paul Bara, Yuanhang Luo, Mihai Burzo, Rada Mihalcea, Emily Mower Provost
   publisher: ICASSP
@@ -56,7 +56,7 @@
 - title: "The PRIORI Emotion Dataset: Linking Mood to Emotion Detected In-the-Wild"
   date: 2018-09-01
   categories: [Emotion Recognition, Model Training, Speech and Audio, Empirical Analysis, Mental Health]
-  href: https://arxiv.org/pdf/1806.10658.pdf
+  exthref: https://arxiv.org/pdf/1806.10658.pdf
   description: This paper presents critical steps in developing this pipeline, including (a) a new in the wild emotion dataset, the PRIORI Emotion Dataset, (b) activation/valence emotion recognition baselines, and, (c) establish emotion as a meta-feature for mood state monitoring.
   authors: Soheil Khorram, Mimansa Jaiswal, John Gideon, Melvin McInnis, Emily Mower Provost
   publisher: Interspeech
@@ -65,7 +65,7 @@
 - title: "'Hang in there': Lexical and Visual Analysis to Identify Posts Warranting Empathetic Responses"
   date: 2017-12-01
   categories: [Emotion Recognition, Mental Health, Text]
-  href: https://arxiv.org/pdf/1903.05210.pdf
+  exthref: https://arxiv.org/pdf/1903.05210.pdf
   description: Saying "You deserved it!" to "I failed the test" is not a good idea. In this paper, we propose a method supported by hand-crafted features to judge if the discourse or statement requires an empathetic response.
   authors: Mimansa Jaiswal, Sairam Tabibu, Erik Cambria
   publisher: FLAIRS
@@ -74,7 +74,7 @@
 - title: "'The Truth and Nothing But The Truth': Multimodal Analysis for Deception Detection"
   date: 2016-07-01
   categories: [Emotion Recognition, Mental Health, Multimodal, Text, Speech and Audio]
-  href: https://arxiv.org/pdf/1903.04484.pdf
+  exthref: https://arxiv.org/pdf/1903.04484.pdf
   description: We propose a data-driven method (SVMs) for automatic deception detection in real-life trial data using visual (OpenFace) and verbal cues (Bag of Words).
   authors: Mimansa Jaiswal, Sairam Tabibu, Rajiv Bajpai
   publisher: ICDM-W
@@ -105,7 +105,7 @@
   display-date: Mar 2023
   demo: https://human-in-loop-explanation-annotation.vercel.app/
   repo: https://github.com/mimansajaiswal/hil-text-annotation
-  relatednote: ../notes/explanation_annotation_interfaces.qmd
+  relatednote: ../notes/explanation_annotation_interfaces.html
 
 - title: "Controlled Evaluation of Explanations: What Might Have Influenced Your Model Explanation Efficacy Evaluation?"
   date: 2022-03-01
@@ -114,7 +114,7 @@
   authors: Mimansa Jaiswal, Minxue Niu, Emily Mower Provost
   publisher: Submission
   display-date: Mar 2022
-  relatednote: ../notes/controlled_evaluation_of_explanations.qmd
+  relatednote: ../notes/controlled_evaluation_of_explanations.html
 
 
 - title: "CAPSTONE: Capability Assessment Protocol for Systematic Testing Of Natural language models Expertise"
@@ -124,4 +124,4 @@
   authors: Mimansa Jaiswal, Emily Mower Provost
   publisher: Submission
   display-date: Mar 2023
-  relatednote: ../notes/capstone.qmd
+  relatednote: ../notes/capstone.html
