@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image','listing-outputHref',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-categories","listing-href","listing-twitterthread","listing-description","listing-authors","listing-publisher","listing-display-date"],
+      searchColumns: ["listing-title","listing-date","listing-categories","listing-href","listing-description","listing-authors","listing-publisher","listing-display-date","listing-talk"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -202,6 +202,7 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<style>html{ scroll-behavior: smooth; }</style>
 <script>
     
 </script>
@@ -242,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./single_page/papers.html" rel="" target=""><i class="bi bi-notecard" role="img">
+    <a class="nav-link" href="./single_page/papers.html" rel="" target=""><i class="bi bi-pen-fill" role="img">
 </i> 
  <span class="menu-text">Papers</span></a>
   </li>  
@@ -346,13 +347,13 @@ ul.task-list li input[type="checkbox"] {
         <div class="small-profile-card-research-wrapper">
           <div class="small-profile-card-subtitle">REPRESENTATIVE PUBLICATIONS</div>
           <div class="small-profile-card-research">
-            Human-Centered Metrics for Generalizable Debiased Emotion Models<a href="https://arxiv.org/pdf/1903.11672.pdf">arXiv URL</a>
+            Human-Centered Metrics for Generalized Debiased Emotion Models<a href="https://arxiv.org/pdf/1903.11672.pdf">arXiv</a>
           </div>
           <div class="small-profile-card-research">
-            Utterance Ordering Impacts Crowdsourced Emotion Annotations.<a href="https://arxiv.org/pdf/2104.08792.pdf">ICASSP '19</a>
+            Utterance Ordering Impacts Crowdsourced Emotion Annotations.<a href="https://arxiv.org/pdf/2104.08792.pdf">ICASSP</a>
           </div>
           <div class="small-profile-card-research">
-            Noise Based Augmentation of Emotion Datasets: What's &amp; When's ideal?<a href="https://arxiv.org/pdf/2104.08806.pdf">ACL[W] '20</a>
+            Noise Based Augmentation of Emotion Datasets: What's &amp; When's ideal?<a href="https://arxiv.org/pdf/2104.08806.pdf">ACL[W]</a>
           </div>
           <br>
           <div class="small-profile-card-subtitle">RECENT NOTES</div>
@@ -647,113 +648,190 @@ No matching items
 <div id="listing-rpapers" class="quarto-listing quarto-listing-container-custom">
 <br>
 <div class="list quarto-listing-custom">
-         <div class="papers-card quarto-post" data-index="0" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+         <div class="papers-card quarto-post" data-index="0" data-categories="Debiasing,Emotion Recognition,Text,Model Training,Empirical Analysis,Generalization,Evaluation,Metric Design" data-listing-date-sort="1664582400000">
             <div class="papers-main-metadata-display-date">
-               Jan 2020
+               Nov 2022
             </div>
             <div class="papers-main-metadata-publisher">
-               arxiv
+               arXiv
             </div>
             <div class="papers-main-content">
                <p class="papers-main-title">
-                  PUBArchived Item 1
+                  Human-centered metric design to promote generalizable and debiased emotion recognition
                </p>
                <p class="papers-main-display-date-publisher-in-text"><em>In
-                     arxiv,
-                        Jan 2020
+                     arXiv,
+                        Nov 2022
                   </em>
                </p>
                <p class="papers-main-authors">
-                  Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
+                  Mimansa Jaiswal, Emily Mower Provost
                </p>
                   <div class="listing-categories">
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/archived'); return false;">
-                           archived
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Debiasing'); return false;">
+                           Debiasing
                         </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/technology'); return false;">
-                           technology
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Model Training'); return false;">
+                           Model Training
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Empirical Analysis'); return false;">
+                           Empirical Analysis
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Generalization'); return false;">
+                           Generalization
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Evaluation'); return false;">
+                           Evaluation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Metric Design'); return false;">
+                           Metric Design
                         </div>
                   </div>
                      <div class="papers-hover_content">
                         <p class="papers-back-description">
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim.
+                           Metrics for emotion recognition can be challenging due to their dependence on subjective human perception. This paper proposes a template formulation that derives human-centered, automatic, optimizable evaluation metrics for emotion recognition models. The template uses model explanations and sociolinguistic wordlists and can be applied to a sample or whole dataset. The proposed metrics include generalizability and debiasing improvement, and are tested on three models, datasets and sensitive variables. The metrics correlate with the models' performance and biased representations, and can be used to train models with increased generalizability, decreased bias, or both. The template is the first to provide quantifiable metrics for training and evaluating generalizability and bias in emotion recognition models.
                         </p>
                         <div class="papers-back-links">
-                           <a href="www.google.com">PDF</a>
+                           <a href="https://arxiv.org/abs/2104.08792">PDF</a>
                         </div>
                      </div>
             </div>
          </div>
-         <div class="papers-card quarto-post" data-index="1" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+         <div class="papers-card quarto-post" data-index="1" data-categories="Data Augmentation,Emotion Recognition,Speech and Audio,Empirical Analysis" data-listing-date-sort="1593561600000">
+            <div class="papers-main-metadata-display-date">
+               2020
+            </div>
+            <div class="papers-main-metadata-publisher">
+               ACL-SRW
+            </div>
+            <div class="papers-main-content">
+               <p class="papers-main-title">
+                  Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend?
+               </p>
+               <p class="papers-main-display-date-publisher-in-text"><em>In
+                     ACL-SRW,
+                        2020
+                  </em>
+               </p>
+               <p class="papers-main-authors">
+                  Mimansa Jaiswal, Emily Mower Provost
+               </p>
+                  <div class="listing-categories">
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Augmentation'); return false;">
+                           Data Augmentation
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
+                           Speech and Audio
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Empirical Analysis'); return false;">
+                           Empirical Analysis
+                        </div>
+                  </div>
+                     <div class="papers-hover_content">
+                        <p class="papers-back-description">
+                           Multiple noise-based data augmentation approaches have been proposed to counteract this challenge in other speech domains. But, unlike speech recognition and speaker verification, the underlying label of emotion data may change given the addition of noise. In this work, we propose a set of recommendations for noise-based augmentation of emotion datasets based on human and machine performance evaluation of generated realistic noisy samples using multiple categories of environmental and synthetic noise.
+                        </p>
+                        <div class="papers-back-links">
+                           <a href="https://arxiv.org/abs/2104.08806">PDF</a>
+                              <a href="https://slideslive.com/38928670/noisebased-augmentation-techniques-for-emotion-datasets-what-do-we-recommend">Talk</a>
+                        </div>
+                     </div>
+            </div>
+         </div>
+         <div class="papers-card quarto-post" data-index="2" data-categories="Data Collection,Confounding Factors,Emotion Recognition,Speech and Audio" data-listing-date-sort="1588291200000">
             <div class="papers-main-metadata-display-date">
                May 2020
             </div>
             <div class="papers-main-metadata-publisher">
-               arxiv
+               LREC
             </div>
             <div class="papers-main-content">
                <p class="papers-main-title">
-                  PUBArchived Item 2
+                  MuSE: Multimodal Stressed Emotion Dataset
                </p>
                <p class="papers-main-display-date-publisher-in-text"><em>In
-                     arxiv,
+                     LREC,
                         May 2020
                   </em>
                </p>
                <p class="papers-main-authors">
-                  Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
+                  Mimansa Jaiswal, Cristian-Paul Bara, Yuanhang Luo, Rada Mihalcea, Mihai Burzo, Emily Mower Provost
                </p>
                   <div class="listing-categories">
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/archived'); return false;">
-                           archived
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Data Collection'); return false;">
+                           Data Collection
                         </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/technology'); return false;">
-                           technology
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Confounding Factors'); return false;">
+                           Confounding Factors
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
+                           Speech and Audio
                         </div>
                   </div>
                      <div class="papers-hover_content">
                         <p class="papers-back-description">
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim.
+                           This paper presents a dataset, Multimodal Stressed Emotion (MuSE), to study the multimodal interplay between the presence of stress and expressions of affect. We describe the data collection protocol, the possible areas of use, and the annotations for the emotional content of the recordings.
                         </p>
                         <div class="papers-back-links">
-                           <a href="www.google.com">PDF</a>
+                           <a href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.187.pdf">PDF</a>
                         </div>
                      </div>
             </div>
          </div>
-         <div class="papers-card quarto-post" data-index="2" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+         <div class="papers-card quarto-post" data-index="3" data-categories="Confounding Factors,Emotion Recognition,Speech and Audio,Text,Model Training" data-listing-date-sort="1580515200000">
             <div class="papers-main-metadata-display-date">
-               Jun 2020
+               Feb 2020
             </div>
             <div class="papers-main-metadata-publisher">
-               arxiv
+               AAAI, NeuRIPS-W
             </div>
             <div class="papers-main-content">
                <p class="papers-main-title">
-                  PUBArchived Item 3
+                  Privacy Enhanced Multimodal Neural Representations for Emotion Recognition
                </p>
                <p class="papers-main-display-date-publisher-in-text"><em>In
-                     arxiv,
-                        Jun 2020
+                     AAAI, NeuRIPS-W,
+                        Feb 2020
                   </em>
                </p>
                <p class="papers-main-authors">
-                  Common, sdjfws, deauhdweanfwesf,w esfwesdfgaerifgj aerg era ga
+                  Mimansa Jaiswal, Emily Mower Provost
                </p>
                   <div class="listing-categories">
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/archived'); return false;">
-                           archived
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Confounding Factors'); return false;">
+                           Confounding Factors
                         </div>
-                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/technology'); return false;">
-                           technology
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Emotion Recognition'); return false;">
+                           Emotion Recognition
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Speech and Audio'); return false;">
+                           Speech and Audio
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Text'); return false;">
+                           Text
+                        </div>
+                        <div class="listing-category" onclick="window.quartoListingCategory('/papers/Model Training'); return false;">
+                           Model Training
                         </div>
                   </div>
                      <div class="papers-hover_content">
                         <p class="papers-back-description">
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, nisl id consectetur finibus, ipsum augue luctus ante, eu lacinia sapien velit non augue. Fusce euismod nunc ac sapien dictum, vel tincidunt elit auctor. Vestibulum euismod, enim vitae efficitur sagittis, sapien erat tincidunt ex, vel lobortis sapien turpis at enim.
+                           This paper presents a dataset, Multimodal Stressed Emotion (MuSE), to study the multimodal interplay between the presence of stress and expressions of affect. We describe the data collection protocol, the possible areas of use, and the annotations for the emotional content of the recordings.
                         </p>
                         <div class="papers-back-links">
-                           <a href="www.google.com">PDF</a>
+                           <a href="https://arxiv.org/pdf/1910.13212.pdf">PDF</a>
                         </div>
                      </div>
             </div>
@@ -770,7 +848,7 @@ No matching items
 <div class="list quarto-listing-custom">
     <div class="notes-detail-list-img-content">
         <ul class="notes-detail-list-img">
-  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/controlled_evaluation_of_explanations.html'" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685954067000" data-listing-file-modified-sort="1685954067057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/controlled_evaluation_of_explanations.html'" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685956793000" data-listing-file-modified-sort="1685956793783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
         <div class="notes-detail-list-img-thumb"><img src=""></div>
         <div class="notes-detail-list-img-description">
@@ -786,7 +864,7 @@ No matching items
         </div>
     </li>
 </div>
-  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/explanation_annotation_interfaces.html'" data-index="1" data-categories="Try,Example" data-listing-date-sort="1685954067000" data-listing-file-modified-sort="1685954067057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/explanation_annotation_interfaces.html'" data-index="1" data-categories="Try,Example" data-listing-date-sort="1685956793000" data-listing-file-modified-sort="1685956793783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
         <div class="notes-detail-list-img-thumb"><img src=""></div>
         <div class="notes-detail-list-img-description">
@@ -802,7 +880,7 @@ No matching items
         </div>
     </li>
 </div>
-  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/tom_evaluation_in_foundation_models.html'" data-index="2" data-categories="Try,Example" data-listing-date-sort="1685954067000" data-listing-file-modified-sort="1685954067057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/tom_evaluation_in_foundation_models.html'" data-index="2" data-categories="Try,Example" data-listing-date-sort="1685956793000" data-listing-file-modified-sort="1685956793783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
         <div class="notes-detail-list-img-thumb"><img src=""></div>
         <div class="notes-detail-list-img-description">
@@ -818,7 +896,7 @@ No matching items
         </div>
     </li>
 </div>
-  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/capstone.html'" data-index="3" data-categories="Try,Example" data-listing-date-sort="1685954067000" data-listing-file-modified-sort="1685954067057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/capstone.html'" data-index="3" data-categories="Try,Example" data-listing-date-sort="1685956793000" data-listing-file-modified-sort="1685956793783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
         <div class="notes-detail-list-img-thumb"><img src=""></div>
         <div class="notes-detail-list-img-description">
@@ -1078,4 +1156,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
