@@ -1,12 +1,12 @@
 ```{=html}
-<div class="list quarto-listing-custom">
-
+<div class="list quarto-listing-custom notes-detail-list-img-content notes-detail-list-img">
+<!-- 
     <div class="notes-detail-list-img-content">
-        <ul class="notes-detail-list-img">
+        <ul class="notes-detail-list-img"> -->
 
         <%/* create custom listing */%>
 <% for (const item of items) { %>
-  <div class="quarto-post notes-detail-list-img-note"  <%= metadataAttrs(item) %> >
+  <div class="quarto-post notes-detail-list-img-note"  <%=metadataAttrs(item) %> >
     <a href="<%- item.path %>">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="<%= item['date'] %>">
         <div class="notes-detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
@@ -36,8 +36,8 @@
 </div>
 
 <% } %>
-
+<!-- 
 	</ul>
-</div>
+</div> -->
 </div>
 ```
