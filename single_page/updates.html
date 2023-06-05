@@ -8,7 +8,7 @@
 
 <meta name="author" content="">
 
-<title>News</title>
+<title>Updates</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,20 +65,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-all-news .list');
+    const listingTargetEl = window.document.querySelector('#listing-all-updates .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-title","listing-date","listing-display-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-all-news'] = new List('listing-all-news', options);
+    window['quarto-listings']['listing-all-updates'] = new List('listing-all-updates', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -99,9 +99,9 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="News">
+<meta property="og:title" content="Updates">
 <meta property="og:site-name" content="Mimansa Jaiswal">
-<meta name="twitter:title" content="News">
+<meta name="twitter:title" content="Updates">
 <meta name="twitter:image" content="https://mimansajaiswal.github.io/single_page/images/me.jpg">
 <meta name="twitter:creator" content="@MimansaJ">
 <meta name="twitter:site" content="@MimansaJ">
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link active" href="../single_page/updates.html" rel="" target="" aria-current="page"><i class="bi bi-newspaper" role="img">
 </i> 
- <span class="menu-text">News</span></a>
+ <span class="menu-text">Updates</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../single_page/papers.html" rel="" target=""><i class="bi bi-pen-fill" role="img">
@@ -170,12 +170,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7">News</h1>
+<h1 class="title display-7">Updates</h1>
 <p class="author"></p>
 
 </header>
@@ -184,9 +184,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-all-news">
-<div class="list quarto-listing-default">
-
+<div class="quarto-listing quarto-listing-container-custom" id="listing-all-updates">
+<div class="news-div">
+    <ol class="news-ol">
+    <li class="news-li"><h6 class="anchored"><span class="news-span">May 2023</span></h6><p class="news-p">Defended my PhD titled `Implicit Design Choices and Their Impact on Emotion Recognition Model Development and Evaluation`</p></li>
+    <li class="news-li"><h6 class="anchored"><span class="news-span">May 2022</span></h6><p class="news-p">I was selected as one of the 8 Barbour fellows for 2022-2023 across all of UMich</p></li>
+    <li class="news-li"><h6 class="anchored"><span class="news-span">Nov 2021</span></h6><p class="news-p">Defended my PhD proposal titled `Implicit Design Choices and Their Impact on Emotion Recognition Model Development and Evaluation`</p></li>
+    <li class="news-li"><h6 class="anchored"><span class="news-span">Oct 2021</span></h6><p class="news-p">I will be presenting our work on sociolinguistic inspired privacy evaluation at text as data (TADA) conference 2021, UMich, Ann Arbor.</p></li>
+    <li class="news-li"><h6 class="anchored"><span class="news-span">Sep 2021</span></h6><p class="news-p">I am interning this Fall in Allen AI with Ana Marasović in the area of evaluation and interpretability.</p></li>
+    <li class="news-li"><h6 class="anchored"><span class="news-span">May 2021</span></h6><p class="news-p">Excited to be interning in the FAIR NLP group this summer and looking forward to work at the intersection of Linguistics and ML.</p></li>
+    <li class="news-li"><h6 class="anchored"><span class="news-span">Sep 2020</span></h6><p class="news-p">I have been chosen as the student representative for Faculty Hiring at my university for the 2020-21 season. Looking forward to knowing and communicating the 'usually hidden' processes.</p></li>
+    <li class="news-li"><h6 class="anchored"><span class="news-span">May 2020</span></h6><p class="news-p">Excited to be interning in the Conversation AI group at Facebook AI working on automated dialogue evaluation.</p></li>
+    <li class="news-li"><h6 class="anchored"><span class="news-span">Dec 2019</span></h6><p class="news-p">I'll be attending NeuRIPS. Shoot me an email if you want to meet and talk about anything!</p></li>
+    <li class="news-li"><h6 class="anchored"><span class="news-span">Jan 2019</span></h6><p class="news-p">I'll be a teaching assistant for the course on Applied Machine Learning for Affective Computing with my advisor. So excited to be teaching for the first time!</p></li>
+</ol>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
