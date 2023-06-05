@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Notes
 listing:
   contents: .
   sort: "date desc"
@@ -12,7 +12,7 @@ listing:
   feed: true
 author: ''
 comments: false
-description: Long Form Posts
+description: Long Form notes
 title-block-style: none
 # date: 1950-07-26 18:37
 ---

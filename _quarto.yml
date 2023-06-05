@@ -26,12 +26,12 @@ website:
     left:
       - icon: newspaper
         href: single_page/updates.qmd
-      - icon: postcard
+      - icon: notecard
         href: single_page/papers.qmd
       # - icon: folder2
       #   href: single_page/projects.qmd
       - icon: text-indent-left
-        href: posts/index.qmd
+        href: notes/index.qmd
       - icon: cursor-text
         href: stream/index.qmd
     right:
@@ -40,7 +40,7 @@ website:
         href: https://twitter.com/MimansaJ
       - icon: rss
         text: Feed
-        href: posts/index.xml
+        href: notes/index.xml
 
 format:
   html:

@@ -1,16 +1,16 @@
 ```{=html}
 <div class="list quarto-listing-custom">
 
-    <div class="posts-detail-list-img-content">
-        <ul class="posts-detail-list-img">
+    <div class="notes-detail-list-img-content">
+        <ul class="notes-detail-list-img">
 
         <%/* create custom listing */%>
 <% for (const item of items) { %>
-  <div class="quarto-post posts-detail-list-img-post" onclick="window.location.href='<%= item["outputHref"] %>'" <%= metadataAttrs(item) %> >
-      <li class="posts-detail-list-img-entity posts-detail-list-img-date" data-content-date="<%= item['date'] %>">
-        <div class="posts-detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
-        <div class="posts-detail-list-img-description">
-            <h5 class="posts-detail-list-img-title"><%= item['threeword'] %></h5>
+  <div class="quarto-note notes-detail-list-img-note" onclick="window.location.href='<%= item["outputHref"] %>'" <%= metadataAttrs(item) %> >
+      <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="<%= item['date'] %>">
+        <div class="notes-detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
+        <div class="notes-detail-list-img-description">
+            <h5 class="notes-detail-list-img-title"><%= item['threeword'] %></h5>
             <h6><%= item['title'] %></h6>
             <p><%= item['description'] %><% if (item.categories) {%>
                 <div class="listing-categories">
@@ -20,7 +20,7 @@
                   </div>
                   <% } %>
                   <% if (item.tweethread){%><a href="<%= item['tweetthread'] %>">Twitter Thread</a> <%}%>
-                  <% if (item.relatedpost){%><a href="<%= item['relatedpost'] %>">Post</a> <%}%>
+                  <% if (item.relatednote){%><a href="<%= item['relatednote'] %>">note</a> <%}%>
                   <% if (item.relatedpaper){%><a href="<%= item['relatedpaper'] %>">Paper</a> <%}%>
                   <% if (item.press){%><a href="<%= item['publicity'] %>">Publicity</a> <%}%>
                   <% if (item.demo){%><a href="<%= item['demo'] %>">Demo</a> <%}%>

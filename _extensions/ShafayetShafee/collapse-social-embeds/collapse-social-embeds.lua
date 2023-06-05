@@ -111,7 +111,7 @@ function embed_mastodon()
 	      local icon = attr['icon'] or true
         local collapse_appearance = attr['appearance'] or "default"
         local collapse = attr['collapse'] or true
-        local caption = attr['caption'] or "Mastodon Post"
+        local caption = attr['caption'] or "Mastodon note"
         return pandoc.Div({quarto.Callout({
           type = "note",
           icon = icon,

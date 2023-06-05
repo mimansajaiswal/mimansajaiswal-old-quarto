@@ -18,19 +18,19 @@ about:
       text: Twitter
       href: https://twitter.com/MimansaJ
 listing:
-  - id: rposts
-    template: single_page/posts.ejs
-    contents: [posts]
+  - id: rnotes
+    template: single_page/notes.ejs
+    contents: [notes]
     max-items: 5
     sort: "date desc"
     categories: false
-    fields: [date, title, description, categories, image, threeword, outputHref, tweetthread, relatedpost, relatedpaper, publicity, demo, repo]
+    fields: [date, title, description, categories, image, threeword, outputHref, tweetthread, relatednote, relatedpaper, publicity, demo, repo]
     feed: false
     filter-ui: false
     sort-ui: false
     date-format: MM-DD-YYYY
     exclude:
-      title: "Posts"
+      title: "notes"
   - id: rupdates
     template: about_me/updates_about.ejs
     contents: 
@@ -99,7 +99,7 @@ Tl;dr: I work in the area of developing interpretable and human imitating evalua
 <!-- ### Research interests
 My present research interests lie in the topics that fall under the umbrella of Robust and Interpretable Human Centered Computing. I work in the area of robust and interpretable systems for social signal processing using natural language understanding and speech processing to the various problems, such as, conversation and discourse analysis, emotion modelling etc. I am primarily interested in understanding what causes the state-of-the-art machine learning models to fail [Failure Analysis of ML models] or perform differently than expected [Evaluation of ML models], how these failure points can be used by an expert [Model Testing and Debugging] and predictions be explained to a general audience [Model Explanation] , how can we train or tune these models such that do not learn about certain variables [Robust and Private ML models], and how these models can benefit from known human knowledge [Expert Informed Machine Learning or Human-in-the-Loop ML].
 
-In the past, I have also worked in Machine Learning for Health, especially, in relation to mental health. I have worked on mental health prediction using social media posts as proxy (B.E. Thesis). I have also worked on multimodal deception detection and predicting empathy in human behavior. -->
+In the past, I have also worked in Machine Learning for Health, especially, in relation to mental health. I have worked on mental health prediction using social media notes as proxy (B.E. Thesis). I have also worked on multimodal deception detection and predicting empathy in human behavior. -->
 :::
 ### Research interests
 {{< include about_me/research_interests.qmd >}}
@@ -122,8 +122,8 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 :::
 
 
-### Posts
-:::{#rposts}
+### NOTES
+:::{#rnotes}
 :::
 
 
