@@ -1629,6 +1629,7 @@ div.papers-back-links>a {
   color: $gray-700;
   line-height: 1.2;
   text-align: left;
+  justify-content: space-between;
 
   &+& {
     margin-top: 6px;
@@ -1640,7 +1641,6 @@ div.papers-back-links>a {
 {
   padding: 0em;
 }
-
 
 
 
