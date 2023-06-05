@@ -3,10 +3,10 @@
     "listing": "/index.html",
     "items": [
       "/notes/gender_biases_in_llms.html",
-      "/notes/controlled_evaluation_of_explanations.html",
-      "/notes/explanation_annotation_interfaces.html",
       "/notes/tom_evaluation_in_foundation_models.html",
-      "/notes/capstone.html"
+      "/notes/explanation_annotation_interfaces.html",
+      "/notes/capstone.html",
+      "/notes/controlled_evaluation_of_explanations.html"
     ]
   },
   {
@@ -21,10 +21,10 @@
     "listing": "/writing.html",
     "items": [
       "/notes/gender_biases_in_llms.html",
-      "/notes/controlled_evaluation_of_explanations.html",
-      "/notes/explanation_annotation_interfaces.html",
       "/notes/tom_evaluation_in_foundation_models.html",
+      "/notes/explanation_annotation_interfaces.html",
       "/notes/capstone.html",
+      "/notes/controlled_evaluation_of_explanations.html",
       "/stream/phd_stipends.html"
     ]
   },
@@ -38,10 +38,10 @@
     "listing": "/notes/index.html",
     "items": [
       "/notes/gender_biases_in_llms.html",
-      "/notes/controlled_evaluation_of_explanations.html",
-      "/notes/explanation_annotation_interfaces.html",
       "/notes/tom_evaluation_in_foundation_models.html",
-      "/notes/capstone.html"
+      "/notes/explanation_annotation_interfaces.html",
+      "/notes/capstone.html",
+      "/notes/controlled_evaluation_of_explanations.html"
     ]
   }
 ]
