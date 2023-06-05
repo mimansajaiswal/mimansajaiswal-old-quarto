@@ -10,5 +10,7 @@ description: Designing a user interface where human annotators can provide expla
 threeword: Text Annotation Interface Design
 reference-location: margin
 citation-location: margin
+image: images/explanation_annotation_interfaces/screenshot.png
 ---
 Coming soon.
+![Example annotation using the interface](images/explanation_annotation_interfaces/screenshot.png)

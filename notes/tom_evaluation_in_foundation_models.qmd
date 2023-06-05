@@ -1,14 +1,16 @@
 ---
-title: "Collapse-social-embeds Example"
-date: last-modified
+title: "A Framework for Evaluating Theory of Mind through Structured Testing"
+date: 2023-03-27
 format: html
-categories: [Try, Example]
+categories: [Text, Evaluation, Metric Design, Schema, Interpretation, Data Annotation, Foundation Models, Example]
 filters:
   - collapse-social-embeds
 draft: false
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
+description: The proposed framework for evaluating theory of mind emphasizes user instinct derivation and creation of evaluation problems that reflect this instinct. Irrespective of the test, it comprises three key steps - instinct derivation, prompt modification and process evaluation - that together lead to more structured and effective evaluation methods for testing theory of mind.
 threeword: ToM Evaluation Heuristics
 reference-location: margin
 citation-location: margin
+image: images/tom_evaluation_in_foundation_models/flowchart_prompt.png
 ---
 Coming soon.
+![Prompt Modification Schema based on Instinct for Theory of Mind](images/tom_evaluation_in_foundation_models/flowchart_prompt.png)

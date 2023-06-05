@@ -1,14 +1,16 @@
 ---
-title: "Collapse-social-embeds Example"
-date: last-modified
+title: "Demonstrating how Gender Bias Creeps into NLP Models"
+date: 2023-03-27
 format: html
-categories: [Try, Example]
+categories: [Text, Evaluation, Foundation Models, Example, Debiasing]
 filters:
   - collapse-social-embeds
 draft: false
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
+description: Gender biases present in Machine Learning Models are pretty difficult to identify. GPT4, as illustrated, considers the female partner to be the problem in a disagreement surrounding crying. Gendered translations and ambiguous pronoun references add to the problem and reinforce existing biases.
 threeword: Foundation Models' Gender Biases
 reference-location: margin
 citation-location: margin
+image: images/gender_biases_in_llms/google-translate-example.jpeg
 ---
 Coming soon.
+![Google Translate for professor from English to French](images/gender_biases_in_llms/google-translate-example.jpeg)
