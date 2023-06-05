@@ -17,7 +17,7 @@
               <% if (item.categories) {%>
                 <div class="listing-categories">
                   <% for (const category of item.categories) { %>
-                  <div class="listing-category" onclick="window.quartoListingCategory('/notes/<%=category%>'); return false;">
+                  <div class="listing-category" onclick="window.location.href='/notes/#category=<%=category%>'; return false;">
                     <%= category %></div>
                   <% } %>
                   </div>
