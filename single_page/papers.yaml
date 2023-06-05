@@ -21,11 +21,11 @@
   href: https://arxiv.org/pdf/1910.13212.pdf
   description: This paper presents a dataset, Multimodal Stressed Emotion (MuSE), to study the multimodal interplay between the presence of stress and expressions of affect. We describe the data collection protocol, the possible areas of use, and the annotations for the emotional content of the recordings.
   authors: Mimansa Jaiswal, Emily Mower Provost
-  publisher: AAAI, NeuRIPS-W
+  publisher: AAAI and NeuRIPS-W
   display-date: Feb 2020
 - title: "Human-centered metric design to promote generalizable and debiased emotion recognition"
   date: 2022-10-01
-  categories: [Debiasing, Emotion Recognition, Text, Model Training, Empirical Analysis, Generalization, Evaluation, Metric Design]
+  categories: [Debiasing, Emotion Recognition, Text, Model Training, Empirical Analysis, Generalization, Evaluation, Metric Design, Interpretability]
   href: https://arxiv.org/abs/2104.08792
   description: Metrics for emotion recognition can be challenging due to their dependence on subjective human perception. This paper proposes a template formulation that derives human-centered, automatic, optimizable evaluation metrics for emotion recognition models. The template uses model explanations and sociolinguistic wordlists and can be applied to a sample or whole dataset. The proposed metrics include generalizability and debiasing improvement, and are tested on three models, datasets and sensitive variables. The metrics correlate with the models' performance and biased representations, and can be used to train models with increased generalizability, decreased bias, or both. The template is the first to provide quantifiable metrics for training and evaluating generalizability and bias in emotion recognition models.
   authors: Mimansa Jaiswal, Emily Mower Provost
