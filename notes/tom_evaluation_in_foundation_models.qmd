@@ -8,5 +8,7 @@ filters:
 draft: false
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
 threeword: ToM Evaluation Heuristics
+reference-location: margin
+citation-location: margin
 ---
 Coming soon.

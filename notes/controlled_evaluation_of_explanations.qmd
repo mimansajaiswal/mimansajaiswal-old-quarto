@@ -2,11 +2,13 @@
 title: "Collapse-social-embeds Example"
 date: last-modified
 format: html
-categories: [Try, Example]
+categories: [Text, Evaluation, Metric Design, Schema, Interpretation, Data Annotation]
 filters:
   - collapse-social-embeds
 draft: false
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
-threeword: Explanation Eval Standards
+description: End users affect explanation efficacy. NLP papers overlook other factors. This paper examines how saliency-based explanations' utiltiy change with controlled variables. We aim to provide a standardized list of variables to evaluate and show how SoTA algorithms rank differently when controlling for evaluation criteria.
+threeword: Standardized Explanation Evaluation
+reference-location: margin
+citation-location: margin
 ---
 Coming soon.

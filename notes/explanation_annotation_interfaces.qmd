@@ -2,11 +2,13 @@
 title: "Collapse-social-embeds Example"
 date: last-modified
 format: html
-categories: [Try, Example]
+categories: [Text, Data Annotation, Design]
 filters:
   - collapse-social-embeds
 draft: false
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
-threeword: Text Annotation Interface
+description: Designing a user interface where human annotators can provide explanations for text data. This can help improve the transparency and interpretability of machine learning models, as well as improve their performance.
+threeword: Text Annotation Interface Design
+reference-location: margin
+citation-location: margin
 ---
 Coming soon.

@@ -2,11 +2,12 @@
 title: "Collapse-social-embeds Example"
 date: last-modified
 format: html
-categories: [Try, Example]
+categories: [Text, Evaluation, Metric Design, Schema, Interpretation, Data Annotation, Foundation Models]
 filters:
   - collapse-social-embeds
 draft: false
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
-threeword: LLM Benchmark Schema
+description: Prompt-based language models have limitations in classification and often require users to test multiple prompts with varying temperatures to identify the best fit. A text annotation framework addresses this by introducing explicit prompt definition and validation, and can improve performance in labeling or retrieval tasks at scale.
+reference-location: margin
+citation-location: margin
 ---
 Coming soon.
