@@ -31,8 +31,8 @@ website:
       # - icon: folder2
       #   href: single_page/projects.qmd
       ## FIX THIS
-      # - icon: text-indent-left
-      #   href: notes/index.qmd
+      - icon: text-indent-left
+        href: notes/index.qmd
       - icon: cursor-text
         href: stream/index.qmd
     right:

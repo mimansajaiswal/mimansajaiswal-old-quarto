@@ -6,7 +6,7 @@ listing:
   sort: "date desc"
   type: default
   categories: numbered
-  fields: [categories, title, subtitle, date, description]
+  fields: [date, title, description, categories, image, threeword, outputHref, tweetthread, relatednote, relatedpaper, publicity, demo, repo]
   date-format: MM-DD-YYYY
   sort-ui: false
   filter-ui: false

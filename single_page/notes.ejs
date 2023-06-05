@@ -6,13 +6,15 @@
 
         <%/* create custom listing */%>
 <% for (const item of items) { %>
-  <div class="quarto-post notes-detail-list-img-note"  <%= metadataAttrs(item) %> onclick="window.location.href='<%= item["outputHref"] %>'" >
+  <div class="quarto-post notes-detail-list-img-note"  <%= metadataAttrs(item) %> >
+    <a href="<%- item.path %>">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="<%= item['date'] %>">
         <div class="notes-detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
         <div class="notes-detail-list-img-description">
             <h5 class="notes-detail-list-img-title"><%= item['threeword'] %></h5>
             <h6><%= item['title'] %></h6>
-            <p><%= item['description'] %><% if (item.categories) {%>
+            <p><%= item['description'] %>
+              <% if (item.categories) {%>
                 <div class="listing-categories">
                   <% for (const category of item.categories) { %>
                   <div class="listing-category" onclick="window.quartoListingCategory('/papers/<%=category%>'); return false;"><%= category %></div>
@@ -28,7 +30,7 @@
                 </p>
         </div>
     </li>
-
+  </a>
 </div>
 
 <% } %>
