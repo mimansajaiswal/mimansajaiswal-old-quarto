@@ -64,20 +64,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-rposts .list');
+    const listingTargetEl = window.document.querySelector('#listing-rnotes .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-image','listing-threeword','listing-outputHref','listing-tweetthread','listing-relatedpost','listing-relatedpaper','listing-publicity','listing-demo','listing-repo',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-image','listing-threeword','listing-outputHref','listing-tweetthread','listing-relatednote','listing-relatedpaper','listing-publicity','listing-demo','listing-repo',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] }],
       
-      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-comments","listing-language","listing-title","listing-author","listing-date","listing-categories","listing-filters","listing-draft","listing-description","listing-threeword","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-press"],
+      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-comments","listing-language","listing-title","listing-listing","listing-author","listing-description","listing-title-block-style","listing-path","listing-outputHref","listing-filename","listing-file-modified","listing-reading-time","listing-date","listing-categories","listing-filters","listing-draft","listing-threeword","listing-date-modified","listing-press"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-rposts'] = new List('listing-rposts', options);
+    window['quarto-listings']['listing-rnotes'] = new List('listing-rnotes', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -242,14 +242,14 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./single_page/papers.html" rel="" target=""><i class="bi bi-postcard" role="img">
+    <a class="nav-link" href="./single_page/papers.html" rel="" target=""><i class="bi bi-notecard" role="img">
 </i> 
  <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts/index.html" rel="" target=""><i class="bi bi-text-indent-left" role="img">
+    <a class="nav-link" href="./notes/index.html" rel="" target=""><i class="bi bi-text-indent-left" role="img">
 </i> 
- <span class="menu-text">Posts</span></a>
+ <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./stream/index.html" rel="" target=""><i class="bi bi-cursor-text" role="img">
@@ -264,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Twitter</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts/index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./notes/index.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text">Feed</span></a>
   </li>  
@@ -290,7 +290,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
   <li><a href="#updates" id="toc-updates" class="nav-link" data-scroll-target="#updates">Updates</a></li>
   <li><a href="#papers" id="toc-papers" class="nav-link" data-scroll-target="#papers">Papers</a></li>
-  <li><a href="#posts" id="toc-posts" class="nav-link" data-scroll-target="#posts">Posts</a></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">NOTES</a></li>
   </ul>
 </nav>
     </div>
@@ -341,34 +341,44 @@ ul.task-list li input[type="checkbox"] {
       <div class="small-profile-card-content">
         <div class="small-profile-card-subtitle">RESEARCH</div>
         <div class="small-profile-card-research-wrapper">
+          <div class="small-profile-card-subtitle">RECENT PUBLICATIONS</div>
           <div class="small-profile-card-research">
           </div>
           <div class="small-profile-card-research">
           </div>
           <div class="small-profile-card-research">
           </div>
+          <div class="small-profile-card-subtitle">RECENT NOTES</div>
         </div>
       </div>
     </div>
     <div class="small-profile-card-section" id="small-profile-experience">
       <div class="small-profile-card-content">
-        <div class="small-profile-card-subtitle">WORK EXPERIENCE</div>
+        <div class="small-profile-card-subtitle">EDUCATION &amp; EXPERIENCE</div>
         <div class="small-profile-card-timeline">
-          <div class="small-profile-card-item" small-profile-data-year="2014">
-            <div class="small-profile-card-item-title">Front-end Developer at <span>JotForm</span></div>
-            <div class="small-profile-card-item-desc">Disrupt stumptown retro everyday carry unicorn.</div>
+          <div class="small-profile-card-item" small-profile-data-year="May '23">
+            <div class="small-profile-card-item-title">PhD Defense at UMich CSE</div>
+            <div class="small-profile-card-item-desc">Implicit decisions and their impact in ML for Emotion Recognition</div>
           </div>
-          <div class="small-profile-card-item" small-profile-data-year="2016">
-            <div class="small-profile-card-item-title">UI Developer at <span>GitHub</span></div>
-            <div class="small-profile-card-item-desc">Developed new conversion funnels and disrupt.</div>
+          <div class="small-profile-card-item" small-profile-data-year="Win '21">
+            <div class="small-profile-card-item-title">Research Intern at AI2</div>
+            <div class="small-profile-card-item-desc">Interpretable &amp; Compositional Benchmarking of LLMs</div>
           </div>
-          <div class="small-profile-card-item" small-profile-data-year="2018">
-            <div class="small-profile-card-item-title">Illustrator at <span>Google</span></div>
-            <div class="small-profile-card-item-desc">Onboarding illustrations for App.</div>
+          <div class="small-profile-card-item" small-profile-data-year="Sum '21">
+            <div class="small-profile-card-item-title">Research Intern at FAIR</div>
+            <div class="small-profile-card-item-desc">Generating &amp; evaluating ambiguity aware pairs for NLI</div>
           </div>
-          <div class="small-profile-card-item" small-profile-data-year="2020">
-            <div class="small-profile-card-item-title">Full-Stack Developer at <span>CodePen</span></div>
-            <div class="small-profile-card-item-desc">Responsible for the encomposing brand expreience.</div>
+          <div class="small-profile-card-item" small-profile-data-year="Sum '20">
+            <div class="small-profile-card-item-title">Research Intern at Meta AI</div>
+            <div class="small-profile-card-item-desc">Weakly supervised social scoring for conversation models</div>
+          </div>
+          <div class="small-profile-card-item" small-profile-data-year="Sum '15">
+            <div class="small-profile-card-item-title">Research Intern at SENTIC, NTU</div>
+            <div class="small-profile-card-item-desc">Empathy recognition and deception detection</div>
+          </div>
+          <div class="small-profile-card-item" small-profile-data-year="Win '15">
+            <div class="small-profile-card-item-title">Research Intern at Academia Sinica</div>
+            <div class="small-profile-card-item-desc">Emotion perception interfaces for textual conversations</div>
           </div>
         </div>
       </div>
@@ -429,7 +439,7 @@ buttons.forEach((btn) => {
 <p>Tl;dr: I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures. Along with the research in my PhD, I have interned at Allen AI NLP, Facebook AI Research (FAIR) NLP, and, Facebook Research Conversational AI conducting research on similar lines of interest.</p>
 <!-- ### Research interests
 My present research interests lie in the topics that fall under the umbrella of Robust and Interpretable Human Centered Computing. I work in the area of robust and interpretable systems for social signal processing using natural language understanding and speech processing to the various problems, such as, conversation and discourse analysis, emotion modelling etc. I am primarily interested in understanding what causes the state-of-the-art machine learning models to fail [Failure Analysis of ML models] or perform differently than expected [Evaluation of ML models], how these failure points can be used by an expert [Model Testing and Debugging] and predictions be explained to a general audience [Model Explanation] , how can we train or tune these models such that do not learn about certain variables [Robust and Private ML models], and how these models can benefit from known human knowledge [Expert Informed Machine Learning or Human-in-the-Loop ML].
-In the past, I have also worked in Machine Learning for Health, especially, in relation to mental health. I have worked on mental health prediction using social media posts as proxy (B.E. Thesis). I have also worked on multimodal deception detection and predicting empathy in human behavior. -->
+In the past, I have also worked in Machine Learning for Health, especially, in relation to mental health. I have worked on mental health prediction using social media notes as proxy (B.E. Thesis). I have also worked on multimodal deception detection and predicting empathy in human behavior. -->
 </section>
 </div></div>
 </div>
@@ -614,7 +624,7 @@ No matching items
 <div id="listing-rpapers" class="quarto-listing quarto-listing-container-custom">
 <br>
 <div class="list quarto-listing-custom">
-         <div class="papers-card quarto-post" data-index="0" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+         <div class="papers-card quarto-note" data-index="0" data-categories="archived,technology" data-listing-date-sort="1577836800000">
             <div class="papers-main-metadata-display-date">
                Jan 2020
             </div>
@@ -651,7 +661,7 @@ No matching items
                      </div>
             </div>
          </div>
-         <div class="papers-card quarto-post" data-index="1" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+         <div class="papers-card quarto-note" data-index="1" data-categories="archived,technology" data-listing-date-sort="1577836800000">
             <div class="papers-main-metadata-display-date">
                May 2020
             </div>
@@ -688,7 +698,7 @@ No matching items
                      </div>
             </div>
          </div>
-         <div class="papers-card quarto-post" data-index="2" data-categories="archived,technology" data-listing-date-sort="1577836800000">
+         <div class="papers-card quarto-note" data-index="2" data-categories="archived,technology" data-listing-date-sort="1577836800000">
             <div class="papers-main-metadata-display-date">
                Jun 2020
             </div>
@@ -731,17 +741,28 @@ No matching items
 </div>
 </div>
 </section>
-<section id="posts" class="level3">
-<h3 data-anchor-id="posts">Posts</h3>
-<div id="listing-rposts" class="quarto-listing quarto-listing-container-custom">
+<section id="notes" class="level3">
+<h3 data-anchor-id="notes">NOTES</h3>
+<div id="listing-rnotes" class="quarto-listing quarto-listing-container-custom">
 <div class="list quarto-listing-custom">
-    <div class="posts-detail-list-img-content">
-        <ul class="posts-detail-list-img">
-  <div class="quarto-post posts-detail-list-img-post" onclick="window.location.href='posts/example_collapsible copy.html'" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685935826000" data-listing-file-modified-sort="1685935826391" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-      <li class="posts-detail-list-img-entity posts-detail-list-img-date" data-content-date="06-05-2023">
-        <div class="posts-detail-list-img-thumb"><img src=""></div>
-        <div class="posts-detail-list-img-description">
-            <h5 class="posts-detail-list-img-title">collpased exmps</h5>
+    <div class="notes-detail-list-img-content">
+        <ul class="notes-detail-list-img">
+  <div class="quarto-note notes-detail-list-img-note" onclick="window.location.href='notes/index.html'" data-index="0" data-listing-file-modified-sort="1685943441252" data-listing-reading-time-sort="1">
+      <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="">
+        <div class="notes-detail-list-img-thumb"><img src=""></div>
+        <div class="notes-detail-list-img-description">
+            <h5 class="notes-detail-list-img-title"></h5>
+            <h6>Notes</h6>
+            <p>Long Form notes
+                </p>
+        </div>
+    </li>
+</div>
+  <div class="quarto-note notes-detail-list-img-note" onclick="window.location.href='notes/example_collapsible copy.html'" data-index="1" data-categories="Try,Example" data-listing-date-sort="1685943441000" data-listing-file-modified-sort="1685943441252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+      <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
+        <div class="notes-detail-list-img-thumb"><img src=""></div>
+        <div class="notes-detail-list-img-description">
+            <h5 class="notes-detail-list-img-title">collpased exmps</h5>
             <h6>Collapse-social-embeds Example</h6>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
                 </p><div class="listing-categories">
@@ -752,11 +773,11 @@ No matching items
         </div>
     </li>
 </div>
-  <div class="quarto-post posts-detail-list-img-post" onclick="window.location.href='posts/example_collapsible.html'" data-index="1" data-categories="Try,Example" data-listing-date-sort="1685935826000" data-listing-file-modified-sort="1685935826391" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-      <li class="posts-detail-list-img-entity posts-detail-list-img-date" data-content-date="06-05-2023">
-        <div class="posts-detail-list-img-thumb"><img src=""></div>
-        <div class="posts-detail-list-img-description">
-            <h5 class="posts-detail-list-img-title">collpased exmps</h5>
+  <div class="quarto-note notes-detail-list-img-note" onclick="window.location.href='notes/example_collapsible.html'" data-index="2" data-categories="Try,Example" data-listing-date-sort="1685943441000" data-listing-file-modified-sort="1685943441252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+      <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
+        <div class="notes-detail-list-img-thumb"><img src=""></div>
+        <div class="notes-detail-list-img-description">
+            <h5 class="notes-detail-list-img-title">collpased exmps</h5>
             <h6>Collapse-social-embeds Example</h6>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
                 </p><div class="listing-categories">

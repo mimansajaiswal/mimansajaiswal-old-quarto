@@ -1,16 +1,10 @@
 [
   {
-    "listing": "/posts/index.html",
-    "items": [
-      "/posts/example_collapsible copy.html",
-      "/posts/example_collapsible.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
-      "/posts/example_collapsible copy.html",
-      "/posts/example_collapsible.html"
+      "/notes/index.html",
+      "/notes/example_collapsible copy.html",
+      "/notes/example_collapsible.html"
     ]
   },
   {
@@ -25,6 +19,13 @@
     "listing": "/stream/index.html",
     "items": [
       "/stream/phd_stipends.html"
+    ]
+  },
+  {
+    "listing": "/notes/index.html",
+    "items": [
+      "/notes/example_collapsible copy.html",
+      "/notes/example_collapsible.html"
     ]
   }
 ]

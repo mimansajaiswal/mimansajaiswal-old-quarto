@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mimansajaiswal.github.io/posts/index.html</loc>
-    <lastmod>2023-06-05T03:30:51.735Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/posts/example_collapsible copy.html</loc>
-    <lastmod>2023-06-05T03:30:52.787Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/posts/example_collapsible.html</loc>
-    <lastmod>2023-06-05T03:30:53.399Z</lastmod>
-  </url>
-  <url>
     <loc>https://mimansajaiswal.github.io/index.html</loc>
-    <lastmod>2023-06-05T03:30:53.951Z</lastmod>
+    <lastmod>2023-06-05T05:37:53.372Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/single_page/updates.html</loc>
-    <lastmod>2023-06-05T03:30:54.643Z</lastmod>
+    <lastmod>2023-06-05T05:37:54.016Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/single_page/papers.html</loc>
-    <lastmod>2023-06-05T03:30:55.255Z</lastmod>
+    <lastmod>2023-06-05T05:37:54.568Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/about_me/research_interests.html</loc>
-    <lastmod>2023-06-05T03:30:55.995Z</lastmod>
+    <lastmod>2023-06-05T05:37:55.220Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/banner.html</loc>
-    <lastmod>2023-06-05T03:30:56.367Z</lastmod>
+    <lastmod>2023-06-05T05:37:55.532Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/stream/phd_stipends.html</loc>
-    <lastmod>2023-06-05T03:30:56.763Z</lastmod>
+    <lastmod>2023-06-05T05:37:55.924Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/stream/index.html</loc>
-    <lastmod>2023-06-05T03:30:57.499Z</lastmod>
+    <lastmod>2023-06-05T05:37:56.572Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/index.html</loc>
+    <lastmod>2023-06-05T05:37:57.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/example_collapsible copy.html</loc>
+    <lastmod>2023-06-05T05:37:57.940Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/example_collapsible.html</loc>
+    <lastmod>2023-06-05T05:37:58.532Z</lastmod>
   </url>
 </urlset>
