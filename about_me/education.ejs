@@ -10,7 +10,8 @@
         <dd><%=item['year']%></dd>
         <br>
       </div>
-      <p class="edu-list-item-desc"><%=item['degree']%></p>
+      <p class="edu-list-item-desc"><%=item['degree']%><em><br>Advisor(s): <%=item['advisors']%>
+      <%if (item.topic){%><br>Thesis: <%=item['topic']%><%}%></em></p>
 <% } %>
 </dl>
 </div>
