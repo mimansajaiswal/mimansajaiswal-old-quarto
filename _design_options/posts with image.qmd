@@ -6,7 +6,7 @@
 
         <%/* create custom listing */%>
 <% for (const item of items) { %>
-  <div class="quarto-note notes-detail-list-img-note" onclick="window.location.href='<%= item["outputHref"] %>'" <%= metadataAttrs(item) %> >
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='<%= item["outputHref"] %>'" <%= metadataAttrs(item) %> >
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="<%= item['date'] %>">
         <div class="notes-detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
         <div class="notes-detail-list-img-description">
@@ -47,7 +47,7 @@ $trans: all 0.4s ease 0s;
   margin: 0;
 }
 
-.notes-detail-list-img .quarto-note {
+.notes-detail-list-img .quarto-post {
   margin: 0em;
   cursor: pointer;
 }
@@ -205,7 +205,7 @@ $trans: all 0.4s ease 0s;
   margin-right: 2px;
 }
 
-.notes-detail-list-img .quarto-note {
+.notes-detail-list-img .quarto-post {
   border: none;
 }
 
@@ -218,7 +218,7 @@ $trans: all 0.4s ease 0s;
     left: 0.2em;
   }
 
-  .notes-detail-list-img .quarto-note {
+  .notes-detail-list-img .quarto-post {
     padding-bottom: 0em;
   }
 }

@@ -6,7 +6,7 @@
 
         <%/* create custom listing */%>
 <% for (const item of items) { %>
-  <div class="quarto-note notes-detail-list-img-note" onclick="window.location.href='<%= item["outputHref"] %>'" <%= metadataAttrs(item) %> >
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='<%= item["outputHref"] %>'" <%= metadataAttrs(item) %> >
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="<%= item['date'] %>">
         <div class="notes-detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
         <div class="notes-detail-list-img-description">

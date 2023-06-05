@@ -30,7 +30,7 @@ listing:
     sort-ui: false
     date-format: MM-DD-YYYY
     exclude:
-      title: "notes"
+      title: "Notes"
   - id: rupdates
     template: about_me/updates_about.ejs
     contents: 
@@ -122,7 +122,7 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 :::
 
 
-### NOTES
+### Notes
 :::{#rnotes}
 :::
 
