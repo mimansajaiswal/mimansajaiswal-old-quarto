@@ -20,6 +20,7 @@
   {
     "listing": "/writing.html",
     "items": [
+      "/notes/index.html",
       "/notes/gender_biases_in_llms.html",
       "/notes/tom_evaluation_in_foundation_models.html",
       "/notes/explanation_annotation_interfaces.html",
