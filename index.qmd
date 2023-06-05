@@ -120,12 +120,12 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 :::
 
 
-### Papers
+### Research Publications
 :::{#rpapers}
 :::
 
 
-### Notes
+### Research Notes
 :::{#rnotes}
 :::
 

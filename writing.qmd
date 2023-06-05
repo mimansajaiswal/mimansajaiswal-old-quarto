@@ -1,0 +1,75 @@
+---
+title: "Writing"
+listing:
+  - id: rnotes
+    template: single_page/notes.ejs
+    contents: [notes]
+    max-items: 5
+    sort: "date desc"
+    categories: false
+    fields: [date, title, description, categories, image, threeword, outputHref, tweetthread, relatednote, relatedpaper, publicity, demo, repo]
+    feed: false
+    filter-ui: false
+    sort-ui: false
+    date-format: MM-DD-YYYY
+    exclude:
+      title: "Notes"
+  - id: rupdates
+    template: about_me/updates_about.ejs
+    contents: 
+      - single_page/updates.yaml
+    sort: "date desc"
+    type: default
+    max-items: 5
+    categories: false
+    fields: [title, date, display-date]
+    date-format: MM-DD-YYYY
+    sort-ui: false
+    filter-ui: false
+  - id: rpapers
+    template: single_page/papers.ejs
+    contents: 
+      - single_page/papers.yaml
+    sort: "date desc"
+    type: default
+    max-items: 5
+    categories: numbered
+    fields: [categories, title, subtitle, date, description, image,outputHref]
+    date-format: MM-DD-YYYY
+    sort-ui: false
+    filter-ui: false
+    max-description-length: 2000
+  - id: rpapers
+    template: stream/stream.ejs
+    contents: [stream]
+    sort: "date desc"
+    type: default
+    categories: numbered
+    fields: [categories, title, subtitle, date, description, image]
+    date-format: MM-DD-YYYY
+    sort-ui: false
+    filter-ui: false
+    feed: true
+    max-description-length: 2000
+    exclude:
+      title: "Blurbs"
+comments: false
+toc: true
+---
+
+### Research Publications
+:::{#rpapers}
+:::
+
+
+### Research Notes
+:::{#rnotes}
+:::
+
+### Blurbs
+:::{#rblurbs}
+:::
+
+### Updates
+:::{#rupdates}
+:::
