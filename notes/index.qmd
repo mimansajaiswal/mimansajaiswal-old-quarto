@@ -1,5 +1,5 @@
 ---
-title: Notes
+title: Research Notes
 listing:
   contents: .
   template: ../single_page/notes.ejs
