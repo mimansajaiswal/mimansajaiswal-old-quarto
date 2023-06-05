@@ -16,3 +16,21 @@ author: ''
 comments: false
 title-block-style: none
 ---
+```{=html}
+<script>
+for (const div of document.querySelectorAll('.category')) {
+  div.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
+}
+for (const div of document.querySelectorAll('.quarto-listing-category.category-default')) {
+  div.classList.add('list-group');
+}
+
+let counts = document.querySelectorAll('.quarto-category-count');
+for (let i = 0; i < counts.length; i++) {
+  let countText = counts[i].textContent;
+  countText = countText.replace(/\(|\)/g, '');
+  counts[i].textContent = countText;
+  counts[i].classList.add('badge', 'bg-primary', 'rounded-pill');
+}
+</script>
+```
