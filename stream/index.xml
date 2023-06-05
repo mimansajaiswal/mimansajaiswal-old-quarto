@@ -9,6 +9,11 @@
 <link>https://mimansajaiswal.github.io/stream/index.html</link>
 <atom:link href="https://mimansajaiswal.github.io/stream/index.xml" rel="self" type="application/rss+xml"/>
 <description>Small Short Bursts of Thoughts and Ideas</description>
+<image>
+<url>https://mimansajaiswal.github.io/images/me.png</url>
+<title>Mimansa Jaiswal</title>
+<link>https://mimansajaiswal.github.io/stream/index.html</link>
+</image>
 <generator>quarto-1.3.361</generator>
 <lastBuildDate>Sun, 07 May 2023 00:00:00 GMT</lastBuildDate>
 <item>
