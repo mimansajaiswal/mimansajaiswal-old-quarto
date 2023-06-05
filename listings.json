@@ -2,7 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
-      "/notes/biases_in_llms.html",
+      "/notes/gender_biases_in_llms.html",
       "/notes/controlled_evaluation_of_explanations.html",
       "/notes/explanation_annotation_interfaces.html",
       "/notes/tom_evaluation_in_foundation_models.html",
@@ -20,7 +20,7 @@
   {
     "listing": "/writing.html",
     "items": [
-      "/notes/biases_in_llms.html",
+      "/notes/gender_biases_in_llms.html",
       "/notes/controlled_evaluation_of_explanations.html",
       "/notes/explanation_annotation_interfaces.html",
       "/notes/tom_evaluation_in_foundation_models.html",
@@ -37,7 +37,7 @@
   {
     "listing": "/notes/index.html",
     "items": [
-      "/notes/biases_in_llms.html",
+      "/notes/gender_biases_in_llms.html",
       "/notes/controlled_evaluation_of_explanations.html",
       "/notes/explanation_annotation_interfaces.html",
       "/notes/tom_evaluation_in_foundation_models.html",
