@@ -1,5 +1,5 @@
 ---
-title: "Demonstrating how Gender Bias Creeps into NLP Models"
+title: "Demonstrating How Gender Bias Creeps into NLP Models"
 date: 2023-03-27
 format: html
 categories: [Text, Evaluation, Foundation Models, Example, Debiasing]

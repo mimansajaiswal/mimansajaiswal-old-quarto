@@ -1,4 +1,4 @@
-- title: "Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend?"
+- title: "Noise-Based Augmentation Techniques for Emotion Datasets: What Do We Recommend?"
   date: 2020-07-01
   categories: [Data Augmentation, Emotion Recognition, Speech and Audio, Empirical Analysis]
   exthref: https://arxiv.org/abs/2104.08806
@@ -88,13 +88,14 @@
   publisher: Interspeech
   display-date: Sep 2023
 
-- title: "Mind the gap: On the value of silence representations to lexical-based speech emotion recognition"
+- title: "Mind the Gap: On the Value of Silence Representations to Lexical-Based Speech Emotion Recognition"
   date: 2022-09-01
   categories: [Emotion Recognition, Text, Speech and Audio, Model Training, Interpretation]
   description: Silence is crucial in speech perception, conveying emphasis and emotion. However, little research has been done on the effect of silence on linguistics and emotion recognition. We present a novel framework that fuses linguistic and silence representations for emotion recognition in naturalistic speech. Two methods to represent silence are investigated, with results showing improved performance. Modeling silence as a token in a transformer language model significantly improves performance on the MSP-Podcast dataset. Analyses show that silence emphasizes the attention of its surrounding words.
   authors: Matthew Perez, Mimansa Jaiswal, Minxue Niu, Cristina Gorrostieta, Matthew Roddy, Kye Taylor, Reza Lotfian, John Kane, Emily Mower Provost
   publisher: Interspeech
   display-date: Sep 2022
+  exthref: https://www.isca-speech.org/archive/pdfs/interspeech_2022/perez22_interspeech.pdf
 
 - title: "Designing Interfaces for Delivering and Obtaining Generation Explanation Annotations"
   date: 2023-03-01
@@ -117,7 +118,7 @@
   relatednote: ../notes/controlled_evaluation_of_explanations.html
 
 
-- title: "CAPSTONE: Capability Assessment Protocol for Systematic Testing Of Natural language models Expertise"
+- title: "CAPSTONE: Capability Assessment Protocol for Systematic Testing of Natural Language Models Expertise"
   date: 2023-03-01
   categories: [Text, Evaluation, Metric Design, Schema, Interpretation, Data Annotation, Foundation Models]
   description: Prompt-based language models introduce uncertainty to classification and require users to try multiple prompts with varying temperatures to find the best fit. However, this approach lacks the ability to capture implicit differences in prompts and provide adequate vocabulary. To address this, a text annotation framework is proposed to provide a structured approach to prompt definition and annotation. Better validation structures and structured prompts are necessary for using prompt-based systems at scale for labeling or retrieval.
