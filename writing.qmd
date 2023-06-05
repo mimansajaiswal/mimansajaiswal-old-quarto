@@ -2,7 +2,7 @@
 title: "Writing"
 listing:
   - id: rnotes
-    template: single_page/notes.ejs
+    template: notes/notes_index.ejs
     contents: [notes]
     max-items: 5
     sort: "date desc"
@@ -27,7 +27,7 @@ listing:
     sort-ui: false
     filter-ui: false
   - id: rpapers
-    template: single_page/papers.ejs
+    template: single_page/papers_index.ejs
     contents: 
       - single_page/papers.yaml
     sort: "date desc"
@@ -39,7 +39,7 @@ listing:
     sort-ui: false
     filter-ui: false
     max-description-length: 2000
-  - id: rpapers
+  - id: rblurbs
     template: stream/stream.ejs
     contents: [stream]
     sort: "date desc"

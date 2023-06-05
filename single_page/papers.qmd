@@ -2,7 +2,7 @@
 title: "Research Publications"
 listing:
   id: all-papers
-  template: papers.ejs
+  template: papers_index.ejs
   contents: 
     - papers.yaml
   sort: "date desc"
