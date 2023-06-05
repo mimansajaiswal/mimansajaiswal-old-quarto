@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="">
-<meta name="description" content="Small Short Bursts of Thoughts and Ideas">
+<meta name="author" content="Mimansa Jaiswal">
 
-<title>Blurbs</title>
+<title>Writing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../favicon.ico" rel="icon">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,7 +65,91 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-rnotes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-image','listing-threeword','listing-outputHref','listing-tweetthread','listing-relatednote','listing-relatedpaper','listing-publicity','listing-demo','listing-repo',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      
+      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-comments","listing-language","listing-title","listing-author","listing-date","listing-categories","listing-filters","listing-draft","listing-description","listing-threeword","listing-press","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-rnotes'] = new List('listing-rnotes', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-rupdates .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-display-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-display-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-rupdates'] = new List('listing-rupdates', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-rpapers .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image','listing-outputHref',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-categories","listing-href","listing-twitterthread","listing-description","listing-authors","listing-publisher","listing-display-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-rpapers'] = new List('listing-rpapers', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-rpapers .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -79,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-rpapers'] = new List('listing-rpapers', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -99,12 +182,11 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="alternate" type="application/rss+xml" title="Mimansa Jaiswal" href="index.xml"><meta property="og:title" content="Blurbs">
-<meta property="og:description" content="Small Short Bursts of Thoughts and Ideas">
+<meta property="og:title" content="Writing">
+<meta property="og:image" content="">
 <meta property="og:site-name" content="Mimansa Jaiswal">
-<meta name="twitter:title" content="Blurbs">
-<meta name="twitter:description" content="Small Short Bursts of Thoughts and Ideas">
-<meta name="twitter:image" content="https://mimansajaiswal.github.io/stream/images/me.jpg">
+<meta name="twitter:title" content="Writing">
+<meta name="twitter:image" content="https://mimansajaiswal.github.io/images/me.jpg">
 <meta name="twitter:creator" content="@MimansaJ">
 <meta name="twitter:site" content="@MimansaJ">
 <meta name="twitter:card" content="summary_large_image">
@@ -117,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Mimansa Jaiswal</span>
     </a>
   </div>
@@ -128,22 +210,22 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../single_page/updates.html" rel="" target=""><i class="bi bi-newspaper" role="img">
+    <a class="nav-link" href="./single_page/updates.html" rel="" target=""><i class="bi bi-newspaper" role="img">
 </i> 
  <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../single_page/papers.html" rel="" target=""><i class="bi bi-notecard" role="img">
+    <a class="nav-link" href="./single_page/papers.html" rel="" target=""><i class="bi bi-notecard" role="img">
 </i> 
  <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../notes/index.html" rel="" target=""><i class="bi bi-text-indent-left" role="img">
+    <a class="nav-link" href="./notes/index.html" rel="" target=""><i class="bi bi-text-indent-left" role="img">
 </i> 
  <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../stream/index.html" rel="" target="" aria-current="page"><i class="bi bi-cursor-text" role="img">
+    <a class="nav-link" href="./stream/index.html" rel="" target=""><i class="bi bi-cursor-text" role="img">
 </i> 
  <span class="menu-text">Blurbs</span></a>
   </li>  
@@ -155,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Twitter</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../notes/index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./notes/index.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text">Feed</span></a>
   </li>  
@@ -171,39 +253,183 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Academia">Academia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Finance">Finance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Opinion">Opinion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PhD">PhD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Twitter">Twitter <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research-publications" id="toc-research-publications" class="nav-link active" data-scroll-target="#research-publications">Research Publications</a></li>
+  <li><a href="#research-notes" id="toc-research-notes" class="nav-link" data-scroll-target="#research-notes">Research Notes</a></li>
+  <li><a href="#blurbs" id="toc-blurbs" class="nav-link" data-scroll-target="#blurbs">Blurbs</a></li>
+  <li><a href="#updates" id="toc-updates" class="nav-link" data-scroll-target="#updates">Updates</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header">
-<h1 class="title display-7">Blurbs</h1>
-<p class="author"></p>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Writing</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mimansa Jaiswal </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
 
 </header>
 
-<script>
-for (const div of document.querySelectorAll('.category')) {
-  div.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
-}
-for (const div of document.querySelectorAll('.quarto-listing-category.category-default')) {
-  div.classList.add('list-group');
-}
+<section id="research-publications" class="level3">
+<h3 class="anchored" data-anchor-id="research-publications">Research Publications</h3>
+<div id="listing-rpapers" class="quarto-listing quarto-listing-container-custom">
 
-let counts = document.querySelectorAll('.quarto-category-count');
-for (let i = 0; i < counts.length; i++) {
-  let countText = counts[i].textContent;
-  countText = countText.replace(/\(|\)/g, '');
-  counts[i].textContent = countText;
-  counts[i].classList.add('badge', 'bg-primary', 'rounded-pill');
-}
-</script>
-<p>Blurbs is where I keep my random musings, quick reviews, and noteworthy quotes all in one place. It’s convenient to have a curated collection instead of them being scattered throughout my feed. It’s a fun little side space to gather everything. <br></p>
+<div class="list quarto-listing-custom">
+  <div class="quarto-post" data-index="0" data-categories="Finance,PhD,Academia,Opinion,Twitter" data-listing-date-sort="1683417600000" data-listing-file-modified-sort="1685954067057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div class="metadata">
+        <div class="listing-date" style="margin-top: 5px;">05-07-2023</div>
+      </div>
+      <div class="body">
+      <div class="listing-subtitle anchored">
+        <b>Livable Stipends for PhD Students Shouldn't Be Up for Debate</b>
+      </div>
+      <div class="listing-subtitle">
+        A response to the controversial idea that PhD students should barely scrape by in emergencies and rely on Blue Cupboard to feed themselves.
+      </div>
+      <div class="listing-subtitle">
+        I recently received some criticism for my comments over the past couple of days, which seemed to justify the idea that PhD students don't need livable stipends. Let me make myself perfectly clear: that's bullshit. No one should have to choose between paying bills and getting essential medical care or feeding their pets. If you're one of those people who thinks barely scraping by is okay for PhD students, we don't see eye to eye.
+        <!-- project,execute,website,format,comments,language,title,date,categories,subtitle,description,path,outputHref,date-modified,author,image,image-alt,filename,file-modified,reading-time,sortableValues -->
+        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
+      </div>
+      <!-- Finance,PhD,Academia,Opinion,Twitter -->
+      <div class="listing-categories">
+        <div class="listing-category" onclick="window.quartoListingCategory('Finance'); return false;">Finance</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('PhD'); return false;">PhD</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('Academia'); return false;">Academia</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('Opinion'); return false;">Opinion</div>
+        <div class="listing-category" onclick="window.quartoListingCategory('Twitter'); return false;">Twitter</div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="research-notes" class="level3">
+<h3 class="anchored" data-anchor-id="research-notes">Research Notes</h3>
+<div id="listing-rnotes" class="quarto-listing quarto-listing-container-custom">
+<div class="list quarto-listing-custom">
+    <div class="notes-detail-list-img-content">
+        <ul class="notes-detail-list-img">
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/controlled_evaluation_of_explanations.html'" data-index="0" data-categories="Try,Example" data-listing-date-sort="1685954067000" data-listing-file-modified-sort="1685954067057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+      <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
+        <div class="notes-detail-list-img-thumb"><img src=""></div>
+        <div class="notes-detail-list-img-description">
+            <h5 class="notes-detail-list-img-title anchored">collpased exmps</h5>
+            <h6 class="anchored">Collapse-social-embeds Example</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
+                </p><div class="listing-categories">
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Try'); return false;">Try</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Example'); return false;">Example</div>
+                  </div>
+                  <a href="">Publicity</a> 
+                <p></p>
+        </div>
+    </li>
+</div>
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/explanation_annotation_interfaces.html'" data-index="1" data-categories="Try,Example" data-listing-date-sort="1685954067000" data-listing-file-modified-sort="1685954067057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+      <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
+        <div class="notes-detail-list-img-thumb"><img src=""></div>
+        <div class="notes-detail-list-img-description">
+            <h5 class="notes-detail-list-img-title anchored">collpased exmps</h5>
+            <h6 class="anchored">Collapse-social-embeds Example</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
+                </p><div class="listing-categories">
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Try'); return false;">Try</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Example'); return false;">Example</div>
+                  </div>
+                  <a href="">Publicity</a> 
+                <p></p>
+        </div>
+    </li>
+</div>
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/tom_evaluation_in_foundation_models.html'" data-index="2" data-categories="Try,Example" data-listing-date-sort="1685954067000" data-listing-file-modified-sort="1685954067057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+      <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
+        <div class="notes-detail-list-img-thumb"><img src=""></div>
+        <div class="notes-detail-list-img-description">
+            <h5 class="notes-detail-list-img-title anchored">collpased exmps</h5>
+            <h6 class="anchored">Collapse-social-embeds Example</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
+                </p><div class="listing-categories">
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Try'); return false;">Try</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Example'); return false;">Example</div>
+                  </div>
+                  <a href="">Publicity</a> 
+                <p></p>
+        </div>
+    </li>
+</div>
+  <div class="quarto-post notes-detail-list-img-note" onclick="window.location.href='notes/capstone.html'" data-index="3" data-categories="Try,Example" data-listing-date-sort="1685954067000" data-listing-file-modified-sort="1685954067057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+      <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="06-05-2023">
+        <div class="notes-detail-list-img-thumb"><img src=""></div>
+        <div class="notes-detail-list-img-description">
+            <h5 class="notes-detail-list-img-title anchored">collpased exmps</h5>
+            <h6 class="anchored">Collapse-social-embeds Example</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue vel eros feugiat feugiat nec euismod turpis. Cras venenatis, mauris ac semper laore
+                </p><div class="listing-categories">
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Try'); return false;">Try</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('/papers/Example'); return false;">Example</div>
+                  </div>
+                  <a href="">Publicity</a> 
+                <p></p>
+        </div>
+    </li>
+</div>
+    </ul>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="blurbs" class="level3">
+<h3 class="anchored" data-anchor-id="blurbs">Blurbs</h3>
+<div id="rblurbs">
+
+</div>
+</section>
+<section id="updates" class="level3">
+<h3 class="anchored" data-anchor-id="updates">Updates</h3>
+<div id="listing-rupdates" class="quarto-listing quarto-listing-container-custom">
+<div class="news-div">
+    <ol class="news-ol">
+    <li class="news-li"><h6 class="anchored"><span class="news-span">Jan 2022</span></h6><p class="news-p">NWArchived Item 1 NWArchived Item 1NWArchived Item 1NWArchived Item 1NWArchived Item 1NWArchived Item 1NWArchived Item 1NWArchived Item 1 </p></li>
+    <li class="news-li"><h6 class="anchored"><span class="news-span">Jan 2021</span></h6><p class="news-p">NWArchived Item 1</p></li>
+</ol>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
 
+</section>
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-custom" id="listing-rpapers">
 
 <div class="list quarto-listing-custom">
   <div class="quarto-post" data-index="0" data-categories="Finance,PhD,Academia,Opinion,Twitter" data-listing-date-sort="1683417600000" data-listing-file-modified-sort="1685954067057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">

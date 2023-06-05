@@ -2,8 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
-      "/notes/example_collapsible copy.html",
-      "/notes/example_collapsible.html"
+      "/notes/controlled_evaluation_of_explanations.html",
+      "/notes/explanation_annotation_interfaces.html",
+      "/notes/tom_evaluation_in_foundation_models.html",
+      "/notes/capstone.html"
     ]
   },
   {
@@ -15,6 +17,16 @@
     "items": []
   },
   {
+    "listing": "/writing.html",
+    "items": [
+      "/notes/controlled_evaluation_of_explanations.html",
+      "/notes/explanation_annotation_interfaces.html",
+      "/notes/tom_evaluation_in_foundation_models.html",
+      "/notes/capstone.html",
+      "/stream/phd_stipends.html"
+    ]
+  },
+  {
     "listing": "/stream/index.html",
     "items": [
       "/stream/phd_stipends.html"
@@ -23,8 +35,10 @@
   {
     "listing": "/notes/index.html",
     "items": [
-      "/notes/example_collapsible copy.html",
-      "/notes/example_collapsible.html"
+      "/notes/controlled_evaluation_of_explanations.html",
+      "/notes/explanation_annotation_interfaces.html",
+      "/notes/tom_evaluation_in_foundation_models.html",
+      "/notes/capstone.html"
     ]
   }
 ]

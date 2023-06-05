@@ -2,42 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mimansajaiswal.github.io/index.html</loc>
-    <lastmod>2023-06-05T08:03:17.696Z</lastmod>
+    <lastmod>2023-06-05T08:34:44.262Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/single_page/updates.html</loc>
-    <lastmod>2023-06-05T08:03:18.324Z</lastmod>
+    <lastmod>2023-06-05T08:34:44.982Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/single_page/papers.html</loc>
-    <lastmod>2023-06-05T08:03:18.880Z</lastmod>
+    <lastmod>2023-06-05T08:34:45.578Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/about_me/research_interests.html</loc>
-    <lastmod>2023-06-05T08:03:19.516Z</lastmod>
+    <lastmod>2023-06-05T08:34:46.282Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/banner.html</loc>
-    <lastmod>2023-06-05T08:03:19.808Z</lastmod>
+    <lastmod>2023-06-05T08:34:46.650Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/writing.html</loc>
+    <lastmod>2023-06-05T08:34:47.086Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/stream/phd_stipends.html</loc>
-    <lastmod>2023-06-05T08:03:20.192Z</lastmod>
+    <lastmod>2023-06-05T08:34:47.486Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/stream/index.html</loc>
-    <lastmod>2023-06-05T08:03:20.856Z</lastmod>
+    <lastmod>2023-06-05T08:34:48.198Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/controlled_evaluation_of_explanations.html</loc>
+    <lastmod>2023-06-05T08:34:48.914Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/notes/index.html</loc>
-    <lastmod>2023-06-05T08:03:21.256Z</lastmod>
+    <lastmod>2023-06-05T08:34:49.886Z</lastmod>
   </url>
   <url>
-    <loc>https://mimansajaiswal.github.io/notes/example_collapsible copy.html</loc>
-    <lastmod>2023-06-05T08:03:22.168Z</lastmod>
+    <loc>https://mimansajaiswal.github.io/notes/explanation_annotation_interfaces.html</loc>
+    <lastmod>2023-06-05T08:34:50.594Z</lastmod>
   </url>
   <url>
-    <loc>https://mimansajaiswal.github.io/notes/example_collapsible.html</loc>
-    <lastmod>2023-06-05T08:03:22.752Z</lastmod>
+    <loc>https://mimansajaiswal.github.io/notes/tom_evaluation_in_foundation_models.html</loc>
+    <lastmod>2023-06-05T08:34:51.018Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/capstone.html</loc>
+    <lastmod>2023-06-05T08:34:51.362Z</lastmod>
   </url>
 </urlset>
