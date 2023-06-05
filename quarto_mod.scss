@@ -1130,8 +1130,13 @@ $trans: all 0.4s ease 0s;
   padding: 0.25em 0.5em;
   color: $verylightpink;
   border-radius: 0.25em;
-  font-size: 1.35em;
   transform-origin: left bottom;
+}
+
+@media (max-width: 768px){
+  .notes-detail-list-img-title{
+    display: none;
+  }
 }
 
 .notes-detail-list-img-note:nth-of-type(even) .notes-detail-list-img-entity h5 {
@@ -1151,7 +1156,7 @@ $trans: all 0.4s ease 0s;
 .notes-detail-list-img-date:after {
   content: attr(data-content-date);
   font-family: monospace;
-  font-size: 0.75em;
+  font-size: small;
   position: absolute;
   top: -1.5em;
   background: $lightpink;
@@ -1297,7 +1302,7 @@ $trans: all 0.4s ease 0s;
 .papers-main-metadata-display-date,
 .papers-main-metadata-publisher {
   font-family: monospace;
-  font-size: 0.75em;
+  font-size: small;
   position: absolute;
   top: -1.5em;
   background: $lightpink;
@@ -1405,13 +1410,13 @@ div.papers-back-links>a {
 
   .small-profile-card-fullname {
     bottom: 18px;
-    font-size: 19px;
+    font-size: medium;
   }
 
   .small-profile-card-jobtitle {
     bottom: 16px;
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: smaller;
   }
 }
 
@@ -1459,7 +1464,7 @@ div.papers-back-links>a {
 .small-profile-card-fullname {
   position: absolute;
   bottom: 0;
-  font-size: 22px;
+  font-size: medium;
   font-weight: 700;
   text-align: center;
   white-space: nowrap;
@@ -1470,7 +1475,7 @@ div.papers-back-links>a {
 .small-profile-card-jobtitle {
   position: absolute;
   bottom: 0;
-  font-size: 11px;
+  font-size: smaller;
   white-space: nowrap;
   font-weight: 500;
   opacity: 0.7;
@@ -1491,7 +1496,7 @@ div.papers-back-links>a {
 
 .small-profile-card-subtitle {
   font-weight: 700;
-  font-size: 13px;
+  font-size: smaller;
   margin-bottom: 8px;
 }
 
@@ -1765,7 +1770,7 @@ $btn-close-hover-opacity: 1 !default;
 }
 
 .sandstone {
-  font-size: 13px;
+  font-size: smaller;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
