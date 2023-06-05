@@ -20,6 +20,7 @@ website:
 
   navbar:
     background: dark
+    title: Home
     pinned: true
     collapse: true
     search: true
@@ -28,9 +29,6 @@ website:
         href: single_page/updates.qmd
       - icon: pen-fill
         href: single_page/papers.qmd
-      # - icon: folder2
-      #   href: single_page/projects.qmd
-      ## FIX THIS
       - icon: text-indent-left
         href: notes/index.qmd
       - icon: cursor-text
