@@ -518,7 +518,7 @@ div.quarto-post .metadata {
 }
 
 /* Set 3 columns for desktop devices */
-@media (min-width: 992px) {
+@media (min-width: 991.98px) {
   .note-filter-grid {
     --bs-columns: 3;
   }
@@ -606,6 +606,13 @@ div.quarto-post .metadata {
 
 .anchorjs-link {
   display: inline-block !important;
+}
+
+@media (max-width: 991.98px) {
+  .about-contents
+  {
+    display: none;
+  }
 }
 
 
@@ -719,7 +726,7 @@ dl.edu-list dd {
   position: relative;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .exp-timeline .exp-event {
     padding-top: 30px;
   }
@@ -745,7 +752,7 @@ dl.edu-list dd {
   min-width: 120px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .exp-timeline .exp-event:before {
     left: 0px;
     text-align: left;
@@ -764,7 +771,7 @@ dl.edu-list dd {
   top: 5px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .exp-timeline .exp-event:after {
     left: -31.8px;
   }
@@ -1188,7 +1195,7 @@ $trans: all 0.4s ease 0s;
   border: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .notes-detail-list-img-date:after {
     right: 0.2em;
   }

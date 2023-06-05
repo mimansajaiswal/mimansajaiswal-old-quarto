@@ -95,9 +95,15 @@ toc: true
 
 ## Hi, I'm Mimansa
 
-I'm Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Systems) at the University of Michigan. I am fortunate to be working with Prof. Emily Provost as part of the CHAI group. I completed my undergrad in Computer Engineering from Institute of Engineering and Technology, Indore in 2017, and worked with Prof. G.L. Prajapati for my bachelor's thesis.
+I'm Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Systems) at the University of Michigan. 
 
-Tl;dr: I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures. Along with the research in my PhD, I have interned at Allen AI NLP, Facebook AI Research (FAIR) NLP, and, Facebook Research Conversational AI conducting research on similar lines of interest.
+I am fortunate to be working with Prof. Emily Provost as part of the CHAI group. I completed my undergrad in Computer Engineering from Institute of Engineering and Technology, Indore in 2017, and worked with Prof. G.L. Prajapati for my bachelor's thesis.
+
+Tl;dr: I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures.
+
+Other than research, I am interested in science communication, sketchnoting, personal knowledge management and cooking. One of my favorite activities during international conferences is to plan every single meal.
+
+I love cats, and they keep me sane. I have two: Oreo and Bert (yes, that Bert, you read it right!).
 
 <!-- ### Research interests
 My present research interests lie in the topics that fall under the umbrella of Robust and Interpretable Human Centered Computing. I work in the area of robust and interpretable systems for social signal processing using natural language understanding and speech processing to the various problems, such as, conversation and discourse analysis, emotion modelling etc. I am primarily interested in understanding what causes the state-of-the-art machine learning models to fail [Failure Analysis of ML models] or perform differently than expected [Evaluation of ML models], how these failure points can be used by an expert [Model Testing and Debugging] and predictions be explained to a general audience [Model Explanation] , how can we train or tune these models such that do not learn about certain variables [Robust and Private ML models], and how these models can benefit from known human knowledge [Expert Informed Machine Learning or Human-in-the-Loop ML].
