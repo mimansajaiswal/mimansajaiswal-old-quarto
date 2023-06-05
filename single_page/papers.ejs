@@ -25,8 +25,9 @@
                <% if (item.categories) {%>
                   <div class="listing-categories">
                      <% for (const category of item.categories) { %>
-                        <div class="listing-category"
-                           onclick="window.quartoListingCategory('/papers/<%=category%>'); return false;">
+                        <div class="listing-category">
+                           <!-- <div class="listing-category"
+                           onclick="window.quartoListingCategory('/papers/<%=category%>'); return false;"> -->
                            <%= category %>
                         </div>
                         <% } %>
