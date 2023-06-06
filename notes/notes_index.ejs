@@ -8,7 +8,7 @@
 <% for (const item of items) { %>
   <div class="quarto-post notes-detail-list-img-note"  <%=metadataAttrs(item) %> >
     <a href="<%- item.path %>">
-      <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="<%= item['date'] %>">
+      <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="<%= item['display-date'] %>">
         <div class="notes-detail-list-img-thumb"><img src="<%= item['image'] %>"></div>
         <div class="notes-detail-list-img-description">
             <h5 class="notes-detail-list-img-title"><%= item['threeword'] %></h5>
