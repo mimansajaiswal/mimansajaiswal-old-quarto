@@ -15,7 +15,7 @@
 <link>https://mimansajaiswal.github.io/notes/index.html</link>
 </image>
 <generator>quarto-1.3.361</generator>
-<lastBuildDate>Mon, 27 Mar 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 15 Apr 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Demonstrating How Gender Bias Creeps into NLP Models</title>
   <link>https://mimansajaiswal.github.io/notes/gender_biases_in_llms.html</link>
@@ -34,7 +34,7 @@
   <category>Example</category>
   <category>Debiasing</category>
   <guid>https://mimansajaiswal.github.io/notes/gender_biases_in_llms.html</guid>
-  <pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate>
+  <pubDate>Sat, 15 Apr 2023 00:00:00 GMT</pubDate>
   <media:content url="https://mimansajaiswal.github.io/notes/images/gender_biases_in_llms/google-translate-example.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -58,27 +58,8 @@
   <category>Foundation Models</category>
   <category>Example</category>
   <guid>https://mimansajaiswal.github.io/notes/tom_evaluation_in_foundation_models.html</guid>
-  <pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 14 Apr 2023 00:00:00 GMT</pubDate>
   <media:content url="https://mimansajaiswal.github.io/notes/images/tom_evaluation_in_foundation_models/flowchart_prompt.png" medium="image" type="image/png" height="126" width="144"/>
-</item>
-<item>
-  <title>Designing Interfaces for Delivering and Obtaining Generation Explanation Annotations</title>
-  <link>https://mimansajaiswal.github.io/notes/explanation_annotation_interfaces.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>Coming soon. <img src="https://mimansajaiswal.github.io/notes/images/explanation_annotation_interfaces/screenshot.png" class="img-fluid" alt="Example annotation using the interface"></p>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Text</category>
-  <category>Data Annotation</category>
-  <category>Design</category>
-  <guid>https://mimansajaiswal.github.io/notes/explanation_annotation_interfaces.html</guid>
-  <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://mimansajaiswal.github.io/notes/images/explanation_annotation_interfaces/screenshot.png" medium="image" type="image/png" height="59" width="144"/>
 </item>
 <item>
   <title>CAPSTONE: Capability Assessment Protocol for Systematic Testing of Natural Language Models Expertise</title>
@@ -102,6 +83,25 @@
   <guid>https://mimansajaiswal.github.io/notes/capstone.html</guid>
   <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
   <media:content url="https://mimansajaiswal.github.io/notes/images/capstone/prompt_steer_flow.png" medium="image" type="image/png" height="66" width="144"/>
+</item>
+<item>
+  <title>Designing Interfaces for Delivering and Obtaining Generation Explanation Annotations</title>
+  <link>https://mimansajaiswal.github.io/notes/explanation_annotation_interfaces.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Coming soon. <img src="https://mimansajaiswal.github.io/notes/images/explanation_annotation_interfaces/screenshot.png" class="img-fluid" alt="Example annotation using the interface"></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Text</category>
+  <category>Data Annotation</category>
+  <category>Design</category>
+  <guid>https://mimansajaiswal.github.io/notes/explanation_annotation_interfaces.html</guid>
+  <pubDate>Wed, 01 Feb 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://mimansajaiswal.github.io/notes/images/explanation_annotation_interfaces/screenshot.png" medium="image" type="image/png" height="59" width="144"/>
 </item>
 <item>
   <title>Controlled Evaluation of Explanations: What Might Have Influenced Your Model Explanation Efficacy Evaluation?</title>
