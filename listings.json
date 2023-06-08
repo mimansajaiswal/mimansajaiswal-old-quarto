@@ -10,14 +10,6 @@
     ]
   },
   {
-    "listing": "/single_page/updates.html",
-    "items": []
-  },
-  {
-    "listing": "/single_page/papers.html",
-    "items": []
-  },
-  {
     "listing": "/writing.html",
     "items": [
       "/notes/index.html",
@@ -34,6 +26,14 @@
     "items": [
       "/stream/phd_stipends.html"
     ]
+  },
+  {
+    "listing": "/single_page/updates.html",
+    "items": []
+  },
+  {
+    "listing": "/single_page/papers.html",
+    "items": []
   },
   {
     "listing": "/notes/index.html",

@@ -2,58 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mimansajaiswal.github.io/index.html</loc>
-    <lastmod>2023-06-06T21:50:14.498Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/single_page/updates.html</loc>
-    <lastmod>2023-06-06T21:50:15.174Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/single_page/papers.html</loc>
-    <lastmod>2023-06-06T21:50:15.538Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/about_me/research_interests.html</loc>
-    <lastmod>2023-06-06T21:50:16.206Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/banner.html</loc>
-    <lastmod>2023-06-06T21:50:16.562Z</lastmod>
+    <lastmod>2023-06-08T18:49:48.023Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/writing.html</loc>
-    <lastmod>2023-06-06T21:50:17.034Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/stream/phd_stipends.html</loc>
-    <lastmod>2023-06-06T21:50:17.418Z</lastmod>
+    <lastmod>2023-06-08T18:49:48.867Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/stream/index.html</loc>
-    <lastmod>2023-06-06T21:50:18.134Z</lastmod>
+    <lastmod>2023-06-08T18:49:49.511Z</lastmod>
   </url>
   <url>
-    <loc>https://mimansajaiswal.github.io/notes/gender_biases_in_llms.html</loc>
-    <lastmod>2023-06-06T21:50:18.850Z</lastmod>
+    <loc>https://mimansajaiswal.github.io/stream/phd_stipends.html</loc>
+    <lastmod>2023-06-08T18:49:50.195Z</lastmod>
   </url>
   <url>
-    <loc>https://mimansajaiswal.github.io/notes/controlled_evaluation_of_explanations.html</loc>
-    <lastmod>2023-06-06T21:50:19.226Z</lastmod>
+    <loc>https://mimansajaiswal.github.io/banner.html</loc>
+    <lastmod>2023-06-08T18:49:50.483Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/about_me/research_interests.html</loc>
+    <lastmod>2023-06-08T18:49:50.795Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/single_page/updates.html</loc>
+    <lastmod>2023-06-08T18:49:51.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/single_page/papers.html</loc>
+    <lastmod>2023-06-08T18:49:51.723Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/notes/index.html</loc>
-    <lastmod>2023-06-06T21:50:19.994Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/notes/explanation_annotation_interfaces.html</loc>
-    <lastmod>2023-06-06T21:50:20.706Z</lastmod>
+    <lastmod>2023-06-08T18:49:52.067Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/notes/tom_evaluation_in_foundation_models.html</loc>
-    <lastmod>2023-06-06T21:50:21.090Z</lastmod>
+    <lastmod>2023-06-08T18:49:52.735Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/explanation_annotation_interfaces.html</loc>
+    <lastmod>2023-06-08T18:49:53.087Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/controlled_evaluation_of_explanations.html</loc>
+    <lastmod>2023-06-08T18:49:53.423Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/gender_biases_in_llms.html</loc>
+    <lastmod>2023-06-08T18:49:53.775Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/notes/capstone.html</loc>
-    <lastmod>2023-06-06T21:50:21.454Z</lastmod>
+    <lastmod>2023-06-08T18:49:54.107Z</lastmod>
   </url>
 </urlset>
