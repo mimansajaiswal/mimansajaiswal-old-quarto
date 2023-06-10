@@ -13,5 +13,5 @@ reference-location: margin
 citation-location: margin
 image: images/capstone/prompt_steer_flow.png
 ---
-Coming soon.
+Coming soon...
 ![Example of prompt divisions in capstone schema](images/capstone/prompt_steer_flow.png)
