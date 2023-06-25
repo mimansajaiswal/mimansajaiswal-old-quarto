@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/notes/index.html",
     "items": [
       "/notes/gender_biases_in_llms.html",
       "/notes/tom_evaluation_in_foundation_models.html",
@@ -14,8 +14,24 @@
     "items": []
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/notes/gender_biases_in_llms.html",
+      "/notes/tom_evaluation_in_foundation_models.html",
+      "/notes/capstone.html",
+      "/notes/explanation_annotation_interfaces.html",
+      "/notes/controlled_evaluation_of_explanations.html"
+    ]
+  },
+  {
     "listing": "/single_page/papers.html",
     "items": []
+  },
+  {
+    "listing": "/stream/index.html",
+    "items": [
+      "/stream/phd_stipends.html"
+    ]
   },
   {
     "listing": "/writing.html",
@@ -27,22 +43,6 @@
       "/notes/explanation_annotation_interfaces.html",
       "/notes/controlled_evaluation_of_explanations.html",
       "/stream/phd_stipends.html"
-    ]
-  },
-  {
-    "listing": "/stream/index.html",
-    "items": [
-      "/stream/phd_stipends.html"
-    ]
-  },
-  {
-    "listing": "/notes/index.html",
-    "items": [
-      "/notes/gender_biases_in_llms.html",
-      "/notes/tom_evaluation_in_foundation_models.html",
-      "/notes/capstone.html",
-      "/notes/explanation_annotation_interfaces.html",
-      "/notes/controlled_evaluation_of_explanations.html"
     ]
   }
 ]
