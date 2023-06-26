@@ -71,7 +71,7 @@ Note
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="tweet-59780"></div><script>tweet={"url":"https:\/\/twitter.com\/MaartenBosma\/status\/1672349512499867648","author_name":"Maarten Bosma","author_url":"https:\/\/twitter.com\/MaartenBosma","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EGood question! PaLM used a different eval split. We have now added our results on that split as well, and we outperform PaLM by quite a margin. \u003Ca href=\"https:\/\/t.co\/mimZE8TSuB\"\u003Epic.twitter.com\/mimZE8TSuB\u003C\/a\u003E\u003C\/p\u003E&mdash; Maarten Bosma (@MaartenBosma) \u003Ca href=\"https:\/\/twitter.com\/MaartenBosma\/status\/1672349512499867648?ref_src=twsrc%5Etfw\"\u003EJune 23, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-59780").innerHTML = tweet["html"];</script>
+<div id="tweet-11350"></div><script>tweet={"url":"https:\/\/twitter.com\/MaartenBosma\/status\/1672349512499867648","author_name":"Maarten Bosma","author_url":"https:\/\/twitter.com\/MaartenBosma","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EGood question! PaLM used a different eval split. We have now added our results on that split as well, and we outperform PaLM by quite a margin. \u003Ca href=\"https:\/\/t.co\/mimZE8TSuB\"\u003Epic.twitter.com\/mimZE8TSuB\u003C\/a\u003E\u003C\/p\u003E&mdash; Maarten Bosma (@MaartenBosma) \u003Ca href=\"https:\/\/twitter.com\/MaartenBosma\/status\/1672349512499867648?ref_src=twsrc%5Etfw\"\u003EJune 23, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-11350").innerHTML = tweet["html"];</script>
 </div>
 </div>
 </div>
@@ -105,7 +105,7 @@ Note
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e7dac9ea4e5.png" class="lightbox" title="Prompt parts: Start, Process and Output Steer and influences that arise from it" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e7dac9ea4e5.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e7dac9ea4e5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Prompt parts: Start, Process and Output Steer and influences that arise from it"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e7dac9ea4e5.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Prompt parts: Start, Process and Output Steer and influences that arise from it</figcaption>
 </figure>
 </div>
@@ -129,7 +129,7 @@ Pre-curated eval sets
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-28995f49bbb.png" class="lightbox" title="What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset fromMedical Exams" data-gallery="quarto-lightbox-gallery-8"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-28995f49bbb.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-28995f49bbb.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset fromMedical Exams"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-28995f49bbb.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2009.13081v1.pdf">What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from</a><a href="https://arxiv.org/pdf/2009.13081v1.pdf"><strong>Medical Exams</strong></a></figcaption>
 </figure>
 </div>
@@ -151,7 +151,7 @@ Scraped eval sets
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a2d821fedcb.png" class="lightbox" title="TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension" data-gallery="quarto-lightbox-gallery-9"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a2d821fedcb.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a2d821fedcb.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a2d821fedcb.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/1705.03551.pdf">TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension</a></figcaption>
 </figure>
 </div>
@@ -173,7 +173,7 @@ Human curated eval sets
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d4c26694437.png" class="lightbox" title="HumanEval dataset proposed in Evaluating Large Language Models Trained on Code" data-gallery="quarto-lightbox-gallery-10"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d4c26694437.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d4c26694437.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="HumanEval dataset proposed in Evaluating Large Language Models Trained on Code"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d4c26694437.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">HumanEval dataset proposed in E<a href="https://arxiv.org/abs/2107.03374">valuating Large Language Models Trained on Code</a></figcaption>
 </figure>
 </div>
@@ -195,7 +195,7 @@ Ad-hoc testing
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8e22f3bd0df.png" class="lightbox" title="Evaluating models through single turn or multi-turn conversations in OpenAssistant Conversations - Democratizing Large Language Model Alignment" data-gallery="quarto-lightbox-gallery-11"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8e22f3bd0df.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8e22f3bd0df.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Evaluating models through single turn or multi-turn conversations in OpenAssistant Conversations - Democratizing Large Language Model Alignment"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8e22f3bd0df.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Evaluating models through single turn or multi-turn conversations in <a href="https://arxiv.org/pdf/2304.07327.pdf">OpenAssistant Conversations - Democratizing Large Language Model Alignment</a></figcaption>
 </figure>
 </div>
@@ -206,7 +206,7 @@ Ad-hoc testing
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0fc2f888363.png" class="lightbox" title="From this tweet by Subbarao Kambhampati (కంభంపాటి సుబ్బారావు)" data-gallery="quarto-lightbox-gallery-3"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0fc2f888363.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0fc2f888363.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="From this tweet by Subbarao Kambhampati (కంభంపాటి సుబ్బారావు)"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0fc2f888363.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">From this <a href="https://twitter.com/NLPurr/status/1672714169001590784">tweet</a> by <a href="https://twitter.com/rao2z"><strong>Subbarao Kambhampati (కంభంపాటి సుబ్బారావు)</strong></a></figcaption>
 </figure>
 </div>
@@ -236,7 +236,7 @@ Do you want to know why this is a problem with examples?
 <p>Why? Because the description says that the GPT4 model was asked to grade between 0-10, but the numbers are reported scaled between 0-1.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-38d35b72660.png" class="lightbox" title="The paper saying that the model is asked for grades between 0 to 10, and that is then scaled to report between 0-1." data-gallery="quarto-lightbox-gallery-12"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-38d35b72660.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-38d35b72660.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="The paper saying that the model is asked for grades between 0 to 10, and that is then scaled to report between 0-1."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-38d35b72660.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The paper saying that the model is asked for grades between 0 to 10, and that is then scaled to report between 0-1.</figcaption>
 </figure>
 </div>
@@ -248,38 +248,38 @@ Do you want to know why this is a problem with examples?
 <p>Let’s start with the completely correct response.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0d50e7c6848.png" class="lightbox" title="The GPT4 model says the response is 9/10 when asked for a grade between 0-10." data-gallery="quarto-lightbox-gallery-14"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0d50e7c6848.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0d50e7c6848.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="The GPT4 model says the response is 9/10 when asked for a grade between 0-10."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0d50e7c6848.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says the response is 9/10 when asked for a grade between 0-10.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-44ef7ec4988.png" class="lightbox" title="The GPT4 model says the response is .95/10 when asked for a grade between 0-1." data-gallery="quarto-lightbox-gallery-15"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-44ef7ec4988.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-44ef7ec4988.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="The GPT4 model says the response is .95/10 when asked for a grade between 0-1."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-44ef7ec4988.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says the response is .95/10 when asked for a grade between 0-1.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5b3c7e7a4b4.png" class="lightbox" title="The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5; which is great, right? Because at least the scaling is consistent." data-gallery="quarto-lightbox-gallery-16"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5b3c7e7a4b4.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5b3c7e7a4b4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5; which is great, right? Because at least the scaling is consistent."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5b3c7e7a4b4.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5; which is great, right? Because at least the scaling is consistent.</figcaption>
 </figure>
 </div>
 <p>But, let’s consider some other solutions, those that are incorrect in some way or another. Let’s do this by changing squaring to 2.2, and sorting the second list in reverse.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-7d63e513030.png" class="lightbox" title="The GPT4 model says the response is 8/10 when asked for a grade between 0-10." data-gallery="quarto-lightbox-gallery-17"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-7d63e513030.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-7d63e513030.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="The GPT4 model says the response is 8/10 when asked for a grade between 0-10."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-7d63e513030.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says the response is 8/10 when asked for a grade between 0-10.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-88c3f3d29ff.png" class="lightbox" title="The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5. The scaling is constant here too!" data-gallery="quarto-lightbox-gallery-18"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-88c3f3d29ff.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-88c3f3d29ff.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5. The scaling is constant here too!"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-88c3f3d29ff.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5. The scaling is constant here too!</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-2a516565700.png" class="lightbox" title="The GPT4 model says that the response is 0.9/1. And now all the scaling is messed up." data-gallery="quarto-lightbox-gallery-19"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-2a516565700.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-2a516565700.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="The GPT4 model says that the response is 0.9/1. And now all the scaling is messed up."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-2a516565700.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says that the response is 0.9/1. And now all the scaling is messed up.</figcaption>
 </figure>
 </div>
@@ -307,7 +307,7 @@ Example Papers
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ad9844c143d.png" class="lightbox" title="Reflexion: Language Agents with Verbal Reinforcement Learning develops a modular formulation for Reflexion, utilizing three distinct models: an Actor generates text and actions; an Evaluator model scores the outputs produced by Actor; and a Self-Reflection model, generates verbal reinforcement cues to assist the Actor in self-improvement." data-gallery="quarto-lightbox-gallery-20"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ad9844c143d.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ad9844c143d.png" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="Reflexion: Language Agents with Verbal Reinforcement Learning develops a modular formulation for Reflexion, utilizing three distinct models: an Actor generates text and actions; an Evaluator model scores the outputs produced by Actor; and a Self-Reflection model, generates verbal reinforcement cues to assist the Actor in self-improvement."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ad9844c143d.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2303.11366.pdf">Reflexion: Language Agents with Verbal Reinforcement Learning</a> develops a modular formulation for Reflexion, utilizing three distinct models: an Actor generates text and actions; an Evaluator model scores the outputs produced by Actor; and a Self-Reflection model, generates verbal reinforcement cues to assist the Actor in self-improvement.</figcaption>
 </figure>
 </div>
@@ -358,7 +358,7 @@ Example Papers
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d9a5f74b47b.png" class="lightbox" title="Textbooks are all you needevaluation with HumanEval and MBPP" data-gallery="quarto-lightbox-gallery-21"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d9a5f74b47b.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d9a5f74b47b.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Textbooks are all you needevaluation with HumanEval and MBPP"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d9a5f74b47b.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2306.11644.pdf">Textbooks are all you need</a>evaluation with HumanEval and MBPP</figcaption>
 </figure>
 </div>
@@ -371,7 +371,7 @@ Example Papers
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1bc49b90841.png" class="lightbox" title="Now how do we evaluate the model from these prompts?" data-gallery="quarto-lightbox-gallery-4"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1bc49b90841.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1bc49b90841.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Now how do we evaluate the model from these prompts?"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1bc49b90841.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><strong>Now how do we evaluate the model from these prompts?</strong></figcaption>
 </figure>
 </div>
@@ -392,26 +392,26 @@ Example Papers
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-384f6f3ee9b.png" class="lightbox" title="Rubric based from the same model. TinyStories: How Small Can Language Models Be and Still Speak Coherent English?" data-gallery="quarto-lightbox-gallery-22"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-384f6f3ee9b.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-384f6f3ee9b.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Rubric based from the same model. TinyStories: How Small Can Language Models Be and Still Speak Coherent English?"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-384f6f3ee9b.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Rubric based from the same model.<br>
 <a href="https://arxiv.org/pdf/2305.07759.pdf">TinyStories: How Small Can Language Models Be and Still Speak Coherent English?</a></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e6235ebb710.png" class="lightbox" title="Self-critiquing models for assisting human evaluators" data-gallery="quarto-lightbox-gallery-23"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e6235ebb710.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e6235ebb710.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="Self-critiquing models for assisting human evaluators"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e6235ebb710.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2206.05802.pdf">Self-critiquing models for assisting human evaluators</a></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-fd37f2d1713.png" class="lightbox" title="G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment using form-filling methods for evaluation and then calculate a correlation to human preference." data-gallery="quarto-lightbox-gallery-24"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-fd37f2d1713.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-fd37f2d1713.png" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment using form-filling methods for evaluation and then calculate a correlation to human preference."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-fd37f2d1713.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2303.16634.pdf">G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment</a> using form-filling methods for evaluation and then calculate a correlation to human preference.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-bc49bad86e9.png" class="lightbox" title="Component-wise model driven evaluation scores in LLM-EVAL: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models" data-gallery="quarto-lightbox-gallery-25"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-bc49bad86e9.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-bc49bad86e9.png" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="Component-wise model driven evaluation scores in LLM-EVAL: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-bc49bad86e9.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Component-wise model driven evaluation scores in <a href="https://arxiv.org/pdf/2305.13711.pdf">LLM-EVAL: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models</a></figcaption>
 </figure>
 </div>
@@ -439,31 +439,31 @@ Example Papers
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-b297c918d95.png" class="lightbox" title="Evaluating responses by comparing to referenced ground truth in Sparks of AGI. Remember this is inclusion of ground truth and possibly the least problematic form of model driven evaluation." data-gallery="quarto-lightbox-gallery-26"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-b297c918d95.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-b297c918d95.png" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="Evaluating responses by comparing to referenced ground truth in Sparks of AGI. Remember this is inclusion of ground truth and possibly the least problematic form of model driven evaluation."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-b297c918d95.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Evaluating responses by comparing to referenced ground truth in <a href="https://arxiv.org/pdf/2303.12712.pdf">Sparks of AGI</a>. Remember this is inclusion of ground truth and possibly the least problematic form of model driven evaluation.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-594e8bc80cb.png" class="lightbox" title="Bring Your Own Data! Self-Supervised Evaluation forLarge Language Models evaluation based on invariance of model output based on fuzzed input samples" data-gallery="quarto-lightbox-gallery-27"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-594e8bc80cb.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-594e8bc80cb.png" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="Bring Your Own Data! Self-Supervised Evaluation forLarge Language Models evaluation based on invariance of model output based on fuzzed input samples"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-594e8bc80cb.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2306.13651.pdf">Bring Your Own Data! Self-Supervised Evaluation forLarge Language Models</a> evaluation based on invariance of model output based on fuzzed input samples</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-62202ec9cb6.png" class="lightbox" title="Textbooks are all you needevaluation with GPT4" data-gallery="quarto-lightbox-gallery-28"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-62202ec9cb6.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-62202ec9cb6.png" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="Textbooks are all you needevaluation with GPT4"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-62202ec9cb6.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2306.11644.pdf">Textbooks are all you need</a>evaluation with GPT4</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5f2ae4973f3.png" class="lightbox" title="Using LLMs for explanations of smaller LLMs" data-gallery="quarto-lightbox-gallery-29"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5f2ae4973f3.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5f2ae4973f3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="Using LLMs for explanations of smaller LLMs"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5f2ae4973f3.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://openai.com/research/language-models-can-explain-neurons-in-language-models">Using LLMs for explanations of smaller LLMs</a></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d2af74360dd.png" class="lightbox" title="Ask the AI section from Language Models (Mostly) Know What They Know" data-gallery="quarto-lightbox-gallery-30"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d2af74360dd.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d2af74360dd.png" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="Ask the AI section from Language Models (Mostly) Know What They Know"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d2af74360dd.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Ask the AI section from <a href="https://arxiv.org/pdf/2207.05221.pdf">Language Models (Mostly) Know What They Know</a></figcaption>
 </figure>
 </div>
@@ -492,7 +492,7 @@ Note
 </div>
 <div id="callout-11" class="callout-11-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="tweet-23344"></div><script>tweet={"url":"https:\/\/twitter.com\/EldanRonen\/status\/1673107981742010370","author_name":"Ronen Eldan","author_url":"https:\/\/twitter.com\/EldanRonen","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere&#39;s a reason that in coding exams\/interviews, grades are not only based on whether the code passes unit tests, but rather a human reads through the code and determines the level of understanding reflected from it.\u003C\/p\u003E&mdash; Ronen Eldan (@EldanRonen) \u003Ca href=\"https:\/\/twitter.com\/EldanRonen\/status\/1673107981742010370?ref_src=twsrc%5Etfw\"\u003EJune 25, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-23344").innerHTML = tweet["html"];</script>
+<div id="tweet-50661"></div><script>tweet={"url":"https:\/\/twitter.com\/EldanRonen\/status\/1673107981742010370","author_name":"Ronen Eldan","author_url":"https:\/\/twitter.com\/EldanRonen","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere&#39;s a reason that in coding exams\/interviews, grades are not only based on whether the code passes unit tests, but rather a human reads through the code and determines the level of understanding reflected from it.\u003C\/p\u003E&mdash; Ronen Eldan (@EldanRonen) \u003Ca href=\"https:\/\/twitter.com\/EldanRonen\/status\/1673107981742010370?ref_src=twsrc%5Etfw\"\u003EJune 25, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-50661").innerHTML = tweet["html"];</script>
 </div>
 </div>
 </div>
@@ -540,13 +540,13 @@ font-style: inherit;">"""</span></span></code></pre></div>
 <p>Now, let us ask GPT4 to judge this. Not only does the answer change, the model suggests to do something that was not even asked for.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a330cd6b0c2.png" class="lightbox" title="The model scores it 9.5/10" data-gallery="quarto-lightbox-gallery-33"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a330cd6b0c2.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a330cd6b0c2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-33" title="The model scores it 9.5/10"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a330cd6b0c2.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The model scores it 9.5/10</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0ebbca38746.png" class="lightbox" title="The model scores it 9/10" data-gallery="quarto-lightbox-gallery-34"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0ebbca38746.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0ebbca38746.png" class="lightbox" data-gallery="quarto-lightbox-gallery-34" title="The model scores it 9/10"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0ebbca38746.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The model scores it 9/10</figcaption>
 </figure>
 </div></li>
@@ -562,11 +562,11 @@ font-style: inherit;">"""</span></span></code></pre></div>
 <p>GPT4 judges it to be 4/10. And, it does not see that the threshold value was changed.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-37b899bb621.png" class="lightbox" title="The model scores the completely incorrect function at 4/10. It ignores an error. In the previous pictures, it creates an error or a suggestion which was not asked for and will render the code incorrect." data-gallery="quarto-lightbox-gallery-35"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-37b899bb621.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-37b899bb621.png" class="lightbox" data-gallery="quarto-lightbox-gallery-35" title="The model scores the completely incorrect function at 4/10. It ignores an error. In the previous pictures, it creates an error or a suggestion which was not asked for and will render the code incorrect."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-37b899bb621.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The model scores the completely incorrect function at 4/10. It ignores an error. In the previous pictures, it creates an error or a suggestion which was not asked for and will render the code incorrect.</figcaption>
 </figure>
 </div></li>
-<li><p>Anything weird to the model, that is not in the general expected distribution will be marked low. For example, here is a correct code that is marked lower just because it is unexpected by GPT4. <a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-de21fe993b3.png" class="lightbox" title="Model invents a requirement that does not exist, writes incorrect code and grades the correct code 8.5/10." data-gallery="quarto-lightbox-gallery-36"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-de21fe993b3.png" class="img-fluid" alt="Model invents a requirement that does not exist, writes incorrect code and grades the correct code 8.5/10."></a> Now a retort might be: But you made those changes, the model did not produce that outcome! The model will always generate outcomes in the distribution!</p></li>
+<li><p>Anything weird to the model, that is not in the general expected distribution will be marked low. For example, here is a correct code that is marked lower just because it is unexpected by GPT4. <a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-de21fe993b3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-36" title="Model invents a requirement that does not exist, writes incorrect code and grades the correct code 8.5/10."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-de21fe993b3.png" class="img-fluid" alt="Model invents a requirement that does not exist, writes incorrect code and grades the correct code 8.5/10."></a> Now a retort might be: But you made those changes, the model did not produce that outcome! The model will always generate outcomes in the distribution!</p></li>
 </ul>
 <p>Fair! But (a) that de-incentivizes training of new models that are have better coverage; and; (b) there is no way someone won’t read that paper and consider — let’s create an LLM based service that proposes to judge interviewees based on LLM scoring.</p>
 </div>
@@ -606,7 +606,7 @@ font-style: inherit;">"""</span></span></code></pre></div>
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1dcf9af277d.png" class="lightbox" title="Evaluation harness thematic grouping. Read more at https://www.mosaicml.com/blog/mpt-30b" data-gallery="quarto-lightbox-gallery-7"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1dcf9af277d.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1dcf9af277d.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Evaluation harness thematic grouping. Read more at https://www.mosaicml.com/blog/mpt-30b"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1dcf9af277d.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Evaluation harness thematic grouping. Read more at <a href="https://www.mosaicml.com/blog/mpt-30b" class="uri">https://www.mosaicml.com/blog/mpt-30b</a></figcaption>
 </figure>
 </div>
@@ -624,7 +624,7 @@ Note
 </div>
 <div id="callout-13" class="callout-13-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="tweet-98266"></div><script>tweet={"url":"https:\/\/twitter.com\/ArmenAgha\/status\/1669098472493162497","author_name":"Armen Aghajanyan","author_url":"https:\/\/twitter.com\/ArmenAgha","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E1. Manually annotate 1k fuzzing prompts\u003Cbr\u003E2. Finetune LLaMa on this 1k a la LIMA\u003Cbr\u003E3. Apply fuzzing to standard benchmarks\u003Cbr\u003E4. Re-evaluate common models?\u003Cbr\u003E\u003Cbr\u003ELikely this will work, not sure if anyone has done this.\u003C\/p\u003E&mdash; Armen Aghajanyan (@ArmenAgha) \u003Ca href=\"https:\/\/twitter.com\/ArmenAgha\/status\/1669098472493162497?ref_src=twsrc%5Etfw\"\u003EJune 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-98266").innerHTML = tweet["html"];</script>
+<div id="tweet-53446"></div><script>tweet={"url":"https:\/\/twitter.com\/ArmenAgha\/status\/1669098472493162497","author_name":"Armen Aghajanyan","author_url":"https:\/\/twitter.com\/ArmenAgha","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E1. Manually annotate 1k fuzzing prompts\u003Cbr\u003E2. Finetune LLaMa on this 1k a la LIMA\u003Cbr\u003E3. Apply fuzzing to standard benchmarks\u003Cbr\u003E4. Re-evaluate common models?\u003Cbr\u003E\u003Cbr\u003ELikely this will work, not sure if anyone has done this.\u003C\/p\u003E&mdash; Armen Aghajanyan (@ArmenAgha) \u003Ca href=\"https:\/\/twitter.com\/ArmenAgha\/status\/1669098472493162497?ref_src=twsrc%5Etfw\"\u003EJune 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-53446").innerHTML = tweet["html"];</script>
 </div>
 </div>
 </div>
@@ -793,7 +793,7 @@ Note
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="tweet-51450"></div><script>tweet={"url":"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538","author_name":"Michael C. Frank","author_url":"https:\/\/twitter.com\/mcxfrank","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EPeople are testing large language models (LLMs) on their &quot;cognitive&quot; abilities - theory of mind, causality, syllogistic reasoning, etc. Many (most?) of these evaluations are deeply flawed. To evaluate LLMs effectively, we need some principles from experimental psychology.\uD83E\uDDF5 \u003Ca href=\"https:\/\/t.co\/Xlywu3gTVz\"\u003Epic.twitter.com\/Xlywu3gTVz\u003C\/a\u003E\u003C\/p\u003E&mdash; Michael C. Frank (@mcxfrank) \u003Ca href=\"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538?ref_src=twsrc%5Etfw\"\u003EApril 4, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-51450").innerHTML = tweet["html"];</script>
+<div id="tweet-93940"></div><script>tweet={"url":"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538","author_name":"Michael C. Frank","author_url":"https:\/\/twitter.com\/mcxfrank","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EPeople are testing large language models (LLMs) on their &quot;cognitive&quot; abilities - theory of mind, causality, syllogistic reasoning, etc. Many (most?) of these evaluations are deeply flawed. To evaluate LLMs effectively, we need some principles from experimental psychology.\uD83E\uDDF5 \u003Ca href=\"https:\/\/t.co\/Xlywu3gTVz\"\u003Epic.twitter.com\/Xlywu3gTVz\u003C\/a\u003E\u003C\/p\u003E&mdash; Michael C. Frank (@mcxfrank) \u003Ca href=\"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538?ref_src=twsrc%5Etfw\"\u003EApril 4, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-93940").innerHTML = tweet["html"];</script>
 </div>
 </div>
 </div>
@@ -1070,9 +1070,156 @@ Suggestions to frame it without using the explicit terms "think" "believe" which
 
 
 
-<p>Coming soon. <img src="https://mimansajaiswal.github.io/notes/images/controlled_evaluation_of_explanations/example_variables.png" class="img-fluid" alt="Examples of variables used in checklisting explanation utility"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://mimansajaiswal.github.io/notes/images/controlled_evaluation_of_explanations/example_variables.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Examples of variables used in checklisting explanation utility</figcaption>
+</figure>
+</div>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>The world of deep learning model explanations presents us with a puzzle: how can we put our finger on the pulse of these explanations’ efficacy evaluations when there is no clear, unanimous way to judge them? Amidst the array of unique methodologies and evaluation metrics adopted by diverse research papers, we find ourselves grappling with inconsistency. Consequently, drawing comparisons between different works becomes nearly impossible.</p>
+<p>Recognizing the complexities of this issue, we set our sights on a key objective: to devise a standardized checklist, fine-tuned to address the myriad variables that sway the evaluation of deep learning model explanations. With the implementation of such a checklist, we aim to streamline the evaluation process, facilitating better understanding and comparison of results across various studies.</p>
+<p>Diving in, it is essential to affirm that the current landscape of deep learning model explanations is flooded with a myriad of evaluation methods that lack any standardization. This chaotic environment poses a significant challenge for those attempting to draw parallels between diverse research papers. As individual studies employ their unique approaches and methodologies, the chances of establishing common ground for evaluation plummet.</p>
+<p>Moreover, the criteria and metrics applied to assess explanations’ utility in deep learning models differ considerably from one research paper to another. Some scholars might concentrate on the stability of explanations, evaluating their degree of consistency and reliability across different runs or datasets. Meanwhile, others can put a premium on the usability of explanations, factoring in aspects such as interpretability and user-friendliness. Performance metrics also come into play, as they are frequently employed to gauge the alignment between explanations and a model’s predictions.</p>
+<p>In light of these challenges and inconsistencies, we propose the development of a standardized checklist for assessing explanations in deep learning models. This comprehensive checklist would encompass a wide array of variables that shape the evaluation process. With all the necessary variables inmind, researchers can adopt a more consistent, systematic approach to scrutinize explanations, ultimately paving the way for better understanding and comparisons among diverse studies.</p>
+</section>
+<section id="related-work" class="level1">
+<h1>Related Work</h1>
+<p>In the exciting realm of evaluating explainable AI models and considering the fascinating human factors involved, several research papers have delved into these topics. Let’s take a look at some of them:</p>
+<ul>
+<li><p>“Make Up Your Mind! Adversarial Generation of Inconsistent Natural Language Explanations” and “Evaluating Explainable AI: Which Algorithmic Explanations Help Users Predict Model Behavior?” are two noteworthy papers that dive deep into the generation and evaluation of explanations. They provide some intriguing insights into these areas, shedding light on the challenges and possibilities.</p></li>
+<li><p>When it comes to understanding the human factors in interpreting model explanations, “Human Factors in Model Interpretability: Industry Practices, Challenges, and Needs” and “Proxy Tasks and Subjective Measures Can Be Misleading in Evaluating Explainable AI Systems” are essential reads. These papers offer valuable perspectives on the challenges faced and the needs that arise when it comes to interpreting model explanations. They remind us that the human element cannot be overlooked in the evaluation process.</p></li>
+<li><p>Another fascinating aspect to explore is the human interpretability of explanations. “An Evaluation of the Human-Interpretability of Explanation” takes a deep dive into this realm, examining the extent to which explanations can be understood and interpreted by humans. This research provides valuable insights into the human interpretability aspect of model explanations, which is crucial for effective communication and comprehension.</p></li>
+</ul>
+<p>Feel free to explore these resources for further reading:</p>
+<ul>
+<li>“Make Up Your Mind! Adversarial Generation of Inconsistent Natural Language Explanations”</li>
+<li>“Evaluating Explainable AI: Which Algorithmic Explanations Help Users Predict Model Behavior?”</li>
+<li>“Human Factors in Model Interpretability: Industry Practices, Challenges, and Needs”</li>
+<li>“Proxy Tasks and Subjective Measures Can Be Misleading in Evaluating Explainable AI Systems”</li>
+<li>“An Evaluation of the Human-Interpretability of Explanation”</li>
+</ul>
+</section>
+<section id="the-core-idea" class="level1">
+<h1>The Core Idea</h1>
+<p>Navigating the complex world of deep learning model explanations, we face the problem of inconsistent evaluation methodologies and criteria. This obscurity challenges our ability to accurately assess the efficacy and reliability of model explanations. To tackle this issue, our research proposes the development of a comprehensive and well-rounded checklist, incorporating the critical variables that influence explanation evaluation. Through considering factors like input size, sample size, quantitative metrics, and their relationship with human ratings, we aim to build a strong foundation for evaluating explanations in deep learning models. This checklist will assist researchers and practitioners, offering a structured approach to evaluate the quality and effectiveness of explanations produced by deep learning models.</p>
+<p>In crafting our proposed checklist, we emphasize the importance of recognizing various variables that can impact the evaluation process. First, considering the input size is crucial, as the complexity and dimensionality of the input data can greatly affect the comprehensibility of the explanations. Next, sample size used for evaluation plays a vital role in ensuring generalizability and reliability of the results, as diverse range of samples leads to a more accurate understanding of the model’s capabilities. In addition, we advocate for the inclusion of quantitative metrics that can be objectively compared across different models and datasets, providing valuable insights into the performance of the explanations. Lastly, by exploring the correlation between quantitative metrics and human ratings, we can confirm the utility and relevance of the explanations generated by deep learning models. Implementing this checklist, we aspire to enhance the evaluation process of explanations in deep learning models, ultimately promoting transparency and interpretability in the AI systems realm.</p>
+</section>
+<section id="experimentation-setup-and-variations-a-balanced-assessment-framework" class="level1">
+<h1>Experimentation Setup and Variations: A Balanced Assessment Framework</h1>
+<p>To create a standardized checklist for evaluating deep learning model explanations, it’s important to define control factors and their variations, which affect evaluation outcomes. Key factors include the types of questions used for evaluation, selected based on task specificity and desired insights. Additionally, sample selection for evaluating explanations holds importance; samples need careful consideration to represent diverse scenarios and data distributions, ensuring comprehensive assessment of model performance. Furthermore, the evaluators’ knowledge level can impact explanation interpretation and understanding, meriting attention for a balanced evaluation process.</p>
+<p>Beyond these primary control factors, researchers should consider several secondary elements when developing the evaluation checklist. Model information availability, or priming, significantly influences explanation quality and reliability. Likewise, explanation method choice requires attention as different methods (e.g., attention mechanisms or gradient-based approaches) yield varied results and insights. Explanation characteristics, such as length, complexity, and linguistic style, are also important evaluation factors. Additionally, demographic factors like evaluator backgrounds and expertise play a role in explanation interpretation and perception. Lastly, the nature of the task being evaluated should be considered, since different tasks demand varied evaluation criteria and approaches. By systematically controlling and varying these factors, researchers can construct a comprehensive checklist addressing the range of variables affecting deep learning model explanation evaluations, while adhering to a research article’s linguistic style.</p>
+<section id="types-of-questions-for-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-questions-for-evaluation">Types of Questions for Evaluation</h2>
+<p>Selecting appropriate questions for evaluation is essential for gauging the quality of explanations produced by deep learning models. To achieve a comprehensive evaluation, various question types that shed light on the model’s understanding and decision-making process must be considered. These question categories can include aspects such as:</p>
+<ul>
+<li>Input comprehension: Assessing the model’s ability to effectively interpret and extract relevant information from input data.</li>
+<li>Task-solving capabilities: Examining the model’s skills in applying its knowledge to accurately solve tasks and provide meaningful explanations.</li>
+<li>Rationale behind specific decisions: Probing the model to explain the reasoning for its choices and the factors contributing to decision-making.</li>
+<li>Influence of interaction speed: Evaluating the impact of explanation generation speed on the quality and depth of the model’s explanations.</li>
+</ul>
+<p>Incorporating these diverse question types enables researchers to gain a well-rounded understanding of the model’s strengths and weaknesses. Furthermore, it aids in the development of a standardized checklist for evaluating explanations in deep learning models, promoting consistency and rigor in the assessment process.</p>
+</section>
+<section id="selecting-samples-to-evaluate-explanations" class="level2">
+<h2 class="anchored" data-anchor-id="selecting-samples-to-evaluate-explanations">Selecting Samples to Evaluate Explanations</h2>
+<p>Picking appropriate samples for evaluating explanations is a critical component in the assessment process. Employing a variety of selection strategies can enhance the understanding of a model’s explanatory capabilities across diverse situations. Consider the following approaches:</p>
+<ul>
+<li>Model-based uncertainty: Choose samples for which the model exhibits uncertainty, helping to analyze the model’s explanations in ambiguous scenarios.</li>
+<li>Undersampling: Focus on samples from underrepresented classes or groups to evaluate the model’s explanations for minority cases, thereby promoting fairness and robustness.</li>
+<li>Noisy labels: Opt for samples with noisy or incorrect labels to assess the model’s ability to explain its decisions when faced with unreliable ground truth information.</li>
+<li>Misclassification: Include samples that the model misclassifies to gauge its explanatory capacity when it generates incorrect predictions.</li>
+<li>Data-based diversity: Select samples that represent diverse data points, which can provide insights into the model’s generalizability across various input spaces.</li>
+<li>Density: Investigate both high-density (common) and low-density (unusual) samples to evaluate the model’s explanations for different regions of the input space.</li>
+<li>Homogeneity: Assess samples from homogeneous groups to understand how the model disentangles and explains the decisions for similar instances.</li>
+</ul>
+<p>Incorporating these selection strategies when evaluating explanations ensures a comprehensive assessment of the model’s robustness and generalizability across different scenarios. This practice, in turn, aids in the development of a reliable and well-rounded evaluation checklist.</p>
+</section>
+<section id="human-knowledge-in-evaluating-explanations" class="level2">
+<h2 class="anchored" data-anchor-id="human-knowledge-in-evaluating-explanations">Human Knowledge in Evaluating Explanations</h2>
+<p>Accounting for human knowledge is crucial when assessing explanations generated by deep learning models. Key factors influencing the evaluation process include:</p>
+<ul>
+<li>Familiarity with machine learning: Understanding basic concepts in machine learning and deep learning can impact how an evaluator interprets model explanations.</li>
+<li>Domain-specific knowledge: Possessing expertise in the field or subject area can facilitate deeper insights into the explanations and their relevance to domain-specific problems.</li>
+<li>Previous experience: An evaluator with prior experience assessing model explanations often has a more refined understanding of what constitutes a good explanation.</li>
+<li>Subject knowledge: A strong grasp of the subjects or concepts related to the task at hand influences the ability to evaluate the validity and coherence of explanations.</li>
+</ul>
+<p>Engaging annotators with various expertise levels can lead to a broader understanding of the interpretability and accessibility of explanations. This diversity ensures that the evaluation process caters to different audiences, resulting in more accurate and inclusive assessments of deep learning models’ explanatory proficiency.</p>
+</section>
+<section id="model-information-known-priming-in-evaluating-explanations" class="level2">
+<h2 class="anchored" data-anchor-id="model-information-known-priming-in-evaluating-explanations">Model Information Known (Priming) in Evaluating Explanations</h2>
+<p>Priming, which involves sharing model information with evaluators, can significantly impact the evaluation process. By understanding how different levels of model information influence the perception and utility of explanations, researchers can establish a balanced assessment. Here are three priming variations to consider:</p>
+<ul>
+<li><p>No information: Withholding all model-related information from evaluators, which allows assessing explanations solely on their comprehensibility and informativeness without any bias or preconceived notions.</p></li>
+<li><p>Representative information: Providing evaluators with a basic understanding of the model, including its architecture, training method, and general performance. This approach helps evaluators contextualize the explanations and gain a general sense of the model’s capabilities, while minimizing the risk of priming-induced bias.</p></li>
+<li><p>Asking for information: Encouraging evaluators to request specific model information as needed during the evaluation process. This setup lets evaluators actively seek out details that can help them better understand or interpret the explanations, thereby promoting a more personalized and targeted evaluation experience.</p></li>
+</ul>
+<p>Incorporating these priming variations in the evaluation process allows researchers to determine the impact of prior model knowledge on the perception and usefulness of explanations. This information can further guide the development of a standardized checklist for evaluating deep learning model explanations more effectively.</p>
+<p>I apologize if my previous response did not fully align with Mimansa Jaiswal’s writing style. I will make a further attempt to refine the content while focusing on remaining concise and avoiding flowery language. Here is a revised version:</p>
+</section>
+<section id="evaluating-explanation-methods-in-deep-learning-models" class="level2">
+<h2 class="anchored" data-anchor-id="evaluating-explanation-methods-in-deep-learning-models">Evaluating Explanation Methods in Deep Learning Models</h2>
+<p>The choice of explanation method is essential for understanding deep learning model behavior. Assessing various methods helps determine their effectiveness in conveying relevant information. The following is an overview of these methods:</p>
+<ul>
+<li><p>Highlight-based: Emphasizes crucial regions or input data components contributing to model decisions, facilitating focus on key factors. Examples include saliency maps and attention mechanisms.</p></li>
+<li><p>Language-based: Uses natural language to describe influences on the model’s predictions or decision-making processes—benefits users with limited domain knowledge by offering understandable explanations.</p></li>
+<li><p>Drag/drop-based: Provides an interactive experience, enabling evaluators to manipulate input data components and observe real-time model decision changes, deepening insights into the model’s workings.</p></li>
+<li><p>Influence functions: Estimates each training instance’s impact on model predictions or decisions for specific test points, helping evaluators grasp the model’s generalization behavior and identify influential data points.</p></li>
+</ul>
+<p>By examining different explanation methods in various scenarios, researchers can identify which methods yield meaningful insights into model behavior. This understanding can guide the development of improved evaluation checklists and more effective explanation techniques.</p>
+<p>I apologize for that oversight, and I appreciate your feedback. Here is the revised paragraph without the “By XYZ” ending structure:</p>
+</section>
+<section id="characteristics-of-explanations" class="level2">
+<h2 class="anchored" data-anchor-id="characteristics-of-explanations">Characteristics of Explanations</h2>
+<p>Assessing explanation characteristics is crucial for evaluating their efficacy in conveying information about deep learning model behavior. These characteristics affect comprehensibility and trustworthiness of explanations. The following are key characteristics to evaluate:</p>
+<ul>
+<li><p>Length: Explanations should be concise yet informative. Overly short explanations might lack detail, whereas lengthy explanations risk becoming overwhelming or complex.</p></li>
+<li><p>Reading grade level: Evaluating readability is vital for ensuring information accessibility. A suitable reading grade level ensures content clarity for users with diverse domain expertise.</p></li>
+<li><p>Output confidence: Sharing the model’s output confidence enhances explanation trustworthiness. Users can better assess the model’s prediction certainty and explanation reliability.</p></li>
+<li><p>Citing references: Incorporating relevant sources, context, or prior knowledge bolsters explanation credibility. Cited sources allow users to validate presented information, fostering a deeper understanding of the model’s rationale.</p></li>
+</ul>
+<p>Taking these characteristics into account helps researchers pinpoint potential improvements needed for better comprehensibility and trustworthiness in explanations. This refined understanding aids in the development of more effective evaluation checklists and explanation techniques for deep learning models.</p>
+</section>
+<section id="demographic-factors" class="level2">
+<h2 class="anchored" data-anchor-id="demographic-factors">Demographic Factors</h2>
+<p>In developing explanations for deep learning models, demographic factors such as culture, age, and gender play a crucial role in shaping users’ perception and understanding. Addressing these factors ensures that explanations cater to diverse user populations.</p>
+<ul>
+<li><p>Language: Create explanations in multiple languages and consider cultural sensitivities to overcome language barriers. Adopt plain language principles to enhance comprehensibility for various language proficiencies.</p></li>
+<li><p>Age: Adapt explanations to different age groups by using age-appropriate terminology and complexity levels.</p></li>
+<li><p>Gender: Employ gender-neutral language in explanations to uphold inclusivity and avoid alienating users based on gender identity.</p></li>
+<li><p>Cultural context: Acknowledge cultural nuances and values within the target user population to craft relatable, contextually relevant explanations.</p></li>
+</ul>
+<p>Incorporating demographic factors in explanation development can enhance accessibility and inclusivity, promoting broader understanding and adoption of AI models throughout diverse demographic groups.</p>
+</section>
+<section id="explanation-type" class="level2">
+<h2 class="anchored" data-anchor-id="explanation-type">Explanation Type</h2>
+<p>Understanding the nature of explanation types—faithful, reliable, and plausible—is vital when evaluating explanations. Examining these categories enables insights into the model’s capacity for delivering explanations that meet user expectations and needs:</p>
+<ul>
+<li><p>Faithful explanations: These accurately reflect the model’s inner workings and decision-making processes. Assessing faithful explanations helps determine the model’s transparency, promoting confidence in its behavior and outcomes.</p></li>
+<li><p>Reliable explanations: Consistently providing useful and relevant information, reliable explanations hold up under diverse circumstances. Evaluating this aspect enables the identification of the model’s robustness and applicability across varying scenarios.</p></li>
+<li><p>Plausible explanations: Appearing coherent and sensible, plausible explanations adhere to human intuition and domain knowledge. This evaluation aspect sheds light on the model’s ability to generate user-friendly insights that align with human reasoning.</p></li>
+</ul>
+<p>Through the critical examination of these explanation types, we can better understand a model’s strengths and weaknesses in delivering explanations that satisfy users’ expectations and requirements. This knowledge subsequently informs the development of enhanced evaluation procedures and improved explanation techniques for deep learning models.</p>
+</section>
+<section id="task" class="level2">
+<h2 class="anchored" data-anchor-id="task">Task</h2>
+<p>The type of task under evaluation, including natural language inference, sentiment analysis, or domain-specific tasks such as SOAP (Subjective, Objective, Assessment, and Plan), plays a substantial role in the evaluation process. Grasping the nuances of a particular task and its inherent challenges enables more insightful assessment of explanations:</p>
+<ul>
+<li><p>Natural Language Inference: Necessitates evaluations that focus on determining the model’s ability to reason about relationships between sentences, like entailment, contradiction, or neutrality. This ensures the model effectively captures semantic aspects.</p></li>
+<li><p>Sentiment Analysis: Requires emphasis on gauging the model’s understanding of sentiment polarity in various expressions, capturing subtle emotional nuances and potential ambiguities.</p></li>
+<li><p>SOAP (Subjective, Objective, Assessment, and Plan): When dealing with domain-specific tasks like SOAP, evaluations should be grounded in an in-depth understanding of the specific domain and terminology, as well as the associated reasoning processes, to ensure meaningful and coherent explanations.</p></li>
+</ul>
+<p>Recognizing the characteristics of the task at hand is essential for conducting insightful evaluations of explanations. It allows for the development of targeted evaluation methodologies that cater to the specific challenges and requirements associated with each task type.</p>
+</section>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>In conclusion, we have explored the importance of evaluating explanations in deep learning models by examining critical aspects, such as explanation characteristics, types, and unique tasks. Evaluating explanation characteristics like length, readability, output confidence, and references, ensures the explanations are accessible and reliable.</p>
+<p>Understanding explanation types, including faithful, reliable, and plausible, allows us to better assess the applicability, accuracy, and comprehensibility of the explanations provided by these models. Considering the specific task, whether it is natural language inference or sentiment analysis, is essential for tailoring evaluations to meet unique challenges.</p>
+<p>Focusing on these elements allows us to develop effective evaluation methodologies that lead to continual improvement of deep learning models. Our collaborative efforts will drive the field forward, generating accurate and user-friendly explanations that meet real-world needs and expectations.</p>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Text</category>
