@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-image','listing-threeword','listing-outputHref','listing-tweetthread','listing-relatednote','listing-relatedpaper','listing-publicity','listing-demo','listing-repo',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-comments","listing-language","listing-title","listing-date","listing-display-date","listing-categories","listing-filters","listing-draft","listing-description","listing-threeword","listing-reference-location","listing-citation-location","listing-image","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-comments","listing-language","listing-title","listing-date","listing-display-date","listing-categories","listing-filters","listing-draft","listing-description","listing-threeword","listing-reference-location","listing-citation-location","listing-image","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-lightbox"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -102,8 +102,10 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="alternate" type="application/rss+xml" title="Mimansa Jaiswal" href="index.xml"><meta property="og:title" content="Research Notes">
 <meta property="og:description" content="Long Form notes">
-<meta property="og:image" content="https://mimansajaiswal.github.io/notes/images/gender_biases_in_llms/google-translate-example.jpeg">
+<meta property="og:image" content="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.png">
 <meta property="og:site-name" content="Mimansa Jaiswal">
+<meta property="og:image:height" content="2008">
+<meta property="og:image:width" content="2008">
 <meta name="twitter:title" content="Research Notes">
 <meta name="twitter:description" content="Long Form notes">
 <meta name="twitter:image" content="https://mimansajaiswal.github.io/notes/images/me.jpg">
@@ -174,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Data Annotation">Data Annotation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Debiasing">Debiasing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Design">Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Evaluation">Evaluation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Example">Example <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Foundation Models">Foundation Models <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Interpretation">Interpretation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Metric Design">Metric Design <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Schema">Schema <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Text">Text <span class="quarto-category-count">(5)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Data Annotation">Data Annotation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Debiasing">Debiasing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Design">Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Evaluation">Evaluation <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Example">Example <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Foundation Models">Foundation Models <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Interpretation">Interpretation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Metric Design">Metric Design <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Opinion">Opinion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Schema">Schema <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Text">Text <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -206,11 +208,37 @@ for (let i = 0; i < counts.length; i++) {
 
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+
 <div class="list quarto-listing-custom notes-detail-list-img-content notes-detail-list-img">
 <!-- 
     <div class="notes-detail-list-img-content">
         <ul class="notes-detail-list-img"> -->
-  <div class="quarto-post notes-detail-list-img-note" data-index="0" data-categories="Text,Evaluation,Foundation Models,Example,Debiasing" data-listing-date-sort="1681516800000" data-listing-file-modified-sort="1687734690855" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" data-index="0" data-categories="Text,Evaluation,Metric Design,Opinion,Foundation Models" data-listing-date-sort="1687651200000" data-listing-file-modified-sort="1687752600813" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21">
+    <a href="../notes/case-of-llm-evals.html">
+      <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="Jun 2023">
+        <div class="notes-detail-list-img-thumb"><img src="../notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.png"></div>
+        <div class="notes-detail-list-img-description">
+            <h5 class="notes-detail-list-img-title no-anchor">Missing Missing Evaluations</h5>
+            <h6 class="no-anchor">The Curious Case of LLM Evaluations</h6>
+            <p>Our rapid scaling, and generalization techniques has outpaced our ability to effectively evaluate and accurately assess their capabilities. Without robust tools to measure and gauge a model's performance, we risk overestimating its abilities. It is important to recognize that while a model may appear exceptional in certain tasks, our evaluation methods may be limited and biased. Simply conducting races on predictable paths with consistent cues can create an illusion of invincibility for the model.
+                </p><div class="listing-categories">
+                  <div class="listing-category" onclick="window.quartoListingCategory('Text'); return false;">
+                    Text</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('Evaluation'); return false;">
+                    Evaluation</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('Metric Design'); return false;">
+                    Metric Design</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('Opinion'); return false;">
+                    Opinion</div>
+                  <div class="listing-category" onclick="window.quartoListingCategory('Foundation Models'); return false;">
+                    Foundation Models</div>
+                  </div>
+                <p></p>
+        </div>
+    </li>
+  </a>
+</div>
+  <div class="quarto-post notes-detail-list-img-note" data-index="1" data-categories="Text,Evaluation,Foundation Models,Example,Debiasing" data-listing-date-sort="1681516800000" data-listing-file-modified-sort="1687752600813" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
     <a href="../notes/gender_biases_in_llms.html">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="Apr 2023">
         <div class="notes-detail-list-img-thumb"><img src="../notes/images/gender_biases_in_llms/google-translate-example.jpeg"></div>
@@ -235,7 +263,7 @@ for (let i = 0; i < counts.length; i++) {
     </li>
   </a>
 </div>
-  <div class="quarto-post notes-detail-list-img-note" data-index="1" data-categories="Text,Evaluation,Metric Design,Schema,Interpretation,Data Annotation,Foundation Models,Example" data-listing-date-sort="1681430400000" data-listing-file-modified-sort="1687734691031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" data-index="2" data-categories="Text,Evaluation,Metric Design,Schema,Interpretation,Data Annotation,Foundation Models,Example" data-listing-date-sort="1681430400000" data-listing-file-modified-sort="1687752601098" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
     <a href="../notes/tom_evaluation_in_foundation_models.html">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="Apr 2023">
         <div class="notes-detail-list-img-thumb"><img src="../notes/images/tom_evaluation_in_foundation_models/flowchart_prompt.png"></div>
@@ -266,7 +294,7 @@ for (let i = 0; i < counts.length; i++) {
     </li>
   </a>
 </div>
-  <div class="quarto-post notes-detail-list-img-note" data-index="2" data-categories="Text,Evaluation,Metric Design,Schema,Interpretation,Data Annotation,Foundation Models" data-listing-date-sort="1677628800000" data-listing-file-modified-sort="1687734690855" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" data-index="3" data-categories="Text,Evaluation,Metric Design,Schema,Interpretation,Data Annotation,Foundation Models" data-listing-date-sort="1677628800000" data-listing-file-modified-sort="1687752600813" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14">
     <a href="../notes/capstone.html">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="Mar 2023">
         <div class="notes-detail-list-img-thumb"><img src="../notes/images/capstone/prompt_steer_flow.png"></div>
@@ -295,7 +323,7 @@ for (let i = 0; i < counts.length; i++) {
     </li>
   </a>
 </div>
-  <div class="quarto-post notes-detail-list-img-note" data-index="3" data-categories="Text,Data Annotation,Design" data-listing-date-sort="1675209600000" data-listing-file-modified-sort="1687734690855" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" data-index="4" data-categories="Text,Data Annotation,Design" data-listing-date-sort="1675209600000" data-listing-file-modified-sort="1687752600813" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
     <a href="../notes/explanation_annotation_interfaces.html">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="Feb 2023">
         <div class="notes-detail-list-img-thumb"><img src="../notes/images/explanation_annotation_interfaces/screenshot.png"></div>
@@ -316,7 +344,7 @@ for (let i = 0; i < counts.length; i++) {
     </li>
   </a>
 </div>
-  <div class="quarto-post notes-detail-list-img-note" data-index="4" data-categories="Text,Evaluation,Metric Design,Schema,Interpretation,Data Annotation" data-listing-date-sort="1646092800000" data-listing-file-modified-sort="1687734690855" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post notes-detail-list-img-note" data-index="5" data-categories="Text,Evaluation,Metric Design,Schema,Interpretation,Data Annotation" data-listing-date-sort="1646092800000" data-listing-file-modified-sort="1687752600813" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
     <a href="../notes/controlled_evaluation_of_explanations.html">
       <li class="notes-detail-list-img-entity notes-detail-list-img-date" data-content-date="Mar 2022">
         <div class="notes-detail-list-img-thumb"><img src="../notes/images/controlled_evaluation_of_explanations/example_variables.png"></div>
