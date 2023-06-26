@@ -29,7 +29,7 @@ Every popular paper later, we keep coming back to the same questions: how do we 
 
 :::{.column-margin}
 
-You can always make pull requests to add sources and examples [here](https://github.com/nlpurr/nlpurr.github.io/blob/master/posts/case-of-llm-evals.qmd).
+You can always make pull requests to add sources and examples [here](https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/notes/case-of-llm-evals.qmd).
 
 :::
 
