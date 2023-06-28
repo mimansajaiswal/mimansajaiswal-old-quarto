@@ -221,7 +221,7 @@
     "href": "notes/capstone.html#prompt-based-experimental-design-schemas",
     "title": "CAPSTONE: Capability Assessment Protocol for Systematic Testing of Natural Language Models Expertise",
     "section": "Prompt Based Experimental Design Schemas",
-    "text": "Prompt Based Experimental Design Schemas\nFor details, look at this twitter thread.\n\n\n\n\n\n\n\nNote\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet's talk about Prompt Based Experimental Design Schemas. These schemas can be thought of as templates, but with a key distinction. They not only focus on varying the input sample, but also on modifying the prompt specifications. By doing so, they allow us to closely monitor and analyze the changes that occur from one prompt to another. This approach provides a valuable way to study and understand the impact of different prompts on the overall outcome of an experiment."
+    "text": "Prompt Based Experimental Design Schemas\n\n\n\n\n\n\n\nMichael Frank talks about need some principles from experimental psychology\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet's talk about Prompt Based Experimental Design Schemas. These schemas can be thought of as templates, but with a key distinction. They not only focus on varying the input sample, but also on modifying the prompt specifications. By doing so, they allow us to closely monitor and analyze the changes that occur from one prompt to another. This approach provides a valuable way to study and understand the impact of different prompts on the overall outcome of an experiment."
   },
   {
     "objectID": "notes/capstone.html#prompt-definition-markup",
