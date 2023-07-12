@@ -1,59 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mimansajaiswal.github.io/notes/no_sally_anne_pass_for_gpt4.html</loc>
-    <lastmod>2023-06-29T04:52:35.613Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/notes/case-of-llm-evals.html</loc>
-    <lastmod>2023-06-29T04:52:32.581Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/notes/explanation_annotation_interfaces.html</loc>
-    <lastmod>2023-06-29T04:52:29.617Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/notes/controlled_evaluation_of_explanations.html</loc>
-    <lastmod>2023-06-29T04:52:28.137Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/writing.html</loc>
-    <lastmod>2023-06-29T04:52:26.725Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/stream/index.html</loc>
-    <lastmod>2023-06-29T04:52:25.501Z</lastmod>
-  </url>
-  <url>
     <loc>https://mimansajaiswal.github.io/single_page/papers.html</loc>
-    <lastmod>2023-06-29T04:52:24.809Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/index.html</loc>
-    <lastmod>2023-06-29T04:52:23.369Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/banner.html</loc>
-    <lastmod>2023-06-29T04:52:24.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/single_page/updates.html</loc>
-    <lastmod>2023-06-29T04:52:25.153Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mimansajaiswal.github.io/stream/phd_stipends.html</loc>
-    <lastmod>2023-06-29T04:52:26.249Z</lastmod>
+    <lastmod>2023-07-12T05:52:52.696Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/about_me/research_interests.html</loc>
-    <lastmod>2023-06-29T04:52:27.093Z</lastmod>
+    <lastmod>2023-07-12T05:52:51.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/banner.html</loc>
+    <lastmod>2023-07-12T05:52:50.840Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/stream/the_two_year_tragedy.html</loc>
+    <lastmod>2023-07-12T05:52:50.112Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/explanation_annotation_interfaces.html</loc>
+    <lastmod>2023-07-12T05:52:48.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/no_sally_anne_pass_for_gpt4.html</loc>
+    <lastmod>2023-07-12T05:52:46.960Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/case-of-llm-evals.html</loc>
+    <lastmod>2023-07-12T05:52:44.920Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/notes/index.html</loc>
-    <lastmod>2023-06-29T04:52:28.889Z</lastmod>
+    <lastmod>2023-07-12T05:52:41.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/index.html</loc>
+    <lastmod>2023-07-12T05:52:40.308Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/notes/controlled_evaluation_of_explanations.html</loc>
+    <lastmod>2023-07-12T05:52:42.464Z</lastmod>
   </url>
   <url>
     <loc>https://mimansajaiswal.github.io/notes/capstone.html</loc>
-    <lastmod>2023-06-29T04:52:33.913Z</lastmod>
+    <lastmod>2023-07-12T05:52:48.292Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/stream/index.html</loc>
+    <lastmod>2023-07-12T05:52:49.360Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/stream/phd_stipends.html</loc>
+    <lastmod>2023-07-12T05:52:50.512Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/writing.html</loc>
+    <lastmod>2023-07-12T05:52:51.320Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mimansajaiswal.github.io/single_page/updates.html</loc>
+    <lastmod>2023-07-12T05:52:52.340Z</lastmod>
   </url>
 </urlset>
