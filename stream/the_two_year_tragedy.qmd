@@ -1,0 +1,8 @@
+---
+title: Unforseen Personal Adversities and Internship Challenges
+date: 2022-05-07
+categories: [Finance, PhD, Academia, Internships, Mental Health]
+# image: ../notes/theme-images/academia.png
+subtitle: A journey of resilience and lessons learned through unforeseen personal circumstances during internship years.
+description: "In my internships from Q2 2020 to Q2 2022, personal losses and health issues disrupted my project completion. I lost grandparents to cancer and COVID-19 in 2020 and 2021 respectively. Later, my father and another grandparent underwent surgeries. Stranded abroad, these adversities led to my mental and physical health deterioration. Consequently, my intern duties lapsed and I lost touch with mentors. Despite later independent project completion, reconnecting with past mentors seems daunting and avoided due to guilt. I express sincere regret and wholly acknowledge my lapse in meeting deadlines and keeping contacts. From this, I have worked to enhance my future resilience, time management, and communication."
+---
