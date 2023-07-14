@@ -7,7 +7,7 @@ categories:
 - Foundation Models
 citation-location: margin
 date: '2023-06-25'
-description: "Our rapid scaling, and generalization techniques has outpaced our ability to effectively evaluate and accurately assess their capabilities. Without robust tools to measure and gauge a model's performance, we risk overestimating its abilities. It is important to recognize that while a model may appear exceptional in certain tasks, our evaluation methods may be limited and biased. Simply conducting races on predictable paths with consistent cues can create an illusion of invincibility for the model."
+description: "Our modeling, scaling and generalization techniques grew faster than our benchmarking abilities - which in turn have resulted in poor evaluation and hyped capabilities. Every ability is amazing and great, if we do not have the tools to figure out what that ability is, or how good the model is at that ability. We might always believe the model will win every race, if all we do, is have the race on paved roads, with yellow trees on every right turns, and green trees on every left turn."
 display-date: 'Jun 2023'
 filters:
 - collapse-social-embeds
@@ -17,9 +17,9 @@ lightbox: auto
 reference-location: margin
 threeword: 'Missing Missing Evaluations'
 title: The Curious Case of LLM Evaluations
-image: images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.png
+image: images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.webp
 ---
-![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.png)
+![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.webp)
 
 # Introduction
 
@@ -29,7 +29,7 @@ Every popular paper later, we keep coming back to the same questions: how do we 
 
 :::{.column-margin}
 
-You can always make pull requests to add sources and examples [here](https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/notes/case-of-llm-evals.qmd).
+You can always make pull requests to add sources and examples [here](https://github.com/nlpurr/nlpurr.github.io/blob/master/posts/case-of-llm-evals.qmd).
 
 :::
 
@@ -88,7 +88,7 @@ Using the similar set of datasets for evaluation come with a another set of prob
 
     ::: {.column-margin}
 
-    ![Prompt parts: Start, Process and Output Steer and influences that arise from it](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e7dac9ea4e5.png)
+    ![Prompt parts: Start, Process and Output Steer and influences that arise from it](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e7dac9ea4e5.webp)
 
     :::
 -   Untraceability: Going back to the point of data leakage; while it used to always be a problem; now that no one has any idea about any of the data that went into the model, even the best-faith and triple checked evaluation has no guarantees of being a out of distribution evaluation.
@@ -101,7 +101,7 @@ Pre-curated evaluation sets from various standardized tests --- These are mostly
 
 ::: {.callout-tip title="Pre-curated eval sets" icon=false collapse=true}
 
-![[What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from ](https://arxiv.org/pdf/2009.13081v1.pdf)[**Medical Exams**](https://arxiv.org/pdf/2009.13081v1.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-28995f49bbb.png)
+![[What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from ](https://arxiv.org/pdf/2009.13081v1.pdf)[**Medical Exams**](https://arxiv.org/pdf/2009.13081v1.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-28995f49bbb.webp)
 
 :::
 
@@ -109,15 +109,15 @@ Web scraped evaluation sets for ML model testing --- These datasets are created 
 
 ::: {.callout-tip title="Scraped eval sets" icon=false collapse=true}
 
-![[TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension](https://arxiv.org/pdf/1705.03551.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a2d821fedcb.png)
+![[TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension](https://arxiv.org/pdf/1705.03551.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a2d821fedcb.webp)
 
 :::
 
 Human created and curated evaluation sets for the sole purpose of evaluating a task --- These test sets are usually designed as a measure against data leakage. After all, humans can probably create a distinct enough pattern to evaluate against. While that is a pro, these datasets come with flaws of their own; for example they are really small and, are harder to create and update.
 
-::: {.callout-tip title="Human curated eval sets" collapse=true}
+::: {.callout-tip title="Human curated eval sets" icon=false collapse=true}
 
-![HumanEval dataset proposed in E[valuating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d4c26694437.png)
+![HumanEval dataset proposed in E[valuating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d4c26694437.webp)
 
 :::
 
@@ -126,7 +126,7 @@ Fuzzy Versions --- These are variants of exisiting datasets or evaluation sets, 
 
 ::: {.callout-tip title="Fuzzed eval sets" icon=false collapse=true}
 
-![For example, a set of adversarial prompts and inputs that act as addition/in replacement to the original evaluation samples, as proposed in [PromptBench](https://arxiv.org/pdf/2306.04528.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e8207fbb5dd.png)
+![For example, a set of adversarial prompts and inputs that act as addition/in replacement to the original evaluation samples, as proposed in [PromptBench](https://arxiv.org/pdf/2306.04528.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e8207fbb5dd.webp)
 
 :::
 
@@ -134,13 +134,13 @@ Ad-hoc testing samples by humans --- These are performed as conversation based e
 
 ::: {.callout-tip title="Ad-hoc testing" icon=false collapse=true}
 
-![Evaluating models through single turn or multi-turn conversations in [OpenAssistant Conversations - Democratizing Large Language Model Alignment](https://arxiv.org/pdf/2304.07327.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8e22f3bd0df.png)
+![Evaluating models through single turn or multi-turn conversations in [OpenAssistant Conversations - Democratizing Large Language Model Alignment](https://arxiv.org/pdf/2304.07327.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8e22f3bd0df.webp)
 
 :::
 
 ::: {.column-margin}
 
-![From this [tweet](https://twitter.com/NLPurr/status/1672714169001590784) by [**Subbarao Kambhampati (కంభంపాటి సుబ్బారావు)**](https://twitter.com/rao2z)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0fc2f888363.png)
+![From this [tweet](https://twitter.com/NLPurr/status/1672714169001590784) by [**Subbarao Kambhampati (కంభంపాటి సుబ్బారావు)**](https://twitter.com/rao2z)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0fc2f888363.webp)
 
 :::
 
@@ -159,25 +159,25 @@ Let's take the example in [Textbooks are all you need](https://arxiv.org/pdf/230
 
 Why? Because the description says that the GPT4 model was asked to grade between 0-10, but the numbers are reported scaled between 0-1.
 
-![The paper saying that the model is asked for grades between 0 to 10, and that is then scaled to report between 0-1.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-38d35b72660.png)
+![The paper saying that the model is asked for grades between 0 to 10, and that is then scaled to report between 0-1.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-38d35b72660.webp)
 
-![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-36a1e237255.png)
+![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-36a1e237255.webp)
 
 Let's start with the completely correct response.
 
-![The GPT4 model says the response is 9/10 when asked for a grade between 0-10.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0d50e7c6848.png)
+![The GPT4 model says the response is 9/10 when asked for a grade between 0-10.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0d50e7c6848.webp)
 
-![The GPT4 model says the response is .95/10 when asked for a grade between 0-1.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-44ef7ec4988.png)
+![The GPT4 model says the response is .95/10 when asked for a grade between 0-1.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-44ef7ec4988.webp)
 
-![The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5; which is great, right? Because at least the scaling is consistent.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5b3c7e7a4b4.png)
+![The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5; which is great, right? Because at least the scaling is consistent.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5b3c7e7a4b4.webp)
 
 But, let's consider some other solutions, those that are incorrect in some way or another. Let's do this by changing squaring to 2.2, and sorting the second list in reverse.
 
-![The GPT4 model says the response is 8/10 when asked for a grade between 0-10.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-7d63e513030.png)
+![The GPT4 model says the response is 8/10 when asked for a grade between 0-10.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-7d63e513030.webp)
 
-![The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5. The scaling is constant here too!](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-88c3f3d29ff.png)
+![The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5. The scaling is constant here too!](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-88c3f3d29ff.webp)
 
-![The GPT4 model says that the response is 0.9/1. And now all the scaling is messed up.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-2a516565700.png)
+![The GPT4 model says that the response is 0.9/1. And now all the scaling is messed up.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-2a516565700.webp)
 
 :::
 
@@ -191,7 +191,7 @@ Loop based transformations usually follow the philosophy of ---\> what if we add
 
 ::: {.callout-tip title="Example Papers" icon=false collapse=true}
 
-![[Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/pdf/2303.11366.pdf) develops a modular formulation for Reflexion, utilizing three distinct models: an Actor generates text and actions; an Evaluator model scores the outputs produced by Actor; and a Self-Reflection model, generates verbal reinforcement cues to assist the Actor in self-improvement.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ad9844c143d.png)
+![[Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/pdf/2303.11366.pdf) develops a modular formulation for Reflexion, utilizing three distinct models: an Actor generates text and actions; an Evaluator model scores the outputs produced by Actor; and a Self-Reflection model, generates verbal reinforcement cues to assist the Actor in self-improvement.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ad9844c143d.webp)
 
 :::
 
@@ -227,7 +227,7 @@ In my perspective, the evaluation medium can be categorized into three distinct 
 
 ::: {.callout-tip title="Example Papers" icon=false collapse=true}
 
-![[Textbooks are all you need ](https://arxiv.org/pdf/2306.11644.pdf)evaluation with HumanEval and MBPP](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d9a5f74b47b.png)
+![[Textbooks are all you need ](https://arxiv.org/pdf/2306.11644.pdf)evaluation with HumanEval and MBPP](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d9a5f74b47b.webp)
 
 :::
 
@@ -237,7 +237,7 @@ For instance, one direct evaluation metric is comparing the model\'s accuracy di
 
 ::: {.column-margin}
 
-![**Now how do we evaluate the model from these prompts?**](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1bc49b90841.png)
+![**Now how do we evaluate the model from these prompts?**](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1bc49b90841.webp)
 
 :::
 
@@ -246,13 +246,13 @@ For instance, one direct evaluation metric is comparing the model\'s accuracy di
 ::: {.callout-tip title="Example Papers" icon=false collapse=true}
 
 ![Rubric based from the same model.\
-[TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/pdf/2305.07759.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-384f6f3ee9b.png)
+[TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/pdf/2305.07759.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-384f6f3ee9b.webp)
 
-![[Self-critiquing models for assisting human evaluators](https://arxiv.org/pdf/2206.05802.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e6235ebb710.png)
+![[Self-critiquing models for assisting human evaluators](https://arxiv.org/pdf/2206.05802.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e6235ebb710.webp)
 
-![[G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment](https://arxiv.org/pdf/2303.16634.pdf) using form-filling methods for evaluation and then calculate a correlation to human preference.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-fd37f2d1713.png)
+![[G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment](https://arxiv.org/pdf/2303.16634.pdf) using form-filling methods for evaluation and then calculate a correlation to human preference.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-fd37f2d1713.webp)
 
-![Component-wise model driven evaluation scores in [LLM-EVAL: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models](https://arxiv.org/pdf/2305.13711.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-bc49bad86e9.png)
+![Component-wise model driven evaluation scores in [LLM-EVAL: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models](https://arxiv.org/pdf/2305.13711.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-bc49bad86e9.webp)
 
 :::
 
@@ -262,17 +262,17 @@ Moving on to the second category, we have \"indirect or decomposed heuristics.\"
 
 ### Model-Driven Evaluation
 
-::: {.callout-tip title="Example Papers" icon=false collapse=true}
+::: {.callout-tip title="Papers" icon=false collapse=true}
 
-![Evaluating responses by comparing to referenced ground truth in [Sparks of AGI](https://arxiv.org/pdf/2303.12712.pdf). Remember this is inclusion of ground truth and possibly the least problematic form of model driven evaluation.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-b297c918d95.png)
+![Evaluating responses by comparing to referenced ground truth in [Sparks of AGI](https://arxiv.org/pdf/2303.12712.pdf). Remember this is inclusion of ground truth and possibly the least problematic form of model driven evaluation.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-b297c918d95.webp)
 
-![[Bring Your Own Data! Self-Supervised Evaluation forLarge Language Models](https://arxiv.org/pdf/2306.13651.pdf) evaluation based on invariance of model output based on fuzzed input samples](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-594e8bc80cb.png)
+![[Bring Your Own Data! Self-Supervised Evaluation forLarge Language Models](https://arxiv.org/pdf/2306.13651.pdf) evaluation based on invariance of model output based on fuzzed input samples](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-594e8bc80cb.webp)
 
-![[Textbooks are all you need ](https://arxiv.org/pdf/2306.11644.pdf)evaluation with GPT4](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-62202ec9cb6.png)
+![[Textbooks are all you need ](https://arxiv.org/pdf/2306.11644.pdf)evaluation with GPT4](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-62202ec9cb6.webp)
 
-![[Using LLMs for explanations of smaller LLMs](https://openai.com/research/language-models-can-explain-neurons-in-language-models)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5f2ae4973f3.png)
+![[Using LLMs for explanations of smaller LLMs](https://openai.com/research/language-models-can-explain-neurons-in-language-models)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5f2ae4973f3.webp)
 
-![Ask the AI section from [Language Models (Mostly) Know What They Know](https://arxiv.org/pdf/2207.05221.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d2af74360dd.png)
+![Ask the AI section from [Language Models (Mostly) Know What They Know](https://arxiv.org/pdf/2207.05221.pdf)](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d2af74360dd.webp)
 
 :::
 
@@ -308,7 +308,7 @@ For example, let's take the example in their paper:
 
 :::{.column-margin}
 
-![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-16699c3485b.png)
+![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-16699c3485b.webp)
 
 :::
 
@@ -331,13 +331,13 @@ Doesn't GPT4 as a judge solve these problems anyway? No, no it does not.
 Why not?
 
 -   The method does not provide the exact same number every single time. For example, let's consider the same doc string as mentioned above. And let's evaluate how good Mosaic 30B-Chat is good at programming.
-    ![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-05b010e3aee.png)
+    ![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-05b010e3aee.webp)
 
     Now, let us ask GPT4 to judge this. Not only does the answer change, the model suggests to do something that was not even asked for.
 
-    ![The model scores it 9.5/10](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a330cd6b0c2.png)
+    ![The model scores it 9.5/10](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a330cd6b0c2.webp)
 
-    ![The model scores it 9/10](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0ebbca38746.png)
+    ![The model scores it 9/10](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0ebbca38746.webp)
 -   Implicit assumption that the model actually scores completely incorrect answer at 0. This assumption is not tested by the authors. Let's test it. The decomposition of this problem is into 6 atoms:
     -   Sorting of 2 lists ⟶ Sort second list in reverse order
     -   Concatenation ⟶ Change to duplicate concatenation
@@ -348,12 +348,13 @@ Why not?
 
     GPT4 judges it to be 4/10. And, it does not see that the threshold value was changed.
 
-    ![The model scores the completely incorrect function at 4/10. It ignores an error. In the previous pictures, it creates an error or a suggestion which was not asked for and will render the code incorrect.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-37b899bb621.png)
+    ![The model scores the completely incorrect function at 4/10. It ignores an error. In the previous pictures, it creates an error or a suggestion which was not asked for and will render the code incorrect.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-37b899bb621.webp)
 -   Anything weird to the model, that is not in the general expected distribution will be marked low. For example, here is a correct code that is marked lower just because it is unexpected by GPT4.
-    ![Model invents a requirement that does not exist, writes incorrect code and grades the correct code 8.5/10.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-de21fe993b3.png)
+    ![Model invents a requirement that does not exist, writes incorrect code and grades the correct code 8.5/10.](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-de21fe993b3.webp)
+
 Now a retort might be: But you made those changes, the model did not produce that outcome! The model will always generate outcomes in the distribution!
 
-Fair! But (a) that de-incentivizes training of new models that are have better coverage; and; (b) there is no way someone won’t read that paper and consider — let’s create an LLM based service that proposes to judge interviewees based on LLM scoring.
+Fair! But (a) that de-incentivizes training of new models that are have better coverage; and; (b) there is no way someone won't read that paper and consider --- let's create an LLM based service that proposes to judge interviewees based on LLM scoring.
 
 :::
 
@@ -369,9 +370,9 @@ Two back to back answers from GPT4, temperature set to 0, about finding a larges
 
 > Click on images to expand them.
 
-![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ab11bdbfad2.png)
+![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ab11bdbfad2.webp)
 
-![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-c8c4210059e.png)
+![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-c8c4210059e.webp)
 
 :::
 
@@ -381,7 +382,7 @@ Mosaic 30B (released on 2023-06-22) explores the idea of combining benchmarks in
 
 :::{.column-margin}
 
-![Evaluation harness thematic grouping. Read more at <https://www.mosaicml.com/blog/mpt-30b>](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1dcf9af277d.png)
+![Evaluation harness thematic grouping. Read more at <https://www.mosaicml.com/blog/mpt-30b>](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1dcf9af277d.webp)
 
 :::
 
@@ -400,9 +401,11 @@ Lastly, we must address the concept of prompt-fine tuning. Numerous research pap
 In the realm of evaluating language models (LLMs), we find ourselves grappling with intricate questions about the reliability of our assessments. The truth is, evaluation and benchmarking have always been challenging, and the advent of large, multi-purpose models has only compounded the complexities. Issues such as data leakage, coverage limitations, spurious correlations, and partitioning quandaries plague our evaluation practices. To make matters worse, precision vs. recall tradeoffs and the lack of ground truth further muddy the waters. This post explores the common problems with evaluation in machine learning and delves into the specific challenges posed by LLMs. We categorize evaluation mediums into direct metrics, auxiliary models-based evaluation, and model-driven evaluation, shedding light on the nuances of each approach. With a cautious eye, we navigate the intricacies of reporting performance numbers and emphasize the importance of granularity. Prompt-fine tuning is also scrutinized, reminding us to consider the realism of user interactions. As we venture deeper into the evaluation landscape, it becomes clear that a comprehensive understanding of these complexities is essential for meaningful assessments of LLMs.
 
 > Our modeling, scaling and generalization techniques grew faster than our benchmarking abilities --- which in turn have resulted in poor evaluation and hyped capabilities. Every ability is amazing and great, if we do not have the tools to figure out what that ability is, or how good the model is at that ability. We'd always believe the model will win every race, if all we do, is have the race on paved roads, with yellow trees on every right turns, and green trees on every left turn.
-# Reference Material {#reference-material}
+
+# Reference Material
 
 > In progress, and definitely not a comprehensive list of everything
 
 ::: {.youtube video_id=oTn_bP-nYv4}
+
 :::

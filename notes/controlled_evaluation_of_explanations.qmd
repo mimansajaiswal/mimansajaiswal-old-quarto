@@ -11,9 +11,9 @@ description: End users affect explanation efficacy. NLP papers overlook other fa
 threeword: Standardized Explanation Evaluation
 reference-location: margin
 citation-location: margin
-image: images/controlled_evaluation_of_explanations/example_variables.png
+image: images/controlled_evaluation_of_explanations/example_variables.webp
 ---
-![Examples of variables used in checklisting explanation utility](images/controlled_evaluation_of_explanations/example_variables.png)
+![Examples of variables used in checklisting explanation utility](images/controlled_evaluation_of_explanations/example_variables.webp)
 
 # Introduction
 

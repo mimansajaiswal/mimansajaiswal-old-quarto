@@ -11,7 +11,7 @@ description: Gender biases present in Machine Learning Models are pretty difficu
 threeword: Foundation Models' Gender Biases
 reference-location: margin
 citation-location: margin
-image: images/gender_biases_in_llms/google-translate-example.jpeg
+image: images/gender_biases_in_llms/google-translate-example.webp
 ---
 Coming soon.
-![Google Translate for professor from English to French](images/gender_biases_in_llms/google-translate-example.jpeg)
+![Google Translate for professor from English to French](images/gender_biases_in_llms/google-translate-example.webp)
