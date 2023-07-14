@@ -25,7 +25,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <section id="introduction" class="level1 page-columns page-full">
@@ -36,7 +36,7 @@
 </blockquote>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p>You can always make pull requests to add sources and examples <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/notes/case-of-llm-evals.qmd">here</a>.</p>
+<p>You can always make pull requests to add sources and examples <a href="https://github.com/nlpurr/nlpurr.github.io/blob/master/posts/case-of-llm-evals.qmd">here</a>.</p>
 </div></div><p>And unfortunately, the answer is not as simple. I might even go as far to say; it — in most likelihood is not solid. We might want it to be, but evaluation and benchmarking had already been complicated, even for classification models. We, honestly never solved it for small generative models and long form generations; and then suddenly we were faced with an influx of extremely large, multi-purpose language models; aka; foundation models.</p>
 <p>And now everyone is left with these carefully curated academic datasets that they report numbers on; that in all likelihood leaked into the training set when the whole accessible internet was scraped for it; and; buggy techniques; because we as ML practitioners were never taught basic statistics.</p>
 </section>
@@ -70,7 +70,7 @@ Maarten talks about splits in Trivia QA 1-shot
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p></p><div id="tweet-22603"></div><script>tweet={"url":"https:\/\/twitter.com\/MaartenBosma\/status\/1672349512499867648","author_name":"Maarten Bosma","author_url":"https:\/\/twitter.com\/MaartenBosma","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EGood question! PaLM used a different eval split. We have now added our results on that split as well, and we outperform PaLM by quite a margin. \u003Ca href=\"https:\/\/t.co\/mimZE8TSuB\"\u003Epic.twitter.com\/mimZE8TSuB\u003C\/a\u003E\u003C\/p\u003E&mdash; Maarten Bosma (@MaartenBosma) \u003Ca href=\"https:\/\/twitter.com\/MaartenBosma\/status\/1672349512499867648?ref_src=twsrc%5Etfw\"\u003EJune 23, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-22603").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-70003"></div><script>tweet={"url":"https:\/\/twitter.com\/MaartenBosma\/status\/1672349512499867648","author_name":"Maarten Bosma","author_url":"https:\/\/twitter.com\/MaartenBosma","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EGood question! PaLM used a different eval split. We have now added our results on that split as well, and we outperform PaLM by quite a margin. \u003Ca href=\"https:\/\/t.co\/mimZE8TSuB\"\u003Epic.twitter.com\/mimZE8TSuB\u003C\/a\u003E\u003C\/p\u003E&mdash; Maarten Bosma (@MaartenBosma) \u003Ca href=\"https:\/\/twitter.com\/MaartenBosma\/status\/1672349512499867648?ref_src=twsrc%5Etfw\"\u003EJune 23, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-70003").innerHTML = tweet["html"];</script><p></p>
 </div>
 </div>
 </div>
@@ -103,7 +103,7 @@ Maarten talks about splits in Trivia QA 1-shot
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e7dac9ea4e5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Prompt parts: Start, Process and Output Steer and influences that arise from it"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e7dac9ea4e5.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e7dac9ea4e5.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Prompt parts: Start, Process and Output Steer and influences that arise from it"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e7dac9ea4e5.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Prompt parts: Start, Process and Output Steer and influences that arise from it</figcaption>
 </figure>
 </div>
@@ -127,7 +127,7 @@ Pre-curated eval sets
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-28995f49bbb.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset fromMedical Exams"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-28995f49bbb.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-28995f49bbb.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset fromMedical Exams"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-28995f49bbb.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2009.13081v1.pdf">What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from</a><a href="https://arxiv.org/pdf/2009.13081v1.pdf"><strong>Medical Exams</strong></a></figcaption>
 </figure>
 </div>
@@ -149,7 +149,7 @@ Scraped eval sets
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a2d821fedcb.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a2d821fedcb.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a2d821fedcb.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a2d821fedcb.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/1705.03551.pdf">TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension</a></figcaption>
 </figure>
 </div>
@@ -157,10 +157,10 @@ Scraped eval sets
 </div>
 </div>
 <p>Human created and curated evaluation sets for the sole purpose of evaluating a task — These test sets are usually designed as a measure against data leakage. After all, humans can probably create a distinct enough pattern to evaluate against. While that is a pro, these datasets come with flaws of their own; for example they are really small and, are harder to create and update.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Human curated eval sets">
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Human curated eval sets">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Human curated eval sets
@@ -171,7 +171,7 @@ Human curated eval sets
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d4c26694437.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="HumanEval dataset proposed in Evaluating Large Language Models Trained on Code"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d4c26694437.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d4c26694437.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="HumanEval dataset proposed in Evaluating Large Language Models Trained on Code"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d4c26694437.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">HumanEval dataset proposed in E<a href="https://arxiv.org/abs/2107.03374">valuating Large Language Models Trained on Code</a></figcaption>
 </figure>
 </div>
@@ -193,7 +193,7 @@ Fuzzed eval sets
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e8207fbb5dd.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="For example, a set of adversarial prompts and inputs that act as addition/in replacement to the original evaluation samples, as proposed in PromptBench"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e8207fbb5dd.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e8207fbb5dd.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="For example, a set of adversarial prompts and inputs that act as addition/in replacement to the original evaluation samples, as proposed in PromptBench"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e8207fbb5dd.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">For example, a set of adversarial prompts and inputs that act as addition/in replacement to the original evaluation samples, as proposed in <a href="https://arxiv.org/pdf/2306.04528.pdf">PromptBench</a></figcaption>
 </figure>
 </div>
@@ -215,7 +215,7 @@ Ad-hoc testing
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8e22f3bd0df.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Evaluating models through single turn or multi-turn conversations in OpenAssistant Conversations - Democratizing Large Language Model Alignment"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8e22f3bd0df.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8e22f3bd0df.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Evaluating models through single turn or multi-turn conversations in OpenAssistant Conversations - Democratizing Large Language Model Alignment"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8e22f3bd0df.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Evaluating models through single turn or multi-turn conversations in <a href="https://arxiv.org/pdf/2304.07327.pdf">OpenAssistant Conversations - Democratizing Large Language Model Alignment</a></figcaption>
 </figure>
 </div>
@@ -226,7 +226,7 @@ Ad-hoc testing
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0fc2f888363.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="From this tweet by Subbarao Kambhampati (కంభంపాటి సుబ్బారావు)"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0fc2f888363.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0fc2f888363.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="From this tweet by Subbarao Kambhampati (కంభంపాటి సుబ్బారావు)"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0fc2f888363.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">From this <a href="https://twitter.com/NLPurr/status/1672714169001590784">tweet</a> by <a href="https://twitter.com/rao2z"><strong>Subbarao Kambhampati (కంభంపాటి సుబ్బారావు)</strong></a></figcaption>
 </figure>
 </div>
@@ -256,50 +256,50 @@ Do you want to know why this is a problem with examples?
 <p>Why? Because the description says that the GPT4 model was asked to grade between 0-10, but the numbers are reported scaled between 0-1.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-38d35b72660.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="The paper saying that the model is asked for grades between 0 to 10, and that is then scaled to report between 0-1."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-38d35b72660.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-38d35b72660.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="The paper saying that the model is asked for grades between 0 to 10, and that is then scaled to report between 0-1."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-38d35b72660.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The paper saying that the model is asked for grades between 0 to 10, and that is then scaled to report between 0-1.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-36a1e237255.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-36a1e237255.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-36a1e237255.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-36a1e237255.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>Let’s start with the completely correct response.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0d50e7c6848.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="The GPT4 model says the response is 9/10 when asked for a grade between 0-10."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0d50e7c6848.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0d50e7c6848.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="The GPT4 model says the response is 9/10 when asked for a grade between 0-10."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0d50e7c6848.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says the response is 9/10 when asked for a grade between 0-10.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-44ef7ec4988.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="The GPT4 model says the response is .95/10 when asked for a grade between 0-1."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-44ef7ec4988.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-44ef7ec4988.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="The GPT4 model says the response is .95/10 when asked for a grade between 0-1."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-44ef7ec4988.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says the response is .95/10 when asked for a grade between 0-1.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5b3c7e7a4b4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5; which is great, right? Because at least the scaling is consistent."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5b3c7e7a4b4.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5b3c7e7a4b4.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5; which is great, right? Because at least the scaling is consistent."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5b3c7e7a4b4.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5; which is great, right? Because at least the scaling is consistent.</figcaption>
 </figure>
 </div>
 <p>But, let’s consider some other solutions, those that are incorrect in some way or another. Let’s do this by changing squaring to 2.2, and sorting the second list in reverse.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-7d63e513030.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="The GPT4 model says the response is 8/10 when asked for a grade between 0-10."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-7d63e513030.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-7d63e513030.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="The GPT4 model says the response is 8/10 when asked for a grade between 0-10."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-7d63e513030.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says the response is 8/10 when asked for a grade between 0-10.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-88c3f3d29ff.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5. The scaling is constant here too!"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-88c3f3d29ff.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-88c3f3d29ff.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5. The scaling is constant here too!"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-88c3f3d29ff.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says the response is 4.5/5 when asked for a grade between 0-5. The scaling is constant here too!</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-2a516565700.png" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="The GPT4 model says that the response is 0.9/1. And now all the scaling is messed up."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-2a516565700.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-2a516565700.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="The GPT4 model says that the response is 0.9/1. And now all the scaling is messed up."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-2a516565700.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The GPT4 model says that the response is 0.9/1. And now all the scaling is messed up.</figcaption>
 </figure>
 </div>
@@ -327,7 +327,7 @@ Example Papers
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ad9844c143d.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Reflexion: Language Agents with Verbal Reinforcement Learning develops a modular formulation for Reflexion, utilizing three distinct models: an Actor generates text and actions; an Evaluator model scores the outputs produced by Actor; and a Self-Reflection model, generates verbal reinforcement cues to assist the Actor in self-improvement."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ad9844c143d.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ad9844c143d.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Reflexion: Language Agents with Verbal Reinforcement Learning develops a modular formulation for Reflexion, utilizing three distinct models: an Actor generates text and actions; an Evaluator model scores the outputs produced by Actor; and a Self-Reflection model, generates verbal reinforcement cues to assist the Actor in self-improvement."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ad9844c143d.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2303.11366.pdf">Reflexion: Language Agents with Verbal Reinforcement Learning</a> develops a modular formulation for Reflexion, utilizing three distinct models: an Actor generates text and actions; an Evaluator model scores the outputs produced by Actor; and a Self-Reflection model, generates verbal reinforcement cues to assist the Actor in self-improvement.</figcaption>
 </figure>
 </div>
@@ -378,7 +378,7 @@ Example Papers
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d9a5f74b47b.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Textbooks are all you needevaluation with HumanEval and MBPP"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d9a5f74b47b.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d9a5f74b47b.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Textbooks are all you needevaluation with HumanEval and MBPP"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d9a5f74b47b.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2306.11644.pdf">Textbooks are all you need</a>evaluation with HumanEval and MBPP</figcaption>
 </figure>
 </div>
@@ -391,7 +391,7 @@ Example Papers
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1bc49b90841.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Now how do we evaluate the model from these prompts?"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1bc49b90841.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1bc49b90841.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Now how do we evaluate the model from these prompts?"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1bc49b90841.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><strong>Now how do we evaluate the model from these prompts?</strong></figcaption>
 </figure>
 </div>
@@ -412,26 +412,26 @@ Example Papers
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-384f6f3ee9b.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="Rubric based from the same model. TinyStories: How Small Can Language Models Be and Still Speak Coherent English?"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-384f6f3ee9b.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-384f6f3ee9b.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="Rubric based from the same model. TinyStories: How Small Can Language Models Be and Still Speak Coherent English?"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-384f6f3ee9b.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Rubric based from the same model.<br>
 <a href="https://arxiv.org/pdf/2305.07759.pdf">TinyStories: How Small Can Language Models Be and Still Speak Coherent English?</a></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e6235ebb710.png" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="Self-critiquing models for assisting human evaluators"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e6235ebb710.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e6235ebb710.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="Self-critiquing models for assisting human evaluators"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-e6235ebb710.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2206.05802.pdf">Self-critiquing models for assisting human evaluators</a></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-fd37f2d1713.png" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment using form-filling methods for evaluation and then calculate a correlation to human preference."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-fd37f2d1713.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-fd37f2d1713.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment using form-filling methods for evaluation and then calculate a correlation to human preference."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-fd37f2d1713.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2303.16634.pdf">G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment</a> using form-filling methods for evaluation and then calculate a correlation to human preference.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-bc49bad86e9.png" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="Component-wise model driven evaluation scores in LLM-EVAL: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-bc49bad86e9.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-bc49bad86e9.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="Component-wise model driven evaluation scores in LLM-EVAL: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-bc49bad86e9.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Component-wise model driven evaluation scores in <a href="https://arxiv.org/pdf/2305.13711.pdf">LLM-EVAL: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models</a></figcaption>
 </figure>
 </div>
@@ -445,13 +445,13 @@ Example Papers
 </section>
 <section id="model-driven-evaluation" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="model-driven-evaluation">Model-Driven Evaluation</h3>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Example Papers">
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Papers">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example Papers
+Papers
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -459,31 +459,31 @@ Example Papers
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-b297c918d95.png" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="Evaluating responses by comparing to referenced ground truth in Sparks of AGI. Remember this is inclusion of ground truth and possibly the least problematic form of model driven evaluation."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-b297c918d95.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-b297c918d95.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="Evaluating responses by comparing to referenced ground truth in Sparks of AGI. Remember this is inclusion of ground truth and possibly the least problematic form of model driven evaluation."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-b297c918d95.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Evaluating responses by comparing to referenced ground truth in <a href="https://arxiv.org/pdf/2303.12712.pdf">Sparks of AGI</a>. Remember this is inclusion of ground truth and possibly the least problematic form of model driven evaluation.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-594e8bc80cb.png" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="Bring Your Own Data! Self-Supervised Evaluation forLarge Language Models evaluation based on invariance of model output based on fuzzed input samples"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-594e8bc80cb.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-594e8bc80cb.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="Bring Your Own Data! Self-Supervised Evaluation forLarge Language Models evaluation based on invariance of model output based on fuzzed input samples"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-594e8bc80cb.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2306.13651.pdf">Bring Your Own Data! Self-Supervised Evaluation forLarge Language Models</a> evaluation based on invariance of model output based on fuzzed input samples</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-62202ec9cb6.png" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="Textbooks are all you needevaluation with GPT4"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-62202ec9cb6.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-62202ec9cb6.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="Textbooks are all you needevaluation with GPT4"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-62202ec9cb6.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://arxiv.org/pdf/2306.11644.pdf">Textbooks are all you need</a>evaluation with GPT4</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5f2ae4973f3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="Using LLMs for explanations of smaller LLMs"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5f2ae4973f3.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5f2ae4973f3.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="Using LLMs for explanations of smaller LLMs"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-5f2ae4973f3.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://openai.com/research/language-models-can-explain-neurons-in-language-models">Using LLMs for explanations of smaller LLMs</a></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d2af74360dd.png" class="lightbox" data-gallery="quarto-lightbox-gallery-31" title="Ask the AI section from Language Models (Mostly) Know What They Know"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d2af74360dd.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d2af74360dd.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-31" title="Ask the AI section from Language Models (Mostly) Know What They Know"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-d2af74360dd.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Ask the AI section from <a href="https://arxiv.org/pdf/2207.05221.pdf">Language Models (Mostly) Know What They Know</a></figcaption>
 </figure>
 </div>
@@ -511,7 +511,7 @@ Ronen talks about why using automated evals is a good idea for textbooks
 </div>
 <div id="callout-12" class="callout-12-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p></p><div id="tweet-98085"></div><script>tweet={"url":"https:\/\/twitter.com\/EldanRonen\/status\/1673107981742010370","author_name":"Ronen Eldan","author_url":"https:\/\/twitter.com\/EldanRonen","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere&#39;s a reason that in coding exams\/interviews, grades are not only based on whether the code passes unit tests, but rather a human reads through the code and determines the level of understanding reflected from it.\u003C\/p\u003E&mdash; Ronen Eldan (@EldanRonen) \u003Ca href=\"https:\/\/twitter.com\/EldanRonen\/status\/1673107981742010370?ref_src=twsrc%5Etfw\"\u003EJune 25, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-98085").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-33908"></div><script>tweet={"url":"https:\/\/twitter.com\/EldanRonen\/status\/1673107981742010370","author_name":"Ronen Eldan","author_url":"https:\/\/twitter.com\/EldanRonen","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere&#39;s a reason that in coding exams\/interviews, grades are not only based on whether the code passes unit tests, but rather a human reads through the code and determines the level of understanding reflected from it.\u003C\/p\u003E&mdash; Ronen Eldan (@EldanRonen) \u003Ca href=\"https:\/\/twitter.com\/EldanRonen\/status\/1673107981742010370?ref_src=twsrc%5Etfw\"\u003EJune 25, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-33908").innerHTML = tweet["html"];</script><p></p>
 </div>
 </div>
 </div>
@@ -554,17 +554,17 @@ font-style: inherit;">"""</span></span></code></pre></div>
 <p>Doesn’t GPT4 as a judge solve these problems anyway? No, no it does not.</p>
 <p>Why not?</p>
 <ul>
-<li><p>The method does not provide the exact same number every single time. For example, let’s consider the same doc string as mentioned above. And let’s evaluate how good Mosaic 30B-Chat is good at programming. <a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-05b010e3aee.png" class="lightbox" data-gallery="quarto-lightbox-gallery-33"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-05b010e3aee.png" class="img-fluid"></a></p>
+<li><p>The method does not provide the exact same number every single time. For example, let’s consider the same doc string as mentioned above. And let’s evaluate how good Mosaic 30B-Chat is good at programming. <a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-05b010e3aee.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-33"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-05b010e3aee.webp" class="img-fluid"></a></p>
 <p>Now, let us ask GPT4 to judge this. Not only does the answer change, the model suggests to do something that was not even asked for.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a330cd6b0c2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-34" title="The model scores it 9.5/10"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a330cd6b0c2.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a330cd6b0c2.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-34" title="The model scores it 9.5/10"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-a330cd6b0c2.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The model scores it 9.5/10</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0ebbca38746.png" class="lightbox" data-gallery="quarto-lightbox-gallery-35" title="The model scores it 9/10"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0ebbca38746.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0ebbca38746.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-35" title="The model scores it 9/10"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-0ebbca38746.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The model scores it 9/10</figcaption>
 </figure>
 </div></li>
@@ -580,12 +580,13 @@ font-style: inherit;">"""</span></span></code></pre></div>
 <p>GPT4 judges it to be 4/10. And, it does not see that the threshold value was changed.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-37b899bb621.png" class="lightbox" data-gallery="quarto-lightbox-gallery-36" title="The model scores the completely incorrect function at 4/10. It ignores an error. In the previous pictures, it creates an error or a suggestion which was not asked for and will render the code incorrect."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-37b899bb621.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-37b899bb621.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-36" title="The model scores the completely incorrect function at 4/10. It ignores an error. In the previous pictures, it creates an error or a suggestion which was not asked for and will render the code incorrect."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-37b899bb621.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">The model scores the completely incorrect function at 4/10. It ignores an error. In the previous pictures, it creates an error or a suggestion which was not asked for and will render the code incorrect.</figcaption>
 </figure>
 </div></li>
-<li><p>Anything weird to the model, that is not in the general expected distribution will be marked low. For example, here is a correct code that is marked lower just because it is unexpected by GPT4. <a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-de21fe993b3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-37" title="Model invents a requirement that does not exist, writes incorrect code and grades the correct code 8.5/10."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-de21fe993b3.png" class="img-fluid" alt="Model invents a requirement that does not exist, writes incorrect code and grades the correct code 8.5/10."></a> Now a retort might be: But you made those changes, the model did not produce that outcome! The model will always generate outcomes in the distribution!</p></li>
+<li><p>Anything weird to the model, that is not in the general expected distribution will be marked low. For example, here is a correct code that is marked lower just because it is unexpected by GPT4. <a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-de21fe993b3.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-37" title="Model invents a requirement that does not exist, writes incorrect code and grades the correct code 8.5/10."><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-de21fe993b3.webp" class="img-fluid" alt="Model invents a requirement that does not exist, writes incorrect code and grades the correct code 8.5/10."></a></p></li>
 </ul>
+<p>Now a retort might be: But you made those changes, the model did not produce that outcome! The model will always generate outcomes in the distribution!</p>
 <p>Fair! But (a) that de-incentivizes training of new models that are have better coverage; and; (b) there is no way someone won’t read that paper and consider — let’s create an LLM based service that proposes to judge interviewees based on LLM scoring.</p>
 </div>
 </div>
@@ -593,7 +594,7 @@ font-style: inherit;">"""</span></span></code></pre></div>
 <div class="no-row-height column-margin column-container"><div class="callout-13-contents callout-collapse collapse show callout-margin-content">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-16699c3485b.png" class="lightbox" data-gallery="quarto-lightbox-gallery-32"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-16699c3485b.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-16699c3485b.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-32"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-16699c3485b.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </div></div></section>
@@ -610,12 +611,12 @@ font-style: inherit;">"""</span></span></code></pre></div>
 </blockquote>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ab11bdbfad2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ab11bdbfad2.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ab11bdbfad2.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-ab11bdbfad2.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-c8c4210059e.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-c8c4210059e.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-c8c4210059e.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-c8c4210059e.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </div></div><p>Another aspect to consider is the level of granularity in reporting. Many academic datasets already suffer from various issues, and the problem is further exacerbated by averaging values across these large multi-task datasets without considering the specific evaluation goals of each test sample. Currently, most reports lack granularity even at a high-level task-based assessment, let alone sample-based granularity.</p>
@@ -624,7 +625,7 @@ font-style: inherit;">"""</span></span></code></pre></div>
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1dcf9af277d.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Evaluation harness thematic grouping. Read more at https://www.mosaicml.com/blog/mpt-30b"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1dcf9af277d.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1dcf9af277d.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Evaluation harness thematic grouping. Read more at https://www.mosaicml.com/blog/mpt-30b"><img src="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-1dcf9af277d.webp" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Evaluation harness thematic grouping. Read more at <a href="https://www.mosaicml.com/blog/mpt-30b" class="uri">https://www.mosaicml.com/blog/mpt-30b</a></figcaption>
 </figure>
 </div>
@@ -641,7 +642,7 @@ Armen talks about prompt fuzzing
 </div>
 <div id="callout-14" class="callout-14-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p></p><div id="tweet-51376"></div><script>tweet={"url":"https:\/\/twitter.com\/ArmenAgha\/status\/1669098472493162497","author_name":"Armen Aghajanyan","author_url":"https:\/\/twitter.com\/ArmenAgha","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E1. Manually annotate 1k fuzzing prompts\u003Cbr\u003E2. Finetune LLaMa on this 1k a la LIMA\u003Cbr\u003E3. Apply fuzzing to standard benchmarks\u003Cbr\u003E4. Re-evaluate common models?\u003Cbr\u003E\u003Cbr\u003ELikely this will work, not sure if anyone has done this.\u003C\/p\u003E&mdash; Armen Aghajanyan (@ArmenAgha) \u003Ca href=\"https:\/\/twitter.com\/ArmenAgha\/status\/1669098472493162497?ref_src=twsrc%5Etfw\"\u003EJune 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-51376").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-49851"></div><script>tweet={"url":"https:\/\/twitter.com\/ArmenAgha\/status\/1669098472493162497","author_name":"Armen Aghajanyan","author_url":"https:\/\/twitter.com\/ArmenAgha","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E1. Manually annotate 1k fuzzing prompts\u003Cbr\u003E2. Finetune LLaMa on this 1k a la LIMA\u003Cbr\u003E3. Apply fuzzing to standard benchmarks\u003Cbr\u003E4. Re-evaluate common models?\u003Cbr\u003E\u003Cbr\u003ELikely this will work, not sure if anyone has done this.\u003C\/p\u003E&mdash; Armen Aghajanyan (@ArmenAgha) \u003Ca href=\"https:\/\/twitter.com\/ArmenAgha\/status\/1669098472493162497?ref_src=twsrc%5Etfw\"\u003EJune 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-49851").innerHTML = tweet["html"];</script><p></p>
 </div>
 </div>
 </div>
@@ -655,8 +656,11 @@ Armen talks about prompt fuzzing
 <h1>tl;dr</h1>
 <p>In the realm of evaluating language models (LLMs), we find ourselves grappling with intricate questions about the reliability of our assessments. The truth is, evaluation and benchmarking have always been challenging, and the advent of large, multi-purpose models has only compounded the complexities. Issues such as data leakage, coverage limitations, spurious correlations, and partitioning quandaries plague our evaluation practices. To make matters worse, precision vs.&nbsp;recall tradeoffs and the lack of ground truth further muddy the waters. This post explores the common problems with evaluation in machine learning and delves into the specific challenges posed by LLMs. We categorize evaluation mediums into direct metrics, auxiliary models-based evaluation, and model-driven evaluation, shedding light on the nuances of each approach. With a cautious eye, we navigate the intricacies of reporting performance numbers and emphasize the importance of granularity. Prompt-fine tuning is also scrutinized, reminding us to consider the realism of user interactions. As we venture deeper into the evaluation landscape, it becomes clear that a comprehensive understanding of these complexities is essential for meaningful assessments of LLMs.</p>
 <blockquote class="blockquote">
-<p>Our modeling, scaling and generalization techniques grew faster than our benchmarking abilities — which in turn have resulted in poor evaluation and hyped capabilities. Every ability is amazing and great, if we do not have the tools to figure out what that ability is, or how good the model is at that ability. We’d always believe the model will win every race, if all we do, is have the race on paved roads, with yellow trees on every right turns, and green trees on every left turn. # Reference Material {#reference-material}</p>
+<p>Our modeling, scaling and generalization techniques grew faster than our benchmarking abilities — which in turn have resulted in poor evaluation and hyped capabilities. Every ability is amazing and great, if we do not have the tools to figure out what that ability is, or how good the model is at that ability. We’d always believe the model will win every race, if all we do, is have the race on paved roads, with yellow trees on every right turns, and green trees on every left turn.</p>
 </blockquote>
+</section>
+<section id="reference-material" class="level1">
+<h1>Reference Material</h1>
 <blockquote class="blockquote">
 <p>In progress, and definitely not a comprehensive list of everything</p>
 </blockquote>
@@ -690,7 +694,7 @@ Note
   <category>Foundation Models</category>
   <guid>https://mimansajaiswal.github.io/notes/case-of-llm-evals.html</guid>
   <pubDate>Sun, 25 Jun 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://mimansajaiswal.github.io/notes/images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>No, GPT4 (RLHF’ed) Does Not Pass The Sally-Anne False Belief Test</title>
@@ -716,17 +720,17 @@ Note
 </blockquote>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6e814652a8e.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6e814652a8e.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6e814652a8e.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6e814652a8e.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-db854070215.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-db854070215.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-db854070215.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-db854070215.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-7c54e9f40bf.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-7c54e9f40bf.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-7c54e9f40bf.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-7c54e9f40bf.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Francois talks about why scoring AI using tests designed for humans might not be a good idea">
@@ -741,7 +745,7 @@ Francois talks about why scoring AI using tests designed for humans might not be
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p></p><div id="tweet-23149"></div><script>tweet={"url":"https:\/\/twitter.com\/fchollet\/status\/1644435265795280897","author_name":"François Chollet","author_url":"https:\/\/twitter.com\/fchollet","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EDon&#39;t score AI using tests designed for humans. In particular because, with humans, the default assumption is that *they haven&#39;t already seen* the content you&#39;re giving them. With a LLM, the default assumption should be that, *if it&#39;s on the Internet, it&#39;s already been memorized*\u003C\/p\u003E&mdash; François Chollet (@fchollet) \u003Ca href=\"https:\/\/twitter.com\/fchollet\/status\/1644435265795280897?ref_src=twsrc%5Etfw\"\u003EApril 7, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-23149").innerHTML = tweet["html"];</script><br>
+<p></p><div id="tweet-19791"></div><script>tweet={"url":"https:\/\/twitter.com\/fchollet\/status\/1644435265795280897","author_name":"François Chollet","author_url":"https:\/\/twitter.com\/fchollet","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EDon&#39;t score AI using tests designed for humans. In particular because, with humans, the default assumption is that *they haven&#39;t already seen* the content you&#39;re giving them. With a LLM, the default assumption should be that, *if it&#39;s on the Internet, it&#39;s already been memorized*\u003C\/p\u003E&mdash; François Chollet (@fchollet) \u003Ca href=\"https:\/\/twitter.com\/fchollet\/status\/1644435265795280897?ref_src=twsrc%5Etfw\"\u003EApril 7, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-19791").innerHTML = tweet["html"];</script><br>
 <p></p>
 </div>
 </div>
@@ -753,7 +757,7 @@ Francois talks about why scoring AI using tests designed for humans might not be
 <p>In the post, we focus on a particular prompt that we will deconstruct in order to comprehend its complexities (please look at the image attached for a detailed understanding).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-59a24d56d62.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-59a24d56d62.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-59a24d56d62.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-59a24d56d62.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <section id="framework-based-breakdown" class="level2">
@@ -767,12 +771,12 @@ Francois talks about why scoring AI using tests designed for humans might not be
 <p>Deconstructing the prompt in this manner helps us derive a comprehensive understanding of the situation presented and aids in structuring a meticulous evaluation.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-f0e6bf0571f.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-f0e6bf0571f.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-f0e6bf0571f.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-f0e6bf0571f.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6d6ba34f814.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6d6ba34f814.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6d6ba34f814.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6d6ba34f814.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -782,7 +786,7 @@ Francois talks about why scoring AI using tests designed for humans might not be
 <p>Specifically, the output I received from the GPT3.5 model a few days back demonstrated some fallacies. In the concerned response, the machine learning model implied that the character should check a particular folder to confirm if the file was indeed moved there. Such an inference showcases an error in comprehending the nuanced context of the scenario, since nowhere in the given situation it was explicitly or implicitly suggested that the item’s location was relocated to a specific directory. The correct interpretation should not have pointed towards any designated location but instead should have indicated an unknown place.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-9c92f935ee1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-9c92f935ee1.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-9c92f935ee1.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-9c92f935ee1.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -800,17 +804,17 @@ Francois talks about why scoring AI using tests designed for humans might not be
 <p>These alterations to the prompt are aimed at presenting a more intricate scenario, thereby testing the capabilities of the AI models at handling a higher level of complexity and context understanding.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0a888786e5c.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0a888786e5c.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0a888786e5c.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0a888786e5c.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c9243658c2f.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c9243658c2f.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c9243658c2f.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c9243658c2f.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b96e46d0f41.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b96e46d0f41.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b96e46d0f41.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b96e46d0f41.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -823,12 +827,12 @@ Francois talks about why scoring AI using tests designed for humans might not be
 <p>Now, an intriguing scenario arises where the GPT4 model seems to fail, but the GPT3.5 model unexpectedly succeeds. This occurrence suggests that sometimes, models with lesser parameters or seemingly less sophistication might perform better in certain specific situations. It also emphasizes the point that AI performance doesn’t exponentially increase purely based on the size or the complexity of the model. Or that probably GPT3.5 was better RLHF’ed based off many storage companies’ access policies.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-e3543352e3f.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-e3543352e3f.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-e3543352e3f.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-e3543352e3f.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-00b17747f83.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-00b17747f83.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-00b17747f83.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-00b17747f83.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -839,12 +843,12 @@ Francois talks about why scoring AI using tests designed for humans might not be
 <p>The “unshared movement/transformation” of an object, such as the migration of all folders/files, presents an interesting case study. It is observed that the GPT-3.5 model, to an extent, manages to reason correctly, however, it ultimately does not succeed. In contrast, the GPT-4 model accurately navigates this test.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b0a864be322.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b0a864be322.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b0a864be322.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b0a864be322.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-317d1fc9d94.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-317d1fc9d94.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-317d1fc9d94.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-317d1fc9d94.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -863,19 +867,19 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p></p><div id="tweet-12037"></div><script>tweet={"url":"https:\/\/twitter.com\/FrKadel\/status\/1644096510357913600","author_name":"Andrew Kadel @DrewKadel@social.coop","author_url":"https:\/\/twitter.com\/FrKadel","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EMy daughter, who&#39;s had a degree in computer science for 25 years, posted this about ChatGPT on Facebook. It&#39;s the best description I&#39;ve seen. \u003Ca href=\"https:\/\/t.co\/F27zX7usjD\"\u003Epic.twitter.com\/F27zX7usjD\u003C\/a\u003E\u003C\/p\u003E&mdash; Andrew Kadel @DrewKadel@social.coop (@FrKadel) \u003Ca href=\"https:\/\/twitter.com\/FrKadel\/status\/1644096510357913600?ref_src=twsrc%5Etfw\"\u003EApril 6, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-12037").innerHTML = tweet["html"];</script><br>
+<p></p><div id="tweet-72095"></div><script>tweet={"url":"https:\/\/twitter.com\/FrKadel\/status\/1644096510357913600","author_name":"Andrew Kadel @DrewKadel@social.coop","author_url":"https:\/\/twitter.com\/FrKadel","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EMy daughter, who&#39;s had a degree in computer science for 25 years, posted this about ChatGPT on Facebook. It&#39;s the best description I&#39;ve seen. \u003Ca href=\"https:\/\/t.co\/F27zX7usjD\"\u003Epic.twitter.com\/F27zX7usjD\u003C\/a\u003E\u003C\/p\u003E&mdash; Andrew Kadel @DrewKadel@social.coop (@FrKadel) \u003Ca href=\"https:\/\/twitter.com\/FrKadel\/status\/1644096510357913600?ref_src=twsrc%5Etfw\"\u003EApril 6, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-72095").innerHTML = tweet["html"];</script><br>
 <p></p>
 </div>
 </div>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-2cb95105a0a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-2cb95105a0a.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-2cb95105a0a.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-2cb95105a0a.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d06f02488b7.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d06f02488b7.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d06f02488b7.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d06f02488b7.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -893,12 +897,12 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>Interestingly, in this scenario, both the GPT4 and GPT3.5 models provide correct responses. Hence, we can observe that when the concept of “no knowledge transfer” is less explicit and more integral to the workings of a situation or action, the models are able to deduce it accurately.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0e0af12b537.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0e0af12b537.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0e0af12b537.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0e0af12b537.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-689607c683f.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-689607c683f.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-689607c683f.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-689607c683f.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -909,7 +913,7 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>In this implicit manifestation of affirmative knowledge transfer, both GPT4 and GPT3.5 models successfully provide correct responses.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-4c7b00a5452.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-4c7b00a5452.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-4c7b00a5452.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-4c7b00a5452.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -926,12 +930,12 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>Intriguingly, BOTH the GPT4 and GPT3.5 models fail to fare well in this scenario. It indicates that when nuances of sensory data come into play (in this case, distinguishing between audio and visual transfer of knowledge), even the sophisticated models like GPT-4 and GPT-3.5 can stumble. Indeed, these models’ understanding of implicit knowledge transfer concepts appears to be dependent on the specifics of the situation and not a universal, foolproof capability.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6de3da06c50.png" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6de3da06c50.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6de3da06c50.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6de3da06c50.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-f08e8a50016.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-f08e8a50016.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-f08e8a50016.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-f08e8a50016.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p><br>
@@ -944,12 +948,12 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>However, in the second scenario, where there is a single step of reasoning involved, GPT4 demonstrates an improvement in its performance, surpassing the previous models. As compared to GPT3.5, GPT4 successfully accomplishes the task by effectively reasoning through the provided prompt and providing accurate results.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-890e5baf515.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-890e5baf515.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-890e5baf515.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-890e5baf515.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c8865639317.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c8865639317.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c8865639317.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c8865639317.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -960,14 +964,14 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>In examining the models’ performance, it becomes evident that both GPT4 and GPT3.5 encounter difficulties in comprehending the protocol surrounding sleeping and going on vacation. Despite their capabilities in handling various language tasks, they fail to grasp the implicit nature and expected norms related to these actions.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b3dcce0c600.png" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b3dcce0c600.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b3dcce0c600.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b3dcce0c600.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>In Task 1, which involves basic subtraction in math, an implicit concept of “no knowledge transfer through sleeping,” and an external actor (i.e., an action taken by someone else and not oneself), both GPT4 and GPT3.5 demonstrate a failure to successfully complete this task.</p>
 <p>One possible reason for their inability to encode the concept of “no knowledge transfer through sleeping” could be attributed to the models’ limitations in understanding the context and capturing the implicit knowledge associated with the action of sleeping.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-12f475f2452.png" class="lightbox" data-gallery="quarto-lightbox-gallery-25"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-12f475f2452.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-12f475f2452.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-25"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-12f475f2452.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <section id="is-math-the-problem-or-is-it-sleeping-" class="level2">
@@ -976,12 +980,12 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>Instead, it’s possible that the combination of “static object placement” and “constrained movement” is what really makes the difference. It seems that this particular combination enables successful knowledge transfer.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b6125e0ce20.png" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b6125e0ce20.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b6125e0ce20.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b6125e0ce20.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0a12a83f1f6.png" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0a12a83f1f6.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0a12a83f1f6.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0a12a83f1f6.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -994,12 +998,12 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>A new addition to the prompt is the consideration of “static object placements,” which refers to the positioning or arrangement of stationary objects in relation to the moving object, specifically in the context of moving a key. Significantly, both GPT3.5 and GPT4 are able to accurately respond to the prompt, indicating that the inclusion of static object placements is crucial for their successful performance. It seems that these placements enhance the models’ understanding and their ability to generate appropriate responses.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-fe16e6d96c6.png" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-fe16e6d96c6.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-fe16e6d96c6.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-fe16e6d96c6.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-69f32b5ef52.png" class="lightbox" data-gallery="quarto-lightbox-gallery-29"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-69f32b5ef52.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-69f32b5ef52.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-29"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-69f32b5ef52.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1010,12 +1014,12 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>Despite the previous successful performance in scenarios involving the movement of objects with the inclusion of static object placements, the failure of both GPT4 and GPT3.5 in this vacation-related task points to the inherent limitations in understanding and reasoning about more complex concepts beyond simple object movement.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-1f1dea4257e.png" class="lightbox" data-gallery="quarto-lightbox-gallery-30"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-1f1dea4257e.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-1f1dea4257e.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-30"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-1f1dea4257e.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-da1e6eff6c1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-31"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-da1e6eff6c1.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-da1e6eff6c1.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-31"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-da1e6eff6c1.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <section id="darn-movement-by-cats-does-not-work-" class="level2">
@@ -1024,12 +1028,12 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>In this iteration, we further modify the problem by shifting the focus to going on a vacation, while keeping the same boyfriend and eliminating the involvement of cats. Surprisingly, this modification yields successful results, indicating that the issue has been narrowed down significantly. A closer examination reveals that the key to achieving accurate performance lies in the concept of “explicit” movement to an “explicit” location, executed by a “human actor.” It seems that language models, such as the ones mentioned earlier (GPT4 and GPT3.5), are able to grasp and generate appropriate responses when the prompt involves clear and precise movement executed by a human to a specific location.?</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-4631f99c12c.png" class="lightbox" data-gallery="quarto-lightbox-gallery-32"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-4631f99c12c.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-4631f99c12c.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-32"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-4631f99c12c.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c8bd1ea6db3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-33"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c8bd1ea6db3.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c8bd1ea6db3.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-33"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c8bd1ea6db3.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>Upon careful consideration, it appears that the wording of the prompt might have a significant influence on the performance of GPT4 and GPT3.5.</p>
@@ -1040,12 +1044,12 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>It is an interesting insights into the intricacies of language understanding by LLMs and the ways in which language models like GPT3.5 and GPT4 can be influenced by context and RLHF.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-e0575a36568.png" class="lightbox" data-gallery="quarto-lightbox-gallery-34"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-e0575a36568.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-e0575a36568.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-34"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-e0575a36568.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-a67a608e720.png" class="lightbox" data-gallery="quarto-lightbox-gallery-35"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-a67a608e720.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-a67a608e720.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-35"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-a67a608e720.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1057,18 +1061,18 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>To explore this further, I again modify the scenario by replacing the boyfriend with a cat, returning to the previous configuration. Regrettably, when the prompt involves the “cat” as an “actor” changing “locations,” both GPT4 and GPT3.5 fail to produce the correct answer. This observation suggests that the way the prompt is framed, particularly when it involves a cat as the main entity performing actions and transitioning between different locations, poses a challenge for these language models.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-3e52d1aead5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-36"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-3e52d1aead5.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-3e52d1aead5.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-36"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-3e52d1aead5.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-57d18128981.png" class="lightbox" data-gallery="quarto-lightbox-gallery-37"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-57d18128981.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-57d18128981.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-37"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-57d18128981.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>Or in the case of bookmarks, some of these prompts have the word “expect” which is known to be ambiguous.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-eb956b4f282.png" class="lightbox" data-gallery="quarto-lightbox-gallery-38"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-eb956b4f282.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-eb956b4f282.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-38"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-eb956b4f282.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1078,13 +1082,13 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>While one might initially perceive GPT4’s success as a positive outcome, a deeper analysis reveals a potential drawback. The inclusion of the word “think” inherently suggests the possibility of non-continuity in observations, indicating that the generated responses may not consistently align with a continuous narrative.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-20386c2f91f.png" class="lightbox" data-gallery="quarto-lightbox-gallery-39"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-20386c2f91f.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-20386c2f91f.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-39"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-20386c2f91f.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>A further observation can be made to support the previous findings. When the wording is modified from “think” to “look for,” it becomes evident that GPT4 encounters difficulties once again.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d898899c35a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-40"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d898899c35a.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d898899c35a.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-40"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d898899c35a.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1094,18 +1098,18 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>Returning to the original Alice and Bob prompt, where this captivating journey began, we delve into the insights shared by the authors. According to their findings, GPT-4 proves to be successful in passing the classic Sally-Anne false-belief test, derived from the field of psychology. This achievement is significant and has garnered attention, leading to notable mentions on platforms like Wikipedia.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-bf21d72578e.png" class="lightbox" data-gallery="quarto-lightbox-gallery-41"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-bf21d72578e.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-bf21d72578e.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-41"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-bf21d72578e.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d145c61afd7.png" class="lightbox" data-gallery="quarto-lightbox-gallery-42"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d145c61afd7.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d145c61afd7.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-42"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d145c61afd7.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>The Sally-Anne test, a well-known psychological evaluation, focuses specifically on the continuity of answers from one actor’s perspective but not with their own. However, an intriguing observation arises in the context of GPT4. It appears that GPT4 encounters difficulties when the action required to answer a non-continuous scenario is not explicitly described as movement. This finding raises interesting questions about the limitations of GPT4’s understanding of non-continuity in certain contexts.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-fe46349369c.png" class="lightbox" data-gallery="quarto-lightbox-gallery-43"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-fe46349369c.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-fe46349369c.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-43"><img src="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-fe46349369c.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>In summary, through extensive testing, it has been observed that GPT4, and occasionally GPT3.5 as of 4 pm PT, demonstrate success in passing the Sally-Anne Test under specific conditions. Firstly, when the action involved is explicitly described as placement. Secondly, when the action is explicitly described as movement. Additionally, non-continuity in the scenarios can be attributed to either implicit or explicit reasons.</p>
@@ -1126,7 +1130,7 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
   <category>Theory of Mind</category>
   <guid>https://mimansajaiswal.github.io/notes/no_sally_anne_pass_for_gpt4.html</guid>
   <pubDate>Mon, 10 Apr 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6e814652a8e.png" medium="image" type="image/png" height="126" width="144"/>
+  <media:content url="https://mimansajaiswal.github.io/notes/images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6e814652a8e.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>CAPSTONE: Capability Assessment Protocol for Systematic Testing of Natural Language Models Expertise</title>
@@ -1140,7 +1144,7 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>"LLMs", or Language Models, need to be trained and tested on different datasets and prompts to improve functionality and accuracy. In addition, versioning is important when assessing LLMs. Iterating on the prompts and datasets can produce better results. However, keeping different versions of both prompts and datasets can help identify which changes led to improvements in performance. All these practices should be followed to effectively evaluate and improve LLMs.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4ea3c09cf3d.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4ea3c09cf3d.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4ea3c09cf3d.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4ea3c09cf3d.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1149,13 +1153,13 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>In machine learning, it's common to divide a dataset into three parts: the train set, validation set, and test set. The train set is used to train a machine learning model, the validation set is used to tune the hyperparameters of the model, and the test set is used to measure the final performance of the model.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-63cfd74ac5b.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-63cfd74ac5b.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-63cfd74ac5b.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-63cfd74ac5b.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>There are some pre-established norms when it comes to creating these subsets. For instance, the training set should be diverse and heterogeneous, while the validation and test sets should not have any leakage or spurious correlations from the train set. By following these best practices, data scientists can create effective and accurate machine learning models that can be used for a wide range of applications.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-6cbf1ea978d.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-6cbf1ea978d.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-6cbf1ea978d.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-6cbf1ea978d.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1164,7 +1168,7 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <p>The use of closed language models (LLMs) poses certain challenges when it comes to testing their performance. If we do not know what went into the training dataset of a closed LLM, it is very likely that the test dataset we use or generate will be contaminated. This can result in inaccurate performance metrics and difficulty in verifying the correctness of the model's responses.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-69887e3e0dd.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-69887e3e0dd.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-69887e3e0dd.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-69887e3e0dd.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>Prompt-based benchmarking can exacerbate these challenges further by introducing another layer of complexity. If we are not directly testing for an "input sample" to "output" correspondence, the way we write the prompt and what we ask for as an output will significantly change how we benchmark the ability of any model. This can make evaluating the performance of a closed LLM more difficult and error-prone, and increase the risk of producing biased results.</p>
@@ -1172,7 +1176,7 @@ Andrew talks about his daughter mentioning that ChatGPT answers with what would 
 <h2 class="anchored" data-anchor-id="prompting-closed-llms">Prompting Closed LLMs</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-f258297f659.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-f258297f659.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-f258297f659.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-f258297f659.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>When we are limited to observations, it becomes essential to employ experimental design in order to assess the capabilities of a model.</p>
@@ -1199,12 +1203,12 @@ Michael Frank talks about need some principles from experimental psychology
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p></p><div id="tweet-56663"></div><script>tweet={"url":"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538","author_name":"Michael C. Frank","author_url":"https:\/\/twitter.com\/mcxfrank","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EPeople are testing large language models (LLMs) on their &quot;cognitive&quot; abilities - theory of mind, causality, syllogistic reasoning, etc. Many (most?) of these evaluations are deeply flawed. To evaluate LLMs effectively, we need some principles from experimental psychology.\uD83E\uDDF5 \u003Ca href=\"https:\/\/t.co\/Xlywu3gTVz\"\u003Epic.twitter.com\/Xlywu3gTVz\u003C\/a\u003E\u003C\/p\u003E&mdash; Michael C. Frank (@mcxfrank) \u003Ca href=\"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538?ref_src=twsrc%5Etfw\"\u003EApril 4, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-56663").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-72194"></div><script>tweet={"url":"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538","author_name":"Michael C. Frank","author_url":"https:\/\/twitter.com\/mcxfrank","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EPeople are testing large language models (LLMs) on their &quot;cognitive&quot; abilities - theory of mind, causality, syllogistic reasoning, etc. Many (most?) of these evaluations are deeply flawed. To evaluate LLMs effectively, we need some principles from experimental psychology.\uD83E\uDDF5 \u003Ca href=\"https:\/\/t.co\/Xlywu3gTVz\"\u003Epic.twitter.com\/Xlywu3gTVz\u003C\/a\u003E\u003C\/p\u003E&mdash; Michael C. Frank (@mcxfrank) \u003Ca href=\"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538?ref_src=twsrc%5Etfw\"\u003EApril 4, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-72194").innerHTML = tweet["html"];</script><p></p>
 </div>
 </div>
 </div></div><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-8f14c7d2906.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-8f14c7d2906.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-8f14c7d2906.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-8f14c7d2906.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>Let's talk about Prompt Based Experimental Design Schemas. These schemas can be thought of as templates, but with a key distinction. They not only focus on varying the input sample, but also on modifying the prompt specifications. By doing so, they allow us to closely monitor and analyze the changes that occur from one prompt to another. This approach provides a valuable way to study and understand the impact of different prompts on the overall outcome of an experiment.</p>
@@ -1217,13 +1221,13 @@ Michael Frank talks about need some principles from experimental psychology
 <p>These aspects play a crucial role in shaping the experimental design and understanding the impact of different elements within the experiment.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-1e5a7351c70.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-1e5a7351c70.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-1e5a7351c70.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-1e5a7351c70.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>In this case, we will refer to Sparks AGI paper and utilize the basic Theory of Mind example as our reference point.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-583dc6d0606.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-583dc6d0606.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-583dc6d0606.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-583dc6d0606.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <section id="prompt-definition-markup" class="level2">
@@ -1232,13 +1236,13 @@ Michael Frank talks about need some principles from experimental psychology
 <p>Each type serves a distinct purpose. Additionally, an output steer consists of two components: instructions (including constraints and format) and options.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-d9c584bb200.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-d9c584bb200.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-d9c584bb200.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-d9c584bb200.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>To illustrate, let's consider the "Sparks of AGI" paper, which utilizes only a start steer, indicating the initial direction or guidance provided in the prompt.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-7c7578cdbf5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-7c7578cdbf5.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-7c7578cdbf5.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-7c7578cdbf5.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>This approach allows for a clear and structured definition of prompts, enabling effective experimentation and analysis.</p>
@@ -1246,12 +1250,12 @@ Michael Frank talks about need some principles from experimental psychology
 <p>These modifications provide additional guidance and constraints to the prompt, allowing for a more structured and controlled experimental design.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-1f7053e0950.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-1f7053e0950.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-1f7053e0950.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-1f7053e0950.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-9091c7d24aa.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-9091c7d24aa.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-9091c7d24aa.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-9091c7d24aa.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1261,13 +1265,13 @@ Michael Frank talks about need some principles from experimental psychology
 <p>In cases where examples are included, they can be categorized as either positive (A1) or negative (A2) examples, providing different instances for the model to learn from. On the other hand, the input component comprises three parts: the sample itself (B1), a question (B2), and a concept (B3). These elements collectively shape the input provided to the model, allowing for a more targeted and contextualized prompt.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-9300062118c.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-9300062118c.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-9300062118c.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-9300062118c.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>Let's consider an example to illustrate the concept of Sample Markup. In the context of the Theory of Mind False Belief Test, there are no specific examples provided. Instead, the prompt consists of a sample, a question, and an implicit concept. We can annotate this prompt accordingly, as depicted in the accompanying picture.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-a1b36107f79.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-a1b36107f79.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-a1b36107f79.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-a1b36107f79.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1276,14 +1280,14 @@ Michael Frank talks about need some principles from experimental psychology
 <p>The output schema is a complex process that intersects significantly with large language model (LLM) evaluation techniques. If you're interested in delving deeper into this topic, I recommend checking out <a href="../notes/case-of-llm-evals.html">my other post</a>. It provides further insights and information about the intricacies involved in designing and evaluating output schemas for LLMs.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-2b79a1398a3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-2b79a1398a3.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-2b79a1398a3.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-2b79a1398a3.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4c3e4d1a18a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4c3e4d1a18a.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4c3e4d1a18a.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4c3e4d1a18a.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </div></div></section>
@@ -1297,7 +1301,7 @@ D. Intuition<br>
 E. Experimental Design</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-c6fddf51f9e.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-c6fddf51f9e.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-c6fddf51f9e.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-c6fddf51f9e.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <section id="connectors" class="level3">
@@ -1309,7 +1313,7 @@ E. Experimental Design</p>
 <p>For instance, consider the following example: "He says nothing about this to Alice, and Dropbox also does not notify Alice." In this case, the connector reinforces the belief or statement being made, emphasizing that both the person mentioned and Dropbox do not inform Alice about a particular matter. This connector strengthens the prompt's intended message and adds clarity to the scenario being presented.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4ad1f2317ec.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4ad1f2317ec.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4ad1f2317ec.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4ad1f2317ec.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1335,7 +1339,7 @@ E. Experimental Design</p>
 <p>C3. Test (False Belief Test): The test intuition of the prompt centers around conducting a False Belief Test, which aims to assess individuals' understanding of false beliefs and their ability to attribute different perspectives to others.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-b86b1e8fb1e.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-b86b1e8fb1e.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-b86b1e8fb1e.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-b86b1e8fb1e.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1359,7 +1363,7 @@ Both GPT4 and GPT3.5 fail on this simple task<br>
 Somehow sleep is not encoded as no knowledge transfer?</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-90a05f4040a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-90a05f4040a.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-90a05f4040a.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-90a05f4040a.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1378,7 +1382,7 @@ Somehow sleep is not encoded as no knowledge transfer?</p>
 <p>Some of these prompts have the word "expect" which is known to be ambiguous</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-a36a84c7076.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-a36a84c7076.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-a36a84c7076.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-a36a84c7076.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>Let's consider an example to illustrate the importance of annotating the directionality within the experimental design. In this case, we initially believe that the model is correct and passes the false-belief test. However, upon further examination, we identify a potential issue of leakage in the prompt.</p>
@@ -1390,7 +1394,7 @@ Somehow sleep is not encoded as no knowledge transfer?</p>
 Suggestions to frame it without using the explicit terms "think" "believe" which correlate to the expectation that outcome is independent of the action?</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-6193491277a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-6193491277a.png" class="img-fluid figure-img"></a></p>
+<p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-6193491277a.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img src="https://mimansajaiswal.github.io/notes/images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-6193491277a.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </section>
@@ -1448,7 +1452,7 @@ Suggestions to frame it without using the explicit terms "think" "believe" which
   <category>Foundation Models</category>
   <guid>https://mimansajaiswal.github.io/notes/capstone.html</guid>
   <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://mimansajaiswal.github.io/notes/images/capstone/prompt_steer_flow.png" medium="image" type="image/png" height="66" width="144"/>
+  <media:content url="https://mimansajaiswal.github.io/notes/images/capstone/prompt_steer_flow.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>Designing Interfaces for Delivering and Obtaining Generation Explanation Annotations</title>
@@ -1457,7 +1461,7 @@ Suggestions to frame it without using the explicit terms "think" "believe" which
 
 
 
-<p>Coming soon. <img src="https://mimansajaiswal.github.io/notes/images/explanation_annotation_interfaces/screenshot.png" class="img-fluid" alt="Example annotation using the interface"></p>
+<p>Coming soon. <img src="https://mimansajaiswal.github.io/notes/images/explanation_annotation_interfaces/screenshot.webp" class="img-fluid" alt="Example annotation using the interface"></p>
 
 
 
@@ -1467,7 +1471,7 @@ Suggestions to frame it without using the explicit terms "think" "believe" which
   <category>Design</category>
   <guid>https://mimansajaiswal.github.io/notes/explanation_annotation_interfaces.html</guid>
   <pubDate>Wed, 01 Feb 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://mimansajaiswal.github.io/notes/images/explanation_annotation_interfaces/screenshot.png" medium="image" type="image/png" height="59" width="144"/>
+  <media:content url="https://mimansajaiswal.github.io/notes/images/explanation_annotation_interfaces/screenshot.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>Controlled Evaluation of Explanations: What Might Have Influenced Your Model Explanation Efficacy Evaluation?</title>
@@ -1478,7 +1482,7 @@ Suggestions to frame it without using the explicit terms "think" "believe" which
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mimansajaiswal.github.io/notes/images/controlled_evaluation_of_explanations/example_variables.png" class="img-fluid figure-img"></p>
+<p><img src="https://mimansajaiswal.github.io/notes/images/controlled_evaluation_of_explanations/example_variables.webp" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Examples of variables used in checklisting explanation utility</figcaption>
 </figure>
 </div>
@@ -1636,7 +1640,7 @@ Suggestions to frame it without using the explicit terms "think" "believe" which
   <category>Data Annotation</category>
   <guid>https://mimansajaiswal.github.io/notes/controlled_evaluation_of_explanations.html</guid>
   <pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://mimansajaiswal.github.io/notes/images/controlled_evaluation_of_explanations/example_variables.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://mimansajaiswal.github.io/notes/images/controlled_evaluation_of_explanations/example_variables.webp" medium="image" type="image/webp"/>
 </item>
 </channel>
 </rss>
