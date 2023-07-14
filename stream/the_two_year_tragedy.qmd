@@ -1,8 +1,7 @@
 ---
-title: Unforseen Personal Adversities and Internship Challenges
+title: Addressing 2020-2022 personal challenges and reassuming professional responsibility
 date: 2022-05-07
 categories: [Finance, PhD, Academia, Internships, Mental Health]
 # image: ../notes/theme-images/academia.png
-subtitle: Addressing 2020-2022 personal challenges and reassuming professional responsibility
 description: "From Q2 2020 to Q2 2022, unforeseen personal circumstances severely impacted my ability to complete projects and maintain consistent communication. These events causing significant disruptions included the tragic loss of my maternal grandfather to cancer (2020), followed by the sudden demise of my paternal grandmother due to COVID-19 (2021), and then the demands of managing major health crises involving my father and remaining grandmother (2022). However, having now defended my PhD and made significant strides in task delivery, I've found my footing again. As a former intern at Meta and AI2, the personal turmoil I experienced inhibited me from concluding the projects I was passionate about, leaving me deeply saddened. Over time, and as my stability returned, I made private progress on these projects, but feelings of embarrassment and regret kept me from re-establishing contact. I acknowledge the past disappointments during this challenging period and sincerely apologize. Today, with confidence and affirmation, I assure that such setbacks will no longer impede my professional dedication and, with renewed commitment, I take responsibility for any lingering tasks."
 ---
