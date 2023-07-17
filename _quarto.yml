@@ -9,11 +9,11 @@ website:
   open-graph: true
   back-to-top-navigation: true
   page-navigation: true
-  image: "images/me.jpg"
+  image: "images/graph-image-website.webp"
   twitter-card:
     creator: "@MimansaJ"
     site: "@MimansaJ"
-    image: "images/me.jpg"
+    image: "images/graph-image-website.webp"
   title: "Mimansa Jaiswal"
   favicon: favicon.ico
   site-url: https://mimansajaiswal.github.io
