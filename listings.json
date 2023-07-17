@@ -4,13 +4,9 @@
     "items": []
   },
   {
-    "listing": "/notes/index.html",
+    "listing": "/stream/index.html",
     "items": [
-      "/notes/case-of-llm-evals.html",
-      "/notes/no_sally_anne_pass_for_gpt4.html",
-      "/notes/capstone.html",
-      "/notes/explanation_annotation_interfaces.html",
-      "/notes/controlled_evaluation_of_explanations.html"
+      "/stream/phd_stipends.html"
     ]
   },
   {
@@ -18,10 +14,13 @@
     "items": []
   },
   {
-    "listing": "/stream/index.html",
+    "listing": "/notes/index.html",
     "items": [
-      "/stream/phd_stipends.html",
-      "/stream/the_two_year_tragedy.html"
+      "/notes/case-of-llm-evals.html",
+      "/notes/no_sally_anne_pass_for_gpt4.html",
+      "/notes/capstone.html",
+      "/notes/explanation_annotation_interfaces.html",
+      "/notes/controlled_evaluation_of_explanations.html"
     ]
   },
   {
@@ -33,8 +32,7 @@
       "/notes/capstone.html",
       "/notes/explanation_annotation_interfaces.html",
       "/notes/controlled_evaluation_of_explanations.html",
-      "/stream/phd_stipends.html",
-      "/stream/the_two_year_tragedy.html"
+      "/stream/phd_stipends.html"
     ]
   },
   {
