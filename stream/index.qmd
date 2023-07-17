@@ -36,5 +36,11 @@ for (let i = 0; i < counts.length; i++) {
 }
 </script>
 ```
+<div class="mob-quick-nav">
+::: {.callout-note title="Quick Navigation"}
+[Homepage](../index.qmd), [Email](mailto:mimansa@umich.edu), [Resume](https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view), [Research Notes](../notes/index.qmd), and, [Publications](../single_page/papers.qmd)
+:::
+</div>
+
 Blurbs is where I keep my random musings, quick reviews, and noteworthy quotes all in one place. It's convenient to have a curated collection instead of them being scattered throughout my feed. It's a fun little side space to gather everything.
 <br/>

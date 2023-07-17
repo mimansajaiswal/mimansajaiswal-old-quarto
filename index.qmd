@@ -91,6 +91,13 @@ toc: true
   <!-- This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like. -->
 </div>
 
+<div class="mob-quick-nav">
+::: {.callout-note title="Quick Navigation"}
+[Homepage](index.qmd), [Email](mailto:mimansa@umich.edu), [Resume](https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view), [Research Notes](notes/index.qmd), and, [Publications](single_page/papers.qmd)
+:::
+</div>
+
+
 :::{#about-section}
 
 ## Hi, I'm Mimansa
@@ -123,13 +130,9 @@ In the past, I have also worked in Machine Learning for Health, especially, in r
 <!-- ### Updates
 :::{#rupdates}
 :::
-
-
 ### Research Publications
 :::{#rpapers}
 :::
-
-
 ### Research Notes
 :::{#rnotes}
 ::: -->

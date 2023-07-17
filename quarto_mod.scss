@@ -1655,6 +1655,18 @@ div.papers-back-links>a {
 {
   padding: 0em;
 }
+//hide quick navbar on bigger devices
+@media (min-width: 769px) {
+  .mob-quick-nav {
+    display: none;
+  }
+} 
+
+
+
+
+
+
 
 
 
