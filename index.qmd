@@ -87,8 +87,10 @@ toc: true
 <!-- ### Can also add other content here -->
 
 <div class="alert alert-light" role="alert">
-  {{< include banner.qmd >}}
+
+  {{< include _banner.qmd >}}
   <!-- This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like. -->
+
 </div>
 
 <div class="mob-quick-nav">
@@ -118,7 +120,8 @@ My present research interests lie in the topics that fall under the umbrella of 
 In the past, I have also worked in Machine Learning for Health, especially, in relation to mental health. I have worked on mental health prediction using social media notes as proxy (B.E. Thesis). I have also worked on multimodal deception detection and predicting empathy in human behavior. -->
 :::
 ### Research Interests
-{{< include about_me/research_interests.qmd >}}
+
+{{< include about_me/_research_interests.qmd >}}
 
 ### Education
 :::{#education}
