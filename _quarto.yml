@@ -9,12 +9,13 @@ website:
   open-graph: true
   back-to-top-navigation: true
   page-navigation: true
-  image: "/images/preview.png"
+  image: "images/preview.png"
   twitter-card:
     creator: "@MimansaJ"
     site: "@MimansaJ"
-    image: "/images/preview.png"
+    image: "images/preview.png"
   title: "Mimansa Jaiswal"
+  description: "I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design."
   favicon: favicon.ico
   site-url: https://mimansajaiswal.github.io
 
