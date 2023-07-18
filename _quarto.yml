@@ -15,12 +15,12 @@ website:
   site-url: https://mimansajaiswal.github.io
   open-graph:
     title: "Mimansa Jaiswal"
-    image: "preview.webp"
+    image: "preview.png"
     description: "I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design."
   twitter-card:
     creator: "@MimansaJ"
     site: "@MimansaJ"
-    image: "preview.webp"
+    image: "preview.png"
     description: "I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design."
 
   navbar:
