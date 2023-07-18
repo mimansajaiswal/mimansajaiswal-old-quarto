@@ -1,0 +1,46 @@
+---
+title: "Blurbs"
+listing:
+  template: blurbs.ejs
+  id: blurbs
+  contents: 
+    - blurbs.yaml
+  sort: "date desc"
+  type: default
+  categories: numbered
+  fields: [categories, title, subtitle, date, description, image]
+  date-format: MM-DD-YYYY
+  sort-ui: false
+  filter-ui: false
+  max-description-length: 2000
+author: ''
+comments: false
+title-block-style: none
+description: Small Short Bursts of Thoughts and Ideas
+---
+```{=html}
+<script>
+for (const div of document.querySelectorAll('.category')) {
+  div.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
+}
+for (const div of document.querySelectorAll('.quarto-listing-category.category-default')) {
+  div.classList.add('list-group');
+}
+
+let counts = document.querySelectorAll('.quarto-category-count');
+for (let i = 0; i < counts.length; i++) {
+  let countText = counts[i].textContent;
+  countText = countText.replace(/\(|\)/g, '');
+  counts[i].textContent = countText;
+  counts[i].classList.add('badge', 'bg-primary', 'rounded-pill');
+}
+</script>
+```
+<div class="mob-quick-nav">
+::: {.callout-note title="Quick Navigation"}
+[Homepage](../index.qmd), [Email](mailto:mimansa@umich.edu), [Resume](https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view), [Research Notes](../notes/index.qmd), and, [Publications](../single_page/papers.qmd)
+:::
+</div>
+
+Blurbs is where I keep my random musings, quick reviews, and noteworthy quotes all in one place. It's convenient to have a curated collection instead of them being scattered throughout my feed. It's a fun little side space to gather everything.
+<br/>

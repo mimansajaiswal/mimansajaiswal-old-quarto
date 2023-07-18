@@ -36,8 +36,10 @@ website:
         href: single_page/papers.qmd
       - icon: text-indent-left
         href: notes/index.qmd
+      # - icon: cursor-text
+      #   href: stream/index.qmd
       - icon: cursor-text
-        href: stream/index.qmd
+        href: single_page/blurbs.qmd
     right:
       - icon: twitter
         text: Twitter
