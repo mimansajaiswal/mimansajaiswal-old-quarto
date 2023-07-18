@@ -3,7 +3,7 @@ title: "Mimansa Jaiswal"
 about:
   id: about-section
   template: about_me/about_mod.ejs.html
-  image: about_me/images/me-website-image.jpeg
+  image: about_me/images/me-website-image.webp
   links:
     - icon: envelope-plus
       text: Email
