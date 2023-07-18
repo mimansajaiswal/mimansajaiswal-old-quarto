@@ -66,20 +66,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-blurbs .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-comments","listing-language","listing-title","listing-date","listing-categories","listing-description","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-subtitle"],
+      searchColumns: ["listing-title","listing-date","listing-categories","listing-subtitle","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-blurbs'] = new List('listing-blurbs', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -100,13 +100,13 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="alternate" type="application/rss+xml" title="Mimansa Jaiswal" href="index.xml"><meta property="og:title" content="Mimansa Jaiswal">
+<meta property="og:title" content="Mimansa Jaiswal">
 <meta property="og:description" content="I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design.">
-<meta property="og:image" content="https://mimansajaiswal.github.io/stream/preview.png">
+<meta property="og:image" content="https://mimansajaiswal.github.io/single_page/preview.png">
 <meta property="og:site-name" content="Mimansa Jaiswal">
 <meta name="twitter:title" content="Blurbs">
 <meta name="twitter:description" content="I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design.">
-<meta name="twitter:image" content="https://mimansajaiswal.github.io/stream/preview.png">
+<meta name="twitter:image" content="https://mimansajaiswal.github.io/single_page/preview.png">
 <meta name="twitter:creator" content="@MimansaJ">
 <meta name="twitter:site" content="@MimansaJ">
 <meta name="twitter:card" content="summary_large_image">
@@ -145,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Research Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../single_page/blurbs.html" rel="" target=""><i class="bi bi-cursor-text" role="img">
+    <a class="nav-link active" href="../single_page/blurbs.html" rel="" target="" aria-current="page"><i class="bi bi-cursor-text" role="img">
 </i> 
  <span class="menu-text">Blurbs</span></a>
   </li>  
@@ -184,7 +184,6 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<meta name="robots" content="noindex">
 <script>
 for (const div of document.querySelectorAll('.category')) {
   div.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
@@ -221,10 +220,10 @@ Quick Navigation
 
 
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-custom" id="listing-blurbs">
 
 <div class="list quarto-listing-custom">
-  <div class="quarto-post" data-index="0" data-categories="Finance,PhD,Academia,Opinion,Twitter" data-listing-date-sort="1683417600000" data-listing-file-modified-sort="1689669680032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post" data-index="0" data-categories="Finance,PhD,Academia,Opinion,Twitter" data-listing-date-sort="1683417600000">
     <div class="metadata">
         <div class="listing-date" style="margin-top: 5px;">05-07-2023</div>
       </div>
@@ -237,7 +236,7 @@ Quick Navigation
       </div>
       <div class="listing-subtitle">
         I recently received some criticism for my comments over the past couple of days, which seemed to justify the idea that PhD students don't need livable stipends. Let me make myself perfectly clear: that's bullshit. No one should have to choose between paying bills and getting essential medical care or feeding their pets. If you're one of those people who thinks barely scraping by is okay for PhD students, we don't see eye to eye.
-        <!-- project,execute,website,format,comments,language,title,date,categories,subtitle,description,path,outputHref,date-modified,author,image,image-alt,filename,file-modified,reading-time,sortableValues -->
+        <!-- title,date,categories,subtitle,description,sortableValues,image -->
         <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
       </div>
       <!-- Finance,PhD,Academia,Opinion,Twitter -->
@@ -250,7 +249,7 @@ Quick Navigation
         </div>
     </div>
 </div>
-  <div class="quarto-post" data-index="1" data-categories="Finance,PhD,Academia,Internships,Mental Health" data-listing-date-sort="1651881600000" data-listing-file-modified-sort="1689669680032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <div class="quarto-post" data-index="1" data-categories="Finance,PhD,Academia,Internships,Mental Health" data-listing-date-sort="1651881600000">
     <div class="metadata">
         <div class="listing-date" style="margin-top: 5px;">05-07-2022</div>
       </div>
@@ -262,7 +261,7 @@ Quick Navigation
       </div>
       <div class="listing-subtitle">
         From Q2 2020 to Q2 2022, unforeseen personal circumstances severely impacted my ability to complete projects and maintain consistent communication. These events causing significant disruptions included the tragic loss of my maternal grandfather to cancer (2020), followed by the sudden demise of my paternal grandmother due to COVID-19 (2021), and then the demands of managing major health crises involving my father and remaining grandmother (2022). However, having now defended my PhD and made significant strides in task delivery, I've found my footing again. As a former intern at Meta and AI2, the personal turmoil I experienced inhibited me from concluding the projects I was passionate about, leaving me deeply saddened. Over time, and as my stability returned, I made private progress on these projects, but feelings of embarrassment and regret kept me from re-establishing contact. I acknowledge the past disappointments during this challenging period and sincerely apologize. Today, with confidence and affirmation, I assure that such setbacks will no longer impede my professional dedication and, with renewed commitment, I take responsibility for any lingering tasks.
-        <!-- project,execute,website,format,comments,language,title,date,categories,description,path,outputHref,date-modified,author,image,image-alt,filename,file-modified,reading-time,sortableValues -->
+        <!-- title,date,categories,description,sortableValues,image -->
         <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
       </div>
       <!-- Finance,PhD,Academia,Internships,Mental Health -->

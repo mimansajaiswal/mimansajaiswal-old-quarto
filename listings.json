@@ -4,14 +4,7 @@
     "items": []
   },
   {
-    "listing": "/stream/index.html",
-    "items": [
-      "/stream/phd_stipends.html",
-      "/stream/the_two_year_tragedy.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/single_page/blurbs.html",
     "items": []
   },
   {
@@ -22,6 +15,17 @@
       "/notes/capstone.html",
       "/notes/explanation_annotation_interfaces.html",
       "/notes/controlled_evaluation_of_explanations.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/stream/index.html",
+    "items": [
+      "/stream/phd_stipends.html",
+      "/stream/the_two_year_tragedy.html"
     ]
   },
   {
