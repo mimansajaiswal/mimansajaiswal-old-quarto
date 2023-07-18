@@ -6,7 +6,6 @@ execute:
   freeze: true
 
 website:
-  open-graph: true
   back-to-top-navigation: true
   page-navigation: true
   image: "preview.png"
@@ -14,6 +13,10 @@ website:
   description: "I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design."
   favicon: favicon.ico
   site-url: https://mimansajaiswal.github.io
+  open-graph:
+    title: "Mimansa Jaiswal"
+    image: "preview.webp"
+    description: "I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design."
   twitter-card:
     creator: "@MimansaJ"
     site: "@MimansaJ"
