@@ -6,7 +6,7 @@ categories:
 - Theory of Mind
 citation-location: margin
 date: '2023-04-10'
-description: 'Discussing the prospect of deriving "instinct" for a prompt and creating examples for evaluation problems focussing the Sally-Anne False-Belief Test and provide a summary of when GPT4 and GPT3.5 pass or fail the test.'
+description: "Discussing the prospect of deriving instinct and purpose for a prompt and creating examples for evaluation problems focussing the Sally-Anne False-Belief Test and provide a summary of when GPT4 and GPT3.5 pass or fail the test."
 display-date: 'Apr 2023'
 filters:
 - collapse-social-embeds
