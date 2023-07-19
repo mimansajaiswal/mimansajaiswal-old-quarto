@@ -1663,6 +1663,24 @@ div.papers-back-links>a {
   }
 } 
 
+//AIMING TO FIX FUDGING TAGS
+.quarto-title .quarto-categories {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: .5em;
+  column-gap: .4em;
+  padding-bottom: .5em;
+  margin-top: .75em
+}
+
+.quarto-title .quarto-categories .quarto-category {
+  padding: .25em .75em;
+  font-size: .65em;
+  text-transform: uppercase;
+  border: solid 1px;
+  border-radius: .25rem;
+  opacity: .6
+}
 
 
 
