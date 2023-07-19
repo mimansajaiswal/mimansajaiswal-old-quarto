@@ -1682,6 +1682,16 @@ div.papers-back-links>a {
   opacity: .6
 }
 
+.quarto-title .quarto-categories .quarto-category a {
+  color: inherit;
+}
+
+
+#title-block-header.quarto-title-block.default .quarto-title-meta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
 
 
 
