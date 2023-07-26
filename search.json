@@ -368,21 +368,28 @@
     "href": "personal_notes/mac_softwares.html",
     "title": "What softwares do I actually use on my Mac as a software enthusiast?",
     "section": "",
-    "text": "Incomplete Post\n\n\n\nThis is incomplete and I will be filling it over the next few weeks.\nOn a daily basis, I use multiple apps and I prefer to put them together here. In general, I am always looking for better note-taking apps, and if you have any suggestions, I would love to know (trust me, I have tried 800 of them!). I will divide this into different categories of software I use, in case they are helpful for anyone.\nFor some context, I use a M1 Pro, Macbook Pro, with 16GB RAM and 512GB SSD. Some of these applications might not be great on 8GB RAM or 128GB SSD, so proceed with discretion."
+    "text": "On a daily basis, I use multiple apps and I prefer to put them together here. In general, I am always looking for better note-taking apps, and if you have any suggestions, I would love to know (trust me, I have tried 800 of them!). I will divide this into different categories of software I use, in case they are helpful for anyone.\nFor some context, I use a M1 Pro, Macbook Pro, with 16GB RAM and 512GB SSD. Some of these applications might not be great on 8GB RAM or 128GB SSD, so proceed with discretion."
   },
   {
     "objectID": "personal_notes/mac_softwares.html#for-any-task",
     "href": "personal_notes/mac_softwares.html#for-any-task",
     "title": "What softwares do I actually use on my Mac as a software enthusiast?",
     "section": "For any task",
-    "text": "For any task\n\nFlowcharts: Whimsical and flowchart.fun. Whimsical is great for making beautiful handmade flowcharts or making flowcharts easily using AI. Flowchart.fun provides a simple language to create flowcharts by just writing text."
+    "text": "For any task\n\nFlowcharts: Whimsical and flowchart.fun. Whimsical is great for making beautiful handmade flowcharts or making flowcharts easily using AI. Flowchart.fun provides a simple language to create flowcharts by just writing text.\nShottr allows to create annotated screenshots, blur parts of image on device. It also allows for rolling screenshots where if you capture an area it will auto scroll the webpage or any other document for you. Shottr is free and is extremely cheap for pro version (which is only needed for not getting pinged for updating after 30 days)."
   },
   {
-    "objectID": "personal_notes/mac_softwares.html#for-hobby",
-    "href": "personal_notes/mac_softwares.html#for-hobby",
+    "objectID": "personal_notes/mac_softwares.html#just-for-work",
+    "href": "personal_notes/mac_softwares.html#just-for-work",
     "title": "What softwares do I actually use on my Mac as a software enthusiast?",
-    "section": "For Hobby",
-    "text": "For Hobby\n\nScreen recordings: Explaining a coding process or a step-by-step guide on about how to do something, we often end up with full screen videos with tiny text. I use screen.studio or screenrun for automatic zoom ins into where I am clicking or typing. Screenrun can also do a short video from a screenshot if you want to say, oh, click here and then here and then here."
+    "section": "Just for work",
+    "text": "Just for work\n\nPaper diagrams: draw.io for making neural network diagrams. There is unfortunately nothing that comes close. I cannot do TikZ, but if you can, more power to you!"
+  },
+  {
+    "objectID": "personal_notes/mac_softwares.html#just-for-hobby",
+    "href": "personal_notes/mac_softwares.html#just-for-hobby",
+    "title": "What softwares do I actually use on my Mac as a software enthusiast?",
+    "section": "Just for hobby",
+    "text": "Just for hobby\n\nScreen recordings: Explaining a coding process or a step-by-step guide on about how to do something, we often end up with full screen videos with tiny text. I use screen.studio or screenrun for automatic zoom ins into where I am clicking or typing. Screenrun can also do a short video from a screenshot if you want to say, oh, click here and then here and then here."
   },
   {
     "objectID": "single_page/updates.html",
