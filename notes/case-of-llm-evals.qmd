@@ -23,7 +23,7 @@ image: images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.
 
 # Introduction
 
-Every popular paper later, we keep coming back to the same questions: how do we know that this is a good evaluation?
+Every `popular` paper later, we keep coming back to the same questions: how do we know that this is a good evaluation?
 
 > *Note*: While this document will be updated with references in time; I am not claiming all of the ideas here are my own. They are of course inspired and based off many other research outcomes I trust; and I will slowly come around to include them here.
 

@@ -1,0 +1,40 @@
+---
+title: "What softwares do I actually use on my Mac as a software enthusiast?"
+date: 2023-03-01
+display-date: Mar 2023
+format: html
+categories: [Tools, MacOS, Softwares]
+filters:
+  - collapse-social-embeds
+  - lightbox
+draft: false
+reference-location: margin
+citation-location: margin
+lightbox: auto
+---
+
+::: callout-important
+## Incomplete Post
+
+This is incomplete and I will be filling it over the next few weeks.
+:::
+
+On a daily basis, I use multiple apps and I prefer to put them together here. In general, I am always looking for better note-taking apps, and if you have any suggestions, I would love to know (trust me, I have tried 800 of them!). I will divide this into different categories of software I use, in case they are helpful for anyone.
+
+For some context, I use a M1 Pro, Macbook Pro, with 16GB RAM and 512GB SSD. Some of these applications might not be great on 8GB RAM or 128GB SSD, so proceed with discretion.
+
+# Creative Work
+
+I divide creative work into 2 parts, sometimes overlapping, creative work as an hobby, creative work for my research.
+
+## For any task
+
+-   Flowcharts: [Whimsical](https://whimsical.com/) and [flowchart.fun](flowchart.fun). Whimsical is great for making beautiful handmade flowcharts or making flowcharts easily using AI. Flowchart.fun provides a simple language to create flowcharts by just writing text.
+
+## For Hobby
+
+-   Screen recordings: Explaining a coding process or a step-by-step guide on about how to do something, we often end up with full screen videos with tiny text. I use [screen.studio](screen.studio) or [screenrun](https://screenrun.app/) for automatic zoom ins into where I am clicking or typing. Screenrun can also do a short video from a screenshot if you want to say, oh, click here and then here and then here.
+
+# Works in Background
+
+-   [Rewind.ai](Rewind.ai) has been a life-saver for me, it records everything on screen, and records laptop audio and mic if you choose to. It has two main things: search rewind and ask rewind. Search rewind is a simple keyword search over everything that has been stored. Ask rewind sends everything in those clips to OpenAI (possibly GPT3.5 16k) to create a summary and adds "screenshot" references.

@@ -1,18 +1,18 @@
 ---
-title: Research Notes
+title: Personal Notes
 listing:
   contents: .
   sort: "date desc"
   type: default
   categories: numbered
-  fields: [date, title, description, categories, tweetthread, relatednote, relatedpaper, publicity, demo, repo, image]
+  fields: [date, title, categories, image, description]
   date-format: MM-DD-YYYY
   sort-ui: false
   filter-ui: false
   feed: true
 author: ''
 comments: false
-description: Long Form notes
+description: Personal notes
 title-block-style: none
 # date: 1950-07-26 18:37
 ---
@@ -39,3 +39,5 @@ for (let i = 0; i < counts.length; i++) {
 [Homepage](../index.qmd), [Email](mailto:mimansa@umich.edu), [Resume](https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view), [Research Notes](../notes/index.qmd), and, [Publications](../single_page/papers.qmd)
 :::
 </div>
+
+This is a just a bunch of posts about life, tools, productivity, preferences etc. More like a get to know me beyond research zone.

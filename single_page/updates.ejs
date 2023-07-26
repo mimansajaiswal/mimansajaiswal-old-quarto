@@ -4,7 +4,7 @@
 
 <%/* create custom listing */%>
 <% for (const item of items) { %>
-    <li class="news-li"><h6 class="no-anchor"><span class="news-span"><%= item['display-date']%></span></h6><p class="news-p"><%= item['title']%></p></li>
+    <li class="news-li"><h6 class="no-anchor"><span class="news-span"><%= item['display-date']%></span></h6><p class="listing-title news-p"><%= item['title']%></p></li>
 <% } %>
 </ol>
 </div>

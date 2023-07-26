@@ -41,6 +41,8 @@ website:
       #   href: stream/index.qmd
       - icon: cursor-text
         href: single_page/blurbs.qmd
+      - icon: bookmark-heart-fill
+        href: personal_notes/index.qmd
     right:
       - icon: twitter
         text: Twitter
