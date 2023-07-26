@@ -8,6 +8,12 @@
     "items": []
   },
   {
+    "listing": "/personal_notes/index.html",
+    "items": [
+      "/personal_notes/mac_softwares.html"
+    ]
+  },
+  {
     "listing": "/stream/index.html",
     "items": [
       "/stream/the_two_year_tragedy.html"
