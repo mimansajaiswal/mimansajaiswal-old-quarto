@@ -57,6 +57,7 @@ format:
     smooth-scroll: true
     theme: quarto_mod.scss
     highlight-style: quarto_mod.theme
+    backgroundcolor: rgba(229, 233, 238, 0.3)
     metadata:
       pagetitle: "{{< meta title >}}"
       freeze: true
