@@ -42,6 +42,8 @@ For some context, I use a M1 Pro, Macbook Pro, with 16GB RAM and 512GB SSD. Some
 
 -   Whiteboarding: I use [Guga](https://www.guga.co/) (new app, chinese support) or [Muse](https://museapp.com/) (expensive but works really well, has a teams version). I tried [Freeform](https://apps.apple.com/us/app/freeform/id6443742539) and did not like it much. Guga also does not have desktop support which kinda hampers its usage on my end.
 
+-   Reading: I use [Reader from Readwise](https://readwise.io/read), they allow you to annotate pdfs, videos webpages, add highlights, add notes to highlights etc. It is cheap for students; syncs highlights from everywhere to Notion and works reliably. The two other options are [Omnivore](https://omnivore.app/) (open source and free) and [Matter](https://hq.getmatter.com/) (better and more intuitive design but does not work with pdfs or videos). For podcasts, because apparently the information now also comes from podcasts, I use [Snipd](https://www.snipd.com/), which has headphone button based sniping, AI snip boundaries and snip summaries, and also syncs to Readwise or separately to Notion.
+
 # Creative Work
 
 I divide creative work into 2 parts, sometimes overlapping, creative work as an hobby, creative work for my research.
