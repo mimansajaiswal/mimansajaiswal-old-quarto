@@ -45,10 +45,16 @@ Note: The developer has kindly suggested that they would be willing to a `pay-wh
 
 I knew about montaigne for around 4 months, but never gave it a serious look. Who wants a website made out of their Apple Notes, with no customization and not much to look at? Oh well, I was wrong!
 
+## Example Website
+
 [Here is the website](https://mimansajaiswal.montaigne.io/) I made using montaigne. Man, it works! There is nothing missing in it, that I would need on a personal website! Sure, it does not have comments using giscus as I do, but who really needs that? Yes, the domain is hard to spell, but, the developer very kindly offered a pay what you want pricing for custom domains. Yes, you cannot host it on github, but the content is all in Apple Notes. The day montaigne goes down, you will still have all your content with you and be able to port it elsewhere.
 
 If you want to figure out what the source notes requires or needs, I even made the folder of notes that I use to create the website public ([Link](https://www.icloud.com/notes/015MtzesWUvmeenWEvIgjN2-g#mimansajaiswal.montaigne)).
 
+## Supported Content
+
 What all can you do using Apple Notes? Well a ton! You can customize your menu, headers etc. You can use images, videos, embeds, headings that have anchors. Take a look [here](https://mimansajaiswal.montaigne.io/research-notes/new-research-note)! Yes, the tags are clickable and filterable! You can do folders. It comes integrated with an RSS feed, quick links to your profiles in the footer, and a QR code to add on your research posters for someone to quick access your personal website.
+
+## tl;dr
 
 Honestly, I cannot recommend this option enough. The domain would cost you a bit (maybe \$10/year), if you go the custom domain route, but the ease of updating your website in a second beats any other options.
