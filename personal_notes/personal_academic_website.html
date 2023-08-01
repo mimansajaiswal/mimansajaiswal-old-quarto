@@ -186,14 +186,18 @@ ga('send', {
   <li><a href="#supported-content-1" id="toc-supported-content-1" class="nav-link" data-scroll-target="#supported-content-1">Supported Content</a></li>
   <li><a href="#tldr-1" id="toc-tldr-1" class="nav-link" data-scroll-target="#tldr-1">tl;dr</a></li>
   </ul></li>
-  <li><a href="#git-based-cms" id="toc-git-based-cms" class="nav-link" data-scroll-target="#git-based-cms">Git Based CMS</a></li>
   <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a>
   <ul class="collapse">
   <li><a href="#example-website-2" id="toc-example-website-2" class="nav-link" data-scroll-target="#example-website-2">Example Website</a></li>
   <li><a href="#supported-content-2" id="toc-supported-content-2" class="nav-link" data-scroll-target="#supported-content-2">Supported Content</a></li>
   <li><a href="#tldr-2" id="toc-tldr-2" class="nav-link" data-scroll-target="#tldr-2">tl;dr</a></li>
   </ul></li>
+  <li><a href="#git-based-cms" id="toc-git-based-cms" class="nav-link" data-scroll-target="#git-based-cms">Git Based CMS</a>
+  <ul class="collapse">
+  <li><a href="#example-website-3" id="toc-example-website-3" class="nav-link" data-scroll-target="#example-website-3">Example Website</a></li>
   <li><a href="#tldr-3" id="toc-tldr-3" class="nav-link" data-scroll-target="#tldr-3">tl;dr</a></li>
+  </ul></li>
+  <li><a href="#tldr-4" id="toc-tldr-4" class="nav-link" data-scroll-target="#tldr-4">tl;dr</a></li>
   </ul>
 </nav>
     </div>
@@ -249,8 +253,8 @@ Summary of available website building options: sorted from most to least recomme
 <ol type="1">
 <li><p><a href="#montaigne">Montaigne</a> if you want the easiest option ever. (Apple Notes only, you can use icloud Apple Notes)</p></li>
 <li><p><a href="#notion-to-astro">Notion to Astro</a>, if you want to write in Notion, and are okay setting up github actions once for automatic deployment.</p></li>
-<li><p><a href="#git-based-cms">Git Based CMS</a> if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.</p></li>
 <li><p><a href="https://quarto.org/">Quarto</a> (how <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io">this website</a> is made) if you want heavy LaTeX support and the ability to embed runnable visualizations/code in your document.</p></li>
+<li><p><a href="#git-based-cms">Git Based CMS</a> if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.</p></li>
 <li><p><a href="https://editable.website/">editable.website</a> if you want to edit the website easily, but are willing to spend time on the <a href="https://github.com/michael/editable-website#deployment-to-flyio">first setup on fly.io</a>.</p></li>
 <li><p><a href="https://sites.google.com/">Google Sites</a> if you are okay with your data not being portable, but want a quick editing experience.</p></li>
 <li><p>Use <a href="https://astro.build/">Astro</a> with <a href="https://getdarkmatter.dev/">Dark Matter</a> (ping on <a href="https://twitter.com/vadimdemedes/status/1681051391186329603">twitter</a> for access) if you are proficient with writing main page content in HTML, but want to write blog posts/collections in markdown. Suggested themes: <a href="https://github.com/satnaing/astro-paper">Astro Paper</a> and <a href="https://github.com/chrismwilliams/astro-theme-cactus">Astro Cactus</a>.</p></li>
@@ -327,35 +331,12 @@ Summary of available website building options: sorted from most to least recomme
 <p>If you are comfortable with github at all, and are okay setting up actions and environment variables (and creating an integration key in Notion), I will suggest this option. It is a one time option, it never needs to be touched again in a code format, it requires no push and pull. And if you are worried about what happens when Notion goes down, you can export your content in .md files and host it elsewhere 5 years later. As I said, this document is meant for pseudo-owning your content and convenience/accessibility. It ain’t meant for “what happens when Notion no longer exists in 10 years, and my exports are not perfect”.</p>
 </section>
 </section>
-<section id="git-based-cms" class="level1">
-<h1>Git Based CMS</h1>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><strong>Website</strong>: <a href="https://decapcms.org/">Decap CMS</a>, <a href="https://cloudcannon.com/">Cloud Cannon</a>, <a href="https://tina.io/">tina</a>, <a href="https://contentrain.io/">Contentrain</a> and <a href="https://craftercms.org/">Crafter</a></p>
-</div>
-</div>
-</div>
-<p>This kind of deployment is called git based CMS. The idea is that people can edit it using git versioning systems or online. There are of course many options that I found: <a href="https://decapcms.org/">Decap CMS</a>, <a href="https://cloudcannon.com/">Cloud Cannon</a>, <a href="https://tina.io/">tina</a>, <a href="https://contentrain.io/">Contentrain</a> and <a href="https://craftercms.org/">Crafter</a>. I tested some of these and a few others. For example, <a href="https://www.siteleaf.com/">siteleaf</a> is something I would not recommend; just because how frustrating it is to get it to run on a https:// server.</p>
-</section>
-<section id="quarto" class="level1 page-columns page-full">
-<h1>Quarto</h1>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
+<section id="quarto" class="level1 page-columns page-full" data-link="Quarto">
+<h1 data-link="Quarto">Quarto</h1>
 <p><strong>Website</strong>: <a href="https://quarto.org/">Quarto Official Website</a> and <a href="https://quarto.org/docs/websites/">Using Quarto for Creating Websites</a></p>
 <p><strong>Demo Website</strong>: <a href="https://mimansajaiswal.github.io/">You are on it!</a></p>
 <p><strong>Demo Source Code</strong>: <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io">Github Repo</a></p>
 <p><strong>Note</strong>: If you are okay with editing your website completely in markdown online, or creating a mirrored local repo and using the visual editor for Quarto in VS Code, then pushing the changes to github, you will do fine with Quarto. You almost always do not need such a complicated website, and it requires a ton of CSS to make it look good (feel free to copy mine), but it works with YAML and that is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/single_page/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding.</p>
-</div>
-</div>
-</div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="images/screenshot of quarto website.png" class="lightbox" title="Screenshot of example website made in Quarto" data-gallery="quarto-lightbox-gallery-2"><img src="images/screenshot of quarto website.png" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
@@ -379,7 +360,36 @@ Summary of available website building options: sorted from most to least recomme
 <p>So, why do I not recommend it enough? Shortcodes, or margin content using bootstrap classes is no one’s idea of fun (or maybe it is). And I really do not want to add images first to the folder and then using markdown (or add to the folder and then insert using the visual editor). Quarto also has seriously slow loading times on mobile. But if these things are not a problem for you, and you want something that is capable enough, but still works with markdown, you should use Quarto (you can use my theme or a million others!).</p>
 </section>
 </section>
-<section id="tldr-3" class="level1">
+<section id="git-based-cms" class="level1">
+<h1>Git Based CMS</h1>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Website</strong>: <a href="https://decapcms.org/">Decap CMS</a> and <a href="https://tina.io/">tina</a></p>
+</div>
+</div>
+</div>
+<p>This kind of deployment is called git based CMS. The idea is that people can edit it using git versioning systems or online. There are of course many options that I found: <a href="https://decapcms.org/">Decap CMS</a>, <a href="https://cloudcannon.com/">Cloud Cannon</a>, <a href="https://tina.io/">tina</a>, <a href="https://contentrain.io/">Contentrain</a> and <a href="https://craftercms.org/">Crafter</a>. I tested some of these and a few others. For example, <a href="https://www.siteleaf.com/">siteleaf</a> is something I would not recommend; just because how frustrating it is to get it to run on a https:// server. The two <strong>I would recommend</strong> are <a href="https://decapcms.org/">Decap CMS</a> and <a href="https://tina.io/">tina</a>, because they are open source, highly customizable, generous free plans, and provide local as well as cloud installations.</p>
+<p>Most git CMS based templates (for example, <a href="https://github.com/gxanshu/astro-decap-cms-starter">this portfolio template</a>) only allow you to edit the contents or blog posts in a visual manner or through CMS and at that point, I would suggest you to use <a href="#quarto">Quarto</a> instead. Because what people are mostly editing is the index, and not necessarily the blogpost content. Most academics don’t write blogposts at all and what good is a WYSIWYG solution if you are writing arrays to update your paper listings. This is the only reason Git based CMS is below Quarto in terms of simplicity.</p>
+<section id="example-website-3" class="level2">
+<h2 class="anchored" data-anchor-id="example-website-3">Example Website</h2>
+<p>Most default templates that are associated with any of these CMS systems, come with the prerequisite of editing not the index content but instead collections (similar to any WYSIWYG editor for Astro). I found a few templates that allow you to edit the front page content too and you can see some setup demos here. <a href="https://tina.io/">tina</a>’s <a href="https://app.tina.io/quickstart">default option</a> is a completely editable website, and I recommend it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/tinacmswebsite.mp4" class="lightbox" title="Creating and editing a personal website using Tina CMS with git workflow." data-gallery="quarto-lightbox-gallery-3"><video src="images/tinacmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/tinacmswebsite.mp4">Video</a></p>
+<figcaption class="figure-caption">Creating and editing a personal website using Tina CMS with git workflow.</figcaption>
+</figure>
+</div>
+</section>
+<section id="tldr-3" class="level2">
+<h2 class="anchored" data-anchor-id="tldr-3">tl;dr</h2>
+<p>If you are looking for something that just works like Wordpress and are okay with a limited range of templates, go ahead and try git based CMS platforms. Some of these are open source, some are proprietary; and some sync the built static site back to github while others don’t. Ideally you want to pick the ones that sync the static site back or at least the content back to github, especially for portability reasons, otherwise, you are better off using just Google Sites.</p>
+</section>
+</section>
+<section id="tldr-4" class="level1">
 <h1>tl;dr</h1>
 <p>For most people <a href="#montaigne">Montaigne</a> is enough! And this is the option I recommend to most people who do not use git in their day to day life (and have an icloud account). If you are willing to dabble into some git technicalities, go with <a href="#notion-to-astro">Notion to Astro</a>. Want a deeply integrated CMS system, especially if you write a lot of blog posts, go with <a href="#git-based-cms">Git Based CMS</a>. If you want some support for callouts, embeds, but are okay with using shortcodes and tend to do more technical writing, go with <a href="#quarto">Quarto</a>. If you are proficient enough in web development to edit HTML, do not care much about losing content if Google Sites goes down or want 100 of well crafted templates that are still hard to edit visually and require commands, check out options 5-8 in <a href="#summary-of-available-website-building-options-sorted-from-most-to-least-recommended.-use">Summary of available website building options: sorted from most to least recommended. Use:</a>.</p>
 
@@ -624,7 +634,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <script src="https://giscus.app/client.js" data-repo="mimansajaiswal/mimansajaiswal.github.io" data-repo-id="R_kgDOJo-RfQ" data-category="Announcements" data-category-id="DIC_kwDOJo-Rfc4CW3WB" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":true,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":true,"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox"});</script>
 
 
 

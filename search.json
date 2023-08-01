@@ -441,6 +441,20 @@
     "text": "tl;dr\nSo, why do I not recommend it enough? Shortcodes, or margin content using bootstrap classes is no one’s idea of fun (or maybe it is). And I really do not want to add images first to the folder and then using markdown (or add to the folder and then insert using the visual editor). Quarto also has seriously slow loading times on mobile. But if these things are not a problem for you, and you want something that is capable enough, but still works with markdown, you should use Quarto (you can use my theme or a million others!)."
   },
   {
+    "objectID": "personal_notes/personal_academic_website.html#example-website-3",
+    "href": "personal_notes/personal_academic_website.html#example-website-3",
+    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "section": "Example Website",
+    "text": "Example Website\nMost default templates that are associated with any of these CMS systems, come with the prerequisite of editing not the index content but instead collections (similar to any WYSIWYG editor for Astro). I found a few templates that allow you to edit the front page content too and you can see some setup demos here. tina’s default option is a completely editable website, and I recommend it.\n\n\nVideo\nCreating and editing a personal website using Tina CMS with git workflow."
+  },
+  {
+    "objectID": "personal_notes/personal_academic_website.html#tldr-3",
+    "href": "personal_notes/personal_academic_website.html#tldr-3",
+    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "section": "tl;dr",
+    "text": "tl;dr\nIf you are looking for something that just works like Wordpress and are okay with a limited range of templates, go ahead and try git based CMS platforms. Some of these are open source, some are proprietary; and some sync the built static site back to github while others don’t. Ideally you want to pick the ones that sync the static site back or at least the content back to github, especially for portability reasons, otherwise, you are better off using just Google Sites."
+  },
+  {
     "objectID": "single_page/updates.html",
     "href": "single_page/updates.html",
     "title": "Updates",
