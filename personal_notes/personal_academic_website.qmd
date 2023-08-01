@@ -16,23 +16,25 @@ lightbox: auto
 Another week of personal website debate on Twitter, another set of heavy compilation based suggestions to create and maintain a personal website. So, I decided to take a look at all the recent website builders and provide a set of recommendations. If you do not want to read this in entirety, my suggestions can be summarized below:
 
 ::: callout-note
-## Summary of available website building options: sorted from most to least recommended
+## Summary of available website building options: sorted from most to least recommended. Use:
 
-This document only talks about the first 4 options.
+*This document only talks about the first 4 options.*
 
-1.  Use [Montaigne] if you want the easiest option ever. (Apple Notes only, you can use icloud Apple Notes)
+1.  [Montaigne] if you want the easiest option ever. (Apple Notes only, you can use icloud Apple Notes)
 
-2.  Use [Notion to Astro], if you want to write in Notion, and are okay setting up github actions once for automatic deployment.
+2.  [Notion to Astro], if you want to write in Notion, and are okay setting up github actions once for automatic deployment.
 
-3.  Use [Decap CMS](https://decapcms.org/) or [Cloud Cannon](https://cloudcannon.com/) if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.
+3.  [Decap CMS or Cloud Cannon] if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.
 
-4.  Use [Quarto](https://quarto.org/) (how [this website](https://github.com/mimansajaiswal/mimansajaiswal.github.io) is made) if you want heavy LaTeX support and the ability to embed runnable visualizations/code in your document.
+4.  [Quarto](https://quarto.org/) (how [this website](https://github.com/mimansajaiswal/mimansajaiswal.github.io) is made) if you want heavy LaTeX support and the ability to embed runnable visualizations/code in your document.
 
-5.  Use [editable.website](https://editable.website/) if you want to edit the website easily, but are willing to spend time on the [first setup on fly.io](https://github.com/michael/editable-website#deployment-to-flyio).
+5.  [editable.website](https://editable.website/) if you want to edit the website easily, but are willing to spend time on the [first setup on fly.io](https://github.com/michael/editable-website#deployment-to-flyio).
 
-6.  Use [Google Sites](https://sites.google.com/) if you are okay with your data not being portable, but want a quick editing experience.
+6.  [Google Sites](https://sites.google.com/) if you are okay with your data not being portable, but want a quick editing experience.
 
-7.  Use [Hugo](https://gohugo.io/) or [Jekyll](https://jekyllrb.com/) (for example [Paper Mod](https://github.com/adityatelange/hugo-PaperMod)) if you trust yourself to keep up with the process required to maintain this website.
+7.  Use [Astro](https://astro.build/) with [Dark Matter](https://getdarkmatter.dev/) (ping on [twitter](https://twitter.com/vadimdemedes/status/1681051391186329603) for access) if you are proficient with writing main page content in HTML, but want to write blog posts/collections in markdown. Suggested themes: [Astro Paper](https://github.com/satnaing/astro-paper) and [Astro Cactus](https://github.com/chrismwilliams/astro-theme-cactus).
+
+8.  Use [Hugo](https://gohugo.io/) or [Jekyll](https://jekyllrb.com/) (for example [Paper Mod](https://github.com/adityatelange/hugo-PaperMod)) if you trust yourself to keep up with the process required to maintain this website.
 :::
 
 # Montaigne
@@ -85,7 +87,7 @@ Notion to Astro solves all of that. It gives you a writing environment in Notion
 
 The default notion to astro effort is rendering of a collection on the main page. The only problem with that structure is that most of us have an index file that is a list of things we do, and then a blog post. Many academic websites have no blog posts. So, I modified the template to suit the general style of academic websites. You can play around with it [here](https://mimansajaiswal.github.io/demo-astro-notion-blog/).
 
-There are a few other additions too! I really loved the [Astro Cactus theme](https://astro-theme-cactus.netlify.app/) and the search functionality it provides. So, I used their code for [Pagefind](https://pagefind.app/) and integrated it into the original source code. If you are someone who is okay with editing JS files directly or proficient with Astro, you can find that theme [here](https://github.com/chrismwilliams/astro-theme-cactus). Now that did not have giscus. And I wanted giscus, because that is what I am using for my current websites, and I'll explain my workflow in detail in the [#Quarto] section, but if everything aligns, I will happily switch to using this method. So, I integrated giscus based off this [repo](https://github.com/piero-vic/pierolescano.com).
+There are a few other additions too! I really loved the [Astro Cactus theme](https://astro-theme-cactus.netlify.app/) and the search functionality it provides. So, I used their code for [Pagefind](https://pagefind.app/) and integrated it into the original source code. If you are someone who is okay with editing JS files directly or proficient with Astro, you can find that theme [here](https://github.com/chrismwilliams/astro-theme-cactus). Another theme I will suggest for people who want to create in Astro rather than in Hugo/Jekyll is [Astro Paper](https://github.com/satnaing/astro-paper). Astro cactus did not have giscus. And I wanted giscus, because that is what I am using for my current websites, and I'll explain my workflow in detail in the [#Quarto] section, but if everything aligns, I will happily switch to using this method. So, I integrated giscus based off this [repo](https://github.com/piero-vic/pierolescano.com).
 
 Yes, this is a hacked together repo, because I understand code, but I do not have it in me to figure out how astro works. No, GPT4 did not help much with the understanding part of the equation.
 
