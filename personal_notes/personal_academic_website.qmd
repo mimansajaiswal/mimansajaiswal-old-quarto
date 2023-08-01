@@ -49,7 +49,7 @@ Another week of personal website debate on Twitter, another set of heavy compila
 **Note**: The developer has kindly suggested that they would be willing to a pay-what-you-want option for students who use montaigne and need to point it to a custom domain. Their pricing suggests it is \$2/mo, but please contact them over Twitter or email for subsidized custom domain pricing.
 :::
 
-![Screenshot of website made in montaigne](images/Screenshot%202023-07-31%20at%209.10.34%20PM.png){fig-alt="Screenshot of website made in montaigne" width="707"}
+![Screenshot of website made in montaigne](images/screenshot of montaigne website.png){fig-alt="Screenshot of website made in montaigne" width="707"}
 
 I knew about montaigne for around 4 months, but never gave it a serious look. Who wants a website made out of their Apple Notes, with no customization and not much to look at? Oh well, I was wrong!
 
@@ -121,7 +121,7 @@ This kind of deployment is called git based CMS. The idea is that people can edi
 **Note**: If you are okay with editing your website completely in markdown online, or creating a mirrored local repo and using the visual editor for Quarto in VS Code, then pushing the changes to github, you will do fine with Quarto. You almost always do not need such a complicated website, and it requires a ton of CSS to make it look good (feel free to copy mine), but it works with YAML and that is immensely useful, especially for stuff like papers ([example](https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/single_page/papers.yaml)) or experience ([example](https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml)) that you just need to keep adding.
 :::
 
-![Screenshot of example website made in Quarto](images/paste-1.png){fig-alt="Screenshot of example website made in Quarto" width="710"}
+![Screenshot of example website made in Quarto](images/screenshot of quarto website.png){fig-alt="Screenshot of example website made in Quarto" width="710"}
 
 Quarto in general is awesome! It is easy to maintain, easy to deploy etc. You can edit in markdown mode online using [github.dev](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor). It has a [visual editor](https://quarto.org/docs/visual-editor/vscode/) if you sync the repo to your local computer. And honestly, that is not bad. It definitely suffers from being markdown based, i.e., if you need to do anything more than write content with basic formatting that CommonMark supports, you end up with class notations being in your .md files. So much for portable files, right?
 
