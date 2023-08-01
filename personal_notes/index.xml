@@ -101,7 +101,7 @@ Summary of available website building options: sorted from most to least recomme
 <h2 class="anchored" data-anchor-id="example-website-1">Example Website</h2>
 <p>The default notion to astro effort is rendering of a collection on the main page. The only problem with that structure is that most of us have an index file that is a list of things we do, and then a blog post. Many academic websites have no blog posts. So, I modified the template to suit the general style of academic websites. You can play around with it <a href="https://mimansajaiswal.github.io/demo-astro-notion-blog/">here</a>.</p>
 <p>There are a few other additions too! I really loved the <a href="https://astro-theme-cactus.netlify.app/">Astro Cactus theme</a> and the search functionality it provides. So, I used their code for <a href="https://pagefind.app/">Pagefind</a> and integrated it into the original source code. If you are someone who is okay with editing JS files directly or proficient with Astro, you can find that theme <a href="https://github.com/chrismwilliams/astro-theme-cactus">here</a>. Another theme I will suggest for people who want to create in Astro rather than in Hugo/Jekyll is <a href="https://github.com/satnaing/astro-paper">Astro Paper</a>. Astro cactus did not have giscus. And I wanted giscus, because that is what I am using for my current websites, and I’ll explain my workflow in detail in the [#Quarto] section, but if everything aligns, I will happily switch to using this method. So, I integrated giscus based off this <a href="https://github.com/piero-vic/pierolescano.com">repo</a>.</p>
-<p>Yes, this is a hacked together repo, because I understand code, but I do not have it in me to figure out how astro works. No, GPT4 did not help much with the understanding part of the equation.</p>
+<p>Yes, this is a hacked together repo, because I understand code, but I do not have it in me to figure out how astro works. No, GPT4 did not help much with the understanding part of the equation. Notion to Astro off the shelf also supports google analytics, so that is always a plus.</p>
 </section>
 <section id="supported-content-1" class="level2">
 <h2 class="anchored" data-anchor-id="supported-content-1">Supported Content</h2>
@@ -125,7 +125,7 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 </div>
 </section>
-<section id="quarto" class="level1">
+<section id="quarto" class="level1 page-columns page-full">
 <h1>Quarto</h1>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
@@ -134,12 +134,22 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 <div class="callout-body-container">
 <p><strong>Website</strong>: <a href="https://quarto.org/">Quarto Official Website</a> and <a href="https://quarto.org/docs/websites/">Using Quarto for Creating Websites</a></p>
-<p><strong>Demo Website</strong>: <a href="mimansajaiswal.github.io">You are on it!</a></p>
+<p><strong>Demo Website</strong>: <a href="https://mimansajaiswal.github.io/">You are on it!</a></p>
 <p><strong>Demo Source Code</strong>: <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io">Github Repo</a></p>
 <p><strong>Note</strong>: If you are okay with editing your website completely in markdown online, or creating a mirrored local repo and using the visual editor for Quarto in VS Code, then pushing the changes to github, you will do fine with Quarto. You almost always do not need such a complicated website, and it requires a ton of CSS to make it look good (feel free to copy mine), but it works with YAML and that is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/single_page/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding.</p>
 </div>
 </div>
 </div>
+<p>Quarto in general is awesome! It is easy to maintain, easy to deploy etc. It has a <a href="https://quarto.org/docs/visual-editor/vscode/">visual editor</a> if you sync the repo to your local computer. And honestly, that is not bad. It definitely suffers from being markdown based, i.e., if you need to do anything more than write content with basic formatting that CommonMark supports, you end up with class notations being in your .md files. So much for portable files, right?</p>
+<section id="example-website-2" class="level2">
+<h2 class="anchored" data-anchor-id="example-website-2">Example Website</h2>
+<p>The website you are reading it on, was built using quarto. The good part is, it works with YAML and .ejs files; and if you find a template you like, you can just edit the YAML to generate a listing or a HTML component. This is what has made me stick to quarto over other markdown based website editing options. YAML is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/single_page/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding or editing. Now, on the other hand, creating the .ejs files and the associated CSS required a ton of work, but if you like what you see on this site, feel free to copy <a href="https://mimansajaiswal.github.io/">mine</a>.</p>
+<p>Quarto is built off bootstrap, so it supports all classes that bootstrap has. That lends itself quite nicely to arranging content, or creating more complex sites, if need be. The comment option here is added through <a href="https://giscus.app/">giscus</a>. Quarto off the shelf also supports google analytics, so that is always a plus.</p>
+</section>
+<section id="supported-content-2" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="supported-content-2">Supported Content</h2>
+<div class="page-columns page-full"><p>Quarto supports all kinds of content, some through its internal modifications, and some through shortcodes or plugins. Some of the features I really like are footnotes<sup>1</sup> that show on hover. It supports <a href="https://quarto.org/docs/authoring/callouts.html">callouts</a>, both in collapsible and expanded state. It supports side margin content, similar to footnotes, that I love to use to add more context. The side margin content automatically gets appended to main content on narrow devices.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;This is footnote content that shows on hover! I can now speak on tangent without affecting the flow of the paragraph. Remember that the hover concept only works on desktop, but that is fine, who needs to read my tangential thoughts on mobile. The post is long enough in itself.</p></li></div></div>
+</section>
 </section>
 <section id="tldr-2" class="level1">
 <h1>tl;dr</h1>
@@ -147,6 +157,7 @@ Summary of available website building options: sorted from most to least recomme
 
 
 </section>
+
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Tools</category>
