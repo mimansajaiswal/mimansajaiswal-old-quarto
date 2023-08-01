@@ -22,7 +22,7 @@ This document only talks about the first 4 options.
 
 1.  Use [Montaigne] if you want the easiest option ever. (Apple Notes only, you can use icloud Apple Notes)
 
-2.  Use [astro to notion](https://github.com/otoyo/astro-notion-blog), if you want to write in Notion, and are okay setting up github actions once for automatic deployment.
+2.  Use [Notion to Astro], if you want to write in Notion, and are okay setting up github actions once for automatic deployment.
 
 3.  Use [decapcms](https://decapcms.org/) if you want to set up the website on netifly, and then edit the content anytime in wysiwyg structure.
 
@@ -38,9 +38,13 @@ This document only talks about the first 4 options.
 # Montaigne
 
 ::: {.callout-note appearance="minimal" icon="false"}
-Website: [montaigne](https://montaigne.io/)
+**Website**: [montaigne](https://montaigne.io/)
 
-Note: The developer has kindly suggested that they would be willing to a `pay-what-you-want` option for students who use montaigne and need to point it to a custom domain. Their pricing suggests it is \$2/mo, but please contact them over [Twitter](https://twitter.com/montaigne_io) or [email](mailto:hello@montaigne.io) for subsidized custom domain pricing.
+**Note**: The developer has kindly suggested that they would be willing to a `pay-what-you-want` option for students who use montaigne and need to point it to a custom domain. Their pricing suggests it is \$2/mo, but please contact them over [Twitter](https://twitter.com/montaigne_io) or [email](mailto:hello@montaigne.io) for subsidized custom domain pricing.
+
+Demo Website: [Demo Website Created Using Montaigne](https://mimansajaiswal.montaigne.io/)
+
+Demo content: [Apple Notes Folder Used To Create Demo Website](https://www.icloud.com/notes/015MtzesWUvmeenWEvIgjN2-g#mimansajaiswal.montaigne)
 :::
 
 I knew about montaigne for around 4 months, but never gave it a serious look. Who wants a website made out of their Apple Notes, with no customization and not much to look at? Oh well, I was wrong!
@@ -58,3 +62,21 @@ What all can you do using Apple Notes? Well a ton! You can customize your menu, 
 ## tl;dr
 
 Honestly, I cannot recommend this option enough. The domain would cost you a bit (maybe \$10/year), if you go the custom domain route, but the ease of updating your website in a second beats any other options.
+
+# Notion to Astro
+
+::: {.callout-note appearance="minimal"}
+**Website**:
+
+**My Fork**: [Demo Astro Notion Blog Github Source](https://github.com/mimansajaiswal/demo-astro-notion-blog)
+
+**Note**: If you are okay with one time setup of github actions and github environment variables, this would be my recommended go to option. You can point it to a `username.github.io` domain or add a custom domain. You can deploy manually or on a cron schedule.
+
+**Demo Website**: [Demo Website Using Astro Notion](https://mimansajaiswal.github.io/demo-astro-notion-blog/)
+
+**Demo Content**: [Template To Create Demo Website](https://template-collector-mj.notion.site/5e35b59e7a0447a78b7b793ab63250a0)
+:::
+
+Many of us now write in Notion. Yes, github static pages exist, but they aren't collaborative, they are a pain to edit, they aren't visual enough, you cannot talk through comments (no, I do not want to read through issues for a blog post, thank you).
+
+Notion to Astro solves all of that. It gives you a writing environment in Notion, but renders it as a website through Astro. It allows you for ample customization by customizing the astro files and the associated CSS unlike montaigne.
