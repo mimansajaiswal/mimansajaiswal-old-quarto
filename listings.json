@@ -8,10 +8,18 @@
     "items": []
   },
   {
-    "listing": "/personal_notes/index.html",
+    "listing": "/notes/index.html",
     "items": [
-      "/personal_notes/mac_softwares.html"
+      "/notes/case-of-llm-evals.html",
+      "/notes/no_sally_anne_pass_for_gpt4.html",
+      "/notes/capstone.html",
+      "/notes/explanation_annotation_interfaces.html",
+      "/notes/controlled_evaluation_of_explanations.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   },
   {
     "listing": "/stream/index.html",
@@ -20,17 +28,10 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
-    "listing": "/notes/index.html",
+    "listing": "/personal_notes/index.html",
     "items": [
-      "/notes/case-of-llm-evals.html",
-      "/notes/no_sally_anne_pass_for_gpt4.html",
-      "/notes/capstone.html",
-      "/notes/explanation_annotation_interfaces.html",
-      "/notes/controlled_evaluation_of_explanations.html"
+      "/personal_notes/personal_academic_website.html",
+      "/personal_notes/mac_softwares.html"
     ]
   },
   {
