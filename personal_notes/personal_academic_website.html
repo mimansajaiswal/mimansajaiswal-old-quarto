@@ -175,7 +175,15 @@ ga('send', {
   <li><a href="#supported-content" id="toc-supported-content" class="nav-link" data-scroll-target="#supported-content">Supported Content</a></li>
   <li><a href="#tldr" id="toc-tldr" class="nav-link" data-scroll-target="#tldr">tl;dr</a></li>
   </ul></li>
-  <li><a href="#notion-to-astro" id="toc-notion-to-astro" class="nav-link" data-scroll-target="#notion-to-astro">Notion to Astro</a></li>
+  <li><a href="#notion-to-astro" id="toc-notion-to-astro" class="nav-link" data-scroll-target="#notion-to-astro">Notion to Astro</a>
+  <ul class="collapse">
+  <li><a href="#example-website-1" id="toc-example-website-1" class="nav-link" data-scroll-target="#example-website-1">Example Website</a></li>
+  <li><a href="#supported-content-1" id="toc-supported-content-1" class="nav-link" data-scroll-target="#supported-content-1">Supported Content</a></li>
+  <li><a href="#tldr-1" id="toc-tldr-1" class="nav-link" data-scroll-target="#tldr-1">tl;dr</a></li>
+  </ul></li>
+  <li><a href="#decap-cms-or-cloud-cannon" id="toc-decap-cms-or-cloud-cannon" class="nav-link" data-scroll-target="#decap-cms-or-cloud-cannon">Decap CMS or Cloud Cannon</a></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -231,9 +239,9 @@ Summary of available website building options: sorted from most to least recomme
 <ol type="1">
 <li><p>Use <a href="#montaigne">Montaigne</a> if you want the easiest option ever. (Apple Notes only, you can use icloud Apple Notes)</p></li>
 <li><p>Use <a href="#notion-to-astro">Notion to Astro</a>, if you want to write in Notion, and are okay setting up github actions once for automatic deployment.</p></li>
-<li><p>Use <a href="https://decapcms.org/">decapcms</a> if you want to set up the website on netifly, and then edit the content anytime in wysiwyg structure.</p></li>
+<li><p>Use <a href="https://decapcms.org/">Decap CMS</a> or <a href="https://cloudcannon.com/">Cloud Cannon</a> if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.</p></li>
 <li><p>Use <a href="https://quarto.org/">Quarto</a> (how <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io">this website</a> is made) if you want heavy LaTeX support and the ability to embed runnable visualizations/code in your document.</p></li>
-<li><p>Use <a href="https://editable.website/">editable.website</a> if you want to edit the website easily, but are willing to spend time on the first setup on fly.io.</p></li>
+<li><p>Use <a href="https://editable.website/">editable.website</a> if you want to edit the website easily, but are willing to spend time on the <a href="https://github.com/michael/editable-website#deployment-to-flyio">first setup on fly.io</a>.</p></li>
 <li><p>Use <a href="https://sites.google.com/">Google Sites</a> if you are okay with your data not being portable, but want a quick editing experience.</p></li>
 <li><p>Use <a href="https://gohugo.io/">Hugo</a> or <a href="https://jekyllrb.com/">Jekyll</a> (for example <a href="https://github.com/adityatelange/hugo-PaperMod">Paper Mod</a>) if you trust yourself to keep up with the process required to maintain this website.</p></li>
 </ol>
@@ -248,9 +256,9 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 <div class="callout-body-container">
 <p><strong>Website</strong>: <a href="https://montaigne.io/">montaigne</a></p>
-<p><strong>Note</strong>: The developer has kindly suggested that they would be willing to a <code>pay-what-you-want</code> option for students who use montaigne and need to point it to a custom domain. Their pricing suggests it is $2/mo, but please contact them over <a href="https://twitter.com/montaigne_io">Twitter</a> or <a href="mailto:hello@montaigne.io">email</a> for subsidized custom domain pricing.</p>
-<p>Demo Website: <a href="https://mimansajaiswal.montaigne.io/">Demo Website Created Using Montaigne</a></p>
-<p>Demo content: <a href="https://www.icloud.com/notes/015MtzesWUvmeenWEvIgjN2-g#mimansajaiswal.montaigne">Apple Notes Folder Used To Create Demo Website</a></p>
+<p><strong>Demo Website</strong>: <a href="https://mimansajaiswal.montaigne.io/">Demo Website Created Using Montaigne</a></p>
+<p><strong>Demo Content</strong>: <a href="https://www.icloud.com/notes/015MtzesWUvmeenWEvIgjN2-g#mimansajaiswal.montaigne">Apple Notes Folder Used To Create Demo Website</a></p>
+<p><strong>Note</strong>: The developer has kindly suggested that they would be willing to a pay-what-you-want option for students who use montaigne and need to point it to a custom domain. Their pricing suggests it is $2/mo, but please contact them over Twitter or email for subsidized custom domain pricing.</p>
 </div>
 </div>
 </div>
@@ -277,16 +285,62 @@ Summary of available website building options: sorted from most to least recomme
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>Website</strong>:</p>
-<p><strong>My Fork</strong>: <a href="https://github.com/mimansajaiswal/demo-astro-notion-blog">Demo Astro Notion Blog Github Source</a></p>
-<p><strong>Note</strong>: If you are okay with one time setup of github actions and github environment variables, this would be my recommended go to option. You can point it to a <code>username.github.io</code> domain or add a custom domain. You can deploy manually or on a cron schedule.</p>
+<p><strong>Website</strong>: <a href="https://github.com/otoyo/astro-notion-blog">Original Github Source</a></p>
+<p><strong>My Fork</strong>: <a href="https://github.com/mimansajaiswal/demo-astro-notion-blog">Modified Astro Notion Blog Github Source</a></p>
 <p><strong>Demo Website</strong>: <a href="https://mimansajaiswal.github.io/demo-astro-notion-blog/">Demo Website Using Astro Notion</a></p>
 <p><strong>Demo Content</strong>: <a href="https://template-collector-mj.notion.site/5e35b59e7a0447a78b7b793ab63250a0">Template To Create Demo Website</a></p>
+<p><strong>Note</strong>: If you are okay with one time setup of github actions and github environment variables, this would be my recommended go to option. You can point it to a <code>username.github.io</code> domain or add a custom domain. You can deploy manually or on a cron schedule.</p>
 </div>
 </div>
 </div>
 <p>Many of us now write in Notion. Yes, github static pages exist, but they aren’t collaborative, they are a pain to edit, they aren’t visual enough, you cannot talk through comments (no, I do not want to read through issues for a blog post, thank you).</p>
 <p>Notion to Astro solves all of that. It gives you a writing environment in Notion, but renders it as a website through Astro. It allows you for ample customization by customizing the astro files and the associated CSS unlike montaigne.</p>
+<section id="example-website-1" class="level2">
+<h2 class="anchored" data-anchor-id="example-website-1">Example Website</h2>
+<p>The default notion to astro effort is rendering of a collection on the main page. The only problem with that structure is that most of us have an index file that is a list of things we do, and then a blog post. Many academic websites have no blog posts. So, I modified the template to suit the general style of academic websites. You can play around with it <a href="https://mimansajaiswal.github.io/demo-astro-notion-blog/">here</a>.</p>
+<p>There are a few other additions too! I really loved the <a href="https://astro-theme-cactus.netlify.app/">Astro Cactus theme</a> and the search functionality it provides. So, I used their code for <a href="https://pagefind.app/">Pagefind</a> and integrated it into the original source code. If you are someone who is okay with editing JS files directly or proficient with Astro, you can find that theme <a href="https://github.com/chrismwilliams/astro-theme-cactus">here</a>. Now that did not have giscus. And I wanted giscus, because that is what I am using for my current websites, and I’ll explain my workflow in detail in the [#Quarto] section, but if everything aligns, I will happily switch to using this method. So, I integrated giscus based off this <a href="https://github.com/piero-vic/pierolescano.com">repo</a>.</p>
+<p>Yes, this is a hacked together repo, because I understand code, but I do not have it in me to figure out how astro works. No, GPT4 did not help much with the understanding part of the equation.</p>
+</section>
+<section id="supported-content-1" class="level2">
+<h2 class="anchored" data-anchor-id="supported-content-1">Supported Content</h2>
+<p>Notion supports a ton of stuff, and so does the original repo from Otoyo. Here is the <a href="https://astro-notion-blog.pages.dev/posts/supported-blocks/">original page</a> of supported content. In comparison to montaigne, it supports a ton of extra blocks, just because it is based off Notion (Apple Notes is feature limited, not montaigne’s fault in this case). Specifically, as extras, it supports twitter embeds, link previews and bookmarks, code blocks with syntax highlights, synced blocks, toggles, files, callouts and highlights! What it is missing? Well, it does not support RSS feed or QR code and does not come with a supported footer section.</p>
+</section>
+<section id="tldr-1" class="level2">
+<h2 class="anchored" data-anchor-id="tldr-1">tl;dr</h2>
+<p>If you are comfortable with github at all, and are okay setting up actions and environment variables (and creating an integration key in Notion), I will suggest this option. It is a one time option, it never needs to be touched again in a code format, it requires no push and pull. And if you are worried about what happens when Notion goes down, you can export your content in .md files and host it elsewhere 5 years later. As I said, this document is meant for pseudo-owning your content and convenience/accessibility. It ain’t meant for “what happens when Notion no longer exists in 10 years, and my exports are not perfect”.</p>
+</section>
+</section>
+<section id="decap-cms-or-cloud-cannon" class="level1">
+<h1>Decap CMS or Cloud Cannon</h1>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Website</strong>: <a href="https://decapcms.org/">Decap CMS</a> or <a href="https://cloudcannon.com/">Cloud Cannon</a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="quarto" class="level1">
+<h1>Quarto</h1>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Website</strong>: <a href="https://quarto.org/">Quarto Official Website</a> and <a href="https://quarto.org/docs/websites/">Using Quarto for Creating Websites</a></p>
+<p><strong>Demo Website</strong>: <a href="mimansajaiswal.github.io">You are on it!</a></p>
+<p><strong>Demo Source Code</strong>: <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io">Github Repo</a></p>
+<p><strong>Note</strong>: If you are okay with editing your website completely in markdown online, or creating a mirrored local repo and using the visual editor for Quarto in VS Code, then pushing the changes to github, you will do fine with Quarto. You almost always do not need such a complicated website, and it requires a ton of CSS to make it look good (feel free to copy mine), but it works with YAML and that is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/single_page/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
 
 
 </section>

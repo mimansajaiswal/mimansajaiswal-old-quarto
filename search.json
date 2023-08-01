@@ -399,6 +399,27 @@
     "text": "tl;dr\nHonestly, I cannot recommend this option enough. The domain would cost you a bit (maybe $10/year), if you go the custom domain route, but the ease of updating your website in a second beats any other options."
   },
   {
+    "objectID": "personal_notes/personal_academic_website.html#example-website-1",
+    "href": "personal_notes/personal_academic_website.html#example-website-1",
+    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "section": "Example Website",
+    "text": "Example Website\nThe default notion to astro effort is rendering of a collection on the main page. The only problem with that structure is that most of us have an index file that is a list of things we do, and then a blog post. Many academic websites have no blog posts. So, I modified the template to suit the general style of academic websites. You can play around with it here.\nThere are a few other additions too! I really loved the Astro Cactus theme and the search functionality it provides. So, I used their code for Pagefind and integrated it into the original source code. If you are someone who is okay with editing JS files directly or proficient with Astro, you can find that theme here. Now that did not have giscus. And I wanted giscus, because that is what I am using for my current websites, and I’ll explain my workflow in detail in the [#Quarto] section, but if everything aligns, I will happily switch to using this method. So, I integrated giscus based off this repo.\nYes, this is a hacked together repo, because I understand code, but I do not have it in me to figure out how astro works. No, GPT4 did not help much with the understanding part of the equation."
+  },
+  {
+    "objectID": "personal_notes/personal_academic_website.html#supported-content-1",
+    "href": "personal_notes/personal_academic_website.html#supported-content-1",
+    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "section": "Supported Content",
+    "text": "Supported Content\nNotion supports a ton of stuff, and so does the original repo from Otoyo. Here is the original page of supported content. In comparison to montaigne, it supports a ton of extra blocks, just because it is based off Notion (Apple Notes is feature limited, not montaigne’s fault in this case). Specifically, as extras, it supports twitter embeds, link previews and bookmarks, code blocks with syntax highlights, synced blocks, toggles, files, callouts and highlights! What it is missing? Well, it does not support RSS feed or QR code and does not come with a supported footer section."
+  },
+  {
+    "objectID": "personal_notes/personal_academic_website.html#tldr-1",
+    "href": "personal_notes/personal_academic_website.html#tldr-1",
+    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "section": "tl;dr",
+    "text": "tl;dr\nIf you are comfortable with github at all, and are okay setting up actions and environment variables (and creating an integration key in Notion), I will suggest this option. It is a one time option, it never needs to be touched again in a code format, it requires no push and pull. And if you are worried about what happens when Notion goes down, you can export your content in .md files and host it elsewhere 5 years later. As I said, this document is meant for pseudo-owning your content and convenience/accessibility. It ain’t meant for “what happens when Notion no longer exists in 10 years, and my exports are not perfect”."
+  },
+  {
     "objectID": "single_page/updates.html",
     "href": "single_page/updates.html",
     "title": "Updates",
