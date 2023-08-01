@@ -28,11 +28,11 @@ Another week of personal website debate on Twitter, another set of heavy compila
 
 4.  [Git Based CMS] if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.
 
-5.  [editable.website](https://editable.website/) if you want to edit the website easily, but are willing to spend time on the [first setup on fly.io](https://github.com/michael/editable-website#deployment-to-flyio).
+5.  [Google Sites](https://sites.google.com/) if you are okay with your data not being portable, but want a quick editing experience.
 
-6.  [Google Sites](https://sites.google.com/) if you are okay with your data not being portable, but want a quick editing experience.
+6.  Use [Astro](https://astro.build/) with [Dark Matter](https://getdarkmatter.dev/) (ping on [twitter](https://twitter.com/vadimdemedes/status/1681051391186329603) for access) if you are proficient with writing main page content in HTML, but want to write blog posts/collections in markdown. Suggested themes: [Astro Paper](https://github.com/satnaing/astro-paper) and [Astro Cactus](https://github.com/chrismwilliams/astro-theme-cactus).
 
-7.  Use [Astro](https://astro.build/) with [Dark Matter](https://getdarkmatter.dev/) (ping on [twitter](https://twitter.com/vadimdemedes/status/1681051391186329603) for access) if you are proficient with writing main page content in HTML, but want to write blog posts/collections in markdown. Suggested themes: [Astro Paper](https://github.com/satnaing/astro-paper) and [Astro Cactus](https://github.com/chrismwilliams/astro-theme-cactus).
+7.  [editable.website](https://editable.website/) if you want to edit the website easily, but are willing to spend time on the [first setup on fly.io](https://github.com/michael/editable-website#deployment-to-flyio).
 
 8.  Use [Hugo](https://gohugo.io/) or [Jekyll](https://jekyllrb.com/) (for example [Paper Mod](https://github.com/adityatelange/hugo-PaperMod)) if you trust yourself to keep up with the process required to maintain this website.
 :::
