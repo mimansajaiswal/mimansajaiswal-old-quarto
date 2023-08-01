@@ -66,7 +66,7 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of montaigne website.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Screenshot of website made in montaigne"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of montaigne website.png" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
+<p><a href="images/screenshot of montaigne website.png" class="lightbox" title="Screenshot of website made in montaigne" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of montaigne website.png" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
 <figcaption class="figure-caption">Screenshot of website made in montaigne</figcaption>
 </figure>
 </div>
@@ -111,7 +111,7 @@ Summary of available website building options: sorted from most to least recomme
 </section>
 <section id="supported-content-1" class="level2">
 <h2 class="anchored" data-anchor-id="supported-content-1">Supported Content</h2>
-<p>Notion supports a ton of stuff, and so does the original repo from Otoyo. Here is the <a href="https://astro-notion-blog.pages.dev/posts/supported-blocks/">original page</a> of supported content. In comparison to montaigne, it supports a ton of extra blocks, just because it is based off Notion (Apple Notes is feature limited, not montaigne’s fault in this case). Specifically, as extras, it supports twitter embeds, link previews and bookmarks, code blocks with syntax highlights, synced blocks, toggles, files, callouts and highlights! What it is missing? Well, it does not support RSS feed or QR code and does not come with a supported footer section.</p>
+<p>Notion supports a ton of stuff, and so does the original repo from Otoyo. Here is the <a href="https://astro-notion-blog.pages.dev/posts/supported-blocks/">original page</a> of supported content. In comparison to montaigne, it supports a ton of extra blocks, just because it is based off Notion (Apple Notes is feature limited, not montaigne’s fault in this case). Specifically, as extras, it supports twitter embeds, link previews and bookmarks, code blocks with syntax highlights, synced blocks, toggles, files, callouts and highlights!</p>
 </section>
 <section id="tldr-1" class="level2">
 <h2 class="anchored" data-anchor-id="tldr-1">tl;dr</h2>
@@ -149,7 +149,7 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of quarto website.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Screenshot of example website made in Quarto"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of quarto website.png" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
+<p><a href="images/screenshot of quarto website.png" class="lightbox" title="Screenshot of example website made in Quarto" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of quarto website.png" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
 <figcaption class="figure-caption">Screenshot of example website made in Quarto</figcaption>
 </figure>
 </div>
@@ -162,7 +162,7 @@ Summary of available website building options: sorted from most to least recomme
 <section id="supported-content-2" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="supported-content-2">Supported Content</h2>
 <div class="page-columns page-full"><p>Quarto supports all kinds of content, some through its internal modifications, and some through shortcodes or plugins. Some of the features I really like are footnotes<sup>1</sup> that show on hover and expanding table of contents (you can see it in action, if you open this post on desktop). It supports <a href="https://quarto.org/docs/authoring/callouts.html">callouts</a>, both in collapsible and expanded state. It supports side margin content, similar to footnotes, that I love to use to add more context. The side margin content automatically gets appended to main content on narrow devices. You can embed social media content using plugins. You can also add a lightbox functionality, especially if you add a lot of diagrams to your post and want them to be clickable and zoomable. You can add font awesome icon <i class="fa-solid fa-moon" aria-label="moon"></i> in middle of the sentence which looks way better than adding emojis 🌔. Here are the extensions I use for Quarto: <a href="https://github.com/quarto-ext/lightbox">Lightbox</a>, <a href="https://github.com/quarto-ext/fontawesome">Font Awesome</a>, <a href="https://github.com/sellorm/quarto-social-embeds/tree/main/_extensions/social-embeds">Social Embeds</a>, <a href="https://github.com/shafayetShafee/collapse-social-embeds">Collapse Social Embeds</a> and <a href="https://github.com/mloubout/critic-markup">Critic Markup</a>.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;This is footnote content that shows on hover! I can now speak on tangent without affecting the flow of the paragraph. Remember that the hover concept only works on desktop, but that is fine, who needs to read my tangential thoughts on mobile. The post is long enough in itself.</p></li></div></div>
-<p>While Quarto natively supports adding images and videos, you need to add them to a folder, and then insert using the visual editor into your note. You cannot do columns in Quarto in the visual mode. Because of these limitations, I have been writing posts in Notion and then converting them to qmd using <a href="https://github.com/innolitics/n2y">n2y</a> (or Notion to YAML). And this is the reason why I would prefer to be able to switch to Notion to Astro, because this convoluted process is no fun!</p>
+<p>While Quarto natively supports adding images and videos, you need to add them to a folder, and then insert using the visual editor into your note. You can add using the browse option and it auto adds the file to the images folder, but if you rename the image file name, it does not auto connect and rename the connection in the post, not my idea of fun. You cannot do columns in Quarto in the visual mode. Because of these limitations, I have been writing posts in Notion and then converting them to qmd using <a href="https://github.com/innolitics/n2y">n2y</a> (or Notion to YAML). And this is the reason why I would prefer to be able to switch to Notion to Astro, because this convoluted process is no fun!</p>
 <p>You can add runnable code cells in Quarto though, and none of the options mentioned here can do that, and if that is something you are looking for, especially for Data Viz people, nothing comes close.</p>
 </section>
 <section id="tldr-2" class="level2">
