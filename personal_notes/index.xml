@@ -32,18 +32,19 @@
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Summary of available website building options: sorted from most to least recommended
+Summary of available website building options: sorted from most to least recommended. Use:
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This document only talks about the first 4 options.</p>
+<p><em>This document only talks about the first 4 options.</em></p>
 <ol type="1">
-<li><p>Use Montaigne if you want the easiest option ever. (Apple Notes only, you can use icloud Apple Notes)</p></li>
-<li><p>Use Notion to Astro, if you want to write in Notion, and are okay setting up github actions once for automatic deployment.</p></li>
-<li><p>Use <a href="https://decapcms.org/">Decap CMS</a> or <a href="https://cloudcannon.com/">Cloud Cannon</a> if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.</p></li>
-<li><p>Use <a href="https://quarto.org/">Quarto</a> (how <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io">this website</a> is made) if you want heavy LaTeX support and the ability to embed runnable visualizations/code in your document.</p></li>
-<li><p>Use <a href="https://editable.website/">editable.website</a> if you want to edit the website easily, but are willing to spend time on the <a href="https://github.com/michael/editable-website#deployment-to-flyio">first setup on fly.io</a>.</p></li>
-<li><p>Use <a href="https://sites.google.com/">Google Sites</a> if you are okay with your data not being portable, but want a quick editing experience.</p></li>
+<li><p>Montaigne if you want the easiest option ever. (Apple Notes only, you can use icloud Apple Notes)</p></li>
+<li><p>Notion to Astro, if you want to write in Notion, and are okay setting up github actions once for automatic deployment.</p></li>
+<li><p>Decap CMS or Cloud Cannon if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.</p></li>
+<li><p><a href="https://quarto.org/">Quarto</a> (how <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io">this website</a> is made) if you want heavy LaTeX support and the ability to embed runnable visualizations/code in your document.</p></li>
+<li><p><a href="https://editable.website/">editable.website</a> if you want to edit the website easily, but are willing to spend time on the <a href="https://github.com/michael/editable-website#deployment-to-flyio">first setup on fly.io</a>.</p></li>
+<li><p><a href="https://sites.google.com/">Google Sites</a> if you are okay with your data not being portable, but want a quick editing experience.</p></li>
+<li><p>Use <a href="https://astro.build/">Astro</a> with <a href="https://getdarkmatter.dev/">Dark Matter</a> (ping on <a href="https://twitter.com/vadimdemedes/status/1681051391186329603">twitter</a> for access) if you are proficient with writing main page content in HTML, but want to write blog posts/collections in markdown. Suggested themes: <a href="https://github.com/satnaing/astro-paper">Astro Paper</a> and <a href="https://github.com/chrismwilliams/astro-theme-cactus">Astro Cactus</a>.</p></li>
 <li><p>Use <a href="https://gohugo.io/">Hugo</a> or <a href="https://jekyllrb.com/">Jekyll</a> (for example <a href="https://github.com/adityatelange/hugo-PaperMod">Paper Mod</a>) if you trust yourself to keep up with the process required to maintain this website.</p></li>
 </ol>
 </div>
@@ -99,7 +100,7 @@ Summary of available website building options: sorted from most to least recomme
 <section id="example-website-1" class="level2">
 <h2 class="anchored" data-anchor-id="example-website-1">Example Website</h2>
 <p>The default notion to astro effort is rendering of a collection on the main page. The only problem with that structure is that most of us have an index file that is a list of things we do, and then a blog post. Many academic websites have no blog posts. So, I modified the template to suit the general style of academic websites. You can play around with it <a href="https://mimansajaiswal.github.io/demo-astro-notion-blog/">here</a>.</p>
-<p>There are a few other additions too! I really loved the <a href="https://astro-theme-cactus.netlify.app/">Astro Cactus theme</a> and the search functionality it provides. So, I used their code for <a href="https://pagefind.app/">Pagefind</a> and integrated it into the original source code. If you are someone who is okay with editing JS files directly or proficient with Astro, you can find that theme <a href="https://github.com/chrismwilliams/astro-theme-cactus">here</a>. Now that did not have giscus. And I wanted giscus, because that is what I am using for my current websites, and I’ll explain my workflow in detail in the [#Quarto] section, but if everything aligns, I will happily switch to using this method. So, I integrated giscus based off this <a href="https://github.com/piero-vic/pierolescano.com">repo</a>.</p>
+<p>There are a few other additions too! I really loved the <a href="https://astro-theme-cactus.netlify.app/">Astro Cactus theme</a> and the search functionality it provides. So, I used their code for <a href="https://pagefind.app/">Pagefind</a> and integrated it into the original source code. If you are someone who is okay with editing JS files directly or proficient with Astro, you can find that theme <a href="https://github.com/chrismwilliams/astro-theme-cactus">here</a>. Another theme I will suggest for people who want to create in Astro rather than in Hugo/Jekyll is <a href="https://github.com/satnaing/astro-paper">Astro Paper</a>. Astro cactus did not have giscus. And I wanted giscus, because that is what I am using for my current websites, and I’ll explain my workflow in detail in the [#Quarto] section, but if everything aligns, I will happily switch to using this method. So, I integrated giscus based off this <a href="https://github.com/piero-vic/pierolescano.com">repo</a>.</p>
 <p>Yes, this is a hacked together repo, because I understand code, but I do not have it in me to figure out how astro works. No, GPT4 did not help much with the understanding part of the equation.</p>
 </section>
 <section id="supported-content-1" class="level2">
