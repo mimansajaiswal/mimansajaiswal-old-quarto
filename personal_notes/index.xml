@@ -66,7 +66,7 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of montaigne website.png" class="lightbox" title="Screenshot of website made in montaigne" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of montaigne website.png" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
+<p><a href="images/screenshot of montaigne website.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Screenshot of website made in montaigne"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of montaigne website.png" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
 <figcaption class="figure-caption">Screenshot of website made in montaigne</figcaption>
 </figure>
 </div>
@@ -78,7 +78,7 @@ Summary of available website building options: sorted from most to least recomme
 </section>
 <section id="supported-content" class="level2">
 <h2 class="anchored" data-anchor-id="supported-content">Supported Content</h2>
-<p>What all can you do using Apple Notes? Well a ton! You can customize your menu, headers etc. You can use images, videos, embeds, headings that have anchors. Take a look <a href="https://mimansajaiswal.montaigne.io/research-notes/new-research-note">here</a>! Yes, the tags are clickable and filterable! You can do folders. It comes integrated with an RSS feed, quick links to your profiles in the footer, and a QR code to add on your research posters for someone to quick access your personal website.</p>
+<p>What all can you do using Apple Notes? Well a ton! You can customize your menu, headers etc. You can use images, videos, embeds, headings that have anchors. Take a look <a href="https://mimansajaiswal.montaigne.io/research-notes/new-research-note">here</a>! Yes, the tags are clickable and filterable! You can do folders. It comes integrated with an RSS feed, quick links to your profiles in the footer, and a QR code to add on your research posters for someone to quick access your personal website. You can also create links to other apple notes using Shortcuts or <a href="https://mac.montaigne.io/">this MacOS app</a>. From iOS 17 and MacOS 14 onwards, native linking is available inside the app.</p>
 </section>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">tl;dr</h2>
@@ -149,7 +149,7 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of quarto website.png" class="lightbox" title="Screenshot of example website made in Quarto" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of quarto website.png" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
+<p><a href="images/screenshot of quarto website.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Screenshot of example website made in Quarto"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of quarto website.png" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
 <figcaption class="figure-caption">Screenshot of example website made in Quarto</figcaption>
 </figure>
 </div>
