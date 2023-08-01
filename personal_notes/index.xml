@@ -39,7 +39,7 @@ Summary of available website building options: sorted from most to least recomme
 <p>This document only talks about the first 4 options.</p>
 <ol type="1">
 <li><p>Use Montaigne if you want the easiest option ever. (Apple Notes only, you can use icloud Apple Notes)</p></li>
-<li><p>Use <a href="https://github.com/otoyo/astro-notion-blog">astro to notion</a>, if you want to write in Notion, and are okay setting up github actions once for automatic deployment.</p></li>
+<li><p>Use Notion to Astro, if you want to write in Notion, and are okay setting up github actions once for automatic deployment.</p></li>
 <li><p>Use <a href="https://decapcms.org/">decapcms</a> if you want to set up the website on netifly, and then edit the content anytime in wysiwyg structure.</p></li>
 <li><p>Use <a href="https://quarto.org/">Quarto</a> (how <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io">this website</a> is made) if you want heavy LaTeX support and the ability to embed runnable visualizations/code in your document.</p></li>
 <li><p>Use <a href="https://editable.website/">editable.website</a> if you want to edit the website easily, but are willing to spend time on the first setup on fly.io.</p></li>
@@ -56,8 +56,10 @@ Summary of available website building options: sorted from most to least recomme
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Website: <a href="https://montaigne.io/">montaigne</a></p>
-<p>Note: The developer has kindly suggested that they would be willing to a <code>pay-what-you-want</code> option for students who use montaigne and need to point it to a custom domain. Their pricing suggests it is $2/mo, but please contact them over <a href="https://twitter.com/montaigne_io">Twitter</a> or <a href="mailto:hello@montaigne.io">email</a> for subsidized custom domain pricing.</p>
+<p><strong>Website</strong>: <a href="https://montaigne.io/">montaigne</a></p>
+<p><strong>Note</strong>: The developer has kindly suggested that they would be willing to a <code>pay-what-you-want</code> option for students who use montaigne and need to point it to a custom domain. Their pricing suggests it is $2/mo, but please contact them over <a href="https://twitter.com/montaigne_io">Twitter</a> or <a href="mailto:hello@montaigne.io">email</a> for subsidized custom domain pricing.</p>
+<p>Demo Website: <a href="https://mimansajaiswal.montaigne.io/">Demo Website Created Using Montaigne</a></p>
+<p>Demo content: <a href="https://www.icloud.com/notes/015MtzesWUvmeenWEvIgjN2-g#mimansajaiswal.montaigne">Apple Notes Folder Used To Create Demo Website</a></p>
 </div>
 </div>
 </div>
@@ -74,9 +76,28 @@ Summary of available website building options: sorted from most to least recomme
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">tl;dr</h2>
 <p>Honestly, I cannot recommend this option enough. The domain would cost you a bit (maybe $10/year), if you go the custom domain route, but the ease of updating your website in a second beats any other options.</p>
-
-
 </section>
+</section>
+<section id="notion-to-astro" class="level1">
+<h1>Notion to Astro</h1>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Website</strong>:</p>
+<p><strong>My Fork</strong>: <a href="https://github.com/mimansajaiswal/demo-astro-notion-blog">Demo Astro Notion Blog Github Source</a></p>
+<p><strong>Note</strong>: If you are okay with one time setup of github actions and github environment variables, this would be my recommended go to option. You can point it to a <code>username.github.io</code> domain or add a custom domain. You can deploy manually or on a cron schedule.</p>
+<p><strong>Demo Website</strong>: <a href="https://mimansajaiswal.github.io/demo-astro-notion-blog/">Demo Website Using Astro Notion</a></p>
+<p><strong>Demo Content</strong>: <a href="https://template-collector-mj.notion.site/5e35b59e7a0447a78b7b793ab63250a0">Template To Create Demo Website</a></p>
+</div>
+</div>
+</div>
+<p>Many of us now write in Notion. Yes, github static pages exist, but they aren’t collaborative, they are a pain to edit, they aren’t visual enough, you cannot talk through comments (no, I do not want to read through issues for a blog post, thank you).</p>
+<p>Notion to Astro solves all of that. It gives you a writing environment in Notion, but renders it as a website through Astro. It allows you for ample customization by customizing the astro files and the associated CSS unlike montaigne.</p>
+
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
