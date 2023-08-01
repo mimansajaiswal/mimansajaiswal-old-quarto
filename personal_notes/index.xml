@@ -40,7 +40,7 @@ Summary of available website building options: sorted from most to least recomme
 <ol type="1">
 <li><p>Montaigne if you want the easiest option ever. (Apple Notes only, you can use icloud Apple Notes)</p></li>
 <li><p>Notion to Astro, if you want to write in Notion, and are okay setting up github actions once for automatic deployment.</p></li>
-<li><p>Decap CMS or Cloud Cannon if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.</p></li>
+<li><p>Git Based CMS if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.</p></li>
 <li><p><a href="https://quarto.org/">Quarto</a> (how <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io">this website</a> is made) if you want heavy LaTeX support and the ability to embed runnable visualizations/code in your document.</p></li>
 <li><p><a href="https://editable.website/">editable.website</a> if you want to edit the website easily, but are willing to spend time on the <a href="https://github.com/michael/editable-website#deployment-to-flyio">first setup on fly.io</a>.</p></li>
 <li><p><a href="https://sites.google.com/">Google Sites</a> if you are okay with your data not being portable, but want a quick editing experience.</p></li>
@@ -63,6 +63,12 @@ Summary of available website building options: sorted from most to least recomme
 <p><strong>Note</strong>: The developer has kindly suggested that they would be willing to a pay-what-you-want option for students who use montaigne and need to point it to a custom domain. Their pricing suggests it is $2/mo, but please contact them over Twitter or email for subsidized custom domain pricing.</p>
 </div>
 </div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Screenshot 2023-07-31 at 9.10.34 PM.png" class="lightbox" title="Screenshot of website made in montaigne" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/personal_notes/images/Screenshot 2023-07-31 at 9.10.34 PM.png" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
+<figcaption class="figure-caption">Screenshot of website made in montaigne</figcaption>
+</figure>
 </div>
 <p>I knew about montaigne for around 4 months, but never gave it a serious look. Who wants a website made out of their Apple Notes, with no customization and not much to look at? Oh well, I was wrong!</p>
 <section id="example-website" class="level2">
@@ -112,18 +118,19 @@ Summary of available website building options: sorted from most to least recomme
 <p>If you are comfortable with github at all, and are okay setting up actions and environment variables (and creating an integration key in Notion), I will suggest this option. It is a one time option, it never needs to be touched again in a code format, it requires no push and pull. And if you are worried about what happens when Notion goes down, you can export your content in .md files and host it elsewhere 5 years later. As I said, this document is meant for pseudo-owning your content and convenience/accessibility. It ain’t meant for “what happens when Notion no longer exists in 10 years, and my exports are not perfect”.</p>
 </section>
 </section>
-<section id="decap-cms-or-cloud-cannon" class="level1">
-<h1>Decap CMS or Cloud Cannon</h1>
+<section id="git-based-cms" class="level1">
+<h1>Git Based CMS</h1>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>Website</strong>: <a href="https://decapcms.org/">Decap CMS</a> or <a href="https://cloudcannon.com/">Cloud Cannon</a></p>
+<p><strong>Website</strong>: <a href="https://decapcms.org/">Decap CMS</a>, <a href="https://cloudcannon.com/">Cloud Cannon</a>, <a href="https://tina.io/">tina</a>, <a href="https://contentrain.io/">Contentrain</a> and <a href="https://craftercms.org/">Crafter</a></p>
 </div>
 </div>
 </div>
+<p>This kind of deployment is called git based CMS. The idea is that people can edit it using git versioning systems or online. There are of course many options that I found: <a href="https://decapcms.org/">Decap CMS</a>, <a href="https://cloudcannon.com/">Cloud Cannon</a>, <a href="https://tina.io/">tina</a>, <a href="https://contentrain.io/">Contentrain</a> and <a href="https://craftercms.org/">Crafter</a>. I tested some of these and a few others. For example, <a href="https://www.siteleaf.com/">siteleaf</a> is something I would not recommend; just because how frustrating it is to get it to run on a https:// server.</p>
 </section>
 <section id="quarto" class="level1 page-columns page-full">
 <h1>Quarto</h1>
@@ -140,7 +147,13 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 </div>
 </div>
-<p>Quarto in general is awesome! It is easy to maintain, easy to deploy etc. It has a <a href="https://quarto.org/docs/visual-editor/vscode/">visual editor</a> if you sync the repo to your local computer. And honestly, that is not bad. It definitely suffers from being markdown based, i.e., if you need to do anything more than write content with basic formatting that CommonMark supports, you end up with class notations being in your .md files. So much for portable files, right?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/paste-1.png" class="lightbox" title="Screenshot of example website made in Quarto" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/personal_notes/images/paste-1.png" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
+<figcaption class="figure-caption">Screenshot of example website made in Quarto</figcaption>
+</figure>
+</div>
+<p>Quarto in general is awesome! It is easy to maintain, easy to deploy etc. You can edit in markdown mode online using <a href="https://docs.github.com/en/codespaces/the-githubdev-web-based-editor">github.dev</a>. It has a <a href="https://quarto.org/docs/visual-editor/vscode/">visual editor</a> if you sync the repo to your local computer. And honestly, that is not bad. It definitely suffers from being markdown based, i.e., if you need to do anything more than write content with basic formatting that CommonMark supports, you end up with class notations being in your .md files. So much for portable files, right?</p>
 <section id="example-website-2" class="level2">
 <h2 class="anchored" data-anchor-id="example-website-2">Example Website</h2>
 <p>The website you are reading it on, was built using quarto. The good part is, it works with YAML and .ejs files; and if you find a template you like, you can just edit the YAML to generate a listing or a HTML component. This is what has made me stick to quarto over other markdown based website editing options. YAML is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/single_page/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding or editing. Now, on the other hand, creating the .ejs files and the associated CSS required a ton of work, but if you like what you see on this site, feel free to copy <a href="https://mimansajaiswal.github.io/">mine</a>.</p>
@@ -148,12 +161,18 @@ Summary of available website building options: sorted from most to least recomme
 </section>
 <section id="supported-content-2" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="supported-content-2">Supported Content</h2>
-<div class="page-columns page-full"><p>Quarto supports all kinds of content, some through its internal modifications, and some through shortcodes or plugins. Some of the features I really like are footnotes<sup>1</sup> that show on hover. It supports <a href="https://quarto.org/docs/authoring/callouts.html">callouts</a>, both in collapsible and expanded state. It supports side margin content, similar to footnotes, that I love to use to add more context. The side margin content automatically gets appended to main content on narrow devices.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;This is footnote content that shows on hover! I can now speak on tangent without affecting the flow of the paragraph. Remember that the hover concept only works on desktop, but that is fine, who needs to read my tangential thoughts on mobile. The post is long enough in itself.</p></li></div></div>
+<div class="page-columns page-full"><p>Quarto supports all kinds of content, some through its internal modifications, and some through shortcodes or plugins. Some of the features I really like are footnotes<sup>1</sup> that show on hover and expanding table of contents (you can see it in action, if you open this post on desktop). It supports <a href="https://quarto.org/docs/authoring/callouts.html">callouts</a>, both in collapsible and expanded state. It supports side margin content, similar to footnotes, that I love to use to add more context. The side margin content automatically gets appended to main content on narrow devices. You can embed social media content using plugins. You can also add a lightbox functionality, especially if you add a lot of diagrams to your post and want them to be clickable and zoomable. You can add font awesome icon <i class="fa-solid fa-moon" aria-label="moon"></i> in middle of the sentence which looks way better than adding emojis 🌔. Here are the extensions I use for Quarto: <a href="https://github.com/quarto-ext/lightbox">Lightbox</a>, <a href="https://github.com/quarto-ext/fontawesome">Font Awesome</a>, <a href="https://github.com/sellorm/quarto-social-embeds/tree/main/_extensions/social-embeds">Social Embeds</a>, <a href="https://github.com/shafayetShafee/collapse-social-embeds">Collapse Social Embeds</a> and <a href="https://github.com/mloubout/critic-markup">Critic Markup</a>.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;This is footnote content that shows on hover! I can now speak on tangent without affecting the flow of the paragraph. Remember that the hover concept only works on desktop, but that is fine, who needs to read my tangential thoughts on mobile. The post is long enough in itself.</p></li></div></div>
+<p>While Quarto natively supports adding images and videos, you need to add them to a folder, and then insert using the visual editor into your note. You cannot do columns in Quarto in the visual mode. Because of these limitations, I have been writing posts in Notion and then converting them to qmd using <a href="https://github.com/innolitics/n2y">n2y</a> (or Notion to YAML). And this is the reason why I would prefer to be able to switch to Notion to Astro, because this convoluted process is no fun!</p>
+<p>You can add runnable code cells in Quarto though, and none of the options mentioned here can do that, and if that is something you are looking for, especially for Data Viz people, nothing comes close.</p>
+</section>
+<section id="tldr-2" class="level2">
+<h2 class="anchored" data-anchor-id="tldr-2">tl;dr</h2>
+<p>So, why do I not recommend it enough? Shortcodes, or margin content using bootstrap classes is no one’s idea of fun (or maybe it is). And I really do not want to add images first to the folder and then using markdown (or add to the folder and then insert using the visual editor). Quarto also has seriously slow loading times on mobile. But if these things are not a problem for you, and you want something that is capable enough, but still works with markdown, you should use Quarto (you can use my theme or a million others!).</p>
 </section>
 </section>
-<section id="tldr-2" class="level1">
+<section id="tldr-3" class="level1">
 <h1>tl;dr</h1>
-<p>For most people Montaigne is enough! And this is the option I recommend to most people who do not use git in their day to day life (and have an icloud account). If you are willing to dabble into some git technicalities, go with Notion to Astro. Want a deeply integrated CMS system, especially if you write a lot of blog posts, go with Decap CMS or Cloud Cannon. If you want some support for callouts, embeds, but are okay with using shortcodes and tend to do more technical writing, go with Quarto. If you are proficient enough in web development to edit HTML, do not care much about losing content if Google Sites goes down or want 100 of well crafted templates that are still hard to edit visually and require commands, check out options 5-8 in Summary of available website building options: sorted from most to least recommended. Use:.</p>
+<p>For most people Montaigne is enough! And this is the option I recommend to most people who do not use git in their day to day life (and have an icloud account). If you are willing to dabble into some git technicalities, go with Notion to Astro. Want a deeply integrated CMS system, especially if you write a lot of blog posts, go with Git Based CMS. If you want some support for callouts, embeds, but are okay with using shortcodes and tend to do more technical writing, go with Quarto. If you are proficient enough in web development to edit HTML, do not care much about losing content if Google Sites goes down or want 100 of well crafted templates that are still hard to edit visually and require commands, check out options 5-8 in Summary of available website building options: sorted from most to least recommended. Use:.</p>
 
 
 </section>
