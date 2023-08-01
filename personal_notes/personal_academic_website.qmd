@@ -151,6 +151,12 @@ Most default templates that are associated with any of these CMS systems, come w
 
 ![Creating and editing a personal website using Tina CMS with git workflow.](images/tinacmswebsite.mp4)
 
+For decap, I found two good options of templates that allowed to edit the base pages as well as the blog posts: [Eleventy Starter](https://github.com/danurbanowicz/eleventy-netlify-boilerplate) and [Gatsby Starter](https://github.com/thriveweb/yellowcake/). There is a [Hugo Starter](https://github.com/decaporg/one-click-hugo-cms) template as well if you really love Hugo.
+
+![Creating and editing a personal website using Decap CMS with git workflow (using Eleventy).](images/decapcmswebsite.mp4)
+
+As always, you can use custom domains with tina or netlify cms to have a better domain name.
+
 ## tl;dr
 
 If you are looking for something that just works like Wordpress and are okay with a limited range of templates, go ahead and try git based CMS platforms. Some of these are open source, some are proprietary; and some sync the built static site back to github while others don't. Ideally you want to pick the ones that sync the static site back or at least the content back to github, especially for portability reasons, otherwise, you are better off using just Google Sites.
