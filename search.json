@@ -445,7 +445,7 @@
     "href": "personal_notes/personal_academic_website.html#example-website-3",
     "title": "What is the easiest way to create AND maintain a personal academic website?",
     "section": "Example Website",
-    "text": "Example Website\nMost default templates that are associated with any of these CMS systems, come with the prerequisite of editing not the index content but instead collections (similar to any WYSIWYG editor for Astro). I found a few templates that allow you to edit the front page content too and you can see some setup demos here. tina’s default option is a completely editable website, and I recommend it.\n\n\nVideo\nCreating and editing a personal website using Tina CMS with git workflow."
+    "text": "Example Website\nMost default templates that are associated with any of these CMS systems, come with the prerequisite of editing not the index content but instead collections (similar to any WYSIWYG editor for Astro). I found a few templates that allow you to edit the front page content too and you can see some setup demos here. tina’s default option is a completely editable website, and I recommend it.\n\n\nVideo\nCreating and editing a personal website using Tina CMS with git workflow.\n\n\nFor decap, I found two good options of templates that allowed to edit the base pages as well as the blog posts: Eleventy Starter and Gatsby Starter. There is a Hugo Starter template as well if you really love Hugo.\n\n\nVideo\nCreating and editing a personal website using Decap CMS with git workflow (using Eleventy).\n\n\nAs always, you can use custom domains with tina or netlify cms to have a better domain name."
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#tldr-3",
