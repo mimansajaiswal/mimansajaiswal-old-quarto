@@ -24,9 +24,9 @@ Another week of personal website debate on Twitter, another set of heavy compila
 
 2.  [Notion to Astro], if you want to write in Notion, and are okay setting up github actions once for automatic deployment.
 
-3.  [Git Based CMS] if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.
+3.  [Quarto](https://quarto.org/) (how [this website](https://github.com/mimansajaiswal/mimansajaiswal.github.io) is made) if you want heavy LaTeX support and the ability to embed runnable visualizations/code in your document.
 
-4.  [Quarto](https://quarto.org/) (how [this website](https://github.com/mimansajaiswal/mimansajaiswal.github.io) is made) if you want heavy LaTeX support and the ability to embed runnable visualizations/code in your document.
+4.  [Git Based CMS] if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.
 
 5.  [editable.website](https://editable.website/) if you want to edit the website easily, but are willing to spend time on the [first setup on fly.io](https://github.com/michael/editable-website#deployment-to-flyio).
 
@@ -101,17 +101,8 @@ Notion supports a ton of stuff, and so does the original repo from Otoyo. Here i
 
 If you are comfortable with github at all, and are okay setting up actions and environment variables (and creating an integration key in Notion), I will suggest this option. It is a one time option, it never needs to be touched again in a code format, it requires no push and pull. And if you are worried about what happens when Notion goes down, you can export your content in .md files and host it elsewhere 5 years later. As I said, this document is meant for pseudo-owning your content and convenience/accessibility. It ain't meant for "what happens when Notion no longer exists in 10 years, and my exports are not perfect".
 
-# Git Based CMS
+# Quarto {data-link="Quarto"}
 
-::: {.callout-note appearance="minimal"}
-**Website**: [Decap CMS](https://decapcms.org/), [Cloud Cannon](https://cloudcannon.com/), [tina](https://tina.io/), [Contentrain](https://contentrain.io/) and [Crafter](https://craftercms.org/)
-:::
-
-This kind of deployment is called git based CMS. The idea is that people can edit it using git versioning systems or online. There are of course many options that I found: [Decap CMS](https://decapcms.org/), [Cloud Cannon](https://cloudcannon.com/), [tina](https://tina.io/), [Contentrain](https://contentrain.io/) and [Crafter](https://craftercms.org/). I tested some of these and a few others. For example, [siteleaf](https://www.siteleaf.com/) is something I would not recommend; just because how frustrating it is to get it to run on a https:// server.
-
-# Quarto
-
-::: {.callout-note appearance="minimal"}
 **Website**: [Quarto Official Website](https://quarto.org/) and [Using Quarto for Creating Websites](https://quarto.org/docs/websites/)
 
 **Demo Website**: [You are on it!](https://mimansajaiswal.github.io/)
@@ -119,7 +110,6 @@ This kind of deployment is called git based CMS. The idea is that people can edi
 **Demo Source Code**: [Github Repo](https://github.com/mimansajaiswal/mimansajaiswal.github.io)
 
 **Note**: If you are okay with editing your website completely in markdown online, or creating a mirrored local repo and using the visual editor for Quarto in VS Code, then pushing the changes to github, you will do fine with Quarto. You almost always do not need such a complicated website, and it requires a ton of CSS to make it look good (feel free to copy mine), but it works with YAML and that is immensely useful, especially for stuff like papers ([example](https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/single_page/papers.yaml)) or experience ([example](https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml)) that you just need to keep adding.
-:::
 
 ![Screenshot of example website made in Quarto](images/screenshot%20of%20quarto%20website.png){fig-alt="Screenshot of example website made in Quarto" width="710"}
 
@@ -144,6 +134,26 @@ You can add runnable code cells in Quarto though, and none of the options mentio
 ## tl;dr
 
 So, why do I not recommend it enough? Shortcodes, or margin content using bootstrap classes is no one's idea of fun (or maybe it is). And I really do not want to add images first to the folder and then using markdown (or add to the folder and then insert using the visual editor). Quarto also has seriously slow loading times on mobile. But if these things are not a problem for you, and you want something that is capable enough, but still works with markdown, you should use Quarto (you can use my theme or a million others!).
+
+# Git Based CMS
+
+::: {.callout-note appearance="minimal"}
+**Website**: [Decap CMS](https://decapcms.org/) and [tina](https://tina.io/)
+:::
+
+This kind of deployment is called git based CMS. The idea is that people can edit it using git versioning systems or online. There are of course many options that I found: [Decap CMS](https://decapcms.org/), [Cloud Cannon](https://cloudcannon.com/), [tina](https://tina.io/), [Contentrain](https://contentrain.io/) and [Crafter](https://craftercms.org/). I tested some of these and a few others. For example, [siteleaf](https://www.siteleaf.com/) is something I would not recommend; just because how frustrating it is to get it to run on a https:// server. The two **I would recommend** are [Decap CMS](https://decapcms.org/) and [tina](https://tina.io/), because they are open source, highly customizable, generous free plans, and provide local as well as cloud installations.
+
+Most git CMS based templates (for example, [this portfolio template](https://github.com/gxanshu/astro-decap-cms-starter)) only allow you to edit the contents or blog posts in a visual manner or through CMS and at that point, I would suggest you to use [Quarto] instead. Because what people are mostly editing is the index, and not necessarily the blogpost content. Most academics don't write blogposts at all and what good is a WYSIWYG solution if you are writing arrays to update your paper listings. This is the only reason Git based CMS is below Quarto in terms of simplicity.
+
+## Example Website
+
+Most default templates that are associated with any of these CMS systems, come with the prerequisite of editing not the index content but instead collections (similar to any WYSIWYG editor for Astro). I found a few templates that allow you to edit the front page content too and you can see some setup demos here. [tina](https://tina.io/)'s [default option](https://app.tina.io/quickstart) is a completely editable website, and I recommend it.
+
+![Creating and editing a personal website using Tina CMS with git workflow.](images/tinacmswebsite.mp4)
+
+## tl;dr
+
+If you are looking for something that just works like Wordpress and are okay with a limited range of templates, go ahead and try git based CMS platforms. Some of these are open source, some are proprietary; and some sync the built static site back to github while others don't. Ideally you want to pick the ones that sync the static site back or at least the content back to github, especially for portability reasons, otherwise, you are better off using just Google Sites.
 
 # tl;dr
 
