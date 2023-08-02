@@ -66,7 +66,7 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of montaigne website.png" class="lightbox" title="Screenshot of website made in montaigne" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of montaigne website.png" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
+<p><a href="images/screenshot of montaigne website.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Screenshot of website made in montaigne"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of montaigne website.png" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
 <figcaption class="figure-caption">Screenshot of website made in montaigne</figcaption>
 </figure>
 </div>
@@ -126,7 +126,7 @@ Summary of available website building options: sorted from most to least recomme
 <p><strong>Note</strong>: If you are okay with editing your website completely in markdown online, or creating a mirrored local repo and using the visual editor for Quarto in VS Code, then pushing the changes to github, you will do fine with Quarto. You almost always do not need such a complicated website, and it requires a ton of CSS to make it look good (feel free to copy mine), but it works with YAML and that is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/single_page/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of quarto website.png" class="lightbox" title="Screenshot of example website made in Quarto" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of quarto website.png" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
+<p><a href="images/screenshot of quarto website.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Screenshot of example website made in Quarto"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of quarto website.png" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
 <figcaption class="figure-caption">Screenshot of example website made in Quarto</figcaption>
 </figure>
 </div>
@@ -166,14 +166,14 @@ Summary of available website building options: sorted from most to least recomme
 <p>Most default templates that are associated with any of these CMS systems, come with the prerequisite of editing not the index content but instead collections (similar to any WYSIWYG editor for Astro). I found a few templates that allow you to edit the front page content too and you can see some setup demos here. <a href="https://tina.io/">tina</a>’s <a href="https://app.tina.io/quickstart">default option</a> is a completely editable website, and I recommend it.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/tinacmswebsite.mp4" class="lightbox" title="Creating and editing a personal website using Tina CMS with git workflow." data-gallery="quarto-lightbox-gallery-3"><video src="images/tinacmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/tinacmswebsite.mp4">Video</a></p>
+<p><a href="images/tinacmswebsite.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Creating and editing a personal website using Tina CMS with git workflow."><video src="images/tinacmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/tinacmswebsite.mp4">Video</a></p>
 <figcaption class="figure-caption">Creating and editing a personal website using Tina CMS with git workflow.</figcaption>
 </figure>
 </div>
 <p>For decap, I found two good options of templates that allowed to edit the base pages as well as the blog posts: <a href="https://github.com/danurbanowicz/eleventy-netlify-boilerplate">Eleventy Starter</a> and <a href="https://github.com/thriveweb/yellowcake/">Gatsby Starter</a>. There is a <a href="https://github.com/decaporg/one-click-hugo-cms">Hugo Starter</a> template as well if you really love Hugo.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/decapcmswebsite.mp4" class="lightbox" title="Creating and editing a personal website using Decap CMS with git workflow (using Eleventy)." data-gallery="quarto-lightbox-gallery-4"><video src="images/decapcmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/decapcmswebsite.mp4">Video</a></p>
+<p><a href="images/decapcmswebsite.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Creating and editing a personal website using Decap CMS with git workflow (using Eleventy)."><video src="images/decapcmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/decapcmswebsite.mp4">Video</a></p>
 <figcaption class="figure-caption">Creating and editing a personal website using Decap CMS with git workflow (using Eleventy).</figcaption>
 </figure>
 </div>
@@ -186,7 +186,7 @@ Summary of available website building options: sorted from most to least recomme
 </section>
 <section id="tldr-4" class="level1">
 <h1>tl;dr</h1>
-<p>For most people Montaigne is enough! And this is the option I recommend to most people who do not use git in their day to day life (and have an icloud account). If you are willing to dabble into some git technicalities, go with Notion to Astro. Want a deeply integrated CMS system, especially if you write a lot of blog posts, go with Git Based CMS. If you want some support for callouts, embeds, but are okay with using shortcodes and tend to do more technical writing, go with Quarto. If you are proficient enough in web development to edit HTML, do not care much about losing content if Google Sites goes down or want 100 of well crafted templates that are still hard to edit visually and require commands, check out options 5-8 in Summary of available website building options: sorted from most to least recommended. Use:.</p>
+<p>For most people Montaigne is enough! And this is the option I recommend to most people who do not use git in their day to day life (and have an icloud account). If you are willing to dabble into some git technicalities, go with Notion to Astro. Want a deeply integrated CMS system, especially if you write a lot of blog posts, go with Git Based CMS. If you want some support for callouts, embeds, but are okay with using shortcodes and tend to do more technical writing, go with Quarto. If you are proficient enough in web development to edit HTML, do not care much about losing content if Google Sites goes down or want 100 of well crafted templates that are still hard to edit visually and require commands, check out options 5-8 in Summary of available website building options: sorted from most to least recommended. Use:. If you do not want to write markdown or shortcodes to include a video in your post, stick to Montaigne or Notion to Astro.</p>
 
 
 </section>
