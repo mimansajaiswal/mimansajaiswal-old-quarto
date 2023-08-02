@@ -30,7 +30,7 @@ Another week of personal website debate on Twitter, another set of heavy compila
 
 5.  [Google Sites](https://sites.google.com/) if you are okay with your data not being portable, but want a quick editing experience.
 
-6.  Use [Astro](https://astro.build/) with [Dark Matter](https://getdarkmatter.dev/) (ping on [twitter](https://twitter.com/vadimdemedes/status/1681051391186329603) for access) if you are proficient with writing main page content in HTML, but want to write blog posts/collections in markdown. Suggested themes: [Astro Paper](https://github.com/satnaing/astro-paper) and [Astro Cactus](https://github.com/chrismwilliams/astro-theme-cactus).
+6.  Use [Astro](https://astro.build/) with [Dark Matter](https://getdarkmatter.dev/) (ping on [twitter](https://twitter.com/vadimdemedes/status/1681051391186329603) for access) if you are proficient with writing main page content in HTML (you might get lucky with all .md based tempaltes like [this one](https://github.com/JoshuaKGoldberg/joshuakgoldberg-dot-com)), but want to write blog posts/collections in markdown. Suggested themes: [Astro Paper](https://github.com/satnaing/astro-paper) and [Astro Cactus](https://github.com/chrismwilliams/astro-theme-cactus).
 
 7.  [editable.website](https://editable.website/) if you want to edit the website easily, but are willing to spend time on the [first setup on fly.io](https://github.com/michael/editable-website#deployment-to-flyio).
 
