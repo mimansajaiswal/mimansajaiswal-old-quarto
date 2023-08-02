@@ -8,10 +8,6 @@
     "items": []
   },
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
     "listing": "/notes/index.html",
     "items": [
       "/notes/case-of-llm-evals.html",
@@ -19,6 +15,16 @@
       "/notes/capstone.html",
       "/notes/explanation_annotation_interfaces.html",
       "/notes/controlled_evaluation_of_explanations.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/stream/index.html",
+    "items": [
+      "/stream/the_two_year_tragedy.html"
     ]
   },
   {
@@ -31,11 +37,5 @@
   {
     "listing": "/single_page/updates.html",
     "items": []
-  },
-  {
-    "listing": "/stream/index.html",
-    "items": [
-      "/stream/the_two_year_tragedy.html"
-    ]
   }
 ]
