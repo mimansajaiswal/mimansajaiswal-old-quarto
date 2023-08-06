@@ -16,7 +16,7 @@
 <height>92</height>
 <width>144</width>
 </image>
-<generator>quarto-1.3.433</generator>
+<generator>quarto-1.3.450</generator>
 <lastBuildDate>Mon, 31 Jul 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>What is the easiest way to create AND maintain a personal academic website?</title>
@@ -39,6 +39,7 @@ Summary of available website building options: sorted from most to least recomme
 <p><em>This document only talks about the first 4 options.</em></p>
 <ol type="1">
 <li><p>Montaigne if you want the easiest option ever. (Apple Notes only, you can use icloud Apple Notes)</p></li>
+<li><p><a href="https://blot.im/" class="uri">https://blot.im/</a></p></li>
 <li><p>Notion to Astro, if you want to write in Notion, and are okay setting up github actions once for automatic deployment.</p></li>
 <li><p><a href="https://quarto.org/">Quarto</a> (how <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io">this website</a> is made) if you want heavy LaTeX support and the ability to embed runnable visualizations/code in your document.</p></li>
 <li><p>Git Based CMS if you want to host the static site elsewhere, but sync the content (editable in wysiwyg) with github.</p></li>
