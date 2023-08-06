@@ -14,6 +14,18 @@ website:
   favicon: favicon.ico
   site-url: https://mimansajaiswal.github.io
   google-analytics: UA-129147840-1
+  page-footer:
+    center: 
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: notes/index.qmd
+      - text: "Publications"
+        href: single_page/papers.qmd
+      - text: "Resume"
+        href: https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view
+      - text: "Email"
+        href: mailto:mimansa@umich.edu
   open-graph:
     title: "Mimansa Jaiswal"
     image: "preview.png"
