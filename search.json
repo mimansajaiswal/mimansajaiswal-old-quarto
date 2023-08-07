@@ -361,89 +361,89 @@
     "href": "personal_notes/index.html",
     "title": "Personal Notes",
     "section": "",
-    "text": "Quick Navigation\n\n\n\nHomepage, Email, Resume, Research Notes, and, Publications\n\n\n\nThis is a just a bunch of posts about life, tools, productivity, preferences etc. More like a get to know me beyond research zone.\n\n\n\n\n\n\n\n\n\n\nWhat is the easiest way to create AND maintain a personal academic website?\n\n\n\n\n\n\n\nTools\n\n\nWebsite\n\n\nAcademia\n\n\n\n\n\n\n\n\n\n\n\n07-31-2023\n\n\n\n\n\n\n\n\nWhat softwares do I actually use on my Mac as a software enthusiast?\n\n\n\n\n\n\n\nTools\n\n\nMacOS\n\n\nSoftwares\n\n\n\n\n\n\n\n\n\n\n\n07-25-2023\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Quick Navigation\n\n\n\nHomepage, Email, Resume, Research Notes, and, Publications\n\n\n\nThis is a just a bunch of posts about life, tools, productivity, preferences etc. More like a get to know me beyond research zone.\n\n\n\n\n\n\n\n\n\n\nWhat is the cheapest and easiest way to create AND maintain a personal academic website?\n\n\n\n\n\n\n\nTools\n\n\nWebsite\n\n\nAcademia\n\n\n\n\n\n\n\n\n\n\n\n07-31-2023\n\n\n\n\n\n\n\n\nWhat softwares do I actually use on my Mac as a software enthusiast?\n\n\n\n\n\n\n\nTools\n\n\nMacOS\n\n\nSoftwares\n\n\n\n\n\n\n\n\n\n\n\n07-25-2023\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "personal_notes/personal_academic_website.html",
     "href": "personal_notes/personal_academic_website.html",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "",
     "text": "Another week of personal website debate on Twitter, another set of heavy compilation based suggestions to create and maintain a personal website. So, I decided to take a look at all the recent website builders and provide a set of recommendations. If you do not want to read this in entirety, my suggestions can be summarized below:"
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#example-website",
     "href": "personal_notes/personal_academic_website.html#example-website",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "Example Website",
     "text": "Example Website\nHere is the website I made using montaigne. Man, it works! There is nothing missing in it, that I would need on a personal website! Sure, it does not have comments using giscus as I do, but who really needs that? Yes, the domain is hard to spell, but, the developer very kindly offered a pay what you want pricing for custom domains. Yes, you cannot host it on github, but the content is all in Apple Notes. The day montaigne goes down, you will still have all your content with you and be able to port it elsewhere.\nIf you want to figure out what the source notes requires or needs, I even made the folder of notes that I use to create the website public (Link)."
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#supported-content",
     "href": "personal_notes/personal_academic_website.html#supported-content",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "Supported Content",
     "text": "Supported Content\nWhat all can you do using Apple Notes? Well a ton! You can customize your menu, headers etc. You can use images, videos, embeds, headings that have anchors. Take a look here! Yes, the tags are clickable and filterable! You can do folders. It comes integrated with an RSS feed, quick links to your profiles in the footer, and a QR code to add on your research posters for someone to quick access your personal website. You can also create links to other apple notes using Shortcuts or this MacOS app. From iOS 17 and MacOS 14 onwards, native linking is available inside the app."
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#tldr",
     "href": "personal_notes/personal_academic_website.html#tldr",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "tl;dr",
     "text": "tl;dr\nHonestly, I cannot recommend this option enough. The domain would cost you a bit (maybe $10/year), if you go the custom domain route, but the ease of updating your website in a second beats any other options."
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#example-website-1",
     "href": "personal_notes/personal_academic_website.html#example-website-1",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "Example Website",
     "text": "Example Website\nThe default notion to astro effort is rendering of a collection on the main page. The only problem with that structure is that most of us have an index file that is a list of things we do, and then a blog post. Many academic websites have no blog posts. So, I modified the template to suit the general style of academic websites. You can play around with it here.\nThere are a few other additions too! I really loved the Astro Cactus theme and the search functionality it provides. So, I used their code for Pagefind and integrated it into the original source code. If you are someone who is okay with editing JS files directly or proficient with Astro, you can find that theme here. Another theme I will suggest for people who want to create in Astro rather than in Hugo/Jekyll is Astro Paper. Astro cactus did not have giscus. And I wanted giscus, because that is what I am using for my current websites, and I’ll explain my workflow in detail in the [#Quarto] section, but if everything aligns, I will happily switch to using this method. So, I integrated giscus based off this repo.\nYes, this is a hacked together repo, because I understand code, but I do not have it in me to figure out how astro works. No, GPT4 did not help much with the understanding part of the equation. Notion to Astro off the shelf also supports google analytics, so that is always a plus."
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#supported-content-1",
     "href": "personal_notes/personal_academic_website.html#supported-content-1",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "Supported Content",
     "text": "Supported Content\nNotion supports a ton of stuff, and so does the original repo from Otoyo. Here is the original page of supported content. In comparison to montaigne, it supports a ton of extra blocks, just because it is based off Notion (Apple Notes is feature limited, not montaigne’s fault in this case). Specifically, as extras, it supports twitter embeds, link previews and bookmarks, code blocks with syntax highlights, synced blocks, toggles, files, callouts and highlights!"
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#tldr-1",
     "href": "personal_notes/personal_academic_website.html#tldr-1",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "tl;dr",
     "text": "tl;dr\nIf you are comfortable with github at all, and are okay setting up actions and environment variables (and creating an integration key in Notion), I will suggest this option. It is a one time option, it never needs to be touched again in a code format, it requires no push and pull. And if you are worried about what happens when Notion goes down, you can export your content in .md files and host it elsewhere 5 years later. As I said, this document is meant for pseudo-owning your content and convenience/accessibility. It ain’t meant for “what happens when Notion no longer exists in 10 years, and my exports are not perfect”."
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#example-website-2",
     "href": "personal_notes/personal_academic_website.html#example-website-2",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "Example Website",
     "text": "Example Website\nThe website you are reading it on, was built using quarto. The good part is, it works with YAML and .ejs files; and if you find a template you like, you can just edit the YAML to generate a listing or a HTML component. This is what has made me stick to quarto over other markdown based website editing options. YAML is immensely useful, especially for stuff like papers (example) or experience (example) that you just need to keep adding or editing. Now, on the other hand, creating the .ejs files and the associated CSS required a ton of work, but if you like what you see on this site, feel free to copy mine.\nQuarto is built off bootstrap, so it supports all classes that bootstrap has. That lends itself quite nicely to arranging content, or creating more complex sites, if need be. The comment option here is added through giscus. Quarto off the shelf also supports google analytics, so that is always a plus."
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#supported-content-2",
     "href": "personal_notes/personal_academic_website.html#supported-content-2",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "Supported Content",
     "text": "Supported Content\nQuarto supports all kinds of content, some through its internal modifications, and some through shortcodes or plugins. Some of the features I really like are footnotes1 that show on hover and expanding table of contents (you can see it in action, if you open this post on desktop). It supports callouts, both in collapsible and expanded state. It supports side margin content, similar to footnotes, that I love to use to add more context. The side margin content automatically gets appended to main content on narrow devices. You can embed social media content using plugins. You can also add a lightbox functionality, especially if you add a lot of diagrams to your post and want them to be clickable and zoomable. You can add font awesome icon  in middle of the sentence which looks way better than adding emojis 🌔. Here are the extensions I use for Quarto: Lightbox, Font Awesome, Social Embeds, Collapse Social Embeds and Critic Markup.1 This is footnote content that shows on hover! I can now speak on tangent without affecting the flow of the paragraph. Remember that the hover concept only works on desktop, but that is fine, who needs to read my tangential thoughts on mobile. The post is long enough in itself.\nWhile Quarto natively supports adding images and videos, you need to add them to a folder, and then insert using the visual editor into your note. You can add using the browse option and it auto adds the file to the images folder, but if you rename the image file name, it does not auto connect and rename the connection in the post, not my idea of fun. You cannot do columns in Quarto in the visual mode. Because of these limitations, I have been writing posts in Notion and then converting them to qmd using n2y (or Notion to YAML). And this is the reason why I would prefer to be able to switch to Notion to Astro, because this convoluted process is no fun!\nYou can add runnable code cells in Quarto though, and none of the options mentioned here can do that, and if that is something you are looking for, especially for Data Viz people, nothing comes close."
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#tldr-2",
     "href": "personal_notes/personal_academic_website.html#tldr-2",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "tl;dr",
     "text": "tl;dr\nSo, why do I not recommend it enough? Shortcodes, or margin content using bootstrap classes is no one’s idea of fun (or maybe it is). And I really do not want to add images first to the folder and then using markdown (or add to the folder and then insert using the visual editor). Quarto also has seriously slow loading times on mobile. But if these things are not a problem for you, and you want something that is capable enough, but still works with markdown, you should use Quarto (you can use my theme or a million others!)."
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#example-website-3",
     "href": "personal_notes/personal_academic_website.html#example-website-3",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "Example Website",
     "text": "Example Website\nMost default templates that are associated with any of these CMS systems, come with the prerequisite of editing not the index content but instead collections (similar to any WYSIWYG editor for Astro). I found a few templates that allow you to edit the front page content too and you can see some setup demos here. tina’s default option is a completely editable website, and I recommend it.\n\n\nVideo\nCreating and editing a personal website using Tina CMS with git workflow.\n\n\nFor decap, I found two good options of templates that allowed to edit the base pages as well as the blog posts: Eleventy Starter and Gatsby Starter. There is a Hugo Starter template as well if you really love Hugo.\n\n\nVideo\nCreating and editing a personal website using Decap CMS with git workflow (using Eleventy).\n\n\nAs always, you can use custom domains with tina or netlify cms to have a better domain name."
   },
   {
     "objectID": "personal_notes/personal_academic_website.html#tldr-3",
     "href": "personal_notes/personal_academic_website.html#tldr-3",
-    "title": "What is the easiest way to create AND maintain a personal academic website?",
+    "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "tl;dr",
     "text": "tl;dr\nIf you are looking for something that just works like Wordpress and are okay with a limited range of templates, go ahead and try git based CMS platforms. Some of these are open source, some are proprietary; and some sync the built static site back to github while others don’t. Ideally you want to pick the ones that sync the static site back or at least the content back to github, especially for portability reasons, otherwise, you are better off using just Google Sites."
   },
