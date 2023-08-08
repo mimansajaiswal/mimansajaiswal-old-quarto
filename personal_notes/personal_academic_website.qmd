@@ -36,7 +36,9 @@ Another week of personal website debate on Twitter, another set of heavy compila
 
 8.  Use [Hugo](https://gohugo.io/) or [Jekyll](https://jekyllrb.com/) (for example [Paper Mod](https://github.com/adityatelange/hugo-PaperMod)) if you trust yourself to keep up with the process required to maintain this website.
 
-9.  [Blot.im](https://blot.im/) if you want to create a website from a bunch of folders hosted anywhere; and are okay paying \$4/mo for the convenience.
+------------------------------------------------------------------------
+
+There are many paid options that do something similar. I can't recommend them though, because custom domains already cost \$10-\$25 per year. While an additional \$2-\$4/mo might be nothing to you, it is an expense that many students do not want to have. If you are okay with paying though, and want something that is easy as the above options, and does the hosting for you, check out [blot.im](https://blot.im/). You can create a website from a bunch of folders hosted anywhere, including drive and dropbox, and works with all kinds of files -- including google docs, removing the need for a special visual editor.
 :::
 
 # Montaigne
