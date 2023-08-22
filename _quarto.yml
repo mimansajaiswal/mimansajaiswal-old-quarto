@@ -26,15 +26,15 @@ website:
         href: https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view
       - text: "Email"
         href: mailto:mimansa@umich.edu
-  open-graph:
-    title: "Mimansa Jaiswal"
-    image: "preview.png"
-    description: "I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design."
+  open-graph: true
+    # title: "Mimansa Jaiswal"
+    # image: "preview.png"
+    # description: "I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design."
   twitter-card:
     creator: "@MimansaJ"
     site: "@MimansaJ"
-    image: "preview.png"
-    description: "I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design."
+    # image: "preview.png"
+    # description: "I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design."
 
   navbar:
     background: dark
