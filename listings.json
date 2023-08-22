@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/single_page/papers.html",
+    "listing": "/single_page/updates.html",
     "items": []
   },
   {
@@ -8,8 +8,21 @@
     "items": []
   },
   {
+    "listing": "/stream/index.html",
+    "items": [
+      "/stream/the_two_year_tragedy.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": []
+  },
+  {
+    "listing": "/personal_notes/index.html",
+    "items": [
+      "/personal_notes/personal_academic_website.html",
+      "/personal_notes/mac_softwares.html"
+    ]
   },
   {
     "listing": "/notes/index.html",
@@ -22,20 +35,7 @@
     ]
   },
   {
-    "listing": "/personal_notes/index.html",
-    "items": [
-      "/personal_notes/personal_academic_website.html",
-      "/personal_notes/mac_softwares.html"
-    ]
-  },
-  {
-    "listing": "/single_page/updates.html",
+    "listing": "/single_page/papers.html",
     "items": []
-  },
-  {
-    "listing": "/stream/index.html",
-    "items": [
-      "/stream/the_two_year_tragedy.html"
-    ]
   }
 ]
