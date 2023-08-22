@@ -1,5 +1,6 @@
 ---
 title: "Mimansa Jaiswal"
+description: I'm Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Systems) at the University of Michigan. I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures, that feed back into model training and fine-tuning docussing on developing robust and responsible AI systems.
 about:
   id: about-section
   template: about_me/about_mod.ejs.html
@@ -108,7 +109,7 @@ I'm Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Syst
 
 I am fortunate to be working with Prof. Emily Provost as part of the CHAI group. I completed my undergrad in Computer Engineering from Institute of Engineering and Technology, Indore in 2017, and worked with Prof. G.L. Prajapati for my bachelor's thesis.
 
-Tl;dr: I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures.
+Tl;dr: I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures, that feed back into model training and fine-tuning docussing on developing robust and responsible AI systems.
 
 Other than research, I am interested in science communication, sketchnoting, personal knowledge management and cooking. One of my favorite activities during international conferences is to plan every single meal.
 
