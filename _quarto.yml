@@ -21,7 +21,7 @@ website:
       - text: "Blog"
         href: notes/index.qmd
       - text: "Publications"
-        href: single_page/papers.qmd
+        href: papers.qmd
       - text: "Resume"
         href: https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view
       - text: "Email"
@@ -44,15 +44,15 @@ website:
     search: true
     left:
       - icon: newspaper
-        href: single_page/updates.qmd
+        href: updates.qmd
       - icon: pen-fill
-        href: single_page/papers.qmd
+        href: papers.qmd
       - icon: text-indent-left
         href: notes/index.qmd
       # - icon: cursor-text
       #   href: stream/index.qmd
       - icon: cursor-text
-        href: single_page/blurbs.qmd
+        href: blurbs.qmd
       - icon: bookmark-heart-fill
         href: personal_notes/index.qmd
     right:

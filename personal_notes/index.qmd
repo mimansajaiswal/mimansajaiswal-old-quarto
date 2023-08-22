@@ -36,7 +36,7 @@ for (let i = 0; i < counts.length; i++) {
 ```
 <div class="mob-quick-nav">
 ::: {.callout-note title="Quick Navigation"}
-[Homepage](../index.qmd), [Email](mailto:mimansa@umich.edu), [Resume](https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view), [Research Notes](../notes/index.qmd), and, [Publications](../single_page/papers.qmd)
+[Homepage](../index.qmd), [Email](mailto:mimansa@umich.edu), [Resume](https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view), [Research Notes](../notes/index.qmd), and, [Publications](../papers.qmd)
 :::
 </div>
 
