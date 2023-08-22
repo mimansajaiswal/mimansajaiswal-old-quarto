@@ -126,25 +126,25 @@ ga('send', {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="../single_page/updates.qmd" rel="" target=""><i class="bi bi-newspaper" role="img">
+  <li class="nav-item">
+    <a class="nav-link" href="../updates.html" rel="" target=""><i class="bi bi-newspaper" role="img">
 </i> 
- <span class="menu-text"></span></a>
+ <span class="menu-text">Updates</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="../single_page/papers.qmd" rel="" target=""><i class="bi bi-pen-fill" role="img">
+  <li class="nav-item">
+    <a class="nav-link" href="../papers.html" rel="" target=""><i class="bi bi-pen-fill" role="img">
 </i> 
- <span class="menu-text"></span></a>
+ <span class="menu-text">Research Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../notes/index.html" rel="" target=""><i class="bi bi-text-indent-left" role="img">
 </i> 
  <span class="menu-text">Research Notes</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="../single_page/blurbs.qmd" rel="" target=""><i class="bi bi-cursor-text" role="img">
+  <li class="nav-item">
+    <a class="nav-link" href="../blurbs.html" rel="" target=""><i class="bi bi-cursor-text" role="img">
 </i> 
- <span class="menu-text"></span></a>
+ <span class="menu-text">Blurbs</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../personal_notes/index.html" rel="" target=""><i class="bi bi-bookmark-heart-fill" role="img">
@@ -291,7 +291,7 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of montaigne website.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Screenshot of website made in montaigne"><img src="images/screenshot of montaigne website.png" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
+<p><a href="images/screenshot of montaigne website.png" class="lightbox" title="Screenshot of website made in montaigne" data-gallery="quarto-lightbox-gallery-1"><img src="images/screenshot of montaigne website.png" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
 <figcaption class="figure-caption">Screenshot of website made in montaigne</figcaption>
 </figure>
 </div>
@@ -348,17 +348,17 @@ Summary of available website building options: sorted from most to least recomme
 <p><strong>Website</strong>: <a href="https://quarto.org/">Quarto Official Website</a> and <a href="https://quarto.org/docs/websites/">Using Quarto for Creating Websites</a></p>
 <p><strong>Demo Website</strong>: <a href="https://mimansajaiswal.github.io/">You are on it!</a></p>
 <p><strong>Demo Source Code</strong>: <a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io">Github Repo</a></p>
-<p><strong>Note</strong>: If you are okay with editing your website completely in markdown online, or creating a mirrored local repo and using the visual editor for Quarto in VS Code, then pushing the changes to github, you will do fine with Quarto. You almost always do not need such a complicated website, and it requires a ton of CSS to make it look good (feel free to copy mine), but it works with YAML and that is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/single_page/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding.</p>
+<p><strong>Note</strong>: If you are okay with editing your website completely in markdown online, or creating a mirrored local repo and using the visual editor for Quarto in VS Code, then pushing the changes to github, you will do fine with Quarto. You almost always do not need such a complicated website, and it requires a ton of CSS to make it look good (feel free to copy mine), but it works with YAML and that is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of quarto website.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Screenshot of example website made in Quarto"><img src="images/screenshot of quarto website.png" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
+<p><a href="images/screenshot of quarto website.png" class="lightbox" title="Screenshot of example website made in Quarto" data-gallery="quarto-lightbox-gallery-2"><img src="images/screenshot of quarto website.png" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
 <figcaption class="figure-caption">Screenshot of example website made in Quarto</figcaption>
 </figure>
 </div>
 <p>Quarto in general is awesome! It is easy to maintain, easy to deploy etc. You can edit in markdown mode online using <a href="https://docs.github.com/en/codespaces/the-githubdev-web-based-editor">github.dev</a>. It has a <a href="https://quarto.org/docs/visual-editor/vscode/">visual editor</a> if you sync the repo to your local computer. And honestly, that is not bad. It definitely suffers from being markdown based, i.e., if you need to do anything more than write content with basic formatting that CommonMark supports, you end up with class notations being in your .md files. So much for portable files, right?</p>
 <section id="example-website-2" class="level2">
 <h2 class="anchored" data-anchor-id="example-website-2">Example Website</h2>
-<p>The website you are reading it on, was built using quarto. The good part is, it works with YAML and .ejs files; and if you find a template you like, you can just edit the YAML to generate a listing or a HTML component. This is what has made me stick to quarto over other markdown based website editing options. YAML is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/single_page/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding or editing. Now, on the other hand, creating the .ejs files and the associated CSS required a ton of work, but if you like what you see on this site, feel free to copy <a href="https://mimansajaiswal.github.io/">mine</a>.</p>
+<p>The website you are reading it on, was built using quarto. The good part is, it works with YAML and .ejs files; and if you find a template you like, you can just edit the YAML to generate a listing or a HTML component. This is what has made me stick to quarto over other markdown based website editing options. YAML is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding or editing. Now, on the other hand, creating the .ejs files and the associated CSS required a ton of work, but if you like what you see on this site, feel free to copy <a href="https://mimansajaiswal.github.io/">mine</a>.</p>
 <p>Quarto is built off bootstrap, so it supports all classes that bootstrap has. That lends itself quite nicely to arranging content, or creating more complex sites, if need be. The comment option here is added through <a href="https://giscus.app/">giscus</a>. Quarto off the shelf also supports google analytics, so that is always a plus.</p>
 </section>
 <section id="supported-content-2" class="level2 page-columns page-full">
@@ -391,14 +391,14 @@ Summary of available website building options: sorted from most to least recomme
 <p>Most default templates that are associated with any of these CMS systems, come with the prerequisite of editing not the index content but instead collections (similar to any WYSIWYG editor for Astro). I found a few templates that allow you to edit the front page content too and you can see some setup demos here. <a href="https://tina.io/">tina</a>’s <a href="https://app.tina.io/quickstart">default option</a> is a completely editable website, and I recommend it.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/tinacmswebsite.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Creating and editing a personal website using Tina CMS with git workflow."><video src="images/tinacmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/tinacmswebsite.mp4">Video</a></p>
+<p><a href="images/tinacmswebsite.mp4" class="lightbox" title="Creating and editing a personal website using Tina CMS with git workflow." data-gallery="quarto-lightbox-gallery-3"><video src="images/tinacmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/tinacmswebsite.mp4">Video</a></p>
 <figcaption class="figure-caption">Creating and editing a personal website using Tina CMS with git workflow.</figcaption>
 </figure>
 </div>
 <p>For decap, I found two good options of templates that allowed to edit the base pages as well as the blog posts: <a href="https://github.com/danurbanowicz/eleventy-netlify-boilerplate">Eleventy Starter</a> and <a href="https://github.com/thriveweb/yellowcake/">Gatsby Starter</a>. There is a <a href="https://github.com/decaporg/one-click-hugo-cms">Hugo Starter</a> template as well if you really love Hugo.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/decapcmswebsite.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Creating and editing a personal website using Decap CMS with git workflow (using Eleventy)."><video src="images/decapcmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/decapcmswebsite.mp4">Video</a></p>
+<p><a href="images/decapcmswebsite.mp4" class="lightbox" title="Creating and editing a personal website using Decap CMS with git workflow (using Eleventy)." data-gallery="quarto-lightbox-gallery-4"><video src="images/decapcmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/decapcmswebsite.mp4">Video</a></p>
 <figcaption class="figure-caption">Creating and editing a personal website using Decap CMS with git workflow (using Eleventy).</figcaption>
 </figure>
 </div>
@@ -668,7 +668,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="../notes/index.html">Blog</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../single_page/papers.qmd">Publications</a>
+    <a class="nav-link" href="../papers.html">Publications</a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view">Resume</a>
@@ -683,7 +683,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":true,"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":true,"openEffect":"zoom"});</script>
 
 
 
