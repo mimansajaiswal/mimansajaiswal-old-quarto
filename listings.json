@@ -1,10 +1,6 @@
 [
   {
-    "listing": "/single_page/updates.html",
-    "items": []
-  },
-  {
-    "listing": "/single_page/blurbs.html",
+    "listing": "/updates.html",
     "items": []
   },
   {
@@ -18,11 +14,19 @@
     "items": []
   },
   {
+    "listing": "/blurbs.html",
+    "items": []
+  },
+  {
     "listing": "/personal_notes/index.html",
     "items": [
       "/personal_notes/personal_academic_website.html",
       "/personal_notes/mac_softwares.html"
     ]
+  },
+  {
+    "listing": "/papers.html",
+    "items": []
   },
   {
     "listing": "/notes/index.html",
@@ -33,9 +37,5 @@
       "/notes/explanation_annotation_interfaces.html",
       "/notes/controlled_evaluation_of_explanations.html"
     ]
-  },
-  {
-    "listing": "/single_page/papers.html",
-    "items": []
   }
 ]

@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="">
-<meta name="description" content="Small Short Bursts of Thoughts and Ideas">
 
-<title>Blurbs</title>
+<title>Updates</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../favicon.ico" rel="icon">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,20 +65,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-all-updates .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-categories','listing-title','listing-subtitle','listing-date','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-comments","listing-language","listing-title","listing-date","listing-categories","listing-description","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-title","listing-date","listing-display-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-all-updates'] = new List('listing-all-updates', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -111,11 +110,9 @@ ga('send', {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="alternate" type="application/rss+xml" title="Mimansa Jaiswal" href="index.xml"><meta property="og:title" content="Blurbs">
-<meta property="og:description" content="Small Short Bursts of Thoughts and Ideas">
+<meta property="og:title" content="Updates">
 <meta property="og:site-name" content="Mimansa Jaiswal">
-<meta name="twitter:title" content="Blurbs">
-<meta name="twitter:description" content="Small Short Bursts of Thoughts and Ideas">
+<meta name="twitter:title" content="Updates">
 <meta name="twitter:creator" content="@MimansaJ">
 <meta name="twitter:site" content="@MimansaJ">
 <meta name="twitter:card" content="summary">
@@ -128,7 +125,7 @@ ga('send', {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Home</span>
     </a>
   </div>
@@ -139,27 +136,27 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="../single_page/updates.qmd" rel="" target=""><i class="bi bi-newspaper" role="img">
+    <a class="nav-link" href="./single_page/updates.qmd" rel="" target=""><i class="bi bi-newspaper" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../single_page/papers.qmd" rel="" target=""><i class="bi bi-pen-fill" role="img">
+    <a class="nav-link" href="./single_page/papers.qmd" rel="" target=""><i class="bi bi-pen-fill" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../notes/index.html" rel="" target=""><i class="bi bi-text-indent-left" role="img">
+    <a class="nav-link" href="./notes/index.html" rel="" target=""><i class="bi bi-text-indent-left" role="img">
 </i> 
  <span class="menu-text">Research Notes</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../single_page/blurbs.qmd" rel="" target=""><i class="bi bi-cursor-text" role="img">
+    <a class="nav-link" href="./single_page/blurbs.qmd" rel="" target=""><i class="bi bi-cursor-text" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../personal_notes/index.html" rel="" target=""><i class="bi bi-bookmark-heart-fill" role="img">
+    <a class="nav-link" href="./personal_notes/index.html" rel="" target=""><i class="bi bi-bookmark-heart-fill" role="img">
 </i> 
  <span class="menu-text">Personal Notes</span></a>
   </li>  
@@ -171,7 +168,7 @@ ga('send', {
  <span class="menu-text">Twitter</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../notes/index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./notes/index.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text">Feed</span></a>
   </li>  
@@ -188,17 +185,16 @@ ga('send', {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Academia">Academia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Internships">Internships <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mental Health">Mental Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PhD">PhD <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7">Blurbs</h1>
+<h1 class="title display-7">Updates</h1>
 <p class="author"></p>
 
 </header>
 
-<meta name="robots" content="noindex">
 <script>
 for (const div of document.querySelectorAll('.category')) {
   div.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
@@ -226,42 +222,28 @@ Quick Navigation
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><a href="../index.html">Homepage</a>, <a href="mailto:mimansa@umich.edu">Email</a>, <a href="https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view">Resume</a>, <a href="../notes/index.html">Research Notes</a>, and, <a href="../single_page/papers.qmd">Publications</a></p>
+<p><a href="../index.qmd">Homepage</a>, <a href="mailto:mimansa@umich.edu">Email</a>, <a href="https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view">Resume</a>, <a href="../notes/index.qmd">Research Notes</a>, and, <a href="../single_page/papers.qmd">Publications</a></p>
 </div>
 </div>
 </div>
-<p>Blurbs is where I keep my random musings, quick reviews, and noteworthy quotes all in one place. It’s convenient to have a curated collection instead of them being scattered throughout my feed. It’s a fun little side space to gather everything. <br></p>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
-
-<div class="list quarto-listing-custom">
-  <div class="quarto-post" data-index="0" data-categories="PhD,Academia,Internships,Mental Health" data-listing-date-sort="1651881600000" data-listing-file-modified-sort="1692691130468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-    <div class="metadata">
-        <div class="listing-date" style="margin-top: 5px;">05-07-2022</div>
-      </div>
-      <div class="body">
-      <div class="listing-subtitle anchored">
-        <b>Addressing 2020-2022 personal challenges and reassuming professional responsibility</b>
-      </div>
-      <div class="listing-subtitle">
-      </div>
-      <div class="listing-subtitle">
-        From Q2 2020 to Q2 2022, unforeseen personal circumstances severely impacted my ability to complete projects and maintain consistent communication. These events causing significant disruptions included the tragic loss of my maternal grandfather to cancer (2020), followed by the sudden demise of my paternal grandmother due to COVID-19 (2021), and then the demands of managing major health crises involving my father and remaining grandmother (2022). However, having now defended my PhD and made significant strides in task delivery, I've found my footing again. As a former intern at Meta and AI2, the personal turmoil I experienced inhibited me from concluding the projects I was passionate about, leaving me deeply saddened. Over time, and as my stability returned, I made private progress on these projects, but feelings of embarrassment and regret kept me from re-establishing contact. I acknowledge the past disappointments during this challenging period and sincerely apologize. Today, with confidence and affirmation, I assure that such setbacks will no longer impede my professional dedication and, with renewed commitment, I take responsibility for any lingering tasks.
-        <!-- project,execute,website,format,comments,language,title,date,categories,description,path,outputHref,date-modified,author,image,image-alt,filename,file-modified,reading-time,sortableValues -->
-        <!-- project,execute,website,format,comments,language,toc,title,date,categories,image,subtitle,path,outputHref,date-modified,author,image-alt,description,filename,file-modified,reading-time,sortableValues -->
-      </div>
-      <!-- PhD,Academia,Internships,Mental Health -->
-      <div class="listing-categories">
-        <div class="listing-category" onclick="window.quartoListingCategory('PhD'); return false;">PhD</div>
-        <div class="listing-category" onclick="window.quartoListingCategory('Academia'); return false;">Academia</div>
-        <div class="listing-category" onclick="window.quartoListingCategory('Internships'); return false;">Internships</div>
-        <div class="listing-category" onclick="window.quartoListingCategory('Mental Health'); return false;">Mental Health</div>
-        </div>
-    </div>
-</div>
+<div class="quarto-listing quarto-listing-container-custom" id="listing-all-updates">
+<div class="news-div">
+    <ol class="news-ol">
+    <li class="news-li"><h6 class="no-anchor"><span class="news-span">May 2023</span></h6><p class="listing-title news-p">Defended my PhD titled `Implicit Design Choices and Their Impact on Emotion Recognition Model Development and Evaluation`</p></li>
+    <li class="news-li"><h6 class="no-anchor"><span class="news-span">May 2022</span></h6><p class="listing-title news-p">I was selected as one of the 8 Barbour fellows for 2022-2023 across all of UMich</p></li>
+    <li class="news-li"><h6 class="no-anchor"><span class="news-span">Nov 2021</span></h6><p class="listing-title news-p">Defended my PhD proposal titled `Implicit Design Choices and Their Impact on Emotion Recognition Model Development and Evaluation`</p></li>
+    <li class="news-li"><h6 class="no-anchor"><span class="news-span">Oct 2021</span></h6><p class="listing-title news-p">I will be presenting our work on sociolinguistic inspired privacy evaluation at text as data (TADA) conference 2021, UMich, Ann Arbor.</p></li>
+    <li class="news-li"><h6 class="no-anchor"><span class="news-span">Sep 2021</span></h6><p class="listing-title news-p">I am interning this Fall in Allen AI with Ana Marasović in the area of evaluation and interpretability.</p></li>
+    <li class="news-li"><h6 class="no-anchor"><span class="news-span">May 2021</span></h6><p class="listing-title news-p">Excited to be interning in the FAIR NLP group this summer and looking forward to work at the intersection of Linguistics and ML.</p></li>
+    <li class="news-li"><h6 class="no-anchor"><span class="news-span">Sep 2020</span></h6><p class="listing-title news-p">I have been chosen as the student representative for Faculty Hiring at my university for the 2020-21 season. Looking forward to knowing and communicating the 'usually hidden' processes.</p></li>
+    <li class="news-li"><h6 class="no-anchor"><span class="news-span">May 2020</span></h6><p class="listing-title news-p">Excited to be interning in the Conversation AI group at Facebook AI working on automated dialogue evaluation.</p></li>
+    <li class="news-li"><h6 class="no-anchor"><span class="news-span">Dec 2019</span></h6><p class="listing-title news-p">I'll be attending NeuRIPS. Shoot me an email if you want to meet and talk about anything!</p></li>
+    <li class="news-li"><h6 class="no-anchor"><span class="news-span">Jan 2019</span></h6><p class="listing-title news-p">I'll be a teaching assistant for the course on Applied Machine Learning for Affective Computing with my advisor. So excited to be teaching for the first time!</p></li>
+</ol>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -509,13 +491,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../index.html">Home</a>
+    <a class="nav-link" href="./index.html">Home</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../notes/index.html">Blog</a>
+    <a class="nav-link" href="./notes/index.html">Blog</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../single_page/papers.qmd">Publications</a>
+    <a class="nav-link" href="./single_page/papers.qmd">Publications</a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view">Resume</a>
@@ -533,5 +515,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
