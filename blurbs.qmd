@@ -17,6 +17,8 @@ author: ''
 comments: false
 title-block-style: none
 description: Small Short Bursts of Thoughts and Ideas
+aliases: 
+  - single_page/blurbs.html
 ---
 ```{=html}
 <script>

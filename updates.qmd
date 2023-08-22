@@ -15,6 +15,8 @@ listing:
 author: ''
 comments: false
 title-block-style: none
+aliases: 
+  - single_page/updates.html
 ---
 ```{=html}
 <script>

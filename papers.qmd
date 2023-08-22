@@ -16,6 +16,8 @@ listing:
 author: ''
 comments: false
 title-block-style: none
+aliases: 
+  - single_page/papers.html
 ---
 ```{=html}
 <script>
