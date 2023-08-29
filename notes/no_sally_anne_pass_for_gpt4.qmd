@@ -17,6 +17,7 @@ reference-location: margin
 threeword: 'GPT4 meets Theory of Mind (Not)'
 title: "No, GPT4 (RLHF\u2019ed) Does Not Pass The Sally-Anne False Belief Test"
 image: images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6e814652a8e.webp
+date-modified: last-modified
 ---
 # Introduction
 

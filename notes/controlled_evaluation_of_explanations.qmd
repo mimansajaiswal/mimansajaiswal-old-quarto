@@ -12,6 +12,7 @@ threeword: Standardized Explanation Evaluation
 reference-location: margin
 citation-location: margin
 image: images/controlled_evaluation_of_explanations/example_variables.webp
+date-modified: last-modified
 ---
 ![Examples of variables used in checklisting explanation utility](images/controlled_evaluation_of_explanations/example_variables.webp)
 

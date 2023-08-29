@@ -18,6 +18,7 @@ reference-location: margin
 threeword: 'Missing Missing Evaluations'
 title: The Curious Case of LLM Evaluations
 image: images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.webp
+date-modified: last-modified
 ---
 ![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.webp)
 

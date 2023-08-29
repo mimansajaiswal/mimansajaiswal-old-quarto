@@ -12,6 +12,7 @@ reference-location: margin
 citation-location: margin
 lightbox: auto
 description: Another week of personal website debate on Twitter, another set of heavy compilation based suggestions to create and maintain a personal website. So, I decided to take a look at all the recent website builders and provide a set of recommendations.
+date-modified: last-modified
 ---
 
 Another week of personal website debate on Twitter, another set of heavy compilation based suggestions to create and maintain a personal website. So, I decided to take a look at all the recent website builders and provide a set of recommendations. If you do not want to read this in entirety, my suggestions can be summarized below:

@@ -12,6 +12,7 @@ threeword: Text Annotation Interface Design
 reference-location: margin
 citation-location: margin
 image: images/explanation_annotation_interfaces/screenshot.webp
+date-modified: last-modified
 ---
 Coming soon.
 ![Example annotation using the interface](images/explanation_annotation_interfaces/screenshot.webp)

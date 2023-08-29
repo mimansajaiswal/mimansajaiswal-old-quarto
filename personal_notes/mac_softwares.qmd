@@ -12,6 +12,7 @@ reference-location: margin
 citation-location: margin
 lightbox: auto
 description: MacOS softwares are a huge thing of their own. They have a pretty great developer ecosystem, so there are many great indie apps that are awesome to know about, especially if you are just starting your MacOS journey.
+date-modified: last-modified
 ---
 
 On a daily basis, I use multiple apps and I prefer to put them together here. In general, I am always looking for better note-taking apps, and if you have any suggestions, I would love to know (trust me, I have tried 800 of them!). I will divide this into different categories of software I use, in case they are helpful for anyone.
