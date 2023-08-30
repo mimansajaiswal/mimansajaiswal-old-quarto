@@ -1,0 +1,65 @@
+---
+title: "A lookback on life in pixels"
+date: 2023-08-29
+display-date: Aug 2023
+format: html
+categories: [Photos, Life]
+filters:
+  - collapse-social-embeds
+  - lightbox
+draft: false
+reference-location: margin
+citation-location: margin
+lightbox: auto
+# description: MacOS softwares are a huge thing of their own. They have a pretty great developer ecosystem, so there are many great indie apps that are awesome to know about, especially if you are just starting your MacOS journey.
+date-modified: last-modified
+---
+
+All I want to see is [Cats]!
+
+## 2023
+
+***tl;dr:*** I graduate with a Doctorate this year and start a new job.
+
+::: photo-gallery
+![I applied for my EAD. Yeah, this was my passport sized photograph.](images/iappliedforead.webp)
+:::
+
+## 2022
+
+***tl;dr:*** I catch up with life. The previous 2 years were, well, hell.
+
+::: photo-gallery
+![I finally visited my family when my whole personal life was NOT on fire](images/ivisitfamily.webp)
+:::
+
+## 2021
+
+***tl;dr:*** Yeah, this wasn't a good year. I wish everything that happened this year could be changed to not happen. Alas, that is not a possibility.
+
+::: photo-gallery
+:::
+
+## 2020
+
+***tl;dr:*** We started off strong, didn't we. I was happy. And then, I was not.
+
+::: photo-gallery
+:::
+
+## 2019
+
+***tl;dr:*** The year of conferences.
+
+::: photo-gallery
+:::
+
+## Cats
+
+::: photo-gallery
+![I learnt how to flat render pets in Procreate!](images/mydigitalpaintingofbert.webp)
+
+![Bert moves to Seattle (Redmond)](images/bertcomestoseattle.webp)
+
+![Bert and Oreo stare at me while I prepare for thesis defense](images/bertandoreoatdefense.webp)
+:::

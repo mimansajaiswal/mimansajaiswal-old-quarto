@@ -16,6 +16,7 @@ description: Personal notes
 title-block-style: none
 # date: 1950-07-26 18:37
 ---
+
 ```{=html}
 <script>
 for (const div of document.querySelectorAll('.category')) {
@@ -34,10 +35,18 @@ for (let i = 0; i < counts.length; i++) {
 }
 </script>
 ```
-<div class="mob-quick-nav">
-::: {.callout-note title="Quick Navigation"}
+::: mob-quick-nav
+::: {.callout-note title="Professional Quick Navigation"}
 [Homepage](../index.qmd), [Email](mailto:mimansa@umich.edu), [Resume](https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view), [Research Notes](../notes/index.qmd), and, [Publications](../papers.qmd)
 :::
+:::
+
+<div>
+
+::: {.callout-tip title="Personal Quick Navigation" appearance="minimal"}
+Explore my life's photo album [here](life_photo_album.qmd). I have used Mac for a decade now, and if you want suggestions, check [here](mac_softwares.qmd). I also use LLMs a lot in my [personal]() and [professional]() life, if you want any inspiration.
+:::
+
 </div>
 
 This is a just a bunch of posts about life, tools, productivity, preferences etc. More like a get to know me beyond research zone.

@@ -1549,6 +1549,17 @@ div.papers-back-links>a {
   background-color: rgba(229,233,238,.95) !important;
 }
 
+//Photo gallery
+.photo-gallery {
+  columns:16em;
+  gap:0.5rem;
+}
+
+.photo-gallery img {
+  display:block;
+  width:100%;
+}
+
 
 
 
