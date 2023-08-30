@@ -19,14 +19,14 @@ On a daily basis, I use multiple apps and I prefer to put them together here. In
 
 ```{=html}
 <!-- ::: callout-important
-## Incomplete Post
+### Incomplete Post
 
 This is incomplete and I will be filling it over the next few weeks.
 ::: -->
 ```
 For some context, I use a M1 Pro, Macbook Pro, with 16GB RAM and 512GB SSD. Some of these applications might not be great on 8GB RAM or 128GB SSD, so proceed with discretion.
 
-# Productivity Software
+## Productivity Software
 
 -   **Communication**: [Spark Email 2](https://sparkmailapp.com/spark2) is my email client of choice rather than using the general Apple mail client. Why? Because it has the ability to remove Updates/Promotions/Forums from my main inbox that Apple mail does not. It also does basic Newsletters and Pins options for each email account, that Apple mail does not. To have all the DMs in one place, I use [Texts](https://texts.com/). If you do not have multiple accounts per app, you can also use [Beeper](https://www.beeper.com/).
 
@@ -46,7 +46,7 @@ For some context, I use a M1 Pro, Macbook Pro, with 16GB RAM and 512GB SSD. Some
 
 -   **Reading**: I use [Reader from Readwise](https://readwise.io/read), they allow you to annotate pdfs, videos webpages, add highlights, add notes to highlights etc. It is cheap for students; syncs highlights from everywhere to Notion and works reliably. The two other options are [Omnivore](https://omnivore.app/) (open source and free) and [Matter](https://hq.getmatter.com/) (better and more intuitive design but does not work with pdfs or videos). For podcasts, because apparently the information now also comes from podcasts, I use [Snipd](https://www.snipd.com/), which has headphone button based sniping, AI snip boundaries and snip summaries, and also syncs to Readwise or separately to Notion.
 
-# Creative Work
+## Creative Work
 
 I divide creative work into 2 parts, sometimes overlapping, creative work as an hobby, creative work for my research.
 
@@ -56,14 +56,14 @@ I divide creative work into 2 parts, sometimes overlapping, creative work as an 
 -   **Paper diagrams**: [draw.io](draw.io) for making neural network diagrams. There is unfortunately nothing that comes close. I cannot do TikZ, but if you can, more power to you!
 -   **Drawing**: I use [Procreate](https://procreate.com/) or [Concepts](https://concepts.app/en/). Procreate allows for really intuitive drawing interface whereas concepts is vector based, and still allows for all the flair with layers, brushes, objects etc.
 
-# Works in Background
+## Works in Background
 
 -   **Memory**: [Rewind.ai](Rewind.ai) has been a life-saver for me, it records everything on screen, and records laptop audio and mic if you choose to. It has two main things: search rewind and ask rewind. Search rewind is a simple keyword search over everything that has been stored. Ask rewind sends everything in those clips to OpenAI (possibly GPT3.5 16k) to create a summary and adds "screenshot" references.
 
 -   **Shortcuts**: [Raycast](https://www.raycast.com/) allows for doing so many things that I do not know how to describe it. It is local first and is free. It also has a pro subscription if you need its AI chat options (which comes with a student discount). The best way I have seen it described is Spotlight++ but I never used spotlight. You can use `⌘+Space` to do calculations, timezone conversions, unit conversions, quick word lookup, file search, screenshot search etc.
 
     ::: callout-tip
-    ## Amphetamine and Other Menu Bar Apps
+    ### Amphetamine and Other Menu Bar Apps
 
     You can also remove the amphetamine software you have and use the menu bar coffee app that Raycast provides. It comes with many extensions, such as, hypersonic that can connect to any notion database of yours to show tasks, schedule them etc, all from `⌘+Space` or from your menu bar.
 

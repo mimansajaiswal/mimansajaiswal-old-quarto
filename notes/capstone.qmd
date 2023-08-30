@@ -17,13 +17,13 @@ lightbox: auto
 date-modified: last-modified
 ---
 
-# Introduction
+## Introduction
 
 \"LLMs\", or Language Models, need to be trained and tested on different datasets and prompts to improve functionality and accuracy. In addition, versioning is important when assessing LLMs. Iterating on the prompts and datasets can produce better results. However, keeping different versions of both prompts and datasets can help identify which changes led to improvements in performance. All these practices should be followed to effectively evaluate and improve LLMs.
 
 ![](images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4ea3c09cf3d.webp)
 
-# What does usual model training look like? {#what-does-usual-model-training-look-like-}
+## What does usual model training look like? {#what-does-usual-model-training-look-like-}
 
 In machine learning, it\'s common to divide a dataset into three parts: the train set, validation set, and test set. The train set is used to train a machine learning model, the validation set is used to tune the hyperparameters of the model, and the test set is used to measure the final performance of the model.
 
@@ -33,7 +33,7 @@ There are some pre-established norms when it comes to creating these subsets. Fo
 
 ![](images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-6cbf1ea978d.webp)
 
-# Problems with Closed LLMs
+## Problems with Closed LLMs
 
 The use of closed language models (LLMs) poses certain challenges when it comes to testing their performance. If we do not know what went into the training dataset of a closed LLM, it is very likely that the test dataset we use or generate will be contaminated. This can result in inaccurate performance metrics and difficulty in verifying the correctness of the model\'s responses.
 
@@ -41,7 +41,7 @@ The use of closed language models (LLMs) poses certain challenges when it comes 
 
 Prompt-based benchmarking can exacerbate these challenges further by introducing another layer of complexity. If we are not directly testing for an \"input sample\" to \"output\" correspondence, the way we write the prompt and what we ask for as an output will significantly change how we benchmark the ability of any model. This can make evaluating the performance of a closed LLM more difficult and error-prone, and increase the risk of producing biased results.
 
-## Prompting Closed LLMs
+### Prompting Closed LLMs
 
 ![](images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-f258297f659.webp)
 
@@ -53,7 +53,7 @@ In order to do effectively, there are three key components we require:
 -   Additionally, conducting experiments allows us to systematically manipulate variables and observe their effects on the model\'s outcomes.
 -   Lastly, carefully considering and accounting for variables is crucial in order to ensure the validity and reliability of our experimental results. By incorporating these elements into our approach, we can effectively evaluate and judge the capabilities of a model limited.\
 
-## Prompt Based Experimental Design Schemas
+### Prompt Based Experimental Design Schemas
 
 ::: {.column-margin .callout-note title="Michael Frank talks about need some principles from experimental psychology" collapse="false"}
 {{< tweet mcxfrank 1643296168276033538 >}}
@@ -63,7 +63,7 @@ In order to do effectively, there are three key components we require:
 
 Let\'s talk about Prompt Based Experimental Design Schemas. These schemas can be thought of as templates, but with a key distinction. They not only focus on varying the input sample, but also on modifying the prompt specifications. By doing so, they allow us to closely monitor and analyze the changes that occur from one prompt to another. This approach provides a valuable way to study and understand the impact of different prompts on the overall outcome of an experiment.
 
-# Prompt Markup Schema
+## Prompt Markup Schema
 
 Prompt Based Experimental Design Schemas can be categorized into four main categories: prompts, samples, outputs, and metadata.
 
@@ -77,7 +77,7 @@ In this case, we will refer to Sparks AGI paper and utilize the basic Theory of 
 
 ![](images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-583dc6d0606.webp)
 
-## Prompt Definition Markup
+### Prompt Definition Markup
 
 Let\'s delve into the concept of Prompt Definition Markup. Within this framework, we identify three types of steering in a prompt: start, process, and output.
 
@@ -99,7 +99,7 @@ These modifications provide additional guidance and constraints to the prompt, a
 
 ![](images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-9091c7d24aa.webp)
 
-## Sample Markup
+### Sample Markup
 
 Let\'s now turn our attention to Sample Markup. A sample consists of two key components: examples and input. However, if our objective is zero-shot prompting, we may not require specific examples.
 
@@ -111,7 +111,7 @@ Let\'s consider an example to illustrate the concept of Sample Markup. In the co
 
 ![](images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-a1b36107f79.webp)
 
-## Output Schema
+### Output Schema
 
 The output schema is a complex process that intersects significantly with large language model (LLM) evaluation techniques. If you\'re interested in delving deeper into this topic, I recommend checking out [my other post](case-of-llm-evals.qmd). It provides further insights and information about the intricacies involved in designing and evaluating output schemas for LLMs.
 
@@ -123,7 +123,7 @@ The output schema is a complex process that intersects significantly with large 
 
 :::
 
-## Metadata
+### Metadata
 
 Let\'s now discuss the final component of the proposed schema: Metadata. Metadata plays a crucial role in shaping the overall prompt-based experimental design. It consists of five key parts that contribute to the effectiveness and coherence of the experiment:\
 A. Connectors\
@@ -134,7 +134,7 @@ E. Experimental Design
 
 ![](images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-c6fddf51f9e.webp)
 
-### Connectors
+#### Connectors
 
 Let\'s delve into the concept of Connectors within the prompt-based experimental design schema. Connectors serve as internal elements within a single prompt and play a crucial role in shaping the prompt\'s context and implications. They can serve different purposes:
 
@@ -148,7 +148,7 @@ For instance, consider the following example: \"He says nothing about this to Al
 
 ![](images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-4ad1f2317ec.webp)
 
-### Iteration
+#### Iteration
 
 Iteration involves making changes to the prompt itself, without modifying the sample or the desired output. It allows for refining and improving the prompt to enhance the experimental design and guide the model\'s response.
 
@@ -162,7 +162,7 @@ B3. Chaining: Chaining refers to linking multiple prompts together in a sequenti
 
 For example, adding the phrase \"Let\'s think about this step by step\" to the prompt can be considered an iteration aimed at incorporating a \"Process steer.\" This addition provides a clearer instruction to the model, encouraging a systematic and sequential approach in its response.
 
-### Intuition
+#### Intuition
 
 Intuition refers to the reasoning or underlying purpose behind the prompt. It represents the intention or objective that the researchers aim to achieve through the prompt.
 
@@ -184,7 +184,7 @@ C3. Test (False Belief Test): The test intuition of the prompt centers around co
 
 ![](images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-b86b1e8fb1e.webp)
 
-### Variation
+#### Variation
 
 Now let\'s shift our attention to Variations within the prompt-based experimental design schema. Variations occur across different input samples and play a crucial role in shaping the experimental design. They allow for the exploration of diverse scenarios and perspectives, ensuring a comprehensive analysis of the model\'s capabilities.
 
@@ -215,7 +215,7 @@ Somehow sleep is not encoded as no knowledge transfer?
 
 ![](images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-90a05f4040a.webp)
 
-### Experimental Design
+#### Experimental Design
 
 The experimental design encompasses the basics of the experiment and the corresponding prompt, providing a structured framework for conducting the evaluation.
 
@@ -255,13 +255,13 @@ Suggestions to frame it without using the explicit terms \"think\" \"believe\" w
 
 ![](images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-6193491277a.webp)
 
-# Footnote
+## Footnote
 
 This prompt-based experimental design schema is a work in progress and welcomes suggestions for further improvement. Integrating existing LLMs to simplify metadata processing is an open question, and suggestions on this topic are highly appreciated!
 
-## Recommended papers in the area: {#recommended-papers-in-the-area-}
+### Recommended papers in the area: {#recommended-papers-in-the-area-}
 
-### Markup/Interfacing Languages {#markup-interfacing-languages}
+#### Markup/Interfacing Languages {#markup-interfacing-languages}
 
 [PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts](https://arxiv.org/abs/2202.01279)
 
@@ -275,7 +275,7 @@ This prompt-based experimental design schema is a work in progress and welcomes 
 
 ["What It Wants Me To Say": Bridging the Abstraction Gap Between End-User Programmers and Code-Generating Large Language Models](https://arxiv.org/abs/2304.06597)
 
-### Prompt Building
+#### Prompt Building
 
 [Language Model Cascades](https://arxiv.org/abs/2207.10342)
 
@@ -291,7 +291,7 @@ This prompt-based experimental design schema is a work in progress and welcomes 
 
 [Guidance: Control modern language models more effectively and efficiently than traditional prompting or chaining](https://github.com/microsoft/guidance)
 
-### Dataset Cartography
+#### Dataset Cartography
 
 [Learning from Others' Mistakes: Avoiding Dataset Biases without Modeling Them](https://arxiv.org/abs/2012.01300)
 
@@ -299,8 +299,8 @@ This prompt-based experimental design schema is a work in progress and welcomes 
 
 [Diversity, Density, and Homogeneity: Quantitative Characteristic Metrics for Text Collections](https://arxiv.org/abs/2003.08529)
 
-### Experimental Design  {#experimental-design-}
+#### Experimental Design  {#experimental-design-}
 
-### LLM Evaluation
+#### LLM Evaluation
 
 [Selection-Inference: Exploiting Language Models for Interpretable Logical Reasoning](https://arxiv.org/abs/2205.09712)

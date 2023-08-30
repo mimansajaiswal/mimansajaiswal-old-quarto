@@ -19,13 +19,13 @@ title: "No, GPT4 (RLHF\u2019ed) Does Not Pass The Sally-Anne False Belief Test"
 image: images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6e814652a8e.webp
 date-modified: last-modified
 ---
-# Introduction
+## Introduction
 
 The research efforts in this post are geared towards two key objectives: the first being to extract an instinctual understanding from the given prompt, and the second is to develop examples of evaluation problems that embody this innate comprehension that lies within the prompt.
 
 Today, I bring into focus a commonly known cognitive assessment tool, the Sally-Anne False Belief Test.
 
-## Framework
+### Framework
 
 As part of this exploration, I've roughly outlined a framework that represents the process I am intending to explore through testing, designing, and adaptation for the purpose of evaluation. This framework is three-pronged, including:
 
@@ -45,13 +45,13 @@ As part of this exploration, I've roughly outlined a framework that represents t
 {{< tweet fchollet 1644435265795280897 >}}\
 :::
 
-# Original Prompt
+## Original Prompt
 
 In the post, we focus on a particular prompt that we will deconstruct in order to comprehend its complexities (please look at the image attached for a detailed understanding).
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-59a24d56d62.webp)
 
-## Framework based breakdown
+### Framework based breakdown
 
 Upon studying the prompt, three fundamental concepts emerge:
 
@@ -65,7 +65,7 @@ Deconstructing the prompt in this manner helps us derive a comprehensive underst
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6d6ba34f814.webp)
 
-## Output
+### Output
 
 It's noteworthy to mention that while both the GPT3.5 and GPT4 models have yielded correct responses in the current context, the GPT3.5 model was, until recently, not entirely accurate.
 
@@ -73,9 +73,9 @@ Specifically, the output I received from the GPT3.5 model a few days back demons
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-9c92f935ee1.webp)
 
-# Modifying The Original Dropbox Prompt
+## Modifying The Original Dropbox Prompt
 
-## Renaming the folder
+### Renaming the folder
 
 Upon reviewing the given prompt, I'm contemplating certain modifications to better evaluate the models:
 
@@ -91,7 +91,7 @@ These alterations to the prompt are aimed at presenting a more intricate scenari
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-b96e46d0f41.webp)
 
-## Turning the folder private
+### Turning the folder private
 
 Continuing with our framework, I would like to propose additional modifications to our prompt based on Objective 4:
 
@@ -103,7 +103,7 @@ Now, an intriguing scenario arises where the GPT4 model seems to fail, but the G
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-00b17747f83.webp)
 
-## Moving all files
+### Moving all files
 
 Turning our attention back to the previously discussed adjustments, it is pertinent to raise a hypothetical scenario: What would the consequences be if I had overlooked another category of "object transformation" which did indeed originate complications?
 
@@ -115,7 +115,7 @@ The "unshared movement/transformation" of an object, such as the migration of al
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-317d1fc9d94.webp)
 
-## Learnings and Other Modifications
+### Learnings and Other Modifications
 
 It's rather simple to draw inferences from these instances and presume that GPT-3.5 comprehends the notion of translocating shared directories and documents. However, if that were completely accurate, it would not stumble when faced with the aforementioned prompt. Logically, its understanding of the concept should enable it to adequately handle this task without failure. This contradiction illuminates potential gaps in the GPT-3.5 model's understanding and handling of object transformation, particularly in complex operations such as moving shared folders and files.
 
@@ -127,7 +127,7 @@ It's rather simple to draw inferences from these instances and presume that GPT-
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d06f02488b7.webp)
 
-# Modifying the activity to lending
+## Modifying the activity to lending
 
 However, our exploration of this prompt doesn't have to end here.
 
@@ -141,7 +141,7 @@ So, we put this to test with the first example,
 
 'Lending': This acts as an implicit demonstration of "NO knowledge transfer of actions from one participant to another" - the basic act of lending combined with taking actions alone, which underlines the principle.
 
-## Output for basic lending based prompt
+### Output for basic lending based prompt
 
 Interestingly, in this scenario, both the GPT4 and GPT3.5 models provide correct responses. Hence, we can observe that when the concept of "no knowledge transfer" is less explicit and more integral to the workings of a situation or action, the models are able to deduce it accurately.
 
@@ -149,7 +149,7 @@ Interestingly, in this scenario, both the GPT4 and GPT3.5 models provide correct
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-689607c683f.webp)
 
-## Co-reading instead of lending
+### Co-reading instead of lending
 
 The scenario of co-reading presents an interesting case of "AFFIRMATIVE knowledge transfer of actions from one participant to another". Here, 'co-reading' is the fundamental action, and 'taking actions with my friend' only strengthens the notion.
 
@@ -159,7 +159,7 @@ In this implicit manifestation of affirmative knowledge transfer, both GPT4 and 
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-4c7b00a5452.webp)
 
-## So, we are good? {#so-we-are-good-}
+### So, we are good? {#so-we-are-good-}
 
 It's tempting to draw the conclusion that the models possess an innate understanding of the implicit possibility of knowledge transfer based on their ability to interpret the situations proposed so far correctly.
 
@@ -167,7 +167,7 @@ However, we must exercise caution in dashing to such conclusions!
 
 Indeed, you might recall a tweet (though finding the original is proving elusive) that exhibited that GPT-3.5 didn't originally compute this correctly. It was only after users repeatedly inputted it into the interface (thus educating it) that it came around to delivering the right deductions, as evidenced by its compatibility with 'co-reading'.
 
-## Not really, reading on phone call
+### Not really, reading on phone call
 
 Now, steering our focus back to another example:
 
@@ -181,7 +181,7 @@ Intriguingly, BOTH the GPT4 and GPT3.5 models fail to fare well in this scenario
 
 \
 
-## Mathematical reasoning with lending
+### Mathematical reasoning with lending
 
 In the context of evaluating the performance of language models, particularly GPT4 and GPT3.5, in addressing explicit reasoning tasks involving "math" and "lending," two scenarios are considered.
 
@@ -193,7 +193,7 @@ However, in the second scenario, where there is a single step of reasoning invol
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-c8865639317.webp)
 
-# What about sleeping? {#what-about-sleeping-}
+## What about sleeping? {#what-about-sleeping-}
 
 Continuing with the evaluation, another implicit action explored in the assessment is "sleeping" and "going on vacation." The objective is to assess the language models, namely GPT4 and GPT3.5, in their understanding of the protocol associated with these actions.
 
@@ -207,7 +207,7 @@ One possible reason for their inability to encode the concept of "no knowledge t
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-12f475f2452.webp)
 
-## Is math the problem or is it sleeping? {#is-math-the-problem-or-is-it-sleeping-}
+### Is math the problem or is it sleeping? {#is-math-the-problem-or-is-it-sleeping-}
 
 In the experiment I mentioned, I wanted to test whether excluding math from the lending prompt would make the "sleep" implicit, resulting in no knowledge transfer. And to my surprise, it actually worked! This indicates that the exclusion of math didn't hinder the transfer of knowledge, suggesting that it may not be the problem after all.
 
@@ -217,11 +217,11 @@ Instead, it's possible that the combination of "static object placement" and "co
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-0a12a83f1f6.webp)
 
-# Moving a key
+## Moving a key
 
 In this instance, I am exploring another prompt that involves various elements. One of these elements is the concept of "unshared movement" of an object, which pertains to the understanding that the knowledge or awareness of object movement is not shared between different entities within the model's architecture. Additionally, there is the implied assumption of "no knowledge transfer," signifying that language models such as GPT3.5 and GPT4 are not provided with pre-existing knowledge but rely solely on training data and their learning capabilities.
 
-## Fixating on static object placements
+### Fixating on static object placements
 
 A new addition to the prompt is the consideration of "static object placements," which refers to the positioning or arrangement of stationary objects in relation to the moving object, specifically in the context of moving a key. Significantly, both GPT3.5 and GPT4 are able to accurately respond to the prompt, indicating that the inclusion of static object placements is crucial for their successful performance. It seems that these placements enhance the models' understanding and their ability to generate appropriate responses.
 
@@ -229,7 +229,7 @@ A new addition to the prompt is the consideration of "static object placements,"
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-69f32b5ef52.webp)
 
-# Going on a vacation
+## Going on a vacation
 
 To further investigate and validate the previous observation, let us modify the prompt once again, this time focusing on the implied "no knowledge transfer" criterion within the context of going on a vacation. Both GPT4 and GPT3.5 fail to deliver satisfactory results when confronted with this modified prompt. The implied "no knowledge transfer" assumption presents the challenge of relying solely on the training data and learning capabilities of the language models without any pre-existing knowledge base.
 
@@ -239,7 +239,7 @@ Despite the previous successful performance in scenarios involving the movement 
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-da1e6eff6c1.webp)
 
-## Darn, movement by cats does not work! {#darn-movement-by-cats-does-not-work-}
+### Darn, movement by cats does not work! {#darn-movement-by-cats-does-not-work-}
 
 MAYBE. IT IS THE BOYFRIEND THAT WORKS? CATS DON'T? (/s)
 
@@ -251,7 +251,7 @@ In this iteration, we further modify the problem by shifting the focus to going 
 
 Upon careful consideration, it appears that the wording of the prompt might have a significant influence on the performance of GPT4 and GPT3.5.
 
-## The cat places the keys
+### The cat places the keys
 
 if the cat avoids dropping the keys to the floor and instead intentionally "places" them on the floor, the results might be different. Excitingly, GPT4 demonstrates success in generating appropriate responses in this particular scenario, whereas GPT3.5 falls short. This observation raises the question of whether the cat's behavior is the cause of the discrepancy. It is worth noting that GPT3.5 has undergone substantial reinforcement learning by humans, likely with a focus on handling situations involving humans and their actions.
 
@@ -261,9 +261,9 @@ It is an interesting insights into the intricacies of language understanding by 
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-a67a608e720.webp)
 
-# Question Framing
+## Question Framing
 
-## Ambiguity Issues
+### Ambiguity Issues
 
 To explore this further, I again modify the scenario by replacing the boyfriend with a cat, returning to the previous configuration. Regrettably, when the prompt involves the "cat" as an "actor" changing "locations," both GPT4 and GPT3.5 fail to produce the correct answer. This observation suggests that the way the prompt is framed, particularly when it involves a cat as the main entity performing actions and transitioning between different locations, poses a challenge for these language models.
 
@@ -275,7 +275,7 @@ Or in the case of bookmarks, some of these prompts have the word "expect" which 
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-eb956b4f282.webp)
 
-## Word based leakage issues
+### Word based leakage issues
 
 A crucial distinction is made between the performance of GPT4 and GPT3.5 in response to prompts involving the words "think" or "believe," particularly in the context of sleep and coffee. Interestingly, it is noted that while GPT4 fares well in generating coherent outputs in such scenarios, GPT3.5 struggles to do so. The observation raises an important consideration.
 
@@ -287,7 +287,7 @@ A further observation can be made to support the previous findings. When the wor
 
 ![](images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-d898899c35a.webp)
 
-# tl;dr {#tl-dr}
+## tl;dr {#tl-dr}
 
 Returning to the original Alice and Bob prompt, where this captivating journey began, we delve into the insights shared by the authors. According to their findings, GPT-4 proves to be successful in passing the classic Sally-Anne false-belief test, derived from the field of psychology. This achievement is significant and has garnered attention, leading to notable mentions on platforms like Wikipedia.
 

@@ -22,7 +22,7 @@ date-modified: last-modified
 ---
 ![](images/case_of_llm_evals/The_Curious_Case_of_LLM_Evaluations-8c052dbad49.webp)
 
-# Introduction
+## Introduction
 
 Every `popular` paper later, we keep coming back to the same questions: how do we know that this is a good evaluation?
 
@@ -38,23 +38,23 @@ And unfortunately, the answer is not as simple. I might even go as far to say; i
 
 And now everyone is left with these carefully curated academic datasets that they report numbers on; that in all likelihood leaked into the training set when the whole accessible internet was scraped for it; and; buggy techniques; because we as ML practitioners were never taught basic statistics.
 
-# Common Problems with Evaluation in Machine Learning
+## Common Problems with Evaluation in Machine Learning
 
 Evaluation always come with the basic issues. I am writing this document with the assumption that everyone just assumes these evaluation issues anyway; because they existed in previous machine learning models too.
 
-### Leakage
+#### Leakage
 
 Data leakage from the test datasets into the training set. This is specifically true for LLMs where the details of the dataset are often missing; and sometimes proprietary.
 
-### Coverage
+#### Coverage
 
 Coverage issues of the test samples. The evaluation datasets often do not have a diverse coverage of all various ways that a particular task can be evaluated. These might end up reflecting as accuracy problems, variability problems, efficient sample size problems or robustness problems.
 
-### Spurious Correlations
+#### Spurious Correlations
 
 Spuriously correlated or duplicated test samples. The evaluation sets for many tasks have been shown to have a "shortcut" solution. So, while the assumption might be that the test sample is a good representative evaluation of the task, it often might end up not being the case.
 
-### Partitioning and phrasing
+#### Partitioning and phrasing
 
 Evaluation dataset splits are hard to deal with. Many evaluation datasets come with a different implementation of the same problem. They might also lead to unintentional leakage. For example, in human centered tasks; it is often the case that the evaluation dataset is not isolated for user and rather split just on samples.
 
@@ -62,23 +62,23 @@ Evaluation dataset splits are hard to deal with. Many evaluation datasets come w
 {{< tweet MaartenBosma 1672349512499867648 >}}
 :::
 
-### Random seed
+#### Random seed
 
 Any neural network output is usually slightly dependent on the random seed. Any singular inference run based reporting could lead to misinformed results and paint an unclear picture of the situation.
 
-### Precision vs Recall Tradeoff
+#### Precision vs Recall Tradeoff
 
 While many people are content with reporting accuracy results, it has been well known that the impact of false positives vs false negatives isn't the same for every task. If you are using an ML model for IR, and see a false-positive or miss a false-negative; it is probably alright. If you are using the same model for passive health monitoring, a false negative is heavily
 
-### Unexplained Decisions
+#### Unexplained Decisions
 
 There have been many decisions of removing or keeping data, that have existed across the existence of machine learning. In audio, many numbers are reported by discarding data samples that are under a certain length because they might not constitute as utterances. Knowing and explaining those thresholds is not only important for paper review or discussion but also for replication.
 
-# Components of Evaluation wrt LLMs
+## Components of Evaluation wrt LLMs
 
 Now that we have that information, let's talk about the components of LLM evaluation. You can breakdown any LLM evaluation into 6 components:
 
-## Evaluation Datasets
+### Evaluation Datasets
 
 Evaluation Datasets or Evaluation Sets or Eval Sets: These are the test samples that the model is being evaluated for. There are multiple ways to construct these evaluation datasets and to use them; each of them coming with its own set of problems.
 
@@ -94,7 +94,7 @@ Using the similar set of datasets for evaluation come with a another set of prob
     :::
 -   Untraceability: Going back to the point of data leakage; while it used to always be a problem; now that no one has any idea about any of the data that went into the model, even the best-faith and triple checked evaluation has no guarantees of being a out of distribution evaluation.
 
-### What can these evaluation datasets look like? {#what-can-these-evaluation-datasets-look-like-}
+#### What can these evaluation datasets look like? {#what-can-these-evaluation-datasets-look-like-}
 
 > Suggest examples in pull requests and I will merge them here
 
@@ -145,7 +145,7 @@ Ad-hoc testing samples by humans --- These are performed as conversation based e
 
 :::
 
-## Model Output
+### Model Output
 
 Now let us come to the second problem --- output from generative models.
 
@@ -182,11 +182,11 @@ But, let's consider some other solutions, those that are incorrect in some way o
 
 :::
 
-## Sample/Output Transformation {#sample-output-transformation}
+### Sample/Output Transformation {#sample-output-transformation}
 
 There are many transformations applied to model outputs or their inputs. These can roughly be divided into 4 categories:
 
-### Looped Transformations
+#### Looped Transformations
 
 Loop based transformations usually follow the philosophy of ---\> what if we additionally add the model output + some form of evaluation of the current answer (either from the same model, another model or a human) back into the model; such that it eventually reaches the perfect outcome. Some examples of these would be Self-Critique models.
 
@@ -196,19 +196,19 @@ Loop based transformations usually follow the philosophy of ---\> what if we add
 
 :::
 
-### Chained Transformations
+#### Chained Transformations
 
 Chain based transformations usually do not have a measured evaluation in between a set of model input → output → model input and so on. These chains are usually pre-defined and have a restricted number of paths to follow.
 
-### Atomic Outputs
+#### Atomic Outputs
 
 This method involves breaking down the output of a model; either manually, through a rule based system or through AI itself; into atomic components that can be evaluated individually to combine to form a larger weighted grade.
 
-### Constrained Output
+#### Constrained Output
 
 This method involves either using log probability (which isn't accessible in case of GPT3.5/GPT4 APIs) or other internal constraints to ensure that the model responds with tokens belonging to a certain pre-decided or allowed distribution.
 
-## Ground Truth
+### Ground Truth
 
 This does not need much explanation but there are certain aspects to remember here; especially when you think of ground truths in respect to present scene of evaluation. Firstly, ground truth can be biased, ambiguous, or have a high range of disagreement. In case of human centered tasks, such as likability of a prose, the disagreement is often averaged out rather than considered as an annotation curve, you need to compare the model's outcome multiple times to achieve a true distribution comparison.
 
@@ -220,11 +220,11 @@ Remember the 3 possible pitfalls with ground truth:
 -   Inclusion in in-context or few shot learning examples in case of prompt steering
 -   Ground truth might be used to establish correlation between the newly proposed completely automated metric; and not actually used in evaluation.
 
-## Evaluation Medium
+### Evaluation Medium
 
 In my perspective, the evaluation medium can be categorized into three distinct groups.
 
-### Direct Evaluation Metrics
+#### Direct Evaluation Metrics
 
 ::: {.callout-tip title="Example Papers" icon=false collapse=true}
 
@@ -242,7 +242,7 @@ For instance, one direct evaluation metric is comparing the model\'s accuracy di
 
 :::
 
-### Indirect or Decomposed Model-Based Evaluation
+#### Indirect or Decomposed Model-Based Evaluation
 
 ::: {.callout-tip title="Example Papers" icon=false collapse=true}
 
@@ -261,7 +261,7 @@ Moving on to the second category, we have \"indirect or decomposed heuristics.\"
 
 > Honestly, the line between this method of evaluation and the next is blurry, especially in terms of impact and possibility of being wrong. Suggestions for better ontology are welcome!
 
-### Model-Driven Evaluation
+#### Model-Driven Evaluation
 
 ::: {.callout-tip title="Papers" icon=false collapse=true}
 
@@ -359,7 +359,7 @@ Fair! But (a) that de-incentivizes training of new models that are have better c
 
 :::
 
-## Performance Report
+### Performance Report
 
 In the realm of evaluation, it is vital to consider how we present the performance metrics. These numbers can be influenced by various factors, such as dataset splits and slight variations. It would be ideal to conduct multiple tests for each sample, utilizing different prompts and samples. However, this approach can be resource-intensive and necessitate significant modifications to evaluation frameworks. Therefore, it is crucial to approach the reported numbers with caution and maintain a level of skepticism.
 
@@ -397,13 +397,13 @@ Lastly, we must address the concept of prompt-fine tuning. Numerous research pap
 >
 > I have lost this paper in my never-ending pile. If someone finds this paper, please let me know and I will edit this document.
 
-# tl;dr {#tl-dr}
+## tl;dr {#tl-dr}
 
 In the realm of evaluating language models (LLMs), we find ourselves grappling with intricate questions about the reliability of our assessments. The truth is, evaluation and benchmarking have always been challenging, and the advent of large, multi-purpose models has only compounded the complexities. Issues such as data leakage, coverage limitations, spurious correlations, and partitioning quandaries plague our evaluation practices. To make matters worse, precision vs. recall tradeoffs and the lack of ground truth further muddy the waters. This post explores the common problems with evaluation in machine learning and delves into the specific challenges posed by LLMs. We categorize evaluation mediums into direct metrics, auxiliary models-based evaluation, and model-driven evaluation, shedding light on the nuances of each approach. With a cautious eye, we navigate the intricacies of reporting performance numbers and emphasize the importance of granularity. Prompt-fine tuning is also scrutinized, reminding us to consider the realism of user interactions. As we venture deeper into the evaluation landscape, it becomes clear that a comprehensive understanding of these complexities is essential for meaningful assessments of LLMs.
 
 > Our modeling, scaling and generalization techniques grew faster than our benchmarking abilities --- which in turn have resulted in poor evaluation and hyped capabilities. Every ability is amazing and great, if we do not have the tools to figure out what that ability is, or how good the model is at that ability. We'd always believe the model will win every race, if all we do, is have the race on paved roads, with yellow trees on every right turns, and green trees on every left turn.
 
-# Reference Material
+## Reference Material
 
 > In progress, and definitely not a comprehensive list of everything
 
