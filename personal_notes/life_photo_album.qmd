@@ -6,16 +6,16 @@ format: html
 categories: [Photos, Life]
 filters:
   - collapse-social-embeds
-  - lightbox
+  # - lightbox
 draft: false
 reference-location: margin
 citation-location: margin
-lightbox: auto
+# lightbox: auto
 # description: MacOS softwares are a huge thing of their own. They have a pretty great developer ecosystem, so there are many great indie apps that are awesome to know about, especially if you are just starting your MacOS journey.
 date-modified: last-modified
 ---
 
-All I want to see is [Cats]!
+All I want to see is [Cats]! I love good food, both [Cooking] and [Eating Out].
 
 ## 2023
 
@@ -45,6 +45,7 @@ All I want to see is [Cats]!
 ***tl;dr:*** We started off strong, didn't we. I was happy. And then, I was not.
 
 ::: photo-gallery
+![](images/c_aaai20_3.webp)
 :::
 
 ## 2019
@@ -52,6 +53,25 @@ All I want to see is [Cats]!
 ***tl;dr:*** The year of conferences.
 
 ::: photo-gallery
+![](images/paintingclasswithdikshaariba.webp)
+
+![](images/c_neurips19_1.webp)
+
+![](images/c_icmi19_1.webp)
+
+![](images/c_icassp19_2.webp)
+:::
+
+## 2018
+
+::: photo-gallery
+![](images/michiganwinter.webp)
+:::
+
+## 2017
+
+::: photo-gallery
+![](images/chicagomuseum.webp)
 :::
 
 ## Cats
@@ -62,4 +82,22 @@ All I want to see is [Cats]!
 ![Bert moves to Seattle (Redmond)](images/bertcomestoseattle.webp)
 
 ![Bert and Oreo stare at me while I prepare for thesis defense](images/bertandoreoatdefense.webp)
+:::
+
+## Cooking
+
+::: photo-gallery
+![](images/veghakkanoodles.webp)![](images/momsdrymaggi.webp)![](images/momschickencurry.webp)![](images/makingfilleddonutsathome.webp)![](images/homemadestackedchickenburger.webp)![](images/homemaderasmalai.webp)![](images/homemademacaron.webp)![](images/homemadedoublechocolatecookies.webp)![](images/homemadechillichicken.webp)![](images/homemadeblueberrymuffin.webp)![](images/daalmakhaniandnaan.webp)![](images/chickencurryanddaalmakhani.webp)![](images/attemptatmakingmanchurian.webp)![](images/aaloosoyapuri.webp)
+:::
+
+## Eating Out
+
+::: photo-gallery
+![](images/macaroninannarbor.webp)
+
+![](images/fritabatidosinannarbor.webp)
+
+![](images/dumplingsinla.webp)
+
+![](images/cholebhatureshreemaya.webp)
 :::
