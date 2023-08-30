@@ -25,14 +25,14 @@
 
 
 
-<p>All I want to see is Cats!</p>
+<p>All I want to see is Cats! I love good food, both Cooking and Eating Out.</p>
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section">2023</h2>
 <p><strong><em>tl;dr:</em></strong> I graduate with a Doctorate this year and start a new job.</p>
 <div class="photo-gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/iappliedforead.webp" class="lightbox" title="I applied for my EAD. Yeah, this was my passport sized photograph." data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/personal_notes/images/iappliedforead.webp" class="img-fluid figure-img"></a></p>
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/iappliedforead.webp" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">I applied for my EAD. Yeah, this was my passport sized photograph.</figcaption>
 </figure>
 </div>
@@ -44,7 +44,7 @@
 <div class="photo-gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/ivisitfamily.webp" class="lightbox" title="I finally visited my family when my whole personal life was NOT on fire" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/personal_notes/images/ivisitfamily.webp" class="img-fluid figure-img"></a></p>
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/ivisitfamily.webp" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">I finally visited my family when my whole personal life was NOT on fire</figcaption>
 </figure>
 </div>
@@ -61,14 +61,29 @@
 <h2 class="anchored" data-anchor-id="section-3">2020</h2>
 <p><strong><em>tl;dr:</em></strong> We started off strong, didn’t we. I was happy. And then, I was not.</p>
 <div class="photo-gallery">
-
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/c_aaai20_3.webp" class="img-fluid"></p>
 </div>
 </section>
 <section id="section-4" class="level2">
 <h2 class="anchored" data-anchor-id="section-4">2019</h2>
 <p><strong><em>tl;dr:</em></strong> The year of conferences.</p>
 <div class="photo-gallery">
-
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/paintingclasswithdikshaariba.webp" class="img-fluid"></p>
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/c_neurips19_1.webp" class="img-fluid"></p>
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/c_icmi19_1.webp" class="img-fluid"></p>
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/c_icassp19_2.webp" class="img-fluid"></p>
+</div>
+</section>
+<section id="section-5" class="level2">
+<h2 class="anchored" data-anchor-id="section-5">2018</h2>
+<div class="photo-gallery">
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/michiganwinter.webp" class="img-fluid"></p>
+</div>
+</section>
+<section id="section-6" class="level2">
+<h2 class="anchored" data-anchor-id="section-6">2017</h2>
+<div class="photo-gallery">
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/chicagomuseum.webp" class="img-fluid"></p>
 </div>
 </section>
 <section id="cats" class="level2">
@@ -76,22 +91,37 @@
 <div class="photo-gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/mydigitalpaintingofbert.webp" class="lightbox" title="I learnt how to flat render pets in Procreate!" data-gallery="quarto-lightbox-gallery-3"><img src="https://mimansajaiswal.github.io/personal_notes/images/mydigitalpaintingofbert.webp" class="img-fluid figure-img"></a></p>
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/mydigitalpaintingofbert.webp" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">I learnt how to flat render pets in Procreate!</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/bertcomestoseattle.webp" class="lightbox" title="Bert moves to Seattle (Redmond)" data-gallery="quarto-lightbox-gallery-4"><img src="https://mimansajaiswal.github.io/personal_notes/images/bertcomestoseattle.webp" class="img-fluid figure-img"></a></p>
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/bertcomestoseattle.webp" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Bert moves to Seattle (Redmond)</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/bertandoreoatdefense.webp" class="lightbox" title="Bert and Oreo stare at me while I prepare for thesis defense" data-gallery="quarto-lightbox-gallery-5"><img src="https://mimansajaiswal.github.io/personal_notes/images/bertandoreoatdefense.webp" class="img-fluid figure-img"></a></p>
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/bertandoreoatdefense.webp" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Bert and Oreo stare at me while I prepare for thesis defense</figcaption>
 </figure>
 </div>
+</div>
+</section>
+<section id="cooking" class="level2">
+<h2 class="anchored" data-anchor-id="cooking">Cooking</h2>
+<div class="photo-gallery">
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/veghakkanoodles.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/momsdrymaggi.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/momschickencurry.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/makingfilleddonutsathome.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/homemadestackedchickenburger.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/homemaderasmalai.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/homemademacaron.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/homemadedoublechocolatecookies.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/homemadechillichicken.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/homemadeblueberrymuffin.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/daalmakhaniandnaan.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/chickencurryanddaalmakhani.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/attemptatmakingmanchurian.webp" class="img-fluid"><img src="https://mimansajaiswal.github.io/personal_notes/images/aaloosoyapuri.webp" class="img-fluid"></p>
+</div>
+</section>
+<section id="eating-out" class="level2">
+<h2 class="anchored" data-anchor-id="eating-out">Eating Out</h2>
+<div class="photo-gallery">
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/macaroninannarbor.webp" class="img-fluid"></p>
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/fritabatidosinannarbor.webp" class="img-fluid"></p>
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/dumplingsinla.webp" class="img-fluid"></p>
+<p><img src="https://mimansajaiswal.github.io/personal_notes/images/cholebhatureshreemaya.webp" class="img-fluid"></p>
 </div>
 
 
@@ -153,7 +183,7 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of montaigne website.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Screenshot of website made in montaigne"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of montaigne website.webp" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
+<p><a href="images/screenshot of montaigne website.webp" class="lightbox" title="Screenshot of website made in montaigne" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of montaigne website.webp" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
 <figcaption class="figure-caption">Screenshot of website made in montaigne</figcaption>
 </figure>
 </div>
@@ -213,7 +243,7 @@ Summary of available website building options: sorted from most to least recomme
 <p><strong>Note</strong>: If you are okay with editing your website completely in markdown online, or creating a mirrored local repo and using the visual editor for Quarto in VS Code, then pushing the changes to github, you will do fine with Quarto. You almost always do not need such a complicated website, and it requires a ton of CSS to make it look good (feel free to copy mine), but it works with YAML and that is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of quarto website.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Screenshot of example website made in Quarto"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of quarto website.webp" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
+<p><a href="images/screenshot of quarto website.webp" class="lightbox" title="Screenshot of example website made in Quarto" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of quarto website.webp" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
 <figcaption class="figure-caption">Screenshot of example website made in Quarto</figcaption>
 </figure>
 </div>
@@ -266,14 +296,14 @@ Quarto idiosyncrasies
 <p>Most default templates that are associated with any of these CMS systems, come with the prerequisite of editing not the index content but instead collections (similar to any WYSIWYG editor for Astro). I found a few templates that allow you to edit the front page content too and you can see some setup demos here. <a href="https://tina.io/">tina</a>’s <a href="https://app.tina.io/quickstart">default option</a> is a completely editable website, and I recommend it.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/tinacmswebsite.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Creating and editing a personal website using Tina CMS with git workflow."><video src="images/tinacmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/tinacmswebsite.mp4">Video</a></p>
+<p><a href="images/tinacmswebsite.mp4" class="lightbox" title="Creating and editing a personal website using Tina CMS with git workflow." data-gallery="quarto-lightbox-gallery-3"><video src="images/tinacmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/tinacmswebsite.mp4">Video</a></p>
 <figcaption class="figure-caption">Creating and editing a personal website using Tina CMS with git workflow.</figcaption>
 </figure>
 </div>
 <p>For decap, I found two good options of templates that allowed to edit the base pages as well as the blog posts: <a href="https://github.com/danurbanowicz/eleventy-netlify-boilerplate">Eleventy Starter</a> and <a href="https://github.com/thriveweb/yellowcake/">Gatsby Starter</a>. There is a <a href="https://github.com/decaporg/one-click-hugo-cms">Hugo Starter</a> template as well if you really love Hugo.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/decapcmswebsite.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Creating and editing a personal website using Decap CMS with git workflow (using Eleventy)."><video src="images/decapcmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/decapcmswebsite.mp4">Video</a></p>
+<p><a href="images/decapcmswebsite.mp4" class="lightbox" title="Creating and editing a personal website using Decap CMS with git workflow (using Eleventy)." data-gallery="quarto-lightbox-gallery-4"><video src="images/decapcmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/decapcmswebsite.mp4">Video</a></p>
 <figcaption class="figure-caption">Creating and editing a personal website using Decap CMS with git workflow (using Eleventy).</figcaption>
 </figure>
 </div>
