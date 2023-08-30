@@ -184,25 +184,11 @@ ga('send', {
   <li><a href="#prompt-definition-markup" id="toc-prompt-definition-markup" class="nav-link" data-scroll-target="#prompt-definition-markup">Prompt Definition Markup</a></li>
   <li><a href="#sample-markup" id="toc-sample-markup" class="nav-link" data-scroll-target="#sample-markup">Sample Markup</a></li>
   <li><a href="#output-schema" id="toc-output-schema" class="nav-link" data-scroll-target="#output-schema">Output Schema</a></li>
-  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata">Metadata</a>
-  <ul class="collapse">
-  <li><a href="#connectors" id="toc-connectors" class="nav-link" data-scroll-target="#connectors">Connectors</a></li>
-  <li><a href="#iteration" id="toc-iteration" class="nav-link" data-scroll-target="#iteration">Iteration</a></li>
-  <li><a href="#intuition" id="toc-intuition" class="nav-link" data-scroll-target="#intuition">Intuition</a></li>
-  <li><a href="#variation" id="toc-variation" class="nav-link" data-scroll-target="#variation">Variation</a></li>
-  <li><a href="#experimental-design" id="toc-experimental-design" class="nav-link" data-scroll-target="#experimental-design">Experimental Design</a></li>
-  </ul></li>
+  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata">Metadata</a></li>
   </ul></li>
   <li><a href="#footnote" id="toc-footnote" class="nav-link" data-scroll-target="#footnote">Footnote</a>
   <ul class="collapse">
-  <li><a href="#recommended-papers-in-the-area-" id="toc-recommended-papers-in-the-area-" class="nav-link" data-scroll-target="#recommended-papers-in-the-area-">Recommended papers in the area:</a>
-  <ul class="collapse">
-  <li><a href="#markup-interfacing-languages" id="toc-markup-interfacing-languages" class="nav-link" data-scroll-target="#markup-interfacing-languages">Markup/Interfacing Languages</a></li>
-  <li><a href="#prompt-building" id="toc-prompt-building" class="nav-link" data-scroll-target="#prompt-building">Prompt Building</a></li>
-  <li><a href="#dataset-cartography" id="toc-dataset-cartography" class="nav-link" data-scroll-target="#dataset-cartography">Dataset Cartography</a></li>
-  <li><a href="#experimental-design-" id="toc-experimental-design-" class="nav-link" data-scroll-target="#experimental-design-">Experimental Design</a></li>
-  <li><a href="#llm-evaluation" id="toc-llm-evaluation" class="nav-link" data-scroll-target="#llm-evaluation">LLM Evaluation</a></li>
-  </ul></li>
+  <li><a href="#recommended-papers-in-the-area-" id="toc-recommended-papers-in-the-area-" class="nav-link" data-scroll-target="#recommended-papers-in-the-area-">Recommended papers in the area:</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -253,8 +239,8 @@ ga('send', {
 
 </header>
 
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>"LLMs", or Language Models, need to be trained and tested on different datasets and prompts to improve functionality and accuracy. In addition, versioning is important when assessing LLMs. Iterating on the prompts and datasets can produce better results. However, keeping different versions of both prompts and datasets can help identify which changes led to improvements in performance. All these practices should be followed to effectively evaluate and improve LLMs.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -262,8 +248,8 @@ ga('send', {
 </figure>
 </div>
 </section>
-<section id="what-does-usual-model-training-look-like-" class="level1">
-<h1>What does usual model training look like?</h1>
+<section id="what-does-usual-model-training-look-like-" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-usual-model-training-look-like-">What does usual model training look like?</h2>
 <p>In machine learning, it's common to divide a dataset into three parts: the train set, validation set, and test set. The train set is used to train a machine learning model, the validation set is used to tune the hyperparameters of the model, and the test set is used to measure the final performance of the model.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -277,8 +263,8 @@ ga('send', {
 </figure>
 </div>
 </section>
-<section id="problems-with-closed-llms" class="level1 page-columns page-full">
-<h1>Problems with Closed LLMs</h1>
+<section id="problems-with-closed-llms" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="problems-with-closed-llms">Problems with Closed LLMs</h2>
 <p>The use of closed language models (LLMs) poses certain challenges when it comes to testing their performance. If we do not know what went into the training dataset of a closed LLM, it is very likely that the test dataset we use or generate will be contaminated. This can result in inaccurate performance metrics and difficulty in verifying the correctness of the model's responses.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -286,8 +272,8 @@ ga('send', {
 </figure>
 </div>
 <p>Prompt-based benchmarking can exacerbate these challenges further by introducing another layer of complexity. If we are not directly testing for an "input sample" to "output" correspondence, the way we write the prompt and what we ask for as an output will significantly change how we benchmark the ability of any model. This can make evaluating the performance of a closed LLM more difficult and error-prone, and increase the risk of producing biased results.</p>
-<section id="prompting-closed-llms" class="level2">
-<h2 class="anchored" data-anchor-id="prompting-closed-llms">Prompting Closed LLMs</h2>
+<section id="prompting-closed-llms" class="level3">
+<h3 class="anchored" data-anchor-id="prompting-closed-llms">Prompting Closed LLMs</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-f258297f659.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-f258297f659.webp" class="img-fluid figure-img"></a></p>
@@ -302,8 +288,8 @@ ga('send', {
 </li>
 </ul>
 </section>
-<section id="prompt-based-experimental-design-schemas" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="prompt-based-experimental-design-schemas">Prompt Based Experimental Design Schemas</h2>
+<section id="prompt-based-experimental-design-schemas" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="prompt-based-experimental-design-schemas">Prompt Based Experimental Design Schemas</h3>
 
 <div class="no-row-height column-margin column-container"><div class="callout callout-style-default callout-note callout-titled" title="Michael Frank talks about need some principles from experimental psychology">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
@@ -317,7 +303,7 @@ Michael Frank talks about need some principles from experimental psychology
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p></p><div id="tweet-27419"></div><script>tweet={"url":"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538","author_name":"Michael C. Frank","author_url":"https:\/\/twitter.com\/mcxfrank","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EPeople are testing large language models (LLMs) on their &quot;cognitive&quot; abilities - theory of mind, causality, syllogistic reasoning, etc. Many (most?) of these evaluations are deeply flawed. To evaluate LLMs effectively, we need some principles from experimental psychology.\uD83E\uDDF5 \u003Ca href=\"https:\/\/t.co\/Xlywu3gTVz\"\u003Epic.twitter.com\/Xlywu3gTVz\u003C\/a\u003E\u003C\/p\u003E&mdash; Michael C. Frank (@mcxfrank) \u003Ca href=\"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538?ref_src=twsrc%5Etfw\"\u003EApril 4, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-27419").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-93287"></div><script>tweet={"url":"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538","author_name":"Michael C. Frank","author_url":"https:\/\/twitter.com\/mcxfrank","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EPeople are testing large language models (LLMs) on their &quot;cognitive&quot; abilities - theory of mind, causality, syllogistic reasoning, etc. Many (most?) of these evaluations are deeply flawed. To evaluate LLMs effectively, we need some principles from experimental psychology.\uD83E\uDDF5 \u003Ca href=\"https:\/\/t.co\/Xlywu3gTVz\"\u003Epic.twitter.com\/Xlywu3gTVz\u003C\/a\u003E\u003C\/p\u003E&mdash; Michael C. Frank (@mcxfrank) \u003Ca href=\"https:\/\/twitter.com\/mcxfrank\/status\/1643296168276033538?ref_src=twsrc%5Etfw\"\u003EApril 4, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-93287").innerHTML = tweet["html"];</script><p></p>
 </div>
 </div>
 </div></div><div class="quarto-figure quarto-figure-center">
@@ -328,8 +314,8 @@ Michael Frank talks about need some principles from experimental psychology
 <p>Let's talk about Prompt Based Experimental Design Schemas. These schemas can be thought of as templates, but with a key distinction. They not only focus on varying the input sample, but also on modifying the prompt specifications. By doing so, they allow us to closely monitor and analyze the changes that occur from one prompt to another. This approach provides a valuable way to study and understand the impact of different prompts on the overall outcome of an experiment.</p>
 </section>
 </section>
-<section id="prompt-markup-schema" class="level1 page-columns page-full">
-<h1>Prompt Markup Schema</h1>
+<section id="prompt-markup-schema" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="prompt-markup-schema">Prompt Markup Schema</h2>
 <p>Prompt Based Experimental Design Schemas can be categorized into four main categories: prompts, samples, outputs, and metadata.</p>
 <p>While the evaluation or metric design for outputs is a complex problem on its own, whether we use prompt based systems or not, in this discussion we will focus on exploring schemas for the remaining three categories: prompts, samples, and metadata.</p>
 <p>These aspects play a crucial role in shaping the experimental design and understanding the impact of different elements within the experiment.</p>
@@ -344,8 +330,8 @@ Michael Frank talks about need some principles from experimental psychology
 <p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-583dc6d0606.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-583dc6d0606.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
-<section id="prompt-definition-markup" class="level2">
-<h2 class="anchored" data-anchor-id="prompt-definition-markup">Prompt Definition Markup</h2>
+<section id="prompt-definition-markup" class="level3">
+<h3 class="anchored" data-anchor-id="prompt-definition-markup">Prompt Definition Markup</h3>
 <p>Let's delve into the concept of Prompt Definition Markup. Within this framework, we identify three types of steering in a prompt: start, process, and output.</p>
 <p>Each type serves a distinct purpose. Additionally, an output steer consists of two components: instructions (including constraints and format) and options.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -373,8 +359,8 @@ Michael Frank talks about need some principles from experimental psychology
 </figure>
 </div>
 </section>
-<section id="sample-markup" class="level2">
-<h2 class="anchored" data-anchor-id="sample-markup">Sample Markup</h2>
+<section id="sample-markup" class="level3">
+<h3 class="anchored" data-anchor-id="sample-markup">Sample Markup</h3>
 <p>Let's now turn our attention to Sample Markup. A sample consists of two key components: examples and input. However, if our objective is zero-shot prompting, we may not require specific examples.</p>
 <p>In cases where examples are included, they can be categorized as either positive (A1) or negative (A2) examples, providing different instances for the model to learn from. On the other hand, the input component comprises three parts: the sample itself (B1), a question (B2), and a concept (B3). These elements collectively shape the input provided to the model, allowing for a more targeted and contextualized prompt.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -389,8 +375,8 @@ Michael Frank talks about need some principles from experimental psychology
 </figure>
 </div>
 </section>
-<section id="output-schema" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="output-schema">Output Schema</h2>
+<section id="output-schema" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="output-schema">Output Schema</h3>
 <p>The output schema is a complex process that intersects significantly with large language model (LLM) evaluation techniques. If you're interested in delving deeper into this topic, I recommend checking out <a href="../notes/case-of-llm-evals.html">my other post</a>. It provides further insights and information about the intricacies involved in designing and evaluating output schemas for LLMs.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -405,8 +391,8 @@ Michael Frank talks about need some principles from experimental psychology
 </figure>
 </div>
 </div></div></section>
-<section id="metadata" class="level2">
-<h2 class="anchored" data-anchor-id="metadata">Metadata</h2>
+<section id="metadata" class="level3">
+<h3 class="anchored" data-anchor-id="metadata">Metadata</h3>
 <p>Let's now discuss the final component of the proposed schema: Metadata. Metadata plays a crucial role in shaping the overall prompt-based experimental design. It consists of five key parts that contribute to the effectiveness and coherence of the experiment:<br>
 A. Connectors<br>
 B. Iteration<br>
@@ -418,8 +404,8 @@ E. Experimental Design</p>
 <p><a href="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-c6fddf51f9e.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="images/capstone/Prompt_Cap__Making_Sure_Your_Model_Benchmarking_is_Cap_or_Not-Cap-c6fddf51f9e.webp" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
-<section id="connectors" class="level3">
-<h3 class="anchored" data-anchor-id="connectors">Connectors</h3>
+<section id="connectors" class="level4">
+<h4 class="anchored" data-anchor-id="connectors">Connectors</h4>
 <p>Let's delve into the concept of Connectors within the prompt-based experimental design schema. Connectors serve as internal elements within a single prompt and play a crucial role in shaping the prompt's context and implications. They can serve different purposes:</p>
 <p>A1. Addition: Connectors can add information that reinforces the belief or statement presented in the prompt. This additional information further strengthens the intended message or concept.</p>
 <p>A2. Negation: On the other hand, connectors can also negate certain information presented in the prompt. By negating specific details, the prompt can introduce contrasting or alternative perspectives.</p>
@@ -431,8 +417,8 @@ E. Experimental Design</p>
 </figure>
 </div>
 </section>
-<section id="iteration" class="level3">
-<h3 class="anchored" data-anchor-id="iteration">Iteration</h3>
+<section id="iteration" class="level4">
+<h4 class="anchored" data-anchor-id="iteration">Iteration</h4>
 <p>Iteration involves making changes to the prompt itself, without modifying the sample or the desired output. It allows for refining and improving the prompt to enhance the experimental design and guide the model's response.</p>
 <p>There are different ways in which iteration can be implemented:</p>
 <p>B1. Multi-instruction: This involves adding multiple instructions within the prompt, providing additional guidance and directions to the model. These instructions help shape the model's understanding and guide its response in a more specific manner.</p>
@@ -440,8 +426,8 @@ E. Experimental Design</p>
 <p>B3. Chaining: Chaining refers to linking multiple prompts together in a sequential manner. Each prompt builds upon the previous one, creating a chain of prompts that guide the model's thought process and response. This approach allows for a step-by-step exploration of the given scenario or concept.</p>
 <p>For example, adding the phrase "Let's think about this step by step" to the prompt can be considered an iteration aimed at incorporating a "Process steer." This addition provides a clearer instruction to the model, encouraging a systematic and sequential approach in its response.</p>
 </section>
-<section id="intuition" class="level3">
-<h3 class="anchored" data-anchor-id="intuition">Intuition</h3>
+<section id="intuition" class="level4">
+<h4 class="anchored" data-anchor-id="intuition">Intuition</h4>
 <p>Intuition refers to the reasoning or underlying purpose behind the prompt. It represents the intention or objective that the researchers aim to achieve through the prompt.</p>
 <p>We can categorize intuition into three types:</p>
 <p>C1. Implicit: Implicit intuition refers to the underlying concept or idea that is implicitly conveyed through the prompt. It represents the broader theme or topic that the prompt is designed to explore or address.</p>
@@ -457,8 +443,8 @@ E. Experimental Design</p>
 </figure>
 </div>
 </section>
-<section id="variation" class="level3">
-<h3 class="anchored" data-anchor-id="variation">Variation</h3>
+<section id="variation" class="level4">
+<h4 class="anchored" data-anchor-id="variation">Variation</h4>
 <p>Now let's shift our attention to Variations within the prompt-based experimental design schema. Variations occur across different input samples and play a crucial role in shaping the experimental design. They allow for the exploration of diverse scenarios and perspectives, ensuring a comprehensive analysis of the model's capabilities.</p>
 <p>We can categorize variations into different aspects:</p>
 <p>D1. Output Specification: This aspect focuses on the desired output of the prompt. It can be categorized as generative (Gen.) or discriminative, depending on whether the prompt aims to generate new content or make a judgment or discrimination based on the input.</p>
@@ -481,8 +467,8 @@ Somehow sleep is not encoded as no knowledge transfer?</p>
 </figure>
 </div>
 </section>
-<section id="experimental-design" class="level3">
-<h3 class="anchored" data-anchor-id="experimental-design">Experimental Design</h3>
+<section id="experimental-design" class="level4">
+<h4 class="anchored" data-anchor-id="experimental-design">Experimental Design</h4>
 <p>The experimental design encompasses the basics of the experiment and the corresponding prompt, providing a structured framework for conducting the evaluation.</p>
 <p>We can define different components within the experimental design:</p>
 <p>E1. Control: A control prompt serves as a baseline for comparison. It can be a prompt that compares the model's performance to a base model or a different kind of model, where it is known, to the best of our knowledge, that the model does not exhibit certain capabilities. For example, if we can confidently say that GPT3.5 does not "pass" the false-belief test, it can serve as a control prompt.</p>
@@ -514,13 +500,13 @@ Suggestions to frame it without using the explicit terms "think" "believe" which
 </section>
 </section>
 </section>
-<section id="footnote" class="level1">
-<h1>Footnote</h1>
+<section id="footnote" class="level2">
+<h2 class="anchored" data-anchor-id="footnote">Footnote</h2>
 <p>This prompt-based experimental design schema is a work in progress and welcomes suggestions for further improvement. Integrating existing LLMs to simplify metadata processing is an open question, and suggestions on this topic are highly appreciated!</p>
-<section id="recommended-papers-in-the-area-" class="level2">
-<h2 class="anchored" data-anchor-id="recommended-papers-in-the-area-">Recommended papers in the area:</h2>
-<section id="markup-interfacing-languages" class="level3">
-<h3 class="anchored" data-anchor-id="markup-interfacing-languages">Markup/Interfacing Languages</h3>
+<section id="recommended-papers-in-the-area-" class="level3">
+<h3 class="anchored" data-anchor-id="recommended-papers-in-the-area-">Recommended papers in the area:</h3>
+<section id="markup-interfacing-languages" class="level4">
+<h4 class="anchored" data-anchor-id="markup-interfacing-languages">Markup/Interfacing Languages</h4>
 <p><a href="https://arxiv.org/abs/2202.01279">PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts</a></p>
 <p><a href="https://arxiv.org/abs/2111.01998">OpenPrompt: An Open-source Framework for Prompt-learning</a></p>
 <p><a href="https://arxiv.org/abs/2203.06566">PromptChainer: Chaining Large Language Model Prompts through Visual Programming</a></p>
@@ -528,8 +514,8 @@ Suggestions to frame it without using the explicit terms "think" "believe" which
 <p><a href="https://arxiv.org/abs/2110.08518">MarkupLM: Pre-training of Text and Markup Language for Visually Rich Document Understanding</a></p>
 <p><a href="https://arxiv.org/abs/2304.06597">“What It Wants Me To Say”: Bridging the Abstraction Gap Between End-User Programmers and Code-Generating Large Language Models</a></p>
 </section>
-<section id="prompt-building" class="level3">
-<h3 class="anchored" data-anchor-id="prompt-building">Prompt Building</h3>
+<section id="prompt-building" class="level4">
+<h4 class="anchored" data-anchor-id="prompt-building">Prompt Building</h4>
 <p><a href="https://arxiv.org/abs/2207.10342">Language Model Cascades</a></p>
 <p><a href="https://arxiv.org/abs/2210.03493">Automatic Chain of Thought Prompting in Large Language Models</a></p>
 <p><a href="https://arxiv.org/abs/2211.01910">Large Language Models Are Human-Level Prompt Engineers</a></p>
@@ -538,17 +524,17 @@ Suggestions to frame it without using the explicit terms "think" "believe" which
 <p><a href="https://arxiv.org/abs/2306.04528">PromptBench: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts</a></p>
 <p><a href="https://github.com/microsoft/guidance">Guidance: Control modern language models more effectively and efficiently than traditional prompting or chaining</a></p>
 </section>
-<section id="dataset-cartography" class="level3">
-<h3 class="anchored" data-anchor-id="dataset-cartography">Dataset Cartography</h3>
+<section id="dataset-cartography" class="level4">
+<h4 class="anchored" data-anchor-id="dataset-cartography">Dataset Cartography</h4>
 <p><a href="https://arxiv.org/abs/2012.01300">Learning from Others’ Mistakes: Avoiding Dataset Biases without Modeling Them</a></p>
 <p><a href="https://aclanthology.org/2020.emnlp-main.746/">Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</a></p>
 <p><a href="https://arxiv.org/abs/2003.08529">Diversity, Density, and Homogeneity: Quantitative Characteristic Metrics for Text Collections</a></p>
 </section>
-<section id="experimental-design-" class="level3">
-<h3 class="anchored" data-anchor-id="experimental-design-">Experimental Design</h3>
+<section id="experimental-design-" class="level4">
+<h4 class="anchored" data-anchor-id="experimental-design-">Experimental Design</h4>
 </section>
-<section id="llm-evaluation" class="level3">
-<h3 class="anchored" data-anchor-id="llm-evaluation">LLM Evaluation</h3>
+<section id="llm-evaluation" class="level4">
+<h4 class="anchored" data-anchor-id="llm-evaluation">LLM Evaluation</h4>
 <p><a href="https://arxiv.org/abs/2205.09712">Selection-Inference: Exploiting Language Models for Interpretable Logical Reasoning</a></p>
 
 
@@ -822,7 +808,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":true,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":true,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});</script>
 
 
 
