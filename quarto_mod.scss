@@ -116,6 +116,14 @@ a {
   position: relative;
 }
 
+div.listing-description > a {
+  color: $indigo !important;
+  text-decoration: none !important;
+  transition: color .2s !important;
+  display: inline-block !important;
+  position: relative !important;
+}
+
 :not(.metadata):not(.card-img-top):not(.buy-coffee-btn):not(.quarto-category):not(.nav-item):not(.navbar-brand-container):not(.about-links)>a::before {
   content: '';
   position: absolute;
