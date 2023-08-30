@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="">
-<meta name="description" content="Personal notes">
+<meta name="dcterms.date" content="2023-08-29">
 
-<title>Personal Notes</title>
+<title>A lookback on life in pixels</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../favicon.ico" rel="icon">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -43,6 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/collapse-social-embeds-1.0.0/collapse.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,35 +64,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
 <script type="text/javascript">
 
@@ -107,18 +79,26 @@ ga('send', {
 });
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean",
+  "openSidebar": false,
+  "showHighlights": "whenSidebarOpen"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="alternate" type="application/rss+xml" title="Mimansa Jaiswal" href="index.xml"><meta property="og:title" content="Personal Notes">
-<meta property="og:description" content="Personal notes">
+<meta property="og:title" content="A lookback on life in pixels">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://mimansajaiswal.github.io/personal_notes/images/iappliedforead.webp">
 <meta property="og:site-name" content="Mimansa Jaiswal">
-<meta name="twitter:title" content="Personal Notes">
-<meta name="twitter:description" content="Personal notes">
+<meta name="twitter:title" content="A lookback on life in pixels">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://mimansajaiswal.github.io/personal_notes/images/iappliedforead.webp">
 <meta name="twitter:creator" content="@MimansaJ">
 <meta name="twitter:site" content="@MimansaJ">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -159,7 +139,7 @@ ga('send', {
  <span class="menu-text">Blurbs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../personal_notes/index.html" rel="" target="" aria-current="page"><i class="bi bi-bookmark-heart-fill" role="img">
+    <a class="nav-link" href="../personal_notes/index.html" rel="" target=""><i class="bi bi-bookmark-heart-fill" role="img">
 </i> 
  <span class="menu-text">Personal Notes</span></a>
   </li>  
@@ -187,177 +167,128 @@ ga('send', {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Academia">Academia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Life">Life <span class="quarto-category-count">(1)</span></div><div class="category" data-category="MacOS">MacOS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Photos">Photos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Softwares">Softwares <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tools">Tools <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Website">Website <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2023</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2022</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2021</a></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">2020</a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4">2019</a></li>
+  <li><a href="#cats" id="toc-cats" class="nav-link" data-scroll-target="#cats">Cats</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header">
-<h1 class="title display-7">Personal Notes</h1>
-<p class="author"></p>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">A lookback on life in pixels</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Photos</div>
+    <div class="quarto-category">Life</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 29, 2023</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">August 30, 2023</p>
+    </div>
+  </div>
+    
+  </div>
+  
 
 </header>
 
-<script>
-for (const div of document.querySelectorAll('.category')) {
-  div.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
-}
-for (const div of document.querySelectorAll('.quarto-listing-category.category-default')) {
-  div.classList.add('list-group');
-}
-
-let counts = document.querySelectorAll('.quarto-category-count');
-for (let i = 0; i < counts.length; i++) {
-  let countText = counts[i].textContent;
-  countText = countText.replace(/\(|\)/g, '');
-  counts[i].textContent = countText;
-  counts[i].classList.add('badge', 'bg-primary', 'rounded-pill');
-}
-</script>
-<div class="mob-quick-nav">
-<div class="callout callout-style-default callout-note callout-titled" title="Professional Quick Navigation">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Professional Quick Navigation
+<p>All I want to see is <a href="#cats">Cats</a>!</p>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2023</h2>
+<p><strong><em>tl;dr:</em></strong> I graduate with a Doctorate this year and start a new job.</p>
+<div class="photo-gallery">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/iappliedforead.webp" class="lightbox" title="I applied for my EAD. Yeah, this was my passport sized photograph." data-gallery="quarto-lightbox-gallery-1"><img src="images/iappliedforead.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">I applied for my EAD. Yeah, this was my passport sized photograph.</figcaption>
+</figure>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p><a href="../index.html">Homepage</a>, <a href="mailto:mimansa@umich.edu">Email</a>, <a href="https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view">Resume</a>, <a href="../notes/index.html">Research Notes</a>, and, <a href="../papers.html">Publications</a></p>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2022</h2>
+<p><strong><em>tl;dr:</em></strong> I catch up with life. The previous 2 years were, well, hell.</p>
+<div class="photo-gallery">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/ivisitfamily.webp" class="lightbox" title="I finally visited my family when my whole personal life was NOT on fire" data-gallery="quarto-lightbox-gallery-2"><img src="images/ivisitfamily.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">I finally visited my family when my whole personal life was NOT on fire</figcaption>
+</figure>
 </div>
 </div>
-</div>
-<div>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled" title="Personal Quick Navigation">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Personal Quick Navigation
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Explore my life’s photo album <a href="../personal_notes/life_photo_album.html">here</a>. I have used Mac for a decade now, and if you want suggestions, check <a href="../personal_notes/mac_softwares.html">here</a>. I also use LLMs a lot in my <a href="">personal</a> and <a href="">professional</a> life, if you want any inspiration.</p>
-</div>
-</div>
-</div>
-<p>This is a just a bunch of posts about life, tools, productivity, preferences etc. More like a get to know me beyond research zone.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Photos,Life" data-listing-date-sort="1693267200000" data-listing-file-modified-sort="1693387005950" data-listing-date-modified-sort="1693387005000" data-listing-reading-time-sort="1">
-<div class="body">
-<a href="../personal_notes/life_photo_album.html">
-<h3 class="no-anchor listing-title">
-A lookback on life in pixels
-</h3>
-<div class="listing-subtitle">
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">2021</h2>
+<p><strong><em>tl;dr:</em></strong> Yeah, this wasn’t a good year. I wish everything that happened this year could be changed to not happen. Alas, that is not a possibility.</p>
+<div class="photo-gallery">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Photos'); return false;">
-Photos
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Life'); return false;">
-Life
-</div>
-</div>
-<a href="../personal_notes/life_photo_album.html">
-<div class="listing-description">
-All I want to see is Cats!
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../personal_notes/life_photo_album.html">
-<div class="listing-date">
-08-29-2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Tools,Website,Academia" data-listing-date-sort="1690761600000" data-listing-file-modified-sort="1693387005950" data-listing-date-modified-sort="1693387005000" data-listing-reading-time-sort="15">
-<div class="body">
-<a href="../personal_notes/personal_academic_website.html">
-<h3 class="no-anchor listing-title">
-What is the cheapest and easiest way to create AND maintain a personal academic website?
-</h3>
-<div class="listing-subtitle">
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">2020</h2>
+<p><strong><em>tl;dr:</em></strong> We started off strong, didn’t we. I was happy. And then, I was not.</p>
+<div class="photo-gallery">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Tools'); return false;">
-Tools
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Website'); return false;">
-Website
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Academia'); return false;">
-Academia
-</div>
-</div>
-<a href="../personal_notes/personal_academic_website.html">
-<div class="listing-description">
-<p>Another week of personal website debate on Twitter, another set of heavy compilation based suggestions to create and maintain a personal website. So, I decided to take a look at all the recent website builders and provide a set of recommendations.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../personal_notes/personal_academic_website.html">
-<div class="listing-date">
-07-31-2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Tools,MacOS,Softwares" data-listing-date-sort="1690243200000" data-listing-file-modified-sort="1693387005950" data-listing-date-modified-sort="1693387005000" data-listing-reading-time-sort="8">
-<div class="body">
-<a href="../personal_notes/mac_softwares.html">
-<h3 class="no-anchor listing-title">
-What softwares do I actually use on my Mac as a software enthusiast?
-</h3>
-<div class="listing-subtitle">
+</section>
+<section id="section-4" class="level2">
+<h2 class="anchored" data-anchor-id="section-4">2019</h2>
+<p><strong><em>tl;dr:</em></strong> The year of conferences.</p>
+<div class="photo-gallery">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Tools'); return false;">
-Tools
+</section>
+<section id="cats" class="level2">
+<h2 class="anchored" data-anchor-id="cats">Cats</h2>
+<div class="photo-gallery">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/mydigitalpaintingofbert.webp" class="lightbox" title="I learnt how to flat render pets in Procreate!" data-gallery="quarto-lightbox-gallery-3"><img src="images/mydigitalpaintingofbert.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">I learnt how to flat render pets in Procreate!</figcaption>
+</figure>
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('MacOS'); return false;">
-MacOS
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/bertcomestoseattle.webp" class="lightbox" title="Bert moves to Seattle (Redmond)" data-gallery="quarto-lightbox-gallery-4"><img src="images/bertcomestoseattle.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Bert moves to Seattle (Redmond)</figcaption>
+</figure>
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Softwares'); return false;">
-Softwares
-</div>
-</div>
-<a href="../personal_notes/mac_softwares.html">
-<div class="listing-description">
-<p>MacOS softwares are a huge thing of their own. They have a pretty great developer ecosystem, so there are many great indie apps that are awesome to know about, especially if you are just starting your MacOS journey.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../personal_notes/mac_softwares.html">
-<div class="listing-date">
-07-25-2023
-</div>
-</a>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/bertandoreoatdefense.webp" class="lightbox" title="Bert and Oreo stare at me while I prepare for thesis defense" data-gallery="quarto-lightbox-gallery-5"><img src="images/bertandoreoatdefense.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Bert and Oreo stare at me while I prepare for thesis defense</figcaption>
+</figure>
 </div>
 </div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -591,6 +522,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="mimansajaiswal/mimansajaiswal.github.io" data-repo-id="R_kgDOJo-RfQ" data-category="Announcements" data-category-id="DIC_kwDOJo-Rfc4CW3WB" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -621,6 +554,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":true,"descPosition":"bottom"});</script>
 
 
 

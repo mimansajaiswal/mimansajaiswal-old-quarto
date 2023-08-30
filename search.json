@@ -109,7 +109,7 @@
     "href": "personal_notes/index.html",
     "title": "Personal Notes",
     "section": "",
-    "text": "Quick Navigation\n\n\n\nHomepage, Email, Resume, Research Notes, and, Publications\n\n\n\nThis is a just a bunch of posts about life, tools, productivity, preferences etc. More like a get to know me beyond research zone.\n\n\n\n\n\n\n\n\n\n\nWhat is the cheapest and easiest way to create AND maintain a personal academic website?\n\n\n\n\n\n\n\nTools\n\n\nWebsite\n\n\nAcademia\n\n\n\n\nAnother week of personal website debate on Twitter, another set of heavy compilation based suggestions to create and maintain a personal website. So, I decided to take a look at all the recent website builders and provide a set of recommendations.\n\n\n\n\n\n\n07-31-2023\n\n\n\n\n\n\n\n\nWhat softwares do I actually use on my Mac as a software enthusiast?\n\n\n\n\n\n\n\nTools\n\n\nMacOS\n\n\nSoftwares\n\n\n\n\nMacOS softwares are a huge thing of their own. They have a pretty great developer ecosystem, so there are many great indie apps that are awesome to know about, especially if you are just starting your MacOS journey.\n\n\n\n\n\n\n07-25-2023\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Professional Quick Navigation\n\n\n\nHomepage, Email, Resume, Research Notes, and, Publications\n\n\n\n\n\n\n\n\n\n\nPersonal Quick Navigation\n\n\n\nExplore my life’s photo album here. I have used Mac for a decade now, and if you want suggestions, check here. I also use LLMs a lot in my personal and professional life, if you want any inspiration.\n\n\n\nThis is a just a bunch of posts about life, tools, productivity, preferences etc. More like a get to know me beyond research zone.\n\n\n\n\n\n\n\n\n\n\nA lookback on life in pixels\n\n\n\n\n\n\n\nPhotos\n\n\nLife\n\n\n\n\n\n\n\n\n\n\n\n08-29-2023\n\n\n\n\n\n\n\n\nWhat is the cheapest and easiest way to create AND maintain a personal academic website?\n\n\n\n\n\n\n\nTools\n\n\nWebsite\n\n\nAcademia\n\n\n\n\nAnother week of personal website debate on Twitter, another set of heavy compilation based suggestions to create and maintain a personal website. So, I decided to take a look at all the recent website builders and provide a set of recommendations.\n\n\n\n\n\n\n07-31-2023\n\n\n\n\n\n\n\n\nWhat softwares do I actually use on my Mac as a software enthusiast?\n\n\n\n\n\n\n\nTools\n\n\nMacOS\n\n\nSoftwares\n\n\n\n\nMacOS softwares are a huge thing of their own. They have a pretty great developer ecosystem, so there are many great indie apps that are awesome to know about, especially if you are just starting your MacOS journey.\n\n\n\n\n\n\n07-25-2023\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "personal_notes/personal_academic_website.html",
@@ -152,6 +152,55 @@
     "title": "What is the cheapest and easiest way to create AND maintain a personal academic website?",
     "section": "tl;dr",
     "text": "tl;dr\nFor most people Montaigne is enough! And this is the option I recommend to most people who do not use git in their day to day life (and have an icloud account). If you are willing to dabble into some git technicalities, go with Notion to Astro. Want a deeply integrated CMS system, especially if you write a lot of blog posts, go with Git Based CMS. If you want some support for callouts, embeds, but are okay with using shortcodes and tend to do more technical writing, go with Quarto. If you are proficient enough in web development to edit HTML, do not care much about losing content if Google Sites goes down or want 100 of well crafted templates that are still hard to edit visually and require commands, check out options 5-8 in Summary of available website building options: sorted from most to least recommended. Use:. If you do not want to write markdown or shortcodes to include a video in your post, stick to Montaigne or Notion to Astro."
+  },
+  {
+    "objectID": "personal_notes/life_photo_album.html",
+    "href": "personal_notes/life_photo_album.html",
+    "title": "A lookback on life in pixels",
+    "section": "",
+    "text": "All I want to see is Cats!"
+  },
+  {
+    "objectID": "personal_notes/life_photo_album.html#section",
+    "href": "personal_notes/life_photo_album.html#section",
+    "title": "A lookback on life in pixels",
+    "section": "2023",
+    "text": "2023\ntl;dr: I graduate with a Doctorate this year and start a new job.\n\n\n\n\nI applied for my EAD. Yeah, this was my passport sized photograph."
+  },
+  {
+    "objectID": "personal_notes/life_photo_album.html#section-1",
+    "href": "personal_notes/life_photo_album.html#section-1",
+    "title": "A lookback on life in pixels",
+    "section": "2022",
+    "text": "2022\ntl;dr: I catch up with life. The previous 2 years were, well, hell.\n\n\n\n\nI finally visited my family when my whole personal life was NOT on fire"
+  },
+  {
+    "objectID": "personal_notes/life_photo_album.html#section-2",
+    "href": "personal_notes/life_photo_album.html#section-2",
+    "title": "A lookback on life in pixels",
+    "section": "2021",
+    "text": "2021\ntl;dr: Yeah, this wasn’t a good year. I wish everything that happened this year could be changed to not happen. Alas, that is not a possibility."
+  },
+  {
+    "objectID": "personal_notes/life_photo_album.html#section-3",
+    "href": "personal_notes/life_photo_album.html#section-3",
+    "title": "A lookback on life in pixels",
+    "section": "2020",
+    "text": "2020\ntl;dr: We started off strong, didn’t we. I was happy. And then, I was not."
+  },
+  {
+    "objectID": "personal_notes/life_photo_album.html#section-4",
+    "href": "personal_notes/life_photo_album.html#section-4",
+    "title": "A lookback on life in pixels",
+    "section": "2019",
+    "text": "2019\ntl;dr: The year of conferences."
+  },
+  {
+    "objectID": "personal_notes/life_photo_album.html#cats",
+    "href": "personal_notes/life_photo_album.html#cats",
+    "title": "A lookback on life in pixels",
+    "section": "Cats",
+    "text": "Cats\n\n\n\n\nI learnt how to flat render pets in Procreate!\n\n\n\n\n\nBert moves to Seattle (Redmond)\n\n\n\n\n\nBert and Oreo stare at me while I prepare for thesis defense"
   },
   {
     "objectID": "personal_notes/mac_softwares.html",
