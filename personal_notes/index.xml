@@ -25,15 +25,36 @@
 
 
 
+<section id="thesis-committee" class="level2">
+<h2 class="anchored" data-anchor-id="thesis-committee">Thesis Committee</h2>
 <p>I would like to start by expressing my profound gratitude towards my PhD advisor, <a href="https://emp.engin.umich.edu/">Emily</a>. She has been my go-to person for any research brainstorming and has shown me tremendous patience, support, and guidance throughout my PhD journey. Without her persistence and suggestions, completing this PhD would not have been possible. I am also incredibly grateful for my thesis committee members: <a href="http://www-personal.umich.edu/~vgvinodv/">Vinod</a>, <a href="http://www.nikolabanovic.net/">Nikola</a>, <a href="https://ben.fish/">Benjamin</a>, and <a href="https://douwekiela.github.io/">Douwe</a>. Their valuable insights during my thesis proposal helped shape the final version of the thesis.</p>
+</section>
+<section id="family" class="level2">
+<h2 class="anchored" data-anchor-id="family">Family</h2>
 <p>For putting up with me during my PhD journey, my immense gratitude goes towards my family, especially my parents, grandparents, and <a href="../personal_notes/life_photo_album.html">Bert</a>. My parents have been a rock for me over the past six years. Though I could not visit them often or talk to them much, they were always there when I needed someone. They seem to have aged fifteen years in the six years of my PhD, stressed about me, but their support never wavered. I unfortunately lost two of my grandparents during the PhD program, and I will never forget their blessings and excitement for me embarking on my higher education journey. During early 2020, in the midst of COVID, I adopted a cat named Bert—yes, named after the language model. Without him, I would not have maintained my sanity during the dark, lonely nights and tiring, long work days. His purring loudly into my ear calmed me down on the worst of nights.</p>
+</section>
+<section id="mentors" class="level2">
+<h2 class="anchored" data-anchor-id="mentors">Mentors</h2>
 <p>I was lucky enough to secure three internships and have amazing research mentors for all of them. <a href="https://sites.google.com/view/beirami">Ahmad</a> taught me how to approach Conversational AI, how to create effective presentations, and how to write research proposals. <a href="https://wp.nyu.edu/adinawilliams/">Adina</a> taught me how to work with linguistics mixed in with NLP, and how subjectivity can infiltrate seemingly objective parts (like NLI) of NLP. <a href="https://www.anamarasovic.com/">Ana</a> was the first person I worked with on really large language models (foundational models), and she taught me how to approach evaluation and benchmarking for generative models—a major part of my current research path.</p>
+</section>
+<section id="lab-members" class="level2">
+<h2 class="anchored" data-anchor-id="lab-members">Lab Members</h2>
 <p>I want to thank my lab members, starting with <a href="https://www.linkedin.com/in/zakaria-aldeneh">Zak</a>. Zak exemplifies what all senior PhD mentors should be, helping me with code, brainstorming, and working with me on papers. He has been an amazing research collaborator. I also want to thank Minxue for being the junior research collaborator anyone would be proud of. She has not only been an amazing collaborator but was also always willing to discuss interesting research problems. I want to thank <a href="https://matthewkperez.com/">Matt</a> for being the batchmate who has always been there to help, to vent, to advise, and to collaborate, serving as my go-to person for any speech-based research questions. Finally, I want to thank <a href="http://www-personal.umich.edu/~aromana/">Amrit</a> for being an amazing lab member; her observant questions helped me immensely during lab presentations.</p>
+</section>
+<section id="friends" class="level2">
+<h2 class="anchored" data-anchor-id="friends">Friends</h2>
 <p>I also want to thank my friends, without whom this journey would not have been possible. I will start with <a href="https://sites.google.com/site/abhijangda/">Abhinav</a>, who has been my support system throughout my PhD journey, starting from the application process. <a href="https://www.linkedin.com/in/dhawandiksha/">Diksha</a> was the best PhD roommate one could ask for during the first four years of my PhD. She shared laughter and tears with me, cooked with me, and supported me through all the highs and lows. Without her, I could not have survived my PhD. She taught me the value of being proud of my interests in both my personal and professional life, and how friends can sometimes be family, which is the best gift anyone could have given me. Sagarika, for all her support, both in India and when she came to the US. Her move to the US during my PhD was a major personal highlight. <a href="https://www.linkedin.com/in/ariba-javed-uofm/">Ariba</a>, thanks for all the discussions, talks, and emotional conversations, and for always being up for anything interesting, including a pottery class. Shobhit has been an amazing companion, helping me with job applications and always being the sarcastic, serious, yet most helpful guy I have had the pleasure of calling a friend. And finally, Sai helped me fill out the PhD application for UMich on the exact deadline, without which, I would not be here at all.</p>
+</section>
+<section id="streaming-and-gaming-community" class="level2">
+<h2 class="anchored" data-anchor-id="streaming-and-gaming-community">Streaming and Gaming Community</h2>
 <p>This is probably an unconventional paragraph in acknowledgments, but these were unconventional times during COVID. For the two years of lockdown, I turned to Among Us when I felt lonely or lost in my research. I am really thankful for the streamers whose broadcasts provided some semblance of social interaction. For almost three years, I watched them stream at least 8 hours a day while I worked, to simulate a social environment. And when my research progress stalled, I turned to anonymous Discord communities, playing Among Us and golf for hours, which helped alleviate feelings of depression and sadness, providing a much-needed uplift.</p>
+</section>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">tl;dr</h2>
 <p>My PhD journey wasn’t easy, and a lot happened over the six years, but I made it through. The credit for that goes to all the people mentioned here, to whom I am forever indebted.</p>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Life</category>
@@ -216,7 +237,7 @@ Summary of available website building options: sorted from most to least recomme
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of montaigne website.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Screenshot of website made in montaigne"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of montaigne website.webp" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
+<p><a href="images/screenshot of montaigne website.webp" class="lightbox" title="Screenshot of website made in montaigne" data-gallery="quarto-lightbox-gallery-1"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of montaigne website.webp" class="img-fluid figure-img" alt="Screenshot of website made in montaigne" width="707"></a></p>
 <figcaption class="figure-caption">Screenshot of website made in montaigne</figcaption>
 </figure>
 </div>
@@ -276,7 +297,7 @@ Summary of available website building options: sorted from most to least recomme
 <p><strong>Note</strong>: If you are okay with editing your website completely in markdown online, or creating a mirrored local repo and using the visual editor for Quarto in VS Code, then pushing the changes to github, you will do fine with Quarto. You almost always do not need such a complicated website, and it requires a ton of CSS to make it look good (feel free to copy mine), but it works with YAML and that is immensely useful, especially for stuff like papers (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/papers.yaml">example</a>) or experience (<a href="https://github.com/mimansajaiswal/mimansajaiswal.github.io/blob/master/about_me/experience.yaml">example</a>) that you just need to keep adding.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/screenshot of quarto website.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Screenshot of example website made in Quarto"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of quarto website.webp" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
+<p><a href="images/screenshot of quarto website.webp" class="lightbox" title="Screenshot of example website made in Quarto" data-gallery="quarto-lightbox-gallery-2"><img src="https://mimansajaiswal.github.io/personal_notes/images/screenshot of quarto website.webp" class="img-fluid figure-img" alt="Screenshot of example website made in Quarto" width="710"></a></p>
 <figcaption class="figure-caption">Screenshot of example website made in Quarto</figcaption>
 </figure>
 </div>
@@ -329,14 +350,14 @@ Quarto idiosyncrasies
 <p>Most default templates that are associated with any of these CMS systems, come with the prerequisite of editing not the index content but instead collections (similar to any WYSIWYG editor for Astro). I found a few templates that allow you to edit the front page content too and you can see some setup demos here. <a href="https://tina.io/">tina</a>’s <a href="https://app.tina.io/quickstart">default option</a> is a completely editable website, and I recommend it.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/tinacmswebsite.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Creating and editing a personal website using Tina CMS with git workflow."><video src="images/tinacmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/tinacmswebsite.mp4">Video</a></p>
+<p><a href="images/tinacmswebsite.mp4" class="lightbox" title="Creating and editing a personal website using Tina CMS with git workflow." data-gallery="quarto-lightbox-gallery-3"><video src="images/tinacmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/tinacmswebsite.mp4">Video</a></p>
 <figcaption class="figure-caption">Creating and editing a personal website using Tina CMS with git workflow.</figcaption>
 </figure>
 </div>
 <p>For decap, I found two good options of templates that allowed to edit the base pages as well as the blog posts: <a href="https://github.com/danurbanowicz/eleventy-netlify-boilerplate">Eleventy Starter</a> and <a href="https://github.com/thriveweb/yellowcake/">Gatsby Starter</a>. There is a <a href="https://github.com/decaporg/one-click-hugo-cms">Hugo Starter</a> template as well if you really love Hugo.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/decapcmswebsite.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Creating and editing a personal website using Decap CMS with git workflow (using Eleventy)."><video src="images/decapcmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/decapcmswebsite.mp4">Video</a></p>
+<p><a href="images/decapcmswebsite.mp4" class="lightbox" title="Creating and editing a personal website using Decap CMS with git workflow (using Eleventy)." data-gallery="quarto-lightbox-gallery-4"><video src="images/decapcmswebsite.mp4" class="img-fluid" controls=""></video></a><a href="images/decapcmswebsite.mp4">Video</a></p>
 <figcaption class="figure-caption">Creating and editing a personal website using Decap CMS with git workflow (using Eleventy).</figcaption>
 </figure>
 </div>
