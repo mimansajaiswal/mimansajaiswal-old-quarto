@@ -6,12 +6,9 @@ format: html
 categories: [Photos, Life]
 filters:
   - collapse-social-embeds
-  # - lightbox
 draft: false
 reference-location: margin
 citation-location: margin
-# lightbox: auto
-# description: MacOS softwares are a huge thing of their own. They have a pretty great developer ecosystem, so there are many great indie apps that are awesome to know about, especially if you are just starting your MacOS journey.
 date-modified: last-modified
 ---
 
