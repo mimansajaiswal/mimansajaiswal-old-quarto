@@ -44,7 +44,7 @@ for (let i = 0; i < counts.length; i++) {
 <div>
 
 ::: {.callout-tip title="Personal Quick Navigation" appearance="minimal"}
-Explore my life's photo album [here](life_photo_album.qmd). I have used Mac for a decade now, and if you want suggestions, check [here](mac_softwares.qmd). I also use LLMs a lot in my [personal]() and [professional]() life, if you want any inspiration.
+Explore my life's photo album [here](life_photo_album.qmd). I have used Mac for a decade now, and if you want suggestions, check [here](mac_softwares.qmd). I also [use LLMs]() a lot in my personal and professional life, if you want any inspiration.
 :::
 
 </div>

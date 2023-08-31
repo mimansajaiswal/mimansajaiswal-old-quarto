@@ -15,7 +15,11 @@ citation-location: margin
 date-modified: last-modified
 ---
 
+Photos are possibly my only medium of capturing moments. I don't look back on them often, but I find myself flipping through them a few times an year. Makes me think of the ups and downs, or time with my parents, friends, grandparents and cats, and personal journeys of intentional weight loss and unwanted weight gain, of milestones and of vacations.
+
+::: {.callout-note appearance="minimal" icon="false"}
 All I want to see is [Cats]! I love good food, both [Cooking] and [Eating Out].
+:::
 
 ## 2023
 
