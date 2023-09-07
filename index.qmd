@@ -84,6 +84,7 @@ listing:
     filter-ui: false
 comments: false
 toc: true
+image: preview.png
 ---
 <!-- ### Can also add other content here -->
 
