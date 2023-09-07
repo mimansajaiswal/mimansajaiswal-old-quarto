@@ -1,6 +1,7 @@
 ---
 title: "What is the cheapest and easiest way to create AND maintain a personal academic website?"
 date: 2023-07-31
+date-modified: 2023-08-20
 display-date: Jul 2023
 format: html
 categories: [Tools, Website, Academia]
@@ -12,7 +13,6 @@ reference-location: margin
 citation-location: margin
 lightbox: auto
 description: Another week of personal website debate on Twitter, another set of heavy compilation based suggestions to create and maintain a personal website. So, I decided to take a look at all the recent website builders and provide a set of recommendations.
-date-modified: last-modified
 ---
 
 Another week of personal website debate on Twitter, another set of heavy compilation based suggestions to create and maintain a personal website. So, I decided to take a look at all the recent website builders and provide a set of recommendations. If you do not want to read this in entirety, my suggestions can be summarized below:

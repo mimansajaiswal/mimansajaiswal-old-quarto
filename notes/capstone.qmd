@@ -1,6 +1,7 @@
 ---
 title: "CAPSTONE: Capability Assessment Protocol for Systematic Testing of Natural Language Models Expertise"
 date: 2023-03-01
+date-modified: 2023-03-01
 display-date: Mar 2023
 format: html
 categories: [Text, Evaluation, Metric Design, Schema, Interpretation, Data Annotation, Foundation Models]
@@ -14,7 +15,6 @@ reference-location: margin
 citation-location: margin
 image: images/capstone/prompt_steer_flow.webp
 lightbox: auto
-date-modified: last-modified
 ---
 
 ## Introduction

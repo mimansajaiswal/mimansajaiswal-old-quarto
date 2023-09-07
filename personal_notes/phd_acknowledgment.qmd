@@ -1,6 +1,7 @@
 ---
 title: "My support network throughout my PhD journey"
 date: 2023-08-31
+date-modified: 2023-09-06
 display-date: Aug 2023
 format: html
 categories: [Life, Academia]
@@ -12,7 +13,6 @@ reference-location: margin
 citation-location: margin
 lightbox: auto
 description: My PhD journey wasn't easy, and a lot happened over the six years, but I made it through. The credit for that goes to all the people who supported me through this time, to whom I am forever indebted.
-date-modified: last-modified
 ---
 
 ## Thesis Committee

@@ -6,6 +6,7 @@ categories:
 - Theory of Mind
 citation-location: margin
 date: '2023-04-10'
+date-modified: '2023-06-12'
 description: "Discussing the prospect of deriving instinct and purpose for a prompt and creating examples for evaluation problems focussing the Sally-Anne False-Belief Test and provide a summary of when GPT4 and GPT3.5 pass or fail the test."
 display-date: 'Apr 2023'
 filters:
@@ -17,7 +18,6 @@ reference-location: margin
 threeword: 'GPT4 meets Theory of Mind (Not)'
 title: "No, GPT4 (RLHF\u2019ed) Does Not Pass The Sally-Anne False Belief Test"
 image: images/no_sally_anne_pass_for_gpt4/No_GPT4_RLHFed_Does_Not_Pass_The_Sally-Anne_False_Belief_Test-6e814652a8e.webp
-date-modified: last-modified
 ---
 ## Introduction
 

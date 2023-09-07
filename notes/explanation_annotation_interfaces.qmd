@@ -1,6 +1,7 @@
 ---
 title: "Designing Interfaces for Delivering and Obtaining Generation Explanation Annotations"
 date: 2023-02-01
+date-modified: 2023-02-01
 display-date: Feb 2023
 format: html
 categories: [Text, Data Annotation, Design]
@@ -12,7 +13,6 @@ threeword: Text Annotation Interface Design
 reference-location: margin
 citation-location: margin
 image: images/explanation_annotation_interfaces/screenshot.webp
-date-modified: last-modified
 ---
 Coming soon.
 ![Example annotation using the interface](images/explanation_annotation_interfaces/screenshot.webp)

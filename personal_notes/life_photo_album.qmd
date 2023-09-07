@@ -1,6 +1,7 @@
 ---
 title: "A lookback on life in pixels"
 date: 2023-08-29
+date-modified: 2023-08-31
 display-date: Aug 2023
 format: html
 categories: [Photos, Life]
@@ -9,7 +10,6 @@ filters:
 draft: false
 reference-location: margin
 citation-location: margin
-date-modified: last-modified
 ---
 
 Photos are possibly my only medium of capturing moments. I don't look back on them often, but I find myself flipping through them a few times an year. Makes me think of the ups and downs, or time with my parents, friends, grandparents and cats, and personal journeys of intentional weight loss and unwanted weight gain, of milestones and of vacations.
