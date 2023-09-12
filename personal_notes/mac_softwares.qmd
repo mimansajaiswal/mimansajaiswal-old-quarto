@@ -1,7 +1,7 @@
 ---
 title: "What softwares do I actually use on my Mac as a software enthusiast?"
 date: 2023-07-25
-date-modified: 2023-09-07
+date-modified: 2023-09-11
 display-date: Jul 2023
 format: html
 categories: [Tools, MacOS, Softwares]
@@ -72,6 +72,6 @@ I divide creative work into 2 parts, sometimes overlapping, creative work as an 
 
 -   **Camera**: This is a small software, but I have cats, and I have messy hair. I use [Camera Preview](https://apps.apple.com/app/id1632827132) a ton both for checking on myself and using the return key to click photos. [Hand mirror](https://handmirror.app/) is the alternate option, but it cannot click photos.
 
--   **Utilities**: I use [Bartender](https://www.macbartender.com/) for arranging my menu bar, especially with that notch on Macbook pro. I use [Better Touch Tool](https://folivora.ai/) to assign taps to clicks (for example three finger tap to open in a new tab). I also use it to assign hyperkey. Hyperkey is when you press all meta keys together on the keyboard. For example, Hyperkey+A is my shortcut for quick task in Todoist. I use [WeatherX](https://apps.apple.com/us/app/id1662213547) to have weather of 4 cities be readily accessible in the menu bar. I use [Command+X](https://apps.apple.com/us/app/command-x/id6448461551) to have a cut option in MacOS.
+-   **Utilities**: I use [Bartender](https://www.macbartender.com/) for arranging my menu bar, especially with that notch on Macbook pro. I use [Better Touch Tool](https://folivora.ai/) to assign taps to clicks (for example three finger tap to open in a new tab). I also use it to assign hyperkey. Hyperkey is when you press all meta keys together on the keyboard. For example, Hyperkey+A is my shortcut for quick task in Todoist. I use [WeatherX](https://apps.apple.com/us/app/id1662213547) to have weather of 4 cities be readily accessible in the menu bar. I use [Command+X](https://apps.apple.com/us/app/command-x/id6448461551) to have a cut option in MacOS. I really like Quick Look in Mac, but it does not support all kinds of files. So, I use some extensions: [BetterZip](https://macitbetter.com/BetterZip-Quick-Look-Generator/) for zip files, [QLMarkdown](https://github.com/sbarex/QLMarkdown) and [Syntax Highlight](https://github.com/sbarex/SourceCodeSyntaxHighlight).
 
 -   **AI Chat Interfaces**: I use [Bolt AI](https://boltai.app/) at the moment to organize my conversations, especially those that need to go through API for non-training purposes. There are 100 such apps, this is the one I found the earliest. If I do end up paying for [Raycast Pro](https://www.raycast.com/pro), then I would not need this app. I use Bolt because, it does not show up in dock, allows to select models per chat, allows to set shortcut to bring it up. I sometimes use [Sider](https://chatgpt-sidebar.com/) (on browser) and [MacGPT](https://www.macgpt.com/) (quick question - synonym for X) too.
