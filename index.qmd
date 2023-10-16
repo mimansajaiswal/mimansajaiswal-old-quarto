@@ -1,6 +1,6 @@
 ---
 title: "Mimansa Jaiswal"
-description: I'm Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Systems) at the University of Michigan. I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures, that feed back into model training and fine-tuning docussing on developing robust and responsible AI systems.
+description: I'm Mimansa, a research scientist at Nomos AI. I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures, and domain specific retreival techniques that feed back into model training and fine-tuning docussing on developing robust and responsible AI systems.
 about:
   id: about-section
   template: about_me/about_mod.ejs.html
