@@ -106,9 +106,13 @@ image: preview.png
 
 ## Hi, I'm Mimansa
 
-I'm Mimansa, a final year PhD candidate in Computer Science (AI/Interactive Systems) at the University of Michigan. 
+I'm Mimansa, a research scientist an Nomos AI, working at the intersection of smart retrieval and evaluation for LLMs+Law. 
 
-I am fortunate to be working with Prof. Emily Provost as part of the CHAI group. I completed my undergrad in Computer Engineering from Institute of Engineering and Technology, Indore in 2017, and worked with Prof. G.L. Prajapati for my bachelor's thesis.
+In general, my research focuses on developing cost-effective data collection, manipulation and evaluation methods that are interpretable and human aligned. I've also interned at Allen AI NLP, Facebook AI Research(FAIR) NLP, and Facebook Research Conversational AI, where I conducted research on similar topics.
+
+In summer of 2023, I completed my PhD in Computer Science (AI/Interactive Systems) at the University of Michigan under Prof. Emily Provost as part of the CHAI group. 
+
+I completed my undergrad in Computer Engineering from Institute of Engineering and Technology, Indore in 2017, and worked with Prof. G.L. Prajapati for my bachelor's thesis.
 
 Tl;dr: I work in the area of developing interpretable and human imitating evaluation and cost-effective data collection procedures, that feed back into model training and fine-tuning docussing on developing robust and responsible AI systems.
 

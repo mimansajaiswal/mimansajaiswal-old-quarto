@@ -1,3 +1,5 @@
-I am actively seeking industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design. 
+I am always interested in talking about industry research scientist and engineering positions in model evaluation, metric design, model explanation, and interpretation, and, work at the intersection of LLMs and productivity intermixed with design. If you have any in mind, please reach out to me.
+
+I am also interested in collaborations around the area of LLM evaluation, real-world impact of LLMs and their failure analysis. If you have an interesting project, and would like to collaborate or talk, please email me.
 
 ([View my resume](https://drive.google.com/file/d/114a9vX3dpjajZa9isMDg_d294-v-FcZ7/view))

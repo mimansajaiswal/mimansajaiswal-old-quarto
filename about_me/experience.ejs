@@ -9,8 +9,8 @@
 
     <li class="exp-event" data-date="<%= item['year'] %>">
         <h6><%= item['position'] %>, <a href="<%= item['titlehref'] %>"><%= item['title'] %></a></h6>
-        <p>Mentor(s) : <%= item['people'] %></p>
-        <p><%= item['subtitle'] %></p>
+        <% if (item.people) {%><p>Mentor(s) : <%= item['people'] %></p><% } %>
+        <% if (item.subtitle) {%><p><%= item['subtitle'] %></p><% } %>
     </li>
 <% } %>
             </ul>
