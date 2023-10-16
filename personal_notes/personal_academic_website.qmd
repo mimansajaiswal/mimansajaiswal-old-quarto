@@ -149,6 +149,8 @@ So, why do I not recommend it enough? Shortcodes, or margin content using bootst
 
 ## Git Based CMS
 
+Talk about [Nuxt Studio](https://nuxt.studio/)
+
 ::: {.callout-note appearance="minimal"}
 **Website**: [Decap CMS](https://decapcms.org/) and [tina](https://tina.io/)
 :::
