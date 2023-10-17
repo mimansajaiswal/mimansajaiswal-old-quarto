@@ -1,3 +1,9 @@
+- title: "Nomos AI"
+  year: "Oct 2023 -"
+  subtitle: "Retrieval Augmentation in LLMs and their evaluation"
+  titlehref: ''
+  position: Member of Technical Staff - Research Scientist
+
 - title: "Allen NLP, Allen Institute of Artificial Intelligence"
   year: "Fall 2021"
   subtitle: "Benchmarking interpretable and compositional evaluation for very large models in natural language processing"
@@ -39,9 +45,3 @@
   people: Pravesh Biyani
   titlehref: https://iiitd.ac.in/
   position: Research Intern
-
-- title: "Nomos AI"
-  year: "Oct 2023 -"
-  subtitle: "Retrieval Augmentation in LLMs and their evaluation"
-  titlehref: ''
-  position: Member of Technical Staff - Research Scientist
