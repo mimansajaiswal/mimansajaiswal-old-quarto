@@ -1,14 +1,6 @@
 [
   {
-    "listing": "/blurbs.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
-    "listing": "/updates.html",
+    "listing": "/papers.html",
     "items": []
   },
   {
@@ -21,7 +13,11 @@
     ]
   },
   {
-    "listing": "/papers.html",
+    "listing": "/blurbs.html",
+    "items": []
+  },
+  {
+    "listing": "/updates.html",
     "items": []
   },
   {
@@ -33,5 +29,9 @@
       "/notes/explanation_annotation_interfaces.html",
       "/notes/controlled_evaluation_of_explanations.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   }
 ]
