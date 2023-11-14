@@ -106,7 +106,7 @@ image: preview.png
 
 ## Hi, I'm Mimansa
 
-I'm Mimansa, a research scientist an Nomos AI, working at the intersection of smart retrieval and evaluation for LLMs+Law. 
+I'm Mimansa, a research scientist an [Norm AI](https://norm.ai/), working at the intersection of smart retrieval and evaluation for LLMs+Law. 
 <!-- In general, my research focuses on developing cost-effective data collection, manipulation and evaluation methods that are interpretable and human aligned.  -->
 I've also interned at Allen AI NLP, Facebook AI Research(FAIR) NLP, and Facebook Research Conversational AI, where I conducted research on similar topics.
 
